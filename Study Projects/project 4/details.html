@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="details-box">
+       <img id="carImg">
+        <h1 id="carName"></h1>
+        <p id="engine"></p>
+        <p id="power"></p>
+        <p id="price"></p>
+
+        <button onclick="history.back()">Back</button>
+    </div>
+
+    <script>
+
+  const params = new URLSearchParams(window.location.search);
+        const id = params.get("id");
+
+        const cars ={
+            1: {
+                name: "Mercedes AMG",
+                engine: "2.0L Turbo",
+                power: "421 HP",
+                price: "1.05 Cr",
+                img: "car1.jpg"
+            
+            },
+
+            2: {
+
+                name: "Audi SQ5",
+                engine: "3.0L V6",
+                power: "362HP",
+                price: "65 Lakhs"
+            },
+
+            3: {
+                name: "BMW M5",
+                engine: "4.4 V8",
+                power: "727",
+                price: "2.01 Cr"
+            },
+
+            4: {
+
+                name: "Volkawagen Tiguan R-Line",
+                engine: "2.0L TSI",
+                power: "204 HP",
+                price: "45.73 Lakhs"
+            },
+
+            5: {
+                name: "Range Rover Sports",
+                engine: "4.4L  V8",
+                power: "346 HP",
+                price: "2.75 Cr"
+            },
+
+            6: {
+
+                name: "Volvo XC60",
+                engine: "2.0L Mlid-Hybrid",
+                power: "250 HP",
+                price: "68 Lakh"
+            }
+        };
+
+        const car = cars[id];
+
+        if (!car) {
+            document.body.innerHTML = "<h2> Car not found</h2>";
+        }else{
+            
+            document.getElementById("carName").textContent = car.name;
+            document.getElementById("engine").textContent = "Engine: " + car.engine;
+            document.getElementById("power").textContent = "Power: " + car.power;
+            document.getElementById("price").textContent = "Price: " + car.price;
+        }
+    </script>
+    
+</body>
+</html>
