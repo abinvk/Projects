@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <div class="details-box">
        <img id="carImg">
         <h1 id="carName"></h1>
@@ -30,26 +29,20 @@
                 power: "421 HP",
                 price: "1.05 Cr",
                 img: "car1.jpg"
-            
             },
-
             2: {
-
                 name: "Audi SQ5",
                 engine: "3.0L V6",
                 power: "362HP",
                 price: "65 Lakhs"
             },
-
             3: {
                 name: "BMW M5",
                 engine: "4.4 V8",
                 power: "727",
                 price: "2.01 Cr"
             },
-
             4: {
-
                 name: "Volkawagen Tiguan R-Line",
                 engine: "2.0L TSI",
                 power: "204 HP",
@@ -62,22 +55,17 @@
                 power: "346 HP",
                 price: "2.75 Cr"
             },
-
             6: {
-
                 name: "Volvo XC60",
                 engine: "2.0L Mlid-Hybrid",
                 power: "250 HP",
                 price: "68 Lakh"
             }
         };
-
         const car = cars[id];
-
         if (!car) {
             document.body.innerHTML = "<h2> Car not found</h2>";
-        }else{
-            
+        }else{     
             document.getElementById("carName").textContent = car.name;
             document.getElementById("engine").textContent = "Engine: " + car.engine;
             document.getElementById("power").textContent = "Power: " + car.power;
