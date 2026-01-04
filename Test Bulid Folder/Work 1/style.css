@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+}
+
+.image-box {
+    position: relative;
+    width: 400px;
+    margin: auto;
+
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+.image-box img{
+    width: 430px;
+    height: 528px;
+    display: block;
+}
+.explor-btn{
+    position: absolute;
+    bottom: 20px;
+    right: 130px;
+    width: 120px;
+    height: 35px;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 7px;
+}
