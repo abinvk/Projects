@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #f7f7f7;
+}
+
+.container{
+   background-color: aqua;
+   height: 400px;
+   width: 660px;
+}
+h1{
+    text-align: center;
+    padding-top: 50px;
+}
+
+input{
+    text-align: center;
+    
+} 
