@@ -6,10 +6,10 @@ const pass = {
     ebin:90
 }
 
-for (let key in pass) {
-    if(pass[key] >= 30) {
+for (let name in pass) {
+    if(pass[name] >= 30) {
 
-        console.log("pass:",pass[key]);
+        console.log("pass:",pass[name]);
 }
 
 
