@@ -6,11 +6,11 @@ const pass = {
     ebin:90
 }
 
+// find pass students
+
 for (let name in pass) {
     if(pass[name] >= 30) {
 
         console.log("pass:",pass[name]);
 }
-
-
 }
