@@ -242,3 +242,36 @@ if (true) {
 
    // error console.log(cc);
     const cc = 30;
+
+// Swap two numbers using third variable
+    let vc = "Hello";
+    let cv = "World";
+
+    let temp = vc;
+    vc = cv;
+    cv = temp;
+
+    console.log(vc); // World
+    console.log(cv); // Hello
+
+    //Swap two numbers without third variable
+
+    let p = 5;
+    let q = 10;
+
+    let tempa = p;
+    p = q;
+    q = tempa;
+    console.log(p); // 10
+    console.log(q); // 5
+
+
+   let m = "";
+   let n = "";
+
+   let tempb = m;
+    m = n;
+    n = tempb;
+    console.log(m);
+    console.log(n);
+
