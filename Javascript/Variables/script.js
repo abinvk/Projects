@@ -73,4 +73,19 @@ console.log(country);
 country = "Canada";
 console.log(country);
 
+//Redeclare a variable using var
 
+var fruit = "Apple";
+var fruit = "Banana";   // Redeclare
+console.log(fruit);
+
+//Declare a const variable for PI.
+
+const PI = 3.14159;
+console.log(PI);
+
+//Use let for a value that changes.
+
+let radius = 5;
+ radius = 10;
+console.log(radius);
