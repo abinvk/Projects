@@ -228,3 +228,17 @@ if (true) {
     console.log(blockVar); // accessible here
   }
 
+  //Access var before declaration.
+
+   console.log(i);  // undefined
+  var i = 10;
+
+  // Access let before declaration.
+   
+    // error console.log(j);   
+    let j = 20;
+
+    //• 82. Access let before declaration.
+
+   // error console.log(cc);
+    const cc = 30;
