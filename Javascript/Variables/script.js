@@ -107,7 +107,6 @@ console.log(radius);
                             // itemCount
                             // firstName
 
-
   const user_name = "Abin"; 
   const total_marks = 95;                         // snake_case
   const is_logged_in = true;
@@ -118,23 +117,66 @@ console.log(radius);
     console.log(is_logged_in);
     console.log(user_email);
 
-
     const name = "Abin";       // valid
     const userEmail = "abin@example.com";
 
     console.log(name);
     console.log( userEmail);
 
-
     //Store a number and check its type.
-
 
     const agee = 30;
     const namee = "Abin";
     console.log(typeof agee);   // number
     console.log(typeof namee);  // string
 
-
+//let isActive = true;
 
    let isActiv = true;
-console.log(typeof isActive);
+console.log(typeof isActiv);
+
+//Store null and check its type.
+
+let nll = null;
+console.log(typeof nll);  // object
+
+//55. Store undefined and check its type.
+
+let undef;
+console.log(typeof undef);  // undefined
+
+//Store NaN and check its type.
+
+let z = 10;
+console.log( typeof z);
+
+//Store an empty string and check its type.
+
+let number= "";
+console.log(typeof number);  // string
+
+//Store 0 and check its type.
+
+let an = 0;
+console.log(typeof an);  // number
+
+//Store true as a string and check its type.
+
+let as = "true";
+console.log(typeof as);  // string
+
+//Compare number 10 and string '10'.
+
+let r = 10;
+let s ="10";
+
+console.log(r==s); // true
+console.log(r === s); // false
+console.log(typeof r);
+console.log(typeof s);
+
+//Store a BigInt value.
+
+let bigIntValue = 9007199254741991n;
+console.log(bigIntValue);
+console.log(typeof bigIntValue);  // bigint
