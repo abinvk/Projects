@@ -117,3 +117,24 @@ console.log(radius);
     console.log(total_marks);
     console.log(is_logged_in);
     console.log(user_email);
+
+
+    const name = "Abin";       // valid
+    const userEmail = "abin@example.com";
+
+    console.log(name);
+    console.log( userEmail);
+
+
+    //Store a number and check its type.
+
+
+    const agee = 30;
+    const namee = "Abin";
+    console.log(typeof agee);   // number
+    console.log(typeof namee);  // string
+
+
+
+   let isActiv = true;
+console.log(typeof isActive);
