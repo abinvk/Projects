@@ -81,11 +81,39 @@ console.log(fruit);
 
 //Declare a const variable for PI.
 
-const PI = 3.14159;
-console.log(PI);
+const P = 3.14159;
+console.log(P);
 
 //Use let for a value that changes.
 
 let radius = 5;
  radius = 10;
 console.log(radius);
+
+//28. Use const for a fixed value
+  
+  const CONNTRY = "India";
+  const  PI = 3.14;
+  const TAX_RATE = 0.07;
+  console.log(CONNTRY);
+  console.log(PI);
+  console.log(TAX_RATE);
+  
+//Write a valid camelCase variable name
+
+  const abNvk = "Vw";       // totalMarkas
+  console.log(abNvk);       // isLoggedIn
+                            // userEmail     // camelCase 
+                            // itemCount
+                            // firstName
+
+
+  const user_name = "Abin"; 
+  const total_marks = 95;                         // snake_case
+  const is_logged_in = true;
+  const user_email = "abin@example.com";
+
+    console.log(user_name);
+    console.log(total_marks);
+    console.log(is_logged_in);
+    console.log(user_email);
