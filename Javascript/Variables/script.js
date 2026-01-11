@@ -180,3 +180,32 @@ console.log(typeof s);
 let bigIntValue = 9007199254741991n;
 console.log(bigIntValue);
 console.log(typeof bigIntValue);  // bigint
+
+//Store a Symbol value.
+
+let id = Symbol("userId");
+console.log(id);
+
+console.log(typeof id); // symbol
+
+let g = Symbol("id");
+let h = Symbol("id");
+
+console.log(g === h); // false
+
+// Which data types are primitive?
+
+ let num = 42;               // number
+ let str = "Hello";           // string
+ let bool = true;          // boolean
+ let nllValue = null;     // null
+ let undefValue;      // undefined
+ let bigIntNum = 9007199254741991n;  // bigint
+ let sym = Symbol("sym");   // symbol       
+    console.log(typeof num);    
+    console.log(typeof str);
+    console.log(typeof bool);
+    console.log(typeof nllValue);
+    console.log(typeof undefValue);
+    console.log(typeof bigIntNum);
+    console.log(typeof sym);
