@@ -66,3 +66,11 @@ console.log(abin);
 const aby = "abin";
 console.log(aby);
 
+//Reassign a let variable
+
+let country = "USA";
+console.log(country);
+country = "Canada";
+console.log(country);
+
+
