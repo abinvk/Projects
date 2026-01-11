@@ -209,3 +209,22 @@ console.log(g === h); // false
     console.log(typeof undefValue);
     console.log(typeof bigIntNum);
     console.log(typeof sym);
+
+//Declare a global variable.
+
+let siteName = "MyWebsite"; // global variable
+
+function showSite() {
+  console.log(siteName); // access inside function
+}
+
+console.log(siteName); // access outside function
+showSite();
+
+//68. Declare a block-scoped variable
+
+if (true) {
+    let blockVar = "I am block scoped";
+    console.log(blockVar); // accessible here
+  }
+
