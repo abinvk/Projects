@@ -86,4 +86,56 @@ let emi = 500;
 let monthlyExpenseTotal = rent + food + emi;
 console.log("Total Expense:", monthlyExpenseTotal);
 
+//12. Store savings amount
 
+let slalary = 50000;
+let expense = 20000;
+let savings = slalary - expense;
+console.log("Savings:", savings);
+
+//13. Store loan amount
+
+let loanAmount = 100000;
+console.log("Loan Amount:", loanAmount);
+
+//14. Store interest rate
+
+let interestRate = 5; // in percentage
+console.log("Interest Rate:", interestRate + "%");
+
+//15. Store EMI value
+
+let emiValue = 3000;
+console.log("EMI Value:", emiValue);
+
+//16. Store discount amount
+
+let originalPrice = 2000;
+let discountAmount = 200;
+console.log("Discount Amount:", discountAmount);
+
+//17. Store tax amount
+
+let taxAmount = 150;
+console.log("Tax Amount:", taxAmount);
+
+//18. Store profit value
+
+let sellingPrice = 2500;
+let costPrice = 2000;
+let profit = sellingPrice - costPrice;
+console.log("Profit:", profit);
+
+//19. Store loss value
+
+let costPrlce = 3000;
+let sellingPrlce = 2500;
+let loss = costPrlce - sellingPrlce;
+console.log("Loss:", loss);
+
+//20. Store balance amount
+
+let totaAmount = 10000;
+let spentAmount = 4000;
+let balanceAmount = totaAmount - spentAmount;
+console.log("Balance Amount:", balanceAmount);
