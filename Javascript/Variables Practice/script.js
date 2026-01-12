@@ -339,3 +339,58 @@ console.log("Project Duration:", projectDuration);
 
 let taskCount = 10;
 console.log("Task Count:", taskCount);
+
+//62. Store product name
+
+let productName = "Laptop";
+console.log("Product Name:", productName);
+
+//63. Store product price
+
+let productPrice = 75000;
+console.log("Product Price:", productPrice);
+
+//64. Store product quantity
+
+let productQuantity = 5;
+console.log("Product Quantity:", productQuantity);
+
+//65. Store cart total
+
+let lipstic  =2002;
+let bag =1500;
+let cartTotal = lipstic + bag;
+console.log("Cart Total:", cartTotal);
+
+//66. Store delivery charge
+
+let deliveryCharge = 500;
+console.log("Delivery Charge:", deliveryCharge);
+
+//67. Store order ID
+
+let orderID = "ORD98765";
+console.log("Order ID:", orderID);
+
+//68. Store order date
+
+let orderDate = "2024-06-15";
+console.log("Order Date:", orderDate);
+
+//69. Store payment method
+
+let paymentMethod = "Credit Card";
+console.log("Payment Method:", paymentMethod);
+
+//70. Store coupon code
+
+let couponCode = "SAVE20";
+console.log("Coupon Code:", couponCode);
+
+//71. Store final amount
+
+let geetPrice = 5000;
+let discount = 500;
+let finalAmount = geetPrice - discount;
+console.log("Final Amount:", finalAmount);
+
