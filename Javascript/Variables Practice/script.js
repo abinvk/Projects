@@ -139,3 +139,58 @@ let totaAmount = 10000;
 let spentAmount = 4000;
 let balanceAmount = totaAmount - spentAmount;
 console.log("Balance Amount:", balanceAmount);
+
+//21. Store Celsius value
+
+let celsius = 25;
+console.log("Celsius Value:", celsius + "°C");
+
+//22. Store Fahrenheit value
+
+let fahrenheit = 77;
+console.log("Fahrenheit Value:", fahrenheit + "°F");
+
+//23. Store distance in km
+
+let distanceInKm = 10;
+console.log("Distance in Km:", distanceInKm + " km");
+
+//24. Store distance in meters
+
+let distanceInMeters = 500;
+console.log("Distance in Meters:", distanceInMeters + " m");
+
+//25. Store weight in kg
+
+let weightInKg = 70;
+console.log("Weight in Kg:", weightInKg + " kg");
+
+//26. Store weight in grams
+
+let weightInGrams = 5000;
+console.log("Weight in Grams:", weightInGrams + " g");
+
+//Store speed value
+
+let speed = 60; // in km/h
+console.log("Speed:", speed + " km/h");
+
+//28. Store time value
+
+let time = 2; // in hours
+console.log("Time:", time + " hours");
+
+//29. Store power value
+
+let power = 100; // in watts
+console.log("Power:", power + " W");
+
+//30. Store voltage value
+
+let voltage = 220; // in volts
+console.log("Voltage:", voltage + " V");
+
+//31. Store current value
+
+let current = 5; // in amperes
+console.log("Current:", current + " A");
