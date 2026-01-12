@@ -311,8 +311,7 @@ let designation = "Manager";
 console.log("Designation:", designation);
 
 //56. Store date of joining
-let dateOf
-Joining = "2020-01-15";
+let dateOfJoining = "2020-01-15";
 console.log("Date of Joining:", dateOfJoining);
 
 //57. Store working hours
@@ -498,3 +497,53 @@ console.log("Hotel Name:", hotelName);
 
 let roomRent = 2500;
 console.log("Room Rent:", roomRent);
+
+//92. Store favourite color
+
+let favouriteColor = "Blue";
+console.log("Favourite Color:", favouriteColor);
+
+//93. Store favourite food
+
+let favouriteFood = "Pizza";
+console.log("Favourite Food:", favouriteFood);
+
+//94. Store favourite movie
+
+let favouriteMovie = "Inception";
+console.log("Favourite Movie:", favouriteMovie);
+
+//95. Store hobby name
+
+let hobbyName = "Coding";
+console.log("Hobby Name:", hobbyName);
+
+//96. Store language name
+
+let languageName = "JavaScript";
+console.log("Language Name:", languageName);
+
+//97. Store country code
+
+let countryCode = "IND";
+console.log("Country Code:", countryCode);
+
+//98. Store PIN number
+
+let pinNumber = 1234;
+console.log("PIN Number:", pinNumber);
+
+//99. Store OTP value
+
+let otpValue = 567890;
+console.log("OTP Value:", otpValue);
+
+//100. Store notification count
+
+let notificationCount = 5;
+console.log("Notification Count:", notificationCount);
+
+//101. Store app theme name
+
+let appThemeName = "Dark";
+console.log("App Theme Name:", appThemeName);
