@@ -291,5 +291,51 @@ console.log("Grade:", grade);
 let academicYear = "2023-2024";
 console.log("Academic Year:", academicYear);
 
+//52. Store employee name
 
+let employeeName = "Robert Johnson";
+console.log("Employee Name:", employeeName);
 
+//53. Store employee ID
+
+let employeeID = "EMP12345";
+console.log("Employee ID:", employeeID);
+
+//54. Store department name
+
+let departmentName = "Sales";
+console.log("Department Name:", departmentName);
+
+//55. Store designation
+let designation = "Manager";
+console.log("Designation:", designation);
+
+//56. Store date of joining
+let dateOf
+Joining = "2020-01-15";
+console.log("Date of Joining:", dateOfJoining);
+
+//57. Store working hours
+
+let workingHours = 8;
+console.log("Working Hours:", workingHours + " hours");
+
+//58. Store overtime hours
+
+let overtimeHours = 2;
+console.log("Overtime Hours:", overtimeHours + " hours");
+
+//59. Store project name
+
+let projectName = "Project Alpha";
+console.log("Project Name:", projectName);
+
+//60. Store project duration
+
+let projectDuration = "6 months";
+console.log("Project Duration:", projectDuration);
+
+//61. Store task count
+
+let taskCount = 10;
+console.log("Task Count:", taskCount);
