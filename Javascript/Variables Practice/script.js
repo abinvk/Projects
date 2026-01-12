@@ -446,3 +446,55 @@ let screenSize = 6.5; // in inches
 console.log("Screen Size:", screenSize + " inches");
 
 
+//82. Store vehicle name
+
+let vehicleName = "Toyota Camry";
+console.log("Vehicle Name:", vehicleName);
+
+//83. Store fuel price
+
+let fuelPrice = 100; // per liter
+console.log("Fuel Price:", fuelPrice + " per liter");
+
+//84. Store fuel quantity
+
+let fuelQuantity = 40; // in liters
+console.log("Fuel Quantity:", fuelQuantity + " liters");
+
+//85. Store travel distance
+
+let travelDistance = 300; // in km
+console.log("Travel Distance:", travelDistance + " km");
+
+
+//86. Store travel cost
+
+let fprice = 100; // per liter
+let fquantity = 40; // in liters
+let travelCost = fprice * fquantity;
+console.log("Travel Cost:", travelCost);
+
+//87. Store ticket price
+
+let ticketPrice = 1500;
+console.log("Ticket Price:", ticketPrice);
+
+//88. Store seat number
+
+let seatNumber = "A12";
+console.log("Seat Number:", seatNumber);
+
+//89. Store travel date
+
+let travelDate = "2024-06-15";
+console.log("Travel Date:", travelDate);
+
+//90. Store hotel name
+
+let hotelName = "Grand Hotel";
+console.log("Hotel Name:", hotelName);
+
+//91. Store room rent
+
+let roomRent = 2500;
+console.log("Room Rent:", roomRent);
