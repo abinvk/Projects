@@ -394,3 +394,55 @@ let discount = 500;
 let finalAmount = geetPrice - discount;
 console.log("Final Amount:", finalAmount);
 
+
+//72. Store login status text
+
+let loginStatus = "Logged In";
+console.log("Login Status:", loginStatus);
+
+//73. Store error message
+
+let errorMessage = "Invalid username or password";
+console.log("Error Message:", errorMessage);
+
+//74. Store success message
+
+let successMessage = "Login successful";
+console.log("Success Message:", successMessage);
+
+//75. Store loading message
+
+let loadingMessage = "Loading, please wait...";
+console.log("Loading Message:", loadingMessage);
+
+//76. Store network status
+
+let networkStatus = "Connected";
+console.log("Network Status:", networkStatus);
+
+//77. Store battery level
+
+let batteryLevel = 85; // in percentage
+console.log("Battery Level:", batteryLevel + "%");
+
+//78. Store app version
+
+let appVersion = "1.0.3";
+console.log("App Version:", appVersion);
+
+//79. Store device name
+
+let deviceName = "Smartphone";
+console.log("Device Name:", deviceName);
+
+//80. Store OS name
+
+let osName = "Android";
+console.log("OS Name:", osName);
+
+//81. Store screen size
+
+let screenSize = 6.5; // in inches
+console.log("Screen Size:", screenSize + " inches");
+
+
