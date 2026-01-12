@@ -232,7 +232,6 @@ console.log("User City:", userCity);
 let userPincode = "10001";
 console.log("User Pincode:", userPincode);
 
-
 //Store user gender
 
 let userGender= " male";
@@ -242,3 +241,55 @@ console.log("User Gender:", userGender);
 
 let userDOB = "1993-05-15";
 console.log("User Date of Birth:", userDOB);
+
+//42. Store student name
+
+let studentName = "Alice Smith";
+console.log("Student Name:", studentName);
+
+//43. Store student roll number
+
+let rollNumber = 101;
+console.log("Roll Number:", rollNumber);
+
+//44. Store class name
+
+let className = "10th Grade";
+console.log("Class Name:", className);
+
+//45. Store subject name
+
+let subjectName = "Mathematics";
+console.log("Subject Name:", subjectName);
+
+//46. Store exam name
+
+let examName = "Final Exams";
+console.log("Exam Name:", examName);
+
+//47. Store total students
+let totalStudents = 50;
+console.log("Total Students:", totalStudents);
+
+//48. Store pass mark
+
+let passMark = 35;
+console.log("Pass Mark:", passMark);
+
+//49. Store obtained mark
+
+let obtainedMark = 78;
+console.log("Obtained Mark:", obtainedMark);
+
+//50. Store grade value
+
+let grade = "A";
+console.log("Grade:", grade);
+
+//51. Store academic year
+
+let academicYear = "2023-2024";
+console.log("Academic Year:", academicYear);
+
+
+
