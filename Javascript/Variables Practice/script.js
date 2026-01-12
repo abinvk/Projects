@@ -194,3 +194,51 @@ console.log("Voltage:", voltage + " V");
 
 let current = 5; // in amperes
 console.log("Current:", current + " A");
+
+//32. Store user name
+
+let userName = "John Doe";
+console.log("User Name:", userName);
+
+//33. Store user age
+
+let userAge = 30;
+console.log("User Age:", userAge);
+
+//34. Store user phone number
+
+let phoneNumber = 90748088005;
+console.log("Phone Number:", phoneNumber);
+
+//35. Store user email
+
+let userEmail = "john.doe@example.com";
+console.log("User Email:", userEmail);
+
+//36. Store user address
+let userAddress = "123 Main St, Cityville";
+console.log("User Address:", userAddress);
+
+//37. Store user country
+let userCountry = "USA";
+console.log("User Country:", userCountry);
+
+//38. Store user city
+let userCity = "New York";
+console.log("User City:", userCity);
+
+//39. Store user pincode
+
+let userPincode = "10001";
+console.log("User Pincode:", userPincode);
+
+
+//Store user gender
+
+let userGender= " male";
+console.log("User Gender:", userGender);
+
+//41. Store user date of birth
+
+let userDOB = "1993-05-15";
+console.log("User Date of Birth:", userDOB);
