@@ -86,3 +86,9 @@ let celius = 30;
 let fahrenheit = (celius * 9 / 5) + 32;
 
 console.log(fahrenheit);
+
+//14. Store distance in kilometers.
+
+let met = 120;
+
+console.log(met+ " KM")
