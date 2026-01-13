@@ -203,3 +203,37 @@ console.log(typeof x);
  let wol = low.toLocaleLowerCase();
 
  console.log(wol);
+
+ //32. Store email address as string
+
+ let email ="abon@gail.com";
+ console.log(email);
+
+ //33. Store phone number as string.
+
+ let numbe = "102030340";
+ console.log(numbe);
+ console.log (typeof numbe);
+
+ //34. Store password as string
+
+ let pass ="123abin80905";
+ console.log(pass);
+
+ //35. Join two strings together.
+
+ let k = "Hello";
+let b = "World";
+
+let result = k + " " + b;
+
+console.log(result);
+
+//36. Store a welcome message with name.
+
+let name = "Abin";
+let message = "Welcome " + name;
+
+console.log(message);
+
+
