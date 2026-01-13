@@ -92,3 +92,20 @@ console.log(fahrenheit);
 let met = 120;
 
 console.log(met+ " KM")
+
+//15.Convert kilometers to meters.
+
+let kilometers = 5;
+let meters = kilometers * 1000;
+
+console.log(meters);
+
+//16. Store price and quantity and calculate bill amount.
+
+let price = 50;
+let quantity = 4;
+
+let billAmount = price * quantity;
+console.log(billAmount);
+
+
