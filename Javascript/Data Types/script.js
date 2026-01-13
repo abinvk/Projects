@@ -175,3 +175,31 @@ console.log("sentence");
 let x = "ajksodjwojojwojojkj";
 
 console.log(typeof x);
+
+//28. Store a numeric value as a string
+
+ let newm = "100";
+ console.log(newm);
+
+ //29. Find the length of a string.
+
+ let text = "javascript";
+ console.log(text.length);
+
+ let leng = "mearn";
+ let le = leng.length;
+ console.log(le);
+
+ //30. Convert string to uppercase.\
+
+ let up = "python";
+ let ti = up.toUpperCase();
+
+ console.log(ti);
+
+ //30. Convert string to lowercsae.
+
+ let low = "PHB";
+ let wol = low.toLocaleLowerCase();
+
+ console.log(wol);
