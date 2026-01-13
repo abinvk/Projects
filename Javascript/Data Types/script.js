@@ -140,3 +140,38 @@ if (h > g){
 }else{
     console.log(g);
 }
+
+//21. Store your name in a string variable.
+
+let abi = "abin"
+console.log(abi);
+
+//23. Store city name as string.
+
+let city = "ind";
+console.log(city);
+
+//24. Store country name as string.
+
+let contry = "kerala";
+console.log(contry);
+
+//25. Combine first name and last name
+
+let firstName = "abin";
+let lastName = "vk";
+
+let fullName = firstName + " " +lastName;
+console.log(fullName);
+
+//26. Store a full sentence in a string.
+
+let sentence = "I am learning JavaScript step by step.";
+
+console.log("sentence");
+
+//27. Check the type of a string using typeof
+
+let x = "ajksodjwojojwojojkj";
+
+console.log(typeof x);
