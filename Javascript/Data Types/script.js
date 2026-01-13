@@ -108,4 +108,35 @@ let quantity = 4;
 let billAmount = price * quantity;
 console.log(billAmount);
 
+//17. Store a number and check even or odd.
 
+let number = 7;
+
+if (number % 2 === 0) {
+  console.log("Even");
+} else {
+  console.log("Odd");
+}
+
+//18. Store a number and increment it by 1.
+
+let nam = 5;
+number = nam + 1;
+console.log (number);
+
+//19. Store a number and decrement it by 1.
+
+let ana = 5;
+j = ana - 2;
+console.log(j);
+
+//20. Compare two numbers and find the greater one.
+
+let h = 2;
+let g = 9;
+
+if (h > g){
+    console.log(h);
+}else{
+    console.log(g);
+}
