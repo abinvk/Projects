@@ -294,5 +294,19 @@ let rst = y > v ;
 console.log(rst);
 
 
+//47. Check age greater than 18 (boolean).
+
+let abin = 38;
+ let isok = abin >18 ;
+
+ console.log(isok);
+
+ //49. Store exam pass or fail status.
+
+let mak = 55;
+
+let pas = mak > 37 ;
+
+console.log(pas +" pass" );
 
 
