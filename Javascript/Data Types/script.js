@@ -309,4 +309,10 @@ let pas = mak > 37 ;
 
 console.log(pas +" pass" );
 
+//48. Store password correct status.
+
+let isPasswordCorrect = true;
+console.log(isPasswordCorrect);
+
+
 
