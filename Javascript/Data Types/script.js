@@ -236,4 +236,21 @@ let message = "Welcome " + name;
 
 console.log(message);
 
+//37. Store full address in one string.
 
+let address = "vettikkadan abin";
+
+console.log(address);
+
+//38. Print first character of a string.
+
+let character = "abc";
+ 
+console.log(character[0]);
+
+
+//39. Print last character of a string.
+
+let sos = "adfg";
+
+console.log(sos[sos.length - 1]);
