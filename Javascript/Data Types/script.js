@@ -254,3 +254,45 @@ console.log(character[0]);
 let sos = "adfg";
 
 console.log(sos[sos.length - 1]);
+
+//40. Store a string with spaces
+
+let mesage = "Hello World from JavaScript";
+console.log(mesage);
+
+
+//41. Store true in a variable.
+
+let isActive = true;
+
+console.log(typeof isActive);
+
+//42. Store false in a variable.
+
+let isactive = false;
+
+console.log(typeof isactive);
+
+//44. Store login status as true
+
+let isLoggedIn = true;
+
+console.log(isLoggedIn);
+
+//45. Store adult status as false.
+
+let isAdult = false;
+
+console.log(isAdult);
+
+//46. Compare two numbers and store result in boolean
+
+let y = 12;
+let v = 17;
+
+let rst = y > v ;
+console.log(rst);
+
+
+
+
