@@ -314,5 +314,36 @@ console.log(pas +" pass" );
 let isPasswordCorrect = true;
 console.log(isPasswordCorrect);
 
+//50. Store light on or off status
+
+let isLightOn = true; // on
+
+console.log(isLightOn);
+
+let isLightOff = true; // off
+
+console.log(isLightOff);
+
+//51. Store internet connection status.
+
+let isConnected = true ; // on 
+
+console.log(isConnected);
+
+let isConn = false; // of
+
+console.log(isConn);
+
+//52. Store payment success status
+
+let payment = true;
+
+console.log(payment);
+
+//53. Store product availability status
+
+let lap = true;
+
+console.log(lap);
 
 
