@@ -346,4 +346,17 @@ let lap = true;
 
 console.log(lap);
 
+//54. Store email verification status.
+
+let emailvarification = true;
+
+console.log(emailvarification);
+
+//55. Store form submission status.
+
+let isFormSubmitted = true;
+console.log(isFormSubmitted);
+
+
+
 
