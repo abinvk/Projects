@@ -394,5 +394,113 @@ x = undefined;
 
 console.log(kl); // undefined
 
+//66. Assign null to a variable.
+//67. Print a null value.
+//68. Check typeof null
+
+let ad = null;
+
+console.log(ad);
+console.log(typeof ad);
+
+//69. Use null to clear stored value.
+
+let ac = "lapphone";
+
+ac = null;
+
+console.log(ac);
+
+//70. Set user data value as null
+
+let data = 123;
+
+data = null;
+
+console.log(data);
+
+//71. Compare null and undefined.
+
+//72. Assign null to an object variable.
+
+let user = {
+  name: "Abin",
+  age: 22
+};
+
+// clear the object reference
+user = null;
+
+console.log(user); // null
 
 
+//73. Check if value is null.
+
+//74. Reset string variable to null.
+
+let mssage = "Hello World";
+
+// reset the string value
+mssage = null;
+
+console.log(mssage); // null
+
+//75. Reset number variable to null.
+
+let numbers = 123245;
+
+numbers = null;
+
+console.log(numbers);
+
+//76. Create an array of numbers.
+
+let mn =[1,3,5,7,9]
+
+console.log(mn);
+
+//76. Create an array of srings
+
+let aabb =["abin","appu"];
+
+console.log(aabb);
+
+//78. Print an array using console.log
+
+//79. Access first element of array.
+
+let llmm = [12,13,14,15,16,18];
+
+console.log(llmm[0]);
+
+//80. Access last element of array.
+
+let bbmm  = [15,14,13,12,11,10]
+
+console.log(bbmm[bbmm.length - 1]);
+
+//81. Find array length
+
+let ssmm = [19,18,17,16,15,14,13,12,11];
+
+console.log(ssmm.length);
+
+//82. Create an empty array.
+
+let em = [];
+
+console.log(em);
+
+//83. Store marks in an array.
+
+let mar = [89,87,67,57 ];
+
+console.log(mar);
+
+// 84. Store student names in an array.
+
+//85. Check typeof array.
+
+let students = ["Abin", "Rahul", "Sneha", "Anu"];
+console.log(students);
+console.log(typeof students);
