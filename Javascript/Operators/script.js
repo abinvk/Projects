@@ -142,3 +142,45 @@ let e = 50;
 let average = (l + k + h + d + e) / 5;
 console.log(average); // 30
 
+//16. Add a positive and a negative number
+
+let positive = 15;
+let negative = -5;
+
+let rsult = positive + negative;
+console.log(rsult); // 10
+
+//17. Subtract two decimal numbers
+
+let o = 2.6;
+let i = 8.5;
+
+let sab = o - i ;
+
+console.log(sab);
+
+
+//18. Multiply decimal numbers
+
+let f = 2.6;
+let g = 8.5;
+
+let sb = o * i ;
+
+console.log(sb);
+
+//19. Divide two decimal numbers
+
+let uf = 2.6;
+let gu = 8.5;
+
+let sbu = uf / gu ;
+
+console.log(sbu);
+
+//0. Find remainder of an even number divided by 2
+
+let nu = 8;
+
+let reminder = num % 2;
+console.log(reminder); // 0
