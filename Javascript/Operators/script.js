@@ -113,3 +113,32 @@ let monthly = 40000;
 let year = 40000*12;
 
 console.log(year);
+
+// 13. Find area of a rectangle
+
+let lenght = 23;
+let wedth = 45;
+
+let area = 23*45;
+
+console.log(area);
+
+//14. Find area of a square
+
+let side = 6;
+
+let ara = side * side;
+console.log(ara); // 36
+
+
+//15. Find average of two numbers
+
+let l = 10;
+let k = 20;
+let h = 30;
+let d = 40;
+let e = 50;
+
+let average = (l + k + h + d + e) / 5;
+console.log(average); // 30
+
