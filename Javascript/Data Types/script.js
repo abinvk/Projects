@@ -582,7 +582,6 @@ console.log(product);
 
 //93. Store user profile data in object.
 
-
 let userProfile = {
   username: "abin_vk",
   age: 22,
