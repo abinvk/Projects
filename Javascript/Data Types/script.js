@@ -357,6 +357,42 @@ console.log(emailvarification);
 let isFormSubmitted = true;
 console.log(isFormSubmitted);
 
+//56. Declare a variable without assigning value
+//58. Check typeof undefined variable
+
+let asc ;
+
+console.log(asc);
+console.log(typeof asc);
+
+//57. Print an undefined variable.
+
+let d = undefined;
+
+console.log(d);
+
+//59. Declare variable and assign later
+
+let lp  ;
+
+lp = 10;
+
+console.log(lp);
+
+//62. Declare multiple undefined variables
+
+let n,f,p;
+
+console.log(n,f,p);
+
+//63. Access variable before assignment.
+
+//65. Reset variable value to undefined
+
+let kl = 10;
+x = undefined;
+
+console.log(kl); // undefined
 
 
 
