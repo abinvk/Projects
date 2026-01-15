@@ -504,3 +504,99 @@ console.log(mar);
 let students = ["Abin", "Rahul", "Sneha", "Anu"];
 console.log(students);
 console.log(typeof students);
+
+//86. Create an object with name and age.
+
+//87. Print an object.
+
+let ob = {
+  name :"abin",
+  age: 23
+};
+
+console.log(ob);
+
+//88. Access object property using dot notation.
+
+let fg = {
+  Name:"asshihj",
+  age:24
+};
+
+console.log(fg.Name);
+console.log(fg.age);
+
+//89. Update object property value.
+
+let hm = {
+  name: "ssmm",
+  age:12
+}
+
+hm.name = "ssmmvk"
+console.log(hm)
+
+//90. Add new property to object
+
+let nm ={
+  name : "bbnng",
+  age: 23,
+}
+nm.place = "malappuram";
+
+console.log(nm);
+
+//Delete a property from object
+
+let hjk ={
+  name : "asdf",
+  age: 23,
+  place:"malap"
+}
+
+delete hjk.age;
+
+console.log(hjk);
+
+//91. Store student details in object
+
+let student = {
+  name: "Abin",
+  age: 20,
+  class: "10th",
+  marks: 85
+};
+
+console.log(student);
+
+//92. Store product details in object.
+
+let product = {
+  name: "Laptop",
+  brand: "Dell",
+  price: 55000,
+  inStock: true
+};
+
+console.log(product);
+
+//93. Store user profile data in object.
+
+
+let userProfile = {
+  username: "abin_vk",
+  age: 22,
+  email: "abin@example.com",
+  isActive: true
+};
+
+console.log(userProfile);
+
+//95. Identify datatype using typeof.
+
+console.log(typeof 10);          // "number"
+console.log(typeof "Hello");     // "string"
+console.log(typeof true);        // "boolean"
+console.log(typeof undefined);   // "undefined"
+
+
