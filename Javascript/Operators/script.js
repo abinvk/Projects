@@ -93,3 +93,23 @@ console.log(two);
 
 let remaindr = 15 % 4;
 console.log(remaindr); // 3
+
+// 11. Calculate total price (price × quantity)
+
+let lap = 10;
+let phone = 20;
+let charger = 30;
+
+let total = lap + phone + charger;
+let totall = total*3;
+
+console.log(total);
+console.log(totall);
+
+//12. Calculate yearly salary from monthly salary
+
+let monthly = 40000;
+
+let year = 40000*12;
+
+console.log(year);
