@@ -236,3 +236,27 @@ let scoe = 0;
 console.log(count);
 
 console.log(scoe);
+
+//37. Null value.
+
+let data = null;
+
+console.log(data);
+
+//38. Undefined value
+
+let value;
+
+console.log(value);
+
+//39. Age as number.
+
+let ae = 25;
+
+console.log(ae);
+
+//40. Age as string
+
+let ge = "25";
+
+console.log(ge);
