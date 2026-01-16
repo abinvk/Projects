@@ -85,8 +85,14 @@ let distence = 14;
 
 console.log(distence);
 
-// 14. Store distance.
+// 15 Store height.
 
-let height = 15;
+let height = "15";
 
-console.log(height);
+console.log(height + "cm");
+
+//16. Store weight
+
+let weight = "23";
+
+console.log(weight + "kg");
