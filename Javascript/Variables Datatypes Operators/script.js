@@ -145,3 +145,20 @@ let price = 1500;
 
 console.log(price);
 
+//24. Store discount
+
+let discount = 10;
+
+console.log(discount);
+
+//25. Store total marks.
+
+let totalMarks = 420;
+
+console.log(totalMarks);
+
+//26. Store average.
+
+let averageMarks = 70;
+
+console.log(averageMarks);
