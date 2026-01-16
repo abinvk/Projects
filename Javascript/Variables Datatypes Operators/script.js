@@ -60,3 +60,21 @@ let a = "b";
 a = "c";
 
 console.log(a);
+
+//11. Store movie name.
+
+let movie = "KGF";
+
+console.log(movie);
+
+//12. Store year.
+
+let year = 2110;
+
+console.log(year);
+
+//13. Store temperature.
+
+let temp = 30;
+
+console.log(temp);
