@@ -188,3 +188,26 @@ let currentYear = 2026;
 
 console.log(currentYear);
 
+//31. Number type.
+
+let n = 10;
+let v = 3;
+
+console.log(a + b);
+
+//32. String type.
+
+let nme = "Abin";
+let city = 'Kochi';
+
+console.log(nme);
+console.log(city);
+
+
+//33. Boolean type.
+
+let isoggedIn = true;
+let isAdmin = false;
+
+console.log(isoggedIn);
+console.log(isAdmin);
