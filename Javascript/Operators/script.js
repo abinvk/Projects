@@ -178,7 +178,7 @@ let sbu = uf / gu ;
 
 console.log(sbu);
 
-//0. Find remainder of an even number divided by 2
+//20. Find remainder of an even number divided by 2
 
 let nu = 8;
 
