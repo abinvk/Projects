@@ -221,3 +221,18 @@ console.log(pric);
 console.log(temperature);
 
 //35. Negative number
+
+let temperture = -5;
+let balance = -1200;
+
+console.log(temperture);
+console.log(balance);
+
+//36. Zero value.
+
+let count = 0;
+let scoe = 0;
+
+console.log(count);
+
+console.log(scoe);
