@@ -115,3 +115,33 @@ b = tmp;
 console.log(c);
 console.log(b);
 
+//19. Store address
+
+let adress = "power house";
+
+console.log(adress);
+
+//20. Store login status
+
+let isLoggedIn = false;
+
+console.log(isLoggedIn);
+
+//21. Store product name.
+
+let productName = "Laptop";
+
+console.log(productName);
+
+//22. Store quantity.
+
+let quantity = 5;
+
+console.log(quantity);
+
+//23. Store price.
+
+let price = 1500;
+
+console.log(price);
+
