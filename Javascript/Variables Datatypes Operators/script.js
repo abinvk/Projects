@@ -162,3 +162,29 @@ console.log(totalMarks);
 let averageMarks = 70;
 
 console.log(averageMarks);
+
+//27. Store monthly salary.
+
+let monthlySalary = 20000;
+
+console.log(monthlySalary);
+
+//28. Calculate yearly salary.
+
+let monthySalary = 20000;
+let yearlySalary = monthySalary * 12;
+
+console.log(yearlySalary);
+
+//29. Store day name.
+
+let dayName = "Monday";
+
+console.log(dayName);
+
+//30. Store current year.
+
+let currentYear = 2026;
+
+console.log(currentYear);
+
