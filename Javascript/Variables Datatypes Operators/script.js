@@ -78,3 +78,15 @@ console.log(year);
 let temp = 30;
 
 console.log(temp);
+
+//14. Store distance.
+
+let distence = 14;
+
+console.log(distence);
+
+// 14. Store distance.
+
+let height = 15;
+
+console.log(height);
