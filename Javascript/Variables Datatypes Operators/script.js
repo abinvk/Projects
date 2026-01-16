@@ -211,3 +211,13 @@ let isAdmin = false;
 
 console.log(isoggedIn);
 console.log(isAdmin);
+
+//34. Decimal number
+
+let pric = 99.75;
+let temperature = 36.5;
+
+console.log(pric);
+console.log(temperature);
+
+//35. Negative number
