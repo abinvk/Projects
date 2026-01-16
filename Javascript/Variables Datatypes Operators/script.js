@@ -96,3 +96,22 @@ console.log(height + "cm");
 let weight = "23";
 
 console.log(weight + "kg");
+
+//17. Change variable value.
+
+let score = 50;
+score = 75;
+console.log(score);
+
+//18. Swap two variables.
+
+let c = 10;
+let b = 20;
+
+let tmp = c;
+c = b;
+b = tmp;
+
+console.log(c);
+console.log(b);
+
