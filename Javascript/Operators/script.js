@@ -190,3 +190,27 @@ console.log(reminder); // 0
 let numn = 12;
 
 console.log(numn);
+
+//22. Add 5 to a variable using += 
+
+let bbnn = 10;
+bbnn += 5;
+
+console.log(bbnn);
+
+//23. Subtract 3 from a variable using -=
+
+let ccnn = 12;
+ccnn -= 2;
+
+console.log(ccnn);
+
+//24. Multiply a variable by 2 using *=
+
+let vvnn = 40;
+vvnn *= 3;
+
+console.log(vvnn);
+
+//25. Divide a variable by 4 using /=
+
