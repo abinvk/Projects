@@ -435,3 +435,8 @@ if (mna1 > mna2){
 }
 
 
+//51. Check if age is greater than 18 and citizen is true
+
+let ages = 23;
+
+console.log(ages >=18);
