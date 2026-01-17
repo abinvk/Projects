@@ -266,3 +266,9 @@ let u = 18;
 
 console.log(s > u);
 
+//32. Check if one number is less than another
+
+let ka = 2;
+let kl = 10 ;
+
+console.log(ka < kl);
