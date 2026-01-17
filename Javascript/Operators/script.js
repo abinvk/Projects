@@ -219,14 +219,14 @@ console.log(vvnn);
 
  console.log(rrnn);
 
- //26. Increase a value by 10 using assignment operator
+//26. Increase a value by 10 using assignment operator
 
  let ttrr = 20;
  ttrr += 10;
 
  console.log(ttrr);
 
- //27. Decrease a value by 1 using assignment operator
+//27. Decrease a value by 1 using assignment operator
 
  let yynn = 23;
 yynn -= 1;
@@ -242,4 +242,13 @@ let bonu = 1000;
 sal += bonu;
  console.log(sal);
 
- 
+ //29. Reduce balance after spending money
+
+ let bal = 12000
+
+let sepend = 120;
+
+bal -= sepend;
+
+console.log(bal);
+
