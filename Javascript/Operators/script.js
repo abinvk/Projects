@@ -375,3 +375,15 @@ console.log( nam >= 1 && nam <= 10 );
 let age = 23;
 
 console.log(age >= 18);
+
+//45. Check if balance is zero
+
+let balan = 0;
+
+console.log(balan === 0);
+
+//46. Check if value is not equal to 100
+
+let val =10;
+
+console.log(val !==100);
