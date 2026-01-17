@@ -387,3 +387,16 @@ console.log(balan === 0);
 let val =10;
 
 console.log(val !==100);
+
+//47. Compare length and width
+
+let leng = 30;
+let wedt = 40;
+
+if (leng > wedt){
+    console.log("length is big", leng);
+}else if(wedt > leng){
+    console.log("wedth is big" , wedt);
+}else{
+    console.log("all equal");
+}
