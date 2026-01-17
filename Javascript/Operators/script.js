@@ -306,3 +306,23 @@ if (age1 > age2) {
 }else{
     console.log("not equal");
 }
+
+//37. Check if marks are greater than pass mark
+
+let marks = 45;
+let passMark = 40;
+
+console.log(marks > passMark);
+
+//38. Check if temperature is below zero
+
+let temperature = -5;
+
+console.log(temperature < 0);
+
+//39. Check if salary is greater than 20000
+
+let salary = 25000;
+
+console.log(salary > 20000);
+
