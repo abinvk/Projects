@@ -413,3 +413,10 @@ let secore2 = 120;
  } else {
     console.log("all equal");
  }
+
+ //49. Check if speed exceeds limit
+
+let speed = 80;
+let limit = 60;
+
+console.log(speed > limit);
