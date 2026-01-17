@@ -326,3 +326,27 @@ let salary = 25000;
 
 console.log(salary > 20000);
 
+//40. Check if two variables have same value and type
+
+let value1 = 30;
+let value2 = 30;
+
+console.log(value1 === value2);
+
+//41. Compare two numbers and print the greater one
+
+let nui1 = 12;
+let nui2 = 20;
+
+if(nui1 > nui2){
+
+    console.log(nui1);
+
+}else if(nui2 > nui1) {
+
+    console.log(nui2);
+
+}else{
+    
+    console.log("numbrers all eqaul");
+}
