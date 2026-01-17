@@ -347,6 +347,20 @@ if(nui1 > nui2){
     console.log(nui2);
 
 }else{
-    
+
     console.log("numbrers all eqaul");
 }
+
+//42. Compare two numbers and print the smaller one
+
+let nm1 = 20;
+let nm2 = 12;
+
+if(nm1 < nm2){
+    console.log(num1);
+}else  if(nm2 < nm1){
+    console.log(nm2);
+}else{
+    console.log("all eqal");
+}
+
