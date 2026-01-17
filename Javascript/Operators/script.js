@@ -400,3 +400,16 @@ if (leng > wedt){
 }else{
     console.log("all equal");
 }
+
+//48. Compare two scores
+
+let secore1 = 1009;
+let secore2 = 120;
+
+ if ( secore1 > secore2){
+    console.log("Score1 is Top", secore1);
+ } else if (secore2 > secore1){
+    console.log("Score2 is Top", secore2);
+ } else {
+    console.log("all equal");
+ }
