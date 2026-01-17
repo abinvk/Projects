@@ -364,3 +364,14 @@ if(nm1 < nm2){
     console.log("all eqal");
 }
 
+//43. Check if a number is between 1 and 10
+
+let nam = 8;
+
+console.log( nam >= 1 && nam <= 10 );
+
+//44. Check if user age is eligible to vote
+
+let age = 23;
+
+console.log(age >= 18);
