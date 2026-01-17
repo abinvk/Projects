@@ -272,3 +272,17 @@ let ka = 2;
 let kl = 10 ;
 
 console.log(ka < kl);
+
+//33. Check if two numbers are equal using ==
+
+let ad = 10;
+let as = 10 ;
+
+console.log( ad == as);
+
+//34. Check if two numbers are strictly equal using ===
+
+let sd = 13;
+let yd = 13;
+
+console.log(sd === yd);
