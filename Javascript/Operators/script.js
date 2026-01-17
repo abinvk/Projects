@@ -232,3 +232,14 @@ console.log(vvnn);
 yynn -= 1;
 
 console.log(yynn);
+
+//28. Update salary by adding bonus
+
+let sal = 12000;
+
+let bonu = 1000;
+
+sal += bonu;
+ console.log(sal);
+
+ 
