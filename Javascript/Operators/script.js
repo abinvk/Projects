@@ -252,3 +252,10 @@ bal -= sepend;
 
 console.log(bal);
 
+//30. Double a number using assignment operator
+
+let number = 8;
+number *= 2;
+console.log(number);
+
+
