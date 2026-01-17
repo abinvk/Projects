@@ -214,3 +214,21 @@ console.log(vvnn);
 
 //25. Divide a variable by 4 using /=
 
+ let rrnn = 30;
+ rrnn /= 2;
+
+ console.log(rrnn);
+
+ //26. Increase a value by 10 using assignment operator
+
+ let ttrr = 20;
+ ttrr += 10;
+
+ console.log(ttrr);
+
+ //27. Decrease a value by 1 using assignment operator
+
+ let yynn = 23;
+yynn -= 1;
+
+console.log(yynn);
