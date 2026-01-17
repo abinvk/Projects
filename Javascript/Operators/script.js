@@ -184,3 +184,9 @@ let nu = 8;
 
 let reminder = num % 2;
 console.log(reminder); // 0
+
+//21. Assign a number to a variable
+
+let numn = 12;
+
+console.log(numn);
