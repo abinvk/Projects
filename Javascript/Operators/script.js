@@ -406,17 +406,32 @@ if (leng > wedt){
 let secore1 = 1009;
 let secore2 = 120;
 
- if ( secore1 > secore2){
+if ( secore1 > secore2){
     console.log("Score1 is Top", secore1);
- } else if (secore2 > secore1){
+} else if (secore2 > secore1){
     console.log("Score2 is Top", secore2);
- } else {
+} else {
     console.log("all equal");
- }
+}
 
- //49. Check if speed exceeds limit
+//49. Check if speed exceeds limit
 
 let speed = 80;
 let limit = 60;
 
 console.log(speed > limit);
+
+//50. Compare two decimal numbers
+
+let mna1 = 2.32;
+let mna2 = 2.40;
+
+if (mna1 > mna2){
+    console.log("mna1 is greater", mna1);
+}else if(mna2 > mna1){
+    console.log("mna2 is greater", mna2);
+}else{
+    console.log("all equal");
+}
+
+
