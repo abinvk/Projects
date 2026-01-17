@@ -286,3 +286,23 @@ let sd = 13;
 let yd = 13;
 
 console.log(sd === yd);
+
+// 35. Check if two numbers are not equal
+
+let bn = 12;
+let vc = 13;
+
+console.log(bn != vc);
+
+//36. Compare two ages and find the older one
+
+let age1 = 20;
+let age2 = 30;
+
+if (age1 > age2) {
+    console.log("Age1 is older", age1);
+}else if(age2 > age1){
+    console.log("Age2 is older", age2);
+}else{
+    console.log("not equal");
+}
