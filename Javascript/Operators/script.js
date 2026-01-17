@@ -256,6 +256,13 @@ console.log(bal);
 
 let number = 8;
 number *= 2;
+
 console.log(number);
 
+//31. Check if one number is greater than another
+
+let s = 13;
+let u = 18;
+
+console.log(s > u);
 
