@@ -606,3 +606,14 @@ if(pass !== ""){
 } else {
     console.log("pas is emty");
 };
+
+
+//66. Check if phone number is valid length
+
+let phne = "9276543210";
+
+if (phne.length === 10) {
+  console.log("Phone number is valid");
+} else {
+  console.log("Phone number is invalid");
+}
