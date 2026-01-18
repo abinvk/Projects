@@ -491,3 +491,13 @@ if(login === 123){
 }else{
     console.log("not match");
 };
+
+//56. Use ! to check not logged in
+
+let isLoggedIn = false;
+
+if (!isLoggedIn) {
+  console.log("User is NOT logged in");
+} else {
+  console.log("User is logged in");
+}
