@@ -511,3 +511,13 @@ if(nmr == 0 ){
 }else{
     console.log("number is not zero");
 }
+
+//58. Check if age is not less than 18
+
+let ase = 12;
+
+if(ase < 18){
+    console.log("age is not 18");
+}else{
+    console.log("age is 18")
+}
