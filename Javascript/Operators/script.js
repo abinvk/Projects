@@ -556,11 +556,22 @@ if (temperatre > 30 && isHumid){
 
 //62. Check if student passed all subjects
 
-let totalSub = 7;
-let allpassed = true;
+let math = 30;
+let eng = 45;
+let mala = 32;
 
-if(totalSub === allpassed){
-    console.log("all subejet passed");
+if(math >= 20 && eng >= 20 && mala >= 20){
+    console.log("All Subject passed");
 }else{
     console.log("not passed");
-}
+};
+
+//63. Check if user is admin or manager
+
+let role = "manager"
+
+if(role === "adimin" || role === "manager"){
+    console.log("user is admin or manager");
+} else {
+    console.log("not admin and manager");
+};
