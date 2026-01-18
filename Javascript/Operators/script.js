@@ -457,3 +457,15 @@ if(na > 0 && na % 2 === 0){
 } else {
     console.log("not even")
 }
+
+//53. Check if marks are pass or grace
+
+let mar = 45;
+
+if(mar >= 45){
+    console.log("pass");
+}else if(mar >= 23){
+    console.log("grace");
+}else{
+    console.log("fail");
+}
