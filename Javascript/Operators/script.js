@@ -521,3 +521,25 @@ if(ase < 18){
 }else{
     console.log("age is 18")
 }
+
+//59. Check if salary is high or bonus exists
+
+let salay = 25000;
+let hasBonus = true;
+
+if (salay >= 30000 || hasBonus) {
+  console.log("Salary is high OR bonus exists");
+} else {
+  console.log("Salary is low and no bonus");
+};
+
+//60. Check if username is empty or not
+
+let user = "";
+
+if(user === ""){
+    console.log("user name has empty");
+} else{
+    console.log("user name not avilable");
+};
+
