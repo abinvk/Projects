@@ -501,3 +501,13 @@ if (!isLoggedIn) {
 } else {
   console.log("User is logged in");
 }
+
+//57. Check if number is not zero
+
+let nmr = 8;
+
+if(nmr == 0 ){
+    console.log("number is zero");
+}else{
+    console.log("number is not zero");
+}
