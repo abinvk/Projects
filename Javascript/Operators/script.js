@@ -553,3 +553,14 @@ if (temperatre > 30 && isHumid){
 } else {
   console.log("Weather is not hot and humid");
 };
+
+//62. Check if student passed all subjects
+
+let totalSub = 7;
+let allpassed = true;
+
+if(totalSub === allpassed){
+    console.log("all subejet passed");
+}else{
+    console.log("not passed");
+}
