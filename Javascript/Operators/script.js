@@ -596,3 +596,13 @@ if (isLightOn && isSwitchOn) {
 } else {
   console.log("Light is OFF or switch is OFF");
 };
+
+//65. Check if password is not empty
+
+let pass = "abc123";
+
+if(pass !== ""){
+    console.log("password is not empty");
+} else {
+    console.log("pas is emty");
+};
