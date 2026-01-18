@@ -617,3 +617,13 @@ if (phne.length === 10) {
 } else {
   console.log("Phone number is invalid");
 }
+
+//67. Check if number is odd or even using logical operators
+
+let nsm = 7;
+
+if (nsm % 2 === 0 && nsm !== 0) {
+  console.log("Even number");
+} else {
+  console.log("Odd number");
+}
