@@ -481,3 +481,13 @@ if (day === "sunday"){
 }else{
     console.log("not a day");
 }
+
+//55. Check if user is logged in and verified
+
+let login = 123;
+
+if(login === 123){
+    console.log("secessfull");
+}else{
+    console.log("not match");
+};
