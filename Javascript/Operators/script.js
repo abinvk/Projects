@@ -576,7 +576,7 @@ if(role === "adimin" || role === "manager"){
     console.log("not admin and manager");
 };
 
-//64. Check if light is on and switch is on
+// ! Check if light on and off
 
 let light = "off";
 
@@ -584,4 +584,15 @@ if(light === "off" || light === "on"){
     console.log("light is on")
 }else{
     console.log("light is not avilable");
-}
+};
+
+// 64. Check if light is on and switch is on
+
+let isLightOn = true;
+let isSwitchOn = true;
+
+if (isLightOn && isSwitchOn) {
+  console.log("Light is ON and switch is ON");
+} else {
+  console.log("Light is OFF or switch is OFF");
+};
