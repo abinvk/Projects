@@ -543,3 +543,13 @@ if(user === ""){
     console.log("user name not avilable");
 };
 
+//61. Check if temperature is hot and humid
+
+let temperatre = 35;
+let isHumid = true;
+
+if (temperatre > 30 && isHumid){
+  console.log("Weather is hot and humid");
+} else {
+  console.log("Weather is not hot and humid");
+};
