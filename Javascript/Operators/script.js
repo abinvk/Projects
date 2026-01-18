@@ -469,3 +469,15 @@ if(mar >= 45){
 }else{
     console.log("fail");
 }
+
+//54. Check if day is Saturday or Sunday
+
+let day = "sunday";
+
+if (day === "sunday"){
+    console.log("to day sunday");
+}else if (day === "sat"){
+    console.log("to day sat");
+}else{
+    console.log("not a day");
+}
