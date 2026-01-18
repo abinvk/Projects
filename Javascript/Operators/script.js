@@ -568,10 +568,20 @@ if(math >= 20 && eng >= 20 && mala >= 20){
 
 //63. Check if user is admin or manager
 
-let role = "manager"
+let role = "manager";
 
 if(role === "adimin" || role === "manager"){
     console.log("user is admin or manager");
 } else {
     console.log("not admin and manager");
 };
+
+//64. Check if light is on and switch is on
+
+let light = "off";
+
+if(light === "off" || light === "on"){
+    console.log("light is on")
+}else{
+    console.log("light is not avilable");
+}
