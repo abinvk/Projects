@@ -434,9 +434,26 @@ if (mna1 > mna2){
     console.log("all equal");
 }
 
-
 //51. Check if age is greater than 18 and citizen is true
 
 let ages = 23;
 
 console.log(ages >=18);
+
+//52. Check if number is positive and even
+
+let nm = 6;
+
+if (nm > 0 && nm % 2 === 0) {
+  console.log("Number is positive and even");
+} else {
+  console.log("Number is NOT positive and even");
+}
+
+let na = 5;
+
+if(na > 0 && na % 2 === 0){
+    console.log("even");
+} else {
+    console.log("not even")
+}
