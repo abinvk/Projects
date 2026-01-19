@@ -309,3 +309,10 @@ console.log(ds); // false
 console.log(typeof sd);
 console.log(typeof ds);
 
+//47. Comparison result
+
+let xa = 10;
+let xb = 20;
+
+let reslt = xa > xb;
+console.log(reslt); // false
