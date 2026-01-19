@@ -260,3 +260,9 @@ console.log(ae);
 let ge = "25";
 
 console.log(ge);
+
+//41. String number type check.
+
+let nam = "23";
+
+console.log(typeof nam);
