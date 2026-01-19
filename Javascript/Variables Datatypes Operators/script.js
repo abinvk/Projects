@@ -319,9 +319,16 @@ console.log(reslt); // false
 
 //48. Greater than.
 
-let sf = 30;
+let sf = 300;
 let fr = 45;
 
 let gra = sf > fr;
 
 console.log(gra);
+
+//49. Less than
+
+let sfs = 0;
+let frf = 5;
+
+console.log(sfs < frf);
