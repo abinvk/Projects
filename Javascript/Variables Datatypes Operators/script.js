@@ -290,3 +290,4 @@ let bc = "20";
 
 console.log(ab + bc); // "1020" 
 
+//45. Fix using conversion
