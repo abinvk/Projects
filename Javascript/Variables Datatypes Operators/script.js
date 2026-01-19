@@ -266,3 +266,11 @@ console.log(ge);
 let nam = "23";
 
 console.log(typeof nam);
+
+//42. Convert string to number.
+
+let str = "123";
+let num = Number(str);
+
+console.log(num);        // 123
+console.log(typeof num); // "number"
