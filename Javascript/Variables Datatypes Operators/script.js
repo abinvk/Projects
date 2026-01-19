@@ -297,3 +297,12 @@ let sb = "20";
 
 let result = Number(sa) + Number(sb);
 console.log(result); // 30
+
+//46. Store booleans
+
+let sd = true;
+let ds = false;
+
+
+console.log(typeof sd);
+console.log(typeof ds);
