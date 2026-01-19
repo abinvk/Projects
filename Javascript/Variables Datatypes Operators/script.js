@@ -316,3 +316,12 @@ let xb = 20;
 
 let reslt = xa > xb;
 console.log(reslt); // false
+
+//48. Greater than.
+
+let sf = 30;
+let fr = 45;
+
+let gra = sf > fr;
+
+console.log(gra);
