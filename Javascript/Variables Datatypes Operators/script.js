@@ -275,7 +275,6 @@ let num = Number(str);
 console.log(num);        // 123
 console.log(typeof num); // "number"
 
-
 //43. Add numbers.
 
 let ac = 10;
@@ -283,3 +282,11 @@ let vc = 20;
 
 let sum = ac + vc;
 console.log(sum); // 30
+
+//44. Add number strings.
+
+let ab = "10";
+let bc = "20";
+
+console.log(ab + bc); // "1020" 
+
