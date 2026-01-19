@@ -291,3 +291,9 @@ let bc = "20";
 console.log(ab + bc); // "1020" 
 
 //45. Fix using conversion
+
+let sa = "10";
+let sb = "20";
+
+let result = Number(sa) + Number(sb);
+console.log(result); // 30
