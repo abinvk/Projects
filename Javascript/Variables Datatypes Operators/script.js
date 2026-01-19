@@ -303,6 +303,9 @@ console.log(result); // 30
 let sd = true;
 let ds = false;
 
+console.log(sd);  //true
+console.log(ds); // false
 
 console.log(typeof sd);
 console.log(typeof ds);
+
