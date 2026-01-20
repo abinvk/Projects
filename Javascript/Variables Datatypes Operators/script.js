@@ -320,7 +320,7 @@ console.log(reslt); // false
 //48. Greater than.
 
 let sf = 300;
-let fr = 45;
+let fr = 450;
 
 let gra = sf > fr;
 
@@ -331,7 +331,9 @@ console.log(gra);
 let sfs = 0;
 let frf = 5;
 
-console.log(sfs < frf);
+let sef = sfs < frf;
+
+console.log(sef);
 
 //50. == operator.
 
