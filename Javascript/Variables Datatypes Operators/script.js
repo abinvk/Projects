@@ -319,7 +319,7 @@ console.log(reslt); // false
 
 //48. Greater than.
 
-let sf = 300;
+let sf = 3000;
 let fr = 450;
 
 let gra = sf > fr;
