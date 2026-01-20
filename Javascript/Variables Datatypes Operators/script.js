@@ -414,3 +414,22 @@ console.log(sef);
 
 
 //71. Even remainder.
+
+
+//72. Odd remainder.
+
+
+//73. Add three numbers.
+
+
+//74. Subtract bigger from smaller.
+
+
+//75. Multiply by 10.
+
+
+//76. Divide by 2.
+
+
+//77. Total price.
+
