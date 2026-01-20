@@ -495,3 +495,10 @@ console.log(sef);
 
 //98. Discount calculation.
 
+
+
+//99. Profit or loss.
+
+
+//100. Positive or negative check.
+
