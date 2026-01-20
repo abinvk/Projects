@@ -472,3 +472,11 @@ console.log(sef);
 
 //90. AND condition.
 
+//91. OR condition.
+
+
+//92. NOT operator.
+
+
+//93. Combined AND.
+
