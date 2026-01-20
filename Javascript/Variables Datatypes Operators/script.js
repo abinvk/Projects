@@ -389,3 +389,28 @@ console.log(sef);
 
 
 //63. Boolean expression.
+
+
+//64. Logical AND.
+
+
+
+//65. Logical OR
+
+
+//66.Addition.
+
+
+//67. Subtraction.
+
+
+//68. Multiplication.
+
+
+//69. Division.
+
+
+//70. Modulus.
+
+
+//71. Even remainder.
