@@ -332,3 +332,12 @@ let sfs = 0;
 let frf = 5;
 
 console.log(sfs < frf);
+
+//50. == operator.
+
+// == compares values
+
+// 5 == 5        // true  (same value)
+//5 == "5"      // true  ("5" → 5)
+//0 == false    // true  (false → 0)
+//null == undefined // true (special rule)
