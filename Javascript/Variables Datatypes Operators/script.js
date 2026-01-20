@@ -480,3 +480,12 @@ console.log(sef);
 
 //93. Combined AND.
 
+
+//94. Combined OR.
+
+
+//95. Logical result.
+
+
+//96. Logical OR result
+
