@@ -433,3 +433,42 @@ console.log(sef);
 
 //77. Total price.
 
+
+//78. Average of two.
+
+
+//79. Average of three.
+
+
+//80. Celsius to Fahrenheit.
+
+
+//81. Fahrenheit to Celsius.
+
+
+//82. Equality check.
+
+
+//83. Not equal.
+
+
+//84. Greater than.
+
+
+//85. Less than.
+
+
+//86. Greater or equal.
+
+
+//87. Less or equal.
+
+
+//88. == comparison.
+
+
+//89. === comparison.
+
+
+//90. AND condition.
+
