@@ -352,3 +352,6 @@ console.log(sef);
 
 
 //53. null === undefined
+
+
+//54. String comparison.
