@@ -383,3 +383,9 @@ console.log(sef);
 
 
 //61. NaN value.
+
+
+//62. NaN type.
+
+
+//63. Boolean expression.
