@@ -341,3 +341,7 @@ console.log(sfs < frf);
 //5 == "5"      // true  ("5" → 5)
 //0 == false    // true  (false → 0)
 //null == undefined // true (special rule)
+
+//51. === operator.
+
+// === This is called strict equality
