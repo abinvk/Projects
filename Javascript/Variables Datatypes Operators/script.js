@@ -355,3 +355,7 @@ console.log(sef);
 
 
 //54. String comparison.
+
+
+
+//55. Long sentence string
