@@ -347,3 +347,8 @@ console.log(sef);
 //51. === operator.
 
 // === This is called strict equality
+
+//null === undefined  // false
+
+
+//53. null === undefined
