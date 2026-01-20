@@ -359,3 +359,27 @@ console.log(sef);
 
 
 //55. Long sentence string
+
+
+
+//56. Decimal precision 
+
+
+
+//57. Division.
+
+
+//58. Divide by zero. 
+
+
+
+//59. Zero division.
+
+
+
+
+//60. Infinity result.
+
+
+
+//61. NaN value.
