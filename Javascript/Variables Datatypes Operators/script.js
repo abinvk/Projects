@@ -489,3 +489,9 @@ console.log(sef);
 
 //96. Logical OR result
 
+
+//97. NOT result.
+
+
+//98. Discount calculation.
+
