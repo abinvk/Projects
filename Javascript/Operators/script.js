@@ -777,3 +777,31 @@ if (az > bz) {
 } else {
   console.log("a and b are equal");
 }
+
+
+//83. Add two numbers and check if result > 100
+
+let za = 60;
+let zb = 40;
+
+let sam = za +zb;
+
+if (sam > 100) {
+  console.log("Result is greater than 100");
+} else {
+  console.log("Result is 100 or less");
+}
+
+
+//84. Calculate bill and check if discount applies
+
+let sap = 30;
+let sup = 30;
+
+let dum = sap + sup;
+
+if (dum > 30 ){
+    console.log("Discount appiled");
+} else {
+    console.log("No Discount");
+}
