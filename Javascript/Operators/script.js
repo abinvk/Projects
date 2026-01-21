@@ -665,4 +665,11 @@ if (isExamToday && hasHallTicket) {
 }
 
 
-let 
+let busTicket = false;
+let person = true;
+
+if (busTicket && person){
+    console.log("Get in the Bus");
+}else{
+    console.log("Get out the Bus");
+};
