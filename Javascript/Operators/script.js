@@ -741,3 +741,15 @@ console.log("After sale stock =",stock);
 
 
 //79. Increment age by 1
+
+let ag =2;
+
+ag++;
+
+console.log(ag)
+
+//80. Decrement remaining days
+
+let remainingDays = 10;
+remainingDays--;
+console.log(remainingDays);
