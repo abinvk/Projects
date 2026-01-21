@@ -690,3 +690,11 @@ let bet = 8;
 bet--;
 
 console.log(bet);
+
+//73. Increase score by 1
+
+let score = 10;
+
+score++;
+
+console.log("Score",score);
