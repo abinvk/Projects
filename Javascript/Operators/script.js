@@ -974,8 +974,6 @@ if (input !== "" && input !== null && input !== undefined) {
   console.log("Invalid input");
 }
 
-
-
 //100. Operator-based mini logic program
 
 let maks = 45;
