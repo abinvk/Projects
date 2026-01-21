@@ -909,3 +909,80 @@ let depositw = 1500;
 
 balance = balancew - depositw;
 console.log(balance);
+
+
+//94. Check if cart is empty
+
+let cartItems = 0;
+
+if (cartItems === 0) {
+  console.log("Cart is empty");
+} else {
+  console.log("Cart has items");
+}
+
+
+//95. Calculate EMI simple logic
+
+let emi = 1200;
+let month = 12;
+
+total = emi * month;
+
+console.log(total);
+
+//96. Check if user can access content
+
+let isLogedIn = true;
+let isActive = true;
+
+if (isLogedIn && isActive) {
+  console.log("Access granted");
+} else {
+  console.log("Access denied");
+}
+
+
+//97. Check temperature and print message
+
+let temperture = 35;
+
+if (temperture > 30) {
+  console.log("Hot weather");
+} else if (temperture >= 20) {
+  console.log("Normal weather");
+} else {
+  console.log("Cold weather");
+}
+
+
+//98. Compare two dates (simple numbers)
+
+
+
+
+
+
+
+//99. Check if input value is valid
+
+let input = "hello";
+
+if (input !== "" && input !== null && input !== undefined) {
+  console.log("Valid input");
+} else {
+  console.log("Invalid input");
+}
+
+
+
+//100. Operator-based mini logic program
+
+let maks = 45;
+let attendance = 80;
+
+if (maks >= 40 && attendance >= 75) {
+  console.log("Student is eligible");
+} else {
+  console.log("Student is not eligible");
+}
