@@ -639,3 +639,30 @@ if (dam < 10 || dam > 20){
     console.log("Number is inside");
 }
 
+//69. Check if discount applies
+
+let price = 1200;
+
+if(price >= 1000){
+
+    console.log("Discount Applied")
+
+}else{
+
+    console.log("Not Discount")
+
+}
+
+//70. Check if exam is today and hall ticket exists
+
+let isExamToday = true;
+let hasHallTicket = true;
+
+if (isExamToday && hasHallTicket) {
+  console.log("You can attend the exam");
+} else {
+  console.log("You cannot attend the exam");
+}
+
+
+let 
