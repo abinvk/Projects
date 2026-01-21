@@ -673,3 +673,20 @@ if (busTicket && person){
 }else{
     console.log("Get out the Bus");
 };
+
+
+//71. Increment a number by 1 using ++
+
+let coud = 5;
+
+coud++;
+
+console.log(coud);
+
+//72. Decrement a number by 1 using --
+
+let bet = 8;
+
+bet--;
+
+console.log(bet);
