@@ -879,3 +879,33 @@ console.log("Addition:", add);
 console.log("Subtraction:", suub);
 console.log("Multiplication:", mul);
 console.log("Division:", div);
+
+//91. Check if number is positive, negative, or zero
+
+let numm = -5;
+
+if (numm > 0) {
+  console.log("Positive number");
+} else if (numm < 0) {
+  console.log("Negative number");
+} else {
+  console.log("Zero");
+}
+
+
+//92. Increase balance after deposit
+
+let balance = 5000;
+let deposit = 1500;
+
+balance = balance + deposit;
+console.log(balance);
+
+//93. Decrease balance after withdrawal
+
+
+let balancew = 5000;
+let depositw = 1500;
+
+balance = balancew - depositw;
+console.log(balance);
