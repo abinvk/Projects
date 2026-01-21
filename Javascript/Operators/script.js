@@ -753,3 +753,27 @@ console.log(ag)
 let remainingDays = 10;
 remainingDays--;
 console.log(remainingDays);
+
+
+//81. Check even or odd using %
+
+let m = 10;
+
+if (m % 2 === 0) {
+  console.log("Even number");
+} else {
+  console.log("Odd number");
+}
+
+//82. Compare two numbers and print result
+
+let az = 10;
+let bz = 20;
+
+if (az > bz) {
+  console.log("a is greater than b");
+} else if (az < bz) {
+  console.log("a is less than b");
+} else {
+  console.log("a and b are equal");
+}
