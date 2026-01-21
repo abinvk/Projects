@@ -627,3 +627,15 @@ if (nsm % 2 === 0 && nsm !== 0) {
 } else {
   console.log("Odd number");
 }
+
+
+//68. Check if a number is outside a range
+
+let dam = 15;
+
+if (dam < 10 || dam > 20){
+    console.log("Number is outside");
+}else{
+    console.log("Number is inside");
+}
+
