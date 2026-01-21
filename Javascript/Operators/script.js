@@ -816,3 +816,28 @@ if (username === "admin" && password === "1234") {
 } else {
   console.log("Login failed");
 };
+
+
+//86. Calculate total marks and average
+
+let mark1 = 60;
+let mark2 = 70;
+let mark3 = 80;
+
+let toal = mark1 + mark2 + mark3;
+let aerage = total / 3;
+
+console.log("Total:", toal);
+console.log("Average:", aerage);
+
+
+//87. Check pass or fail using comparison
+
+let mark = 35;
+let pasMark = 40;
+
+if (mark >= pasMark) {
+  console.log("Pass");
+} else {
+  console.log("Fail");
+}
