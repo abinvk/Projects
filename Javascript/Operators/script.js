@@ -805,3 +805,14 @@ if (dum > 30 ){
 } else {
     console.log("No Discount");
 }
+
+//85. Check login using username and password
+
+let username = "admin";
+let password = "1234";
+
+if (username === "admin" && password === "1234") {
+  console.log("Login successful");
+} else {
+  console.log("Login failed");
+};
