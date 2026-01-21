@@ -698,3 +698,20 @@ let score = 10;
 score++;
 
 console.log("Score",score);
+
+
+//74. Decrease life count by 1
+
+let  lifeCount = 14;
+
+lifeCount--;
+
+console.log("Life Count", lifeCount);
+
+
+//75. Increment loop counter
+
+for (let i = 0; i < 8; i++) {
+  console.log(i);
+};
+
