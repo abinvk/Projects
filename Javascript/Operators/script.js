@@ -720,3 +720,24 @@ for (let i = 0; i < 8; i++) {
 for (let i = 5; i > 0; i--) {
   console.log(i);
 }
+
+
+//77. Increase quantity after adding item
+
+let quantity = 1;
+
+// item add
+quantity++;
+
+console.log(quantity);
+
+//78. Decrease stock after sale
+
+let stock = 5;
+
+stock--;
+
+console.log("After sale stock =",stock);
+
+
+//79. Increment age by 1
