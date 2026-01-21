@@ -841,3 +841,41 @@ if (mark >= pasMark) {
 } else {
   console.log("Fail");
 }
+
+//88. Check leap year logic (basic)
+
+let yer = 2024;
+
+if (yer % 4 === 0) {
+  console.log("Leap year");
+} else {
+  console.log("Not a leap year");
+}
+
+
+//89. Check if shop is open using time
+
+let time = 15; // 24-hour format
+// 15 means 3 PM
+
+if (time >= 9 && time < 21) {
+  console.log("Shop is open");
+} else {
+  console.log("Shop is closed");
+}
+
+
+//90. Simple calculator using operators
+
+let av = 10;
+let bs = 5;
+
+let add = av + bs;
+let suub = av - bs;
+let mul = av * bs;
+let div = av / bs;
+
+console.log("Addition:", add);
+console.log("Subtraction:", suub);
+console.log("Multiplication:", mul);
+console.log("Division:", div);
