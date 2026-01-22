@@ -153,3 +153,20 @@ if (text === "") {
 
 //16. Check if a string is not empty
 
+let tet = "Hello";
+
+if (tet !== "") {
+  console.log("String is not empty");
+} else {
+  console.log("String is empty");
+}
+
+//17. Check if balance is zero
+
+let balance = 0;
+
+if (balance === 0) {
+    console.log("Balance is zero");
+}else{
+    console.log("Balance is not zero");
+}
