@@ -140,3 +140,16 @@ if (val === false) {
 }else{
     console.log("value is true");
 }
+
+//15. Check if a string is empty
+
+let text = "";
+
+if (text === "") {
+  console.log("String is empty");
+} else {
+  console.log("String is not empty");
+}
+
+//16. Check if a string is not empty
+
