@@ -220,3 +220,13 @@ if (vote >= 18){
 }else{
     console.log("not eligible")
 }
+
+//23. Check salary greater than 20000
+
+let salary = 35000;
+
+if(salary > 20000){
+    console.log("Your salary is high")
+}else{
+    console.log("Your salary is very low")
+}
