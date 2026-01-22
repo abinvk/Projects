@@ -241,7 +241,7 @@ if (nym % 5 === 0) {
   console.log("Number is not divisible by 5");
 }
 
-//Check if a number is divisible by 10
+//25. Check if a number is divisible by 10
 
 let net = 20;
 
@@ -249,4 +249,34 @@ if(net % 10 === 0) {
     console.log("Number is divisible by 10");
 }else{
     console.log("Number is not divisible by 10")
+}
+
+//Check if a number is divisible by 20
+
+let nat = 200;
+
+if(nat % 20 === 0) {
+    console.log("Number is divisible by 20");
+}else{
+    console.log("Number is not divisible by 20");
+}
+
+//26. Check login success or fail
+
+let password = "1234";
+
+if (password === "1234") {
+  console.log("Login success");
+} else {
+  console.log("Login failed");
+}
+
+//27. Check password correct or wrong
+
+let passwrd = "abcd";
+
+if (passwrd === "abcd") {
+  console.log("Password correct");
+} else {
+  console.log("Password wrong");
 }
