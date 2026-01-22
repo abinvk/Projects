@@ -190,3 +190,13 @@ if (tem > 30){
 }else{
     console.log("tem 30 below");
 }
+
+//20. Check if temperature is below 0
+
+let temp = -12;
+
+if (temp < 0){
+    console.log("temp below is 0")
+}else{
+    console.log("temp is 0 above")
+}
