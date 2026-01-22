@@ -120,3 +120,23 @@ if (less < 50){
 }else{
     console.log("Number not less 50");
 }
+
+//13. Check if a value is true
+
+let value = true;
+
+if (value === true) {
+  console.log("Value is true");
+} else {
+  console.log("Value is false");
+}
+
+//14. Check if a value is false
+
+let val = false;
+
+if (val === false) {
+    console.log("value is false");
+}else{
+    console.log("value is true");
+}
