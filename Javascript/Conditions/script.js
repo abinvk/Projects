@@ -363,3 +363,26 @@ if (ages > 0 && ages <= 120) {
 } else {
   console.log("Invalid age");
 }
+
+
+//36. Check account active or inactive
+
+let isActive = true;
+
+if (isActive === true) {
+  console.log("Account is active");
+} else {
+  console.log("Account is inactive");
+}
+
+//37. Check item in stock.
+
+let stock = 5;
+
+if (stock > 5) {
+  console.log("Item is in stock");
+} else {
+  console.log("Item is out of stock");
+}
+
+//38. Check user is logged in
