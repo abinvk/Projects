@@ -200,3 +200,23 @@ if (temp < 0){
 }else{
     console.log("temp is 0 above")
 }
+
+//21. Check pass or fail
+
+let mark = 25
+
+if(mark >= 35){
+    console.log("your pass");
+}else{
+    console.log("your fail");
+}
+
+//22. Check eligible to vote
+
+let vote = 23;
+
+if (vote >= 18){
+    console.log("your eligible to vote")
+}else{
+    console.log("not eligible")
+}
