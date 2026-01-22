@@ -275,7 +275,7 @@ if (password === "1234") {
 
 let passwrd = "abcd";
 
-if (passwrd === "abcd") {
+if (passwrd === "acd") {
   console.log("Password correct");
 } else {
   console.log("Password wrong");
