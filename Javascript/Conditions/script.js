@@ -80,3 +80,23 @@ if(numer === nube){
 };
 
 //9. Check if first number is greater
+
+let fist1 = 20;
+let fist2 = 10;
+
+if ( fist1 > fist2){
+    console.log("1st number is big");
+}else{
+    console.log("2st number is big");
+}
+
+//10. Check if second number is greater
+
+let st1 = 20;
+let st2 = 30;
+
+if (st2 > st1){
+    console.log("second number is greater");
+}else{
+    console.log("second number is not greater");
+}
