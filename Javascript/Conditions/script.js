@@ -47,3 +47,23 @@ if (odd % 2 !== 0){
 }else{
     console.log("Number is not odd");
 };
+
+//6. Check if age is above 18
+
+let age = 19;
+
+if( age > 18){
+    console.log("age is 18 above");
+}else{
+    console.log("age is not 18");
+};
+
+//7. Check if age is below 18
+
+let belw = 12;
+
+if(belw < 18 ){
+    console.log("age is below 18");
+} else{
+    console.log("greater than 18");
+};
