@@ -311,7 +311,6 @@ if (day === "Saturday" || day === "Sunday") {
   console.log("Working day");
 }
 
-
 //31. Check even or odd using if-else
 
 let numu = 3;
@@ -321,3 +320,27 @@ if (numu % 2 === 0) {
 } else {
   console.log("Odd number");
 }
+
+//32. Check profit or loss
+
+let costPrice = 500;
+let sellingPrice =1250;
+
+if (sellingPrice > costPrice) {
+  console.log("Profit");
+} else {
+  console.log("Loss");
+}
+
+//33. Check positive, negative or zero
+
+let nume = -2;
+
+if (nume > 0) {
+  console.log("Positive number");
+} else if (nume < 0) {
+  console.log("Negative number");
+} else {
+  console.log("Zero");
+}
+
