@@ -290,3 +290,34 @@ if (speedLimit > 140 ){
 }else{
     console.log("Speed is done");
 }
+
+//29. Check if year is leap year
+
+let year = 2024;
+
+if (year % 4 === 0 && year % 100 !== 0 || year % 400 === 0) {
+  console.log("Leap Year");
+} else {
+  console.log("Not a Leap Year");
+}
+
+//30. Check working day or holiday
+
+let day = "Sunday";
+
+if (day === "Saturday" || day === "Sunday") {
+  console.log("Holiday");
+} else {
+  console.log("Working day");
+}
+
+
+//31. Check even or odd using if-else
+
+let numu = 3;
+
+if (numu % 2 === 0) {
+  console.log("Even number");
+} else {
+  console.log("Odd number");
+}
