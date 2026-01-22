@@ -394,3 +394,13 @@ if (isLoggedIn === true) {
 } else {
   console.log("User is not logged in");
 }
+
+//39. Check result pass or fail
+
+let marks = 45;
+
+if (marks >= 40) {
+  console.log("Pass");
+} else {
+  console.log("Fail");
+}
