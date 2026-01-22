@@ -28,3 +28,22 @@ if (numb === 0){
     console.log("number is not zero");
 };
 
+//4. Check if a number is even
+
+let even = 6;
+
+if (even % 2 == 0){
+    console.log("Number is even");
+}else{
+    console.log("Number is not even");
+};
+
+//5. Check if a number is odd
+
+let odd = 7;
+
+if (odd % 2 !== 0){
+    console.log("Number is odd");
+}else{
+    console.log("Number is not odd");
+};
