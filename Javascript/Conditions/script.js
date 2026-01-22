@@ -353,3 +353,13 @@ if (gae > 18 ){
 }else{
     console.log("Child")
 }
+
+//35. Check valid age
+
+let ages = 25;
+
+if (ages > 0 && ages <= 120) {
+  console.log("Valid age");
+} else {
+  console.log("Invalid age");
+}
