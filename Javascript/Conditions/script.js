@@ -338,9 +338,18 @@ let nume = -2;
 
 if (nume > 0) {
   console.log("Positive number");
-} else if (nume < 0) {
+} else if (nume < 0) {                      // items add = positive , negative , zero
   console.log("Negative number");
 } else {
   console.log("Zero");
 }
 
+//34. Check child or adult
+
+let gae = 23
+
+if (gae > 18 ){
+    console.log("aduit")
+}else{
+    console.log("Child")
+}
