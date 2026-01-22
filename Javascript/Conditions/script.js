@@ -170,3 +170,23 @@ if (balance === 0) {
 }else{
     console.log("Balance is not zero");
 }
+
+//18. Check if balance is not zero
+
+let balnce = 19000;
+
+if (balnce === 0) {    // !==
+    console.log("Balance is zero");
+}else{
+    console.log("Balance is not zero");
+}
+
+//19. Check if temperature is above 30
+
+let tem = 45;
+
+if (tem > 30){
+    console.log("tem 30 above");
+}else{
+    console.log("tem 30 below");
+}
