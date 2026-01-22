@@ -67,3 +67,16 @@ if(belw < 18 ){
 } else{
     console.log("greater than 18");
 };
+
+//8. Check if two numbers are equal.
+
+let numer = 2;
+let nube  = 2;
+
+if(numer === nube){
+    console.log("number is equal");
+}else{
+    console.log("number is not equal");
+};
+
+//9. Check if first number is greater
