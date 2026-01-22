@@ -280,3 +280,13 @@ if (passwrd === "acd") {
 } else {
   console.log("Password wrong");
 }
+
+//28. Check speed exceeds limit
+
+let speedLimit = 178;
+
+if (speedLimit > 140 ){
+    console.log("speed is limit over");
+}else{
+    console.log("Speed is done");
+}
