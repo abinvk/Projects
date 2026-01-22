@@ -230,3 +230,23 @@ if(salary > 20000){
 }else{
     console.log("Your salary is very low")
 }
+
+//24. Check number divisible by 5
+
+let nym = 25;
+
+if (nym % 5 === 0) {
+  console.log("Number is divisible by 5");
+} else {
+  console.log("Number is not divisible by 5");
+}
+
+//Check if a number is divisible by 10
+
+let net = 20;
+
+if(net % 10 === 0) {
+    console.log("Number is divisible by 10");
+}else{
+    console.log("Number is not divisible by 10")
+}
