@@ -404,3 +404,13 @@ if (marks >= 40) {
 } else {
   console.log("Fail");
 }
+
+//40. Check score above average
+
+let score = 75;
+
+if (score > 50) {
+  console.log("Score is above average");
+} else {
+  console.log("Score is average or below");
+}
