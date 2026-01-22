@@ -1,4 +1,3 @@
-
 //1. Check if a number is positive
 
 let number = 10;
@@ -18,3 +17,14 @@ if(num < 0 ){
 }else{
     console.log("number is positive");
 };
+
+//3. Check if a number is zero
+
+let numb = 0;
+
+if (numb === 0){
+    console.log("number is zero");
+}else{
+    console.log("number is not zero");
+};
+
