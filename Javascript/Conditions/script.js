@@ -100,3 +100,23 @@ if (st2 > st1){
 }else{
     console.log("second number is not greater");
 }
+
+//11. Check if a number is greater than 100
+
+let ter = 170;
+
+if( ter > 100){
+    console.log("Number is greater 100")
+}else{
+    console.log("Number is 100 less")
+}
+
+//12. Check if a number is less than 50
+
+let less = 35;
+
+if (less < 50){
+    console.log("number is less 50");
+}else{
+    console.log("Number not less 50");
+}
