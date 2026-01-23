@@ -565,16 +565,16 @@ if (mars < 40) {
 
 //50. Rating (bad/average/good/excellent)
 
-let rating = 3.99;
+let rating = 9.99;
 
-if (rating <= 9.99) {
-  console.log("Excellent")
-}else if(rating <= 7.99){
-  console.log("Good")
-}else if(rating <= 5.99){
-  console.log("Average")
-}else if(rating <= 3.99){
-  console.log("Bad")
-}else{
-  console.log("Invalid")
+if (rating <= 3.99) {
+  console.log("Bad");
+} else if (rating <= 5.99) {
+  console.log("Average");
+} else if (rating <= 7.99) {
+  console.log("Good");
+} else if (rating <= 9.99) {
+  console.log("Excellent");
+} else {
+  console.log("Invalid");
 }
