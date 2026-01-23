@@ -468,3 +468,38 @@ if (units <= 100) {
   bill = (100 * 3) + (100 * 5) + ((units - 200) * 8);
 }
 console.log("Electricity Bill: ₹" + bill);
+
+//45. Salary tax slab
+
+let saary = 750000;
+let tax = 0;
+
+if (saary <= 250000) {
+  tax = 0;
+} else if (saary <= 500000) {
+  tax = (saary - 250000) * 0.05;
+} else if (saary <= 1000000) {
+  tax = (250000 * 0.05) + ((saary - 500000) * 0.20);
+} else {
+  tax = (250000 * 0.05) + (500000 * 0.20) + ((saary - 1000000) * 0.30);
+}
+console.log("Tax Amount: ₹" + tax);
+
+//46. Discount based on price
+
+let price = 6000;
+let discount = 0;
+let finalPrice = 0;
+
+if (price < 1000) {
+  discount = 0;
+} else if (price < 5000) {
+  discount = price * 0.10;
+} else {
+  discount = price * 0.20;
+}
+
+finalPrice = price - discount;
+
+console.log("Discount: ₹" + discount);
+console.log("Final Price: ₹" + finalPrice);
