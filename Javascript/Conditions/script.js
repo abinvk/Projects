@@ -531,3 +531,34 @@ console.log("BMI:", bmi.toFixed(2));
   // = 80 / (1.80 × 1.80)
   // = 80 / 3.24
   // = 24.691358...
+
+
+  //48. Traffic light instruction
+
+let signal = "Red";
+
+if (signal === "Red") {
+  console.log("Stop");
+} else if (signal === "Yellow") {
+  console.log("Get Ready");
+} else if (signal === "Green") {
+  console.log("Go");
+} else {
+  console.log("Invalid Signal");
+}
+
+//49. Exam result classification
+
+let marks = 72;
+
+if (marks < 40) {
+  console.log("Fail");
+} else if (marks < 60) {
+  console.log("Pass");
+} else if (marks < 80) {
+  console.log("First Class");
+} else if (marks <= 100) {
+  console.log("Distinction");
+} else {
+  console.log("Invalid Marks");
+}
