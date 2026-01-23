@@ -549,15 +549,15 @@ if (signal === "Red") {
 
 //49. Exam result classification
 
-let marks = 72;
+let mars = 72;
 
-if (marks < 40) {
+if (mars < 40) {
   console.log("Fail");
-} else if (marks < 60) {
+} else if (mars < 60) {
   console.log("Pass");
-} else if (marks < 80) {
+} else if (mars < 80) {
   console.log("First Class");
-} else if (marks <= 100) {
+} else if (mars <= 100) {
   console.log("Distinction");
 } else {
   console.log("Invalid Marks");
