@@ -523,3 +523,11 @@ if (bmi < 18.5) {
 }
 
 console.log("BMI:", bmi.toFixed(2));
+
+
+//Weight = 80kg, Height = 1.80m → BMI (2 decimal)
+
+//BMI = weight / (height × height)
+  // = 80 / (1.80 × 1.80)
+  // = 80 / 3.24
+  // = 24.691358...
