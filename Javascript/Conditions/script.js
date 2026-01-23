@@ -414,3 +414,31 @@ if (score > 50) {
 } else {
   console.log("Score is average or below");
 }
+
+//41. Print grade based on marks
+
+let mrks = 85;
+
+if (mrks >= 90) {
+  console.log("Grade A");
+} else if (mrks >= 80) {
+  console.log("Grade B");
+} else if (mrks >= 70) {
+  console.log("Grade C");
+} else if (mrks >= 60) {
+  console.log("Grade D");
+} else {
+  console.log("Fail");
+}
+
+//42. Check age group (child/adult/senior)
+
+let ageGroup = 68;
+
+if (ageGroup <= 12) {
+  console.log("Child");
+} else if (ageGroup <= 59) {
+  console.log("Adult");
+} else {
+  console.log("Senior");
+}
