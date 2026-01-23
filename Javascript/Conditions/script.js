@@ -578,3 +578,19 @@ if (rating <= 3.99) {
 } else {
   console.log("Invalid");
 }
+
+//51. Time of day (morning/afternoon/night)
+
+let hour = 22; // 0 to 23
+
+if (hour >= 5 && hour <= 11) {
+  console.log("Morning");
+} else if (hour >= 12 && hour <= 16) {
+  console.log("Afternoon");
+} else if (hour >= 17 && hour <= 20) {
+  console.log("Evening");
+} else if ((hour >= 21 && hour <= 23) || (hour >= 0 && hour <= 4)) {
+  console.log("Night");
+} else {
+  console.log("Invalid Time");
+}
