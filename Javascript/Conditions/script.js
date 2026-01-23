@@ -442,3 +442,29 @@ if (ageGroup <= 12) {
 } else {
   console.log("Senior");
 }
+
+//43. Check temperature (cold/warm/hot)
+
+let tempe = 48;
+
+if (tempe <= -10){
+  console.log("Cold");
+} else if (tempe <= 45){
+  console.log("Warm");
+} else {
+  console.log("Hot");
+}
+
+//44. Electricity bill slab
+
+let units = 250;
+let bill = 0;
+
+if (units <= 100) {
+  bill = units * 3;
+} else if (units <= 200) {
+  bill = (100 * 3) + ((units - 100) * 5);
+} else {
+  bill = (100 * 3) + (100 * 5) + ((units - 200) * 8);
+}
+console.log("Electricity Bill: ₹" + bill);
