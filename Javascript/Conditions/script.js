@@ -503,3 +503,23 @@ finalPrice = price - discount;
 
 console.log("Discount: ₹" + discount);
 console.log("Final Price: ₹" + finalPrice);
+
+
+//47. BMI category
+
+let weight = 70;   // kg
+let height = 1.75; // meter
+
+let bmi = weight / (height * height);
+
+if (bmi < 18.5) {
+  console.log("Underweight");
+} else if (bmi < 25) {
+  console.log("Normal");
+} else if (bmi < 30) {
+  console.log("Overweight");
+} else {
+  console.log("Obese");
+}
+
+console.log("BMI:", bmi.toFixed(2));
