@@ -1180,23 +1180,50 @@ switch (signall) {
 
 let item = "porotta";
 
-switch(item) {
-    case "biriyani":
-      console.log("1-item");
-  break;
-
-    case "porotta":
-      console.log("2-item");
+  switch(item) {
+      case "biriyani":
+        console.log("1-item");
     break;
 
-    case "beef varatt":
-      console.log("3-item");
-    break;
-
-    case "mandhi":
-        console.log("4-item");
+      case "porotta":
+        console.log("2-item");
       break;
 
-      default:
-        console.log("Order cancel");
+      case "beef varatt":
+        console.log("3-item");
+      break;
+
+      case "mandhi":
+          console.log("4-item");
+        break;
+
+        default:
+          console.log("Order cancel");
+  }
+// Correct Method
+
+let choice = 2;
+
+switch (choice) {
+  case 1:
+    console.log("Tea");
+    break;
+
+  case 2:
+    console.log("Coffee");
+    break;
+
+  case 3:                                     // Correct Method
+    console.log("Juice");
+    break;
+
+  case 4:
+    console.log("Snacks");
+    break;
+
+  default:
+    console.log("Invalid Choice");
 }
+
+
+//96. Language selection
