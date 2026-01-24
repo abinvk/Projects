@@ -622,3 +622,17 @@ if (attendance < 75) {
 } else {
   console.log("Invalid Attendance");
 }
+
+//55. Weather condition
+
+let temperature = 32; // in Celsius
+
+if (temperature < 15) {
+  console.log("Cold");
+} else if (temperature < 30) {
+  console.log("Normal");
+} else if (temperature < 40) {
+  console.log("Hot");
+} else {
+  console.log("Very Hot");
+}
