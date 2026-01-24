@@ -636,3 +636,22 @@ if (temperature < 15) {
 } else {
   console.log("Very Hot");
 }
+
+//56. Student performance level
+
+let scre = 68;
+
+if (scre < 40) {
+  console.log("Poor");
+} else if (scre < 60) {
+  console.log("Average");
+} else if (scre < 80) {
+  console.log("Good");
+} else if (scre <= 100) {
+  console.log("Excellent");
+} else {
+  console.log("Invalid Score");
+}
+
+
+//57. Loan eligibility
