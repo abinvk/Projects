@@ -841,3 +841,13 @@ if (nuaum >= 10 && nuaum <= 100) {
 } else {
   console.log("Outside Range");
 }
+
+//71. Check user is admin OR manager
+
+let users ="Admin";
+
+if (users === "Admin" || users ==="Manager"){
+  console.log("Allowed")
+}else{
+  console.log("Not Allowed")
+}
