@@ -1743,3 +1743,28 @@ switch (type) {
   default:
     console.log("Unknown Notification Type");
 }
+
+//115. App theme selection
+
+let theme = "dark"; // "light", "dark", "blue", "system"
+
+switch (theme) {
+  case "light":
+    console.log("Light Theme Enabled");
+    break;
+
+  case "dark":
+    console.log("Dark Theme Enabled");
+    break;
+
+  case "blue":
+    console.log("Blue Theme Enabled");
+    break;
+
+  case "system":
+    console.log("System Default Theme Enabled");
+    break;
+
+  default:
+    console.log("Invalid Theme Selection");
+}
