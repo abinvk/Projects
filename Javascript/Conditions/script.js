@@ -1227,3 +1227,90 @@ switch (choice) {
 
 
 //96. Language selection
+
+let lang = "malayalam"; // "enlish", "malayalam", "hindi", "tamil"
+
+switch (lang) {
+  case "english":
+    console.log("English");
+    break;
+
+  case "malayalam":
+    console.log("Malayalam");
+    break;
+
+  case "hindi":
+    console.log("Hindi");
+    break;
+
+  case "tamil":
+    console.log("Tamil");
+    break;
+
+  default:
+    console.log("Language Not Supported");
+}
+
+//97. User role display
+
+let role = "manager"; // "admin", "manager", "user"
+
+switch (role) {
+  case "admin":
+    console.log("Admin Dashboard");
+    break;
+
+  case "manager":
+    console.log("Manager Panel");
+    break;
+
+  case "user":
+    console.log("User Home");
+    break;
+
+  default:
+    console.log("Guest Access");
+}
+
+//98. Game level selection
+
+let level = 2; // 1, 2, 3
+
+switch (level) {
+  case 1:
+    console.log("Easy Level");
+    break;
+
+  case 2:
+    console.log("Medium Level");
+    break;
+
+  case 3:
+    console.log("Hard Level");
+    break;
+
+  default:
+    console.log("Invalid Level");
+}
+
+//99. ATM options menu
+
+let selection = "Staitment Checking";    // "Balace Cheking", "Money Widrow", "Staitment Checking"
+
+switch (selection){
+
+  case "Balance Cheking":
+    console.log("Your balance cheking");
+    break;
+
+    case "Money Widrow":
+      console.log("your money widrow");
+    break;
+
+    case "Staitment Checking":
+      console.log("Your staitment cheking");
+      break;
+
+      default:
+      console.log("nothing")
+}
