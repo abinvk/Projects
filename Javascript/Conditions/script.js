@@ -881,3 +881,15 @@ if (phone.length === 10) {
 } else {
   console.log("Invalid Phone Number");
 }
+
+//75. Check student passed all subjects
+
+let math = 45;
+let science = 48;
+let english = 62;
+
+if (math >= 40 && science >= 40 && english >= 40) {
+  console.log("Passed All Subjects");
+} else {
+  console.log("Failed");
+}
