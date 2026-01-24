@@ -915,3 +915,15 @@ if (isLoggedIIn === true && isVerified === true) {
 } else {
   console.log("Access Denied");
 }
+
+//78. Check balance sufficient AND card valid
+
+let balancee = 5000;
+let amountt = 3000;
+let cardValid = true;
+
+if (balancee >= amountt && cardValid === true) {
+  console.log("Payment Successful");
+} else {
+  console.log("Payment Failed");
+}
