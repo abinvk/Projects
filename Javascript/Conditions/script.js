@@ -958,3 +958,15 @@ if (aage >= 18) {
 } else {
   console.log("Not Eligible");
 }
+
+//82. Check product available AND affordable
+
+let inStock = true;
+let pricee = 1500;
+let budget = 2000;
+
+if (inStock === true && pricee <= budget) {
+  console.log("Can Buy Product");
+} else {
+  console.log("Cannot Buy Product");
+}
