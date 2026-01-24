@@ -1037,3 +1037,34 @@ if (isLoggedInn === true || isSignedUp === true) {
 } else {
   console.log("Please Login or Sign Up");
 }
+
+//88. Check payment success
+
+let paymentStatus = "success"; // "success" or "failed"
+
+if (paymentStatus === "success") {
+  console.log("Payment Successful");
+} else {
+  console.log("Payment Failed");
+}
+
+//89. Check offer applicable OR expired
+
+let offerApplicable = false;
+let offerExpired = true;
+
+if (offerApplicable === true || offerExpired === true) {
+  console.log("Offer Status Available");
+} else {
+  console.log("No Active Offer");
+}
+
+//90. Check number NOT negative
+
+let nnum = 5;
+
+if (nnum >= 0) {
+  console.log("Not Negative");
+} else {
+  console.log("Negative");
+}
