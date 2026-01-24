@@ -713,3 +713,29 @@ if (orderAmount < 500) {
 console.log("Delivery Charge: ₹" + deliveryCharge);
 
 //61. Fuel level status
+
+let fuel = 25; // percentage
+
+if (fuel < 10) {
+  console.log("Empty");
+} else if (fuel < 30) {
+  console.log("Low");
+} else if (fuel < 60) {
+  console.log("Medium");
+} else if (fuel <= 100) {
+  console.log("Full");
+} else {
+  console.log("Invalid Fuel Level");
+}
+
+//62. Experience level (junior/mid/senior)
+
+let experience = 3; // years
+
+if (experience < 2) {
+  console.log("Junior");
+} else if (experience < 5) {
+  console.log("Mid");
+} else {
+  console.log("Senior");
+}
