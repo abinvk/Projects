@@ -1526,3 +1526,77 @@ if (orders === 1) {
   console.log("Invalid Order");
 }
 
+//106. Payment method selection
+
+let paymentMethod = 3; // 1, 2, 3, 4
+
+switch (paymentMethod) {
+  case 1:
+    console.log("Payment by Cash");
+    break;
+
+  case 2:
+    console.log("Payment by Card");
+    break;
+
+  case 3:
+    console.log("Payment by UPI");
+    break;
+
+  case 4:
+    console.log("Payment by Net Banking");
+    break;
+
+  default:
+    console.log("Invalid Payment Method");
+}
+
+//107. Transport mode selection
+
+let mode = 1; // 1, 2, 3, 4
+
+switch (mode) {
+  case 1:
+    console.log("Travel by Bus");
+    break;
+
+  case 2:
+    console.log("Travel by Train");
+    break;
+
+  case 3:
+    console.log("Travel by Flight");
+    break;
+
+  case 4:
+    console.log("Travel by Taxi");
+    break;
+
+  default:
+    console.log("Invalid Transport Mode");
+}
+
+//108. Device type detection
+
+let device = "mobile"; // "mobile", "tablet", "desktop", "laptop"
+
+switch (device) {
+  case "mobile":
+    console.log("Mobile Device");
+    break;
+
+  case "tablet":
+    console.log("Tablet Device");
+    break;
+
+  case "desktop":
+    console.log("Desktop Device");
+    break;
+
+  case "laptop":
+    console.log("Laptop Device");
+    break;
+
+  default:
+    console.log("Unknown Device Type");
+}
