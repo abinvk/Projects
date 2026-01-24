@@ -1600,3 +1600,71 @@ switch (device) {
   default:
     console.log("Unknown Device Type");
 }
+
+//109. Gender display
+
+let gender = "F"; // "M", "F", "O"
+
+switch (gender) {
+  case "M":
+    console.log("Male");
+    break;
+
+  case "F":
+    console.log("Female");
+    break;
+
+  case "O":
+    console.log("Other");
+    break;
+
+  default:
+    console.log("Invalid Gender");
+}
+
+//110. Error code message
+
+let errorCode = 404;
+
+switch (errorCode) {
+  case 400:
+    console.log("Bad Request");
+    break;
+
+  case 401:
+    console.log("Unauthorized");
+    break;
+
+  case 404:
+    console.log("Not Found");
+    break;
+
+  case 500:
+    console.log("Server Error");
+    break;
+
+  default:
+    console.log("Unknown Error");
+}
+
+
+//111. Subscription plan
+
+let plan = 3; // 1, 2, 3
+
+switch (plan) {
+  case 1:
+    console.log("Free Plan - Limited Access");
+    break;
+
+  case 2:
+    console.log("Basic Plan - Standard Access");
+    break;
+
+  case 3:
+    console.log("Premium Plan - Full Access");
+    break;
+
+  default:
+    console.log("Invalid Subscription Plan");
+}
