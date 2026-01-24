@@ -755,3 +755,37 @@ if (battery < 10) {
 } else {
   console.log("Invalid Battery Level");
 }
+
+
+//64. Shopping offer selection
+
+let amount = 4200;
+let offer = "";
+
+if (amount < 1000) {
+  offer = "No Offer";
+} else if (amount < 3000) {
+  offer = "5% Discount";
+} else if (amount < 5000) {
+  offer = "10% Discount";
+} else {
+  offer = "20% Discount";
+}
+
+console.log("Offer:", offer);
+
+//65. Course eligibility
+
+let percentage = 72;
+
+if (percentage < 50) {
+  console.log("Not Eligible");
+} else if (percentage < 65) {
+  console.log("Eligible for Diploma");
+} else if (percentage < 80) {
+  console.log("Eligible for Degree");
+} else if (percentage <= 100) {
+  console.log("Eligible for Professional Course");
+} else {
+  console.log("Invalid Percentage");
+}
