@@ -851,3 +851,23 @@ if (users === "Admin" || users ==="Manager"){
 }else{
   console.log("Not Allowed")
 }
+
+//72. Check password NOT empty
+
+let passwordd ="asdfg";   // not empty
+
+if (passwordd !== "") {
+  console.log("Valid Password");
+} else {
+  console.log("Password is Empty");
+}
+
+//73. Check number NOT zero
+
+let numebb = 10;
+
+if(numebb !== 0){
+  console.log("Not zero")
+}else{
+  console.log("Zero")
+}
