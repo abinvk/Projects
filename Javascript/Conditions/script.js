@@ -682,3 +682,34 @@ if (passwor.length < 6) {
 } else {
   console.log("Strong Password");
 }
+
+//59. Internet speed level
+
+let sped = 35; // Mbps
+
+if (sped < 5) {
+  console.log("Very Slow");
+} else if (sped < 20) {
+  console.log("Slow");
+} else if (sped < 50) {
+  console.log("Average");
+} else {
+  console.log("Fast");
+}
+
+//60. Delivery charge slab
+
+let orderAmount = 450;
+let deliveryCharge = 0;
+
+if (orderAmount < 500) {
+  deliveryCharge = 50;
+} else if (orderAmount < 1000) {
+  deliveryCharge = 30;
+} else {
+  deliveryCharge = 0;
+}
+
+console.log("Delivery Charge: ₹" + deliveryCharge);
+
+//61. Fuel level status
