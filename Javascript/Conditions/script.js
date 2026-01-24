@@ -594,3 +594,31 @@ if (hour >= 5 && hour <= 11) {
 } else {
   console.log("Invalid Time");
 }
+
+//52. Speed categor
+
+let speed = 85; // km/h
+
+if (speed < 40) {
+  console.log("Slow");
+} else if (speed < 80) {
+  console.log("Normal");
+} else if (speed < 120) {
+  console.log("Fast");
+} else {
+  console.log("Over Speed");
+}
+
+//53. Attendance status
+
+let attendance = 82; // percentage
+
+if (attendance < 75) {
+  console.log("Not Eligible");
+} else if (attendance < 90) {
+  console.log("Eligible");
+} else if (attendance <= 100) {
+  console.log("Excellent Attendance");
+} else {
+  console.log("Invalid Attendance");
+}
