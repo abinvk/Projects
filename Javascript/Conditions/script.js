@@ -893,3 +893,25 @@ if (math >= 40 && science >= 40 && english >= 40) {
 } else {
   console.log("Failed");
 }
+
+//76. Check weather hot AND humid
+
+let temperaturee = 62; // Celsius
+let humidity = 80;    // Percentage
+
+if (temperaturee >= 20 && humidity >= 60) {
+  console.log("Hot and Humid");
+} else {
+  console.log("Not Hot and Humid");
+}
+
+//77. Check user logged in AND verified
+
+let isLoggedIIn = true;
+let isVerified = false;
+
+if (isLoggedIIn === true && isVerified === true) {
+  console.log("Access Granted");
+} else {
+  console.log("Access Denied");
+}
