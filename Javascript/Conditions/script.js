@@ -1068,3 +1068,57 @@ if (nnum >= 0) {
 } else {
   console.log("Negative");
 }
+
+//91. Print day name using number
+
+let days = 3;
+
+if (days === 1) {
+  console.log("Monday");
+} else if (days === 2) {
+  console.log("Tuesday");
+} else if (days === 3) {
+  console.log("Wednesday");
+} else if (days === 4) {
+  console.log("Thursday");
+} else if (days === 5) {
+  console.log("Friday");
+} else if (days === 6) {
+  console.log("Saturday");
+} else if (days === 7) {
+  console.log("Sunday");
+} else {
+  console.log("Invalid Day");
+}
+
+//92. Print month name using number
+
+let month = 5;
+
+if (month === 1) {
+  console.log("January");
+} else if (month === 2) {
+  console.log("February");
+} else if (month === 3) {
+  console.log("March");
+} else if (month === 4) {
+  console.log("April");
+} else if (month === 5) {
+  console.log("May");
+} else if (month === 6) {
+  console.log("June");
+} else if (month === 7) {
+  console.log("July");
+} else if (month === 8) {
+  console.log("August");
+} else if (month === 9) {
+  console.log("September");
+} else if (month === 10) {
+  console.log("October");
+} else if (month === 11) {
+  console.log("November");
+} else if (month === 12) {
+  console.log("December");
+} else {
+  console.log("Invalid Month");
+}
