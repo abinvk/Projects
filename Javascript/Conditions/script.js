@@ -1122,3 +1122,55 @@ if (month === 1) {
 } else {
   console.log("Invalid Month");
 }
+
+//93. Simple calculator using switch
+
+let num1 = 10;
+let num2 = 5;
+let operator = "*"; // "+", "-", "*", "/"
+
+switch (operator) {
+  case "+":
+    console.log("Result:", num1 + num2);
+    break;
+
+  case "-":
+    console.log("Result:", num1 - num2);
+    break;
+
+  case "*":
+    console.log("Result:", num1 * num2);
+    break;
+
+  case "/":
+    if (num2 !== 0) {
+      console.log("Result:", num1 / num2);
+    } else {
+      console.log("Cannot divide by zero");
+    }
+    break;
+
+  default:
+    console.log("Invalid Operator");
+}
+
+//94. Traffic signal using switch
+
+let signall = "Red"; // "Red", "Yellow", "Green"
+
+switch (signall) {
+  case "Red":
+    console.log("Stop");
+    break;
+
+  case "Yellow":
+    console.log("Get Ready");
+    break;
+
+  case "Green":
+    console.log("Go");
+    break;
+
+  default:
+    console.log("Invalid Signal");
+}
