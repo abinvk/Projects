@@ -653,5 +653,22 @@ if (scre < 40) {
   console.log("Invalid Score");
 }
 
-
 //57. Loan eligibility
+
+let cibil =  800;
+
+if(cibil <= 610){
+  console.log("Not Eligibil");
+}else if(cibil <= 670){
+  console.log("Fair")
+}else if(cibil <= 710){
+  console.log("Not Problen Ok")
+}else if(cibil <= 790){
+  console.log("Good")
+}else if(cibil <= 860){
+  console.log("Excellent")
+}else{
+  console.log("more")
+}
+
+//58. Password strength
