@@ -927,3 +927,24 @@ if (balancee >= amountt && cardValid === true) {
 } else {
   console.log("Payment Failed");
 }
+
+//79. Check discount applicable
+
+let amounttt = 1200;
+
+if (amounttt >= 1000) {
+  console.log("Discount Applicable");
+} else {
+  console.log("No Discount");
+}
+
+//80. Check weekend OR holiday
+
+let isWeekend = false;
+let isHoliday = true;
+
+if (isWeekend === true || isHoliday === true) {
+  console.log("Holiday");
+} else {
+  console.log("Working Day");
+}
