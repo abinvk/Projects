@@ -789,3 +789,35 @@ if (percentage < 50) {
 } else {
   console.log("Invalid Percentage");
 }
+
+//66. Check age > 18 AND citizen
+
+let agee = 20;
+let isCitizen = true;
+
+if (agee >= 18 && isCitizen === true) {
+  console.log("Eligible");
+} else {
+  console.log("Not Eligible");
+}
+
+//67. Check username AND password
+
+let userName = "Abin" ;
+let passWord = "1234";
+
+if( userName === "Abin" && passWord === "1234"){
+  console.log("Login Successful");
+}else{
+  console.log("logig Failed");
+}
+
+//68. Check salary > 30000 OR bonus exists
+
+let saalary = 25000;
+let bonusExists = true;
+if (salary > 30000 || bonusExists === true) {   // OR → രണ്ടിൽ ഏതെങ്കിലും ഒന്ന് true ആണെങ്കിൽ whole condition true
+  console.log("Eligible");                     //  false || true  =  true
+} else {
+  console.log("Not Eligible");
+}
