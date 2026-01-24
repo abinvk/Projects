@@ -1312,5 +1312,32 @@ switch (selection){
       break;
 
       default:
-      console.log("nothing")
+      console.log("nothing");
+}
+
+
+//More Method
+
+
+let option = 2; // 1, 2, 3, 4
+
+switch (option) {
+  case 1:
+    console.log("Balance Check");
+    break;
+
+  case 2:
+    console.log("Withdraw Money");
+    break;
+
+  case 3:
+    console.log("Deposit Money");
+    break;
+
+  case 4:
+    console.log("Mini Statement");
+    break;
+
+  default:
+    console.log("Invalid Option");
 }
