@@ -821,3 +821,23 @@ if (salary > 30000 || bonusExists === true) {   // OR → രണ്ടിൽ ഏ
 } else {
   console.log("Not Eligible");
 }
+
+//69. Check number between 1 and 10
+
+let nuum = 7;
+
+if (nuum >= 1 && nuum <= 10) {
+  console.log("Inside Range");
+} else {
+  console.log("Outside Range");
+}
+
+//70. Check number between 10 and 100
+
+let nuaum = 700;
+
+if (nuaum >= 10 && nuaum <= 100) {
+  console.log("Inside Range");
+} else {
+  console.log("Outside Range");
+}
