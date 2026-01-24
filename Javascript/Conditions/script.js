@@ -948,3 +948,13 @@ if (isWeekend === true || isHoliday === true) {
 } else {
   console.log("Working Day");
 }
+
+//81. Check age NOT below 18
+
+let aage = 20;
+
+if (aage >= 18) {
+  console.log("Eligible");
+} else {
+  console.log("Not Eligible");
+}
