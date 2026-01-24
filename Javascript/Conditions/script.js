@@ -739,3 +739,19 @@ if (experience < 2) {
 } else {
   console.log("Senior");
 }
+
+//63. Mobile battery status
+
+let battery = 45; // percentage
+
+if (battery < 10) {
+  console.log("Very Low");
+} else if (battery < 30) {
+  console.log("Low");
+} else if (battery < 80) {
+  console.log("Normal");
+} else if (battery <= 100) {
+  console.log("Full");
+} else {
+  console.log("Invalid Battery Level");
+}
