@@ -1668,3 +1668,53 @@ switch (plan) {
   default:
     console.log("Invalid Subscription Plan");
 }
+
+//112. Country code mapping
+
+let countryCode = "IN"; // "IN", "US", "UK", "AU"
+
+switch (countryCode) {
+  case "IN":
+    console.log("India");
+    break;
+
+  case "US":
+    console.log("United States");
+    break;
+
+  case "UK":
+    console.log("United Kingdom");
+    break;
+
+  case "AU":
+    console.log("Australia");
+    break;
+
+  default:
+    console.log("Country Code Not Supported");
+}
+
+//113. Shirt size selection
+
+let size = "M"; // "S", "M", "L", "XL"
+
+switch (size) {
+  case "S":
+    console.log("Small Size");
+    break;
+
+  case "M":
+    console.log("Medium Size");
+    break;
+
+  case "L":
+    console.log("Large Size");
+    break;
+
+  case "XL":
+    console.log("Extra Large Size");
+    break;
+
+  default:
+    console.log("Invalid Size");
+}
