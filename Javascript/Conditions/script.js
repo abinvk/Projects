@@ -1718,3 +1718,28 @@ switch (size) {
   default:
     console.log("Invalid Size");
 }
+
+//114. Notification type
+
+let type = "warning"; // "info", "warning", "error", "success"
+
+switch (type) {
+  case "info":
+    console.log("This is an information message");
+    break;
+
+  case "warning":
+    console.log("Warning! Please be careful");
+    break;
+
+  case "error":
+    console.log("Error occurred");
+    break;
+
+  case "success":
+    console.log("Operation successful");
+    break;
+
+  default:
+    console.log("Unknown Notification Type");
+}
