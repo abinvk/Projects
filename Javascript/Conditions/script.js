@@ -1341,3 +1341,70 @@ switch (option) {
   default:
     console.log("Invalid Option");
 }
+
+//100. Grade using switch
+
+let marksss = 85;
+
+switch (true) {
+  case (marksss >= 90 && marksss <= 100):
+    console.log("Grade A");
+    break;
+
+  case (marksss >= 80):
+    console.log("Grade B");
+    break;
+
+  case (marksss >= 70):
+    console.log("Grade C");
+    break;
+
+  case (marksss >= 60):
+    console.log("Grade D");
+    break;
+
+  default:
+    console.log("Grade F");
+}
+
+
+//101. Weekday or weekend
+
+let dayy = 6; // 1 = Monday, ..., 7 = Sunday
+
+if (dayy >= 1 && dayy <= 5) {
+  console.log("Weekday");
+} else if (dayy === 6 || dayy === 7) {
+  console.log("Weekend");
+} else {
+  console.log("Invalid Day");
+}
+
+//102. Weather type selection
+
+let weather = "rainy"; // "sunny", "rainy", "cloudy", "snowy"
+
+switch (weather) {
+  case "sunny":
+    console.log("Sunny Weather");
+    break;
+
+  case "rainy":
+    console.log("Rainy Weather");
+    break;
+
+  case "cloudy":
+    console.log("Cloudy Weather");
+    break;
+
+  case "snowy":
+    console.log("Snowy Weather");
+    break;
+
+  default:
+    console.log("Unknown Weather Type");
+}
+
+
+//103. Course selection menu
+
