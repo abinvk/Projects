@@ -1408,3 +1408,121 @@ switch (weather) {
 
 //103. Course selection menu
 
+let qulification = "+2th"  // 10th, +2, Digree, Pg
+
+switch(qulification){
+  case "10th":
+  console.log("PSC");
+  break;
+
+  case "+2":
+    console.log("Diploma");
+    break;
+
+    case "Digree":
+      console.log("PG");
+      break;
+
+      case "Pg":
+        console.log("Higher Study");
+        break;
+
+        default:
+        console.log("your life  fool")
+}
+
+
+//More method
+
+let choicee = 3; // 1, 2, 3, 4
+
+switch (choicee) {
+  case 1:
+    console.log("JavaScript Course");
+    break;
+
+  case 2:
+    console.log("Python Course");
+    break;
+
+  case 3:
+    console.log("MERN Stack Course");
+    break;
+
+  case 4:
+    console.log("Java Course");
+    break;
+
+  default:
+    console.log("Invalid Course Selection");
+}
+
+//104. Movie rating message
+
+let ratingg = 4; // 1 to 5
+
+switch (ratingg) {
+  case 1:
+    console.log("Very Bad Movie");
+    break;
+
+  case 2:
+    console.log("Bad Movie");
+    break;
+
+  case 3:
+    console.log("Average Movie");
+    break;
+
+  case 4:
+    console.log("Good Movie");
+    break;
+
+  case 5:
+    console.log("Excellent Movie");
+    break;
+
+  default:
+    console.log("Invalid Rating");
+}
+
+//105. Food order system
+
+let order = 2; // 1, 2, 3, 4
+
+switch (order) {
+  case 1:
+    console.log("Burger - ₹120");
+    break;
+
+  case 2:
+    console.log("Pizza - ₹250");
+    break;
+
+  case 3:
+    console.log("Sandwich - ₹100");
+    break;
+
+  case 4:
+    console.log("Juice - ₹60");
+    break;
+
+  default:
+    console.log("Invalid Order");
+}
+// more method
+
+let orders = 3;
+                                                  
+if (orders === 1) {
+  console.log("Burger - ₹120");
+} else if (orders === 2) {                           //(Beginner clear logic)
+  console.log("Pizza - ₹250");
+} else if (orders === 3) {
+  console.log("Sandwich - ₹100");
+} else if (orders === 4) {
+  console.log("Juice - ₹60");
+} else {
+  console.log("Invalid Order");
+}
+
