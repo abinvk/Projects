@@ -970,3 +970,36 @@ if (inStock === true && pricee <= budget) {
 } else {
   console.log("Cannot Buy Product");
 }
+
+//83. Check marks NOT less than pass mark
+
+let markss = 45;
+let passMark = 40;
+
+if (markss >= passMark) {
+  console.log("Pass");
+} else {
+  console.log("Fail");
+}
+
+//84. Check valid email AND password
+
+let email = "abin";
+let passs = "123456";
+
+if(email === "abin" && passs === "123456"){
+  console.log("Login Valid")
+}else{
+  console.log("Invalid")
+}
+
+// more Method
+
+let emaill = "user@gmail.com";
+let passworddd = "abc123";
+
+if (emaill.includes("@") && emaill.includes(".") && passworddd.length >= 6) {
+  console.log("Login Valid");
+} else {
+  console.log("Invalid Email or Password");
+}
