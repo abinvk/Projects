@@ -871,3 +871,13 @@ if(numebb !== 0){
 }else{
   console.log("Zero")
 }
+
+//74. Check phone number valid length
+
+let phone = "9876543210";
+
+if (phone.length === 10) {
+  console.log("Valid Phone Number");
+} else {
+  console.log("Invalid Phone Number");
+}
