@@ -655,7 +655,7 @@ if (scre < 40) {
 
 //57. Loan eligibility
 
-let cibil =  800;
+let cibil =  900;
 
 if(cibil <= 610){
   console.log("Not Eligibil");
@@ -668,7 +668,17 @@ if(cibil <= 610){
 }else if(cibil <= 860){
   console.log("Excellent")
 }else{
-  console.log("more")
+  console.log("Good Profile Person")
 }
 
 //58. Password strength
+
+let passwor = "abc123456789";
+
+if (passwor.length < 6) {
+  console.log("Weak Password");
+} else if (passwor.length < 10) {
+  console.log("Medium Password");
+} else {
+  console.log("Strong Password");
+}
