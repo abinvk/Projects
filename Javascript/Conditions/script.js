@@ -1174,3 +1174,29 @@ switch (signall) {
   default:
     console.log("Invalid Signal");
 }
+
+
+//95. Menu item selection
+
+let item = "porotta";
+
+switch(item) {
+    case "biriyani":
+      console.log("1-item");
+  break;
+
+    case "porotta":
+      console.log("2-item");
+    break;
+
+    case "beef varatt":
+      console.log("3-item");
+    break;
+
+    case "mandhi":
+        console.log("4-item");
+      break;
+
+      default:
+        console.log("Order cancel");
+}
