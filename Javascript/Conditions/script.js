@@ -1003,3 +1003,37 @@ if (emaill.includes("@") && emaill.includes(".") && passworddd.length >= 6) {
 } else {
   console.log("Invalid Email or Password");
 }
+
+//85. Check job eligibility
+
+let agge = 22;
+let hasSkill = true;
+let experiennce = 2; // years
+
+if (agge >= 18 && hasSkill === true && experiennce >= 1) {
+  console.log("Eligible for Job");
+} else {
+  console.log("Not Eligible for Job");
+}
+
+//86. Check file size valid
+
+let fileSize = 4.2; // in MB
+let maxSize = 5;   // max allowed size in MB
+
+if (fileSize <= maxSize) {
+  console.log("File Size Valid");
+} else {
+  console.log("File Too Large");
+}
+
+//87. Check login OR signup
+
+let isLoggedInn = false;
+let isSignedUp = true;
+
+if (isLoggedInn === true || isSignedUp === true) {
+  console.log("Access Allowed");
+} else {
+  console.log("Please Login or Sign Up");
+}
