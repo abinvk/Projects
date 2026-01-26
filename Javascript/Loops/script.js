@@ -126,9 +126,9 @@ while (i <= 100){
 
 let a = 1;
 
-while (i <= 10){
-  console.log(i);
-  i++;
+while (a <= 10){
+  console.log(a);
+  a++;
   
 }
 
@@ -142,3 +142,11 @@ do {
 } while (s <= 10);
 
 //20. Print Hello 5 times
+
+let aa = 1;
+
+while(aa <=10){
+  console.log("hello " + aa)
+  aa++;
+}
+
