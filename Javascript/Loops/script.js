@@ -131,3 +131,14 @@ while (i <= 10){
   i++;
   
 }
+
+//19. Print numbers using do…while loop
+
+let s = 1;
+
+do {
+  console.log(s);
+  s++;
+} while (s <= 10);
+
+//20. Print Hello 5 times
