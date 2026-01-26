@@ -150,3 +150,14 @@ while(aa <=10){
   aa++;
 }
 
+//21. Print alphabets a–z
+
+for (let i = 97; i <= 122; i++) {                  // a b c d e .......
+  console.log(String.fromCharCode(i));
+}
+
+//22. Print alphabets A–Z
+
+for (let i = 65; i <= 90; i++) {                //A B C D F G H ......
+  console.log(String.fromCharCode(i));
+}
