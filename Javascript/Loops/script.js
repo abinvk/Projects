@@ -98,3 +98,9 @@ for (let i = 2; i <= 20; i += 2) {
 for (let i = 1; i <= 19; i +=2 ){
     console.log(i)
 }
+
+//15. Print table of 2
+
+for (let i =0; i <=10; i++){
+    console.log(2*i);
+}
