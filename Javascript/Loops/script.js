@@ -104,3 +104,30 @@ for (let i = 1; i <= 19; i +=2 ){
 for (let i =0; i <=10; i++){
     console.log(2*i);
 }
+
+//16. Print table of any number
+
+let num = 5;
+for (let i =0; i<=10;i++){
+  console.log(num*i);
+}
+
+//17. Print numbers until value reaches 100
+
+let i = 1;
+
+while (i <= 100){
+  console.log(i);
+  i++;
+  
+}
+
+//18. Print numbers using while loop
+
+let a = 1;
+
+while (i <= 10){
+  console.log(i);
+  i++;
+  
+}
