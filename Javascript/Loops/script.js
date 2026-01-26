@@ -57,3 +57,44 @@ for (let i = 1; i <= n; i++) {
     console.log(i);
   
 }
+
+//9. Print numbers between two given numbers
+
+let start = 5;
+let end = 10;
+
+for (let i = start +1 ; i < end; i++) {
+  console.log(i);
+}
+
+//10. Print square of numbers 1–10
+
+for (let i = 1; i <= 10; i++) {
+  console.log(i * i);
+}
+
+//11. Print cube of numbers 1–10
+
+for (let i = 1; i <= 10; i++) {
+  console.log(i * i * i);
+}
+
+//12. Print numbers except multiples of 3
+
+for (let i = 1; i <= 10; i++){
+    if (i % 3 !== 0){
+        console.log(i);
+    }
+}
+
+//13. Print first 10 even numbers
+
+for (let i = 2; i <= 20; i += 2) {
+  console.log(i);
+}
+
+//14. Print first 10 odd numbers
+
+for (let i = 1; i <= 19; i +=2 ){
+    console.log(i)
+}
