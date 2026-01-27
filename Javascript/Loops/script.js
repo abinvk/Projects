@@ -364,3 +364,12 @@ while (ia <= nc) {
 console.log(factt);
 
 //43. Find factorial using for loop
+
+let nv = 10;
+let facta = 1;
+
+for (let i = 1; i <= nv; i++) {
+  facta = facta * i;
+}
+
+console.log(facta);
