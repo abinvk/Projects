@@ -215,3 +215,15 @@ for (let i = 1; i <= 100; i++ ){
 for (let i = 1; i <= 100; i++) {
   console.log(i);
 }
+
+//30. Print reverse even numbers from 50
+
+for (let i = 50; i >=2; i -= 2) {
+  console.log(i);
+}
+
+for (let i = 50; i >= 1; i--) {
+  if (i % 2 === 0) {
+    console.log(i);
+  }
+}
