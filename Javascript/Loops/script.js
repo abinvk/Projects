@@ -342,3 +342,25 @@ let average = summm / countttt
 console.log(average);
 
 //41. Find factorial of a number
+
+let ba =5;
+let fact = 1;
+
+for(let i = 1; i<=ba; i++){
+  fact = fact * i;
+}
+console.log(fact);
+
+//42. Find factorial using while loop
+
+let nc = 5;
+let factt = 1;
+let ia = 1;
+
+while (ia <= nc) {
+  factt = factt * ia;
+  ia++;
+}
+console.log(factt);
+
+//43. Find factorial using for loop
