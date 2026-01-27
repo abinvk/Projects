@@ -384,3 +384,14 @@ for (let i = 1; i <= nk; i++) {
 }
 
 console.log(factc);
+
+//45. Find power of a number (an)
+
+let ab = 2;
+let an = 3;
+let result = 1
+
+for(let i =1; i<=an; i++){
+  result = result * ab;
+}
+console.log(result)
