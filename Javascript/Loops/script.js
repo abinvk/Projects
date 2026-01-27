@@ -161,3 +161,12 @@ for (let i = 97; i <= 122; i++) {                  // a b c d e .......
 for (let i = 65; i <= 90; i++) {                //A B C D F G H ......
   console.log(String.fromCharCode(i));
 }
+
+//23. Print numbers skipping 5
+
+for (let i = 1; i <= 10; i++){
+  if(i === 5){  // skip code
+    continue;
+  }
+  console.log(i);
+}
