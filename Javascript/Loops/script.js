@@ -282,3 +282,23 @@ console.log(susm);
 //console.log(count);
 
 //36. Count even numbers
+
+let count = 0
+
+for (let i = 1; i <= 100; i++) {
+  if (i % 2 === 0) {
+     count++;
+  }
+}
+console.log(count);
+
+//37. Count odd numbers
+
+let countt = 0;
+
+for (let i = 1; i <= 100; i++) {
+  if (i % 2 !== 0) {
+     countt++;
+  }
+}
+console.log(countt);
