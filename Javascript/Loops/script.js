@@ -249,3 +249,14 @@ for (let i = 1; i <= na; i++) {
   summ = summ + i;
 }
 console.log(summ);
+
+//33. Find sum of even numbers (1–100)
+
+let suam = 0
+
+for (let i = 1; i <= 100; i++) {
+  if (i % 2 === 0) {
+     suam = suam + i;
+  }
+}
+console.log(suam);
