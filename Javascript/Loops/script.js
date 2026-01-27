@@ -260,3 +260,25 @@ for (let i = 1; i <= 100; i++) {
   }
 }
 console.log(suam);
+
+//34. Find sum of odd numbers (1–100)
+
+let susm = 0
+
+for (let i = 1; i <= 100; i++) {
+  if (i % 2 !== 0) {
+     susm = susm + i;
+  }
+}
+console.log(susm);
+
+//35. Count numbers from 1 to 100
+
+//let count = 0;
+
+//for(let i = 1; i = 100; i++){
+ // count++;
+//}
+//console.log(count);
+
+//36. Count even numbers
