@@ -325,3 +325,18 @@ for (let i = 1; i <= 100; i++) {
 }
 
 console.log(suma);
+
+
+//40.Find average of numbers 1–10
+
+let summm = 0
+let countttt = 0;
+
+for (let i = 1; i <= 10; i++){
+
+  summm = summm + i;
+  countttt++;
+}
+
+let average = summm / countttt
+console.log(average);
