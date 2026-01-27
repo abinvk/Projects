@@ -373,3 +373,14 @@ for (let i = 1; i <= nv; i++) {
 }
 
 console.log(facta);
+
+//44. Check factorial of 0
+
+let nk = 0;
+let factc = 1;
+
+for (let i = 1; i <= nk; i++) {
+  factc = factc * i;
+}
+
+console.log(factc);
