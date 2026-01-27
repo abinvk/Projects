@@ -340,3 +340,5 @@ for (let i = 1; i <= 10; i++){
 
 let average = summm / countttt
 console.log(average);
+
+//41. Find factorial of a number
