@@ -302,3 +302,26 @@ for (let i = 1; i <= 100; i++) {
   }
 }
 console.log(countt);
+
+//38. Count numbers divisible by 5
+
+let counttt = 0;
+
+for (let i = 1; i <= 100; i++) {
+  if (i % 5 === 0) {
+     counttt++;
+  }
+}
+console.log(counttt);
+
+//39. Find sum of multiples of 3
+
+let suma = 0;
+
+for (let i = 1; i <= 100; i++) {
+  if (i % 3 === 0) {
+    suma = suma + i;
+  }
+}
+
+console.log(suma);
