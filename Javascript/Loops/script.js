@@ -152,7 +152,7 @@ while(aa <=10){
 
 //21. Print alphabets a–z
 
-for (let i = 97; i <= 122; i++) {                  // a b c d e .......
+for (let i = 97; i <= 122; i++) {                // a b c d e .......
   console.log(String.fromCharCode(i));
 }
 
@@ -168,5 +168,21 @@ for (let i = 1; i <= 10; i++){
   if(i === 5){  // skip code
     continue;
   }
+  console.log(i);
+}
+
+//24. Print numbers in steps of 2
+
+for (let i = 0; i <= 10; i += 2) {
+  console.log(i);
+}
+
+for (let i = 1; i <= 10; i += 2) {
+  console.log(i);
+}
+
+//25. Print numbers in steps of 5
+
+for (let i = 5; i <= 50; i += 5) {
   console.log(i);
 }
