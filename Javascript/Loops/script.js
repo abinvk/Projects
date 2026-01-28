@@ -407,3 +407,16 @@ while (numu > 0){
   numu = Math.floor(numu / 10);
 }
 console.log(samu)
+
+//47. Count digits of a number
+
+let nam = 123456789;
+let countq =0;
+
+while (nam > 0){
+  countq++;
+  nam = Math.floor(nam / 10)
+}
+console.log(countq);
+
+//48. Reverse a number
