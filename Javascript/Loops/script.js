@@ -470,5 +470,13 @@ for (let i = 1; i <= 5; i++) {
 }
 console.log(sumsu);
 
+// NUMBER 10
 
+let sumsua = 0;
 
+for (let i = 1; i <= 10; i++) {
+  sumsua = sumsua + (i * i * i);
+}
+console.log(sumsua);
+
+//52. Count numbers greater than 50
