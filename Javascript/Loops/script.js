@@ -513,5 +513,4 @@ while (tnum > 0) {
   tsum = tsum + digit;
   tnum = Math.floor(tnum / 10);
 }
-
 console.log(tsum);
