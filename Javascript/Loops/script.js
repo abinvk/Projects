@@ -445,8 +445,21 @@ console.log(product);
 
 let ssum = 0;
 
-for (let i = 1; i <= 10; i++) {
+for (let i = 1; i <= 5; i++) {
   ssum = ssum + (i * i);
 }
 
 console.log(ssum);
+
+// MORE NUMBER 10
+
+let sssum = 0;
+
+for (let i = 1; i <= 10; i++) {
+  sssum = sssum + (i * i);
+}
+
+console.log(sssum);
+
+
+
