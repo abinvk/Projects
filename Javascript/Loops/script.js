@@ -504,3 +504,14 @@ for (let i = 0; i < numberss.length; i++) {
 console.log(countee);
 
 //54. Find sum until number becomes 0
+
+let tnum = 1234;
+let tsum = 0;
+
+while (tnum > 0) {
+  let digit = tnum % 10;
+  tsum = tsum + digit;
+  tnum = Math.floor(tnum / 10);
+}
+
+console.log(tsum);
