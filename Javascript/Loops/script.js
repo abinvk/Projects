@@ -491,3 +491,16 @@ for (let i = 0; i < numbers.length; i++) {
 }
 console.log(counte);
 
+//53. Count numbers less than 25
+
+let numberss = [10, 55, 23, 80, 50, 61, 42];
+let countee = 0;
+
+for (let i = 0; i < numberss.length; i++) {
+  if (numberss[i] < 25) {
+    countee++;
+  }
+}
+console.log(countee);
+
+//54. Find sum until number becomes 0
