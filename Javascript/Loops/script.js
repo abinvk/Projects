@@ -395,3 +395,15 @@ for(let i =1; i<=an; i++){
   result = result * ab;
 }
 console.log(result)
+
+// 46. Find sum of digits of a number
+
+let numu = 1234;
+let samu = 0;
+
+while (numu > 0){
+  let digit = numu % 10;
+  samu = samu + digit;
+  numu = Math.floor(numu / 10);
+}
+console.log(samu)
