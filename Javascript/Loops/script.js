@@ -480,3 +480,14 @@ for (let i = 1; i <= 10; i++) {
 console.log(sumsua);
 
 //52. Count numbers greater than 50
+
+let numbers = [10, 55, 23, 80, 50, 61, 42];
+let counte = 0;
+
+for (let i = 0; i < numbers.length; i++) {
+  if (numbers[i] > 50) {
+    counte++;
+  }
+}
+console.log(counte);
+
