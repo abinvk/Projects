@@ -430,3 +430,13 @@ while (naber > 0){
   naber = Math.floor(naber / 10);
 }
 console.log(ever)
+
+//49. Find product of numbers 1–5
+
+let product = 1;
+
+for (let i = 1; i <=5; i++){
+  product = product * i ;
+}
+
+console.log(product);
