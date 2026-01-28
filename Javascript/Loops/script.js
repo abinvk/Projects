@@ -411,7 +411,7 @@ console.log(samu)
 //47. Count digits of a number
 
 let nam = 123456789;
-let countq =0;
+let countq = 0;
 
 while (nam > 0){
   countq++;
@@ -420,3 +420,13 @@ while (nam > 0){
 console.log(countq);
 
 //48. Reverse a number
+
+let naber = 123456789;
+let ever = 0;
+
+while (naber > 0){
+  let digit = naber % 10;
+  ever = ever * 10 + digit;
+  naber = Math.floor(naber / 10);
+}
+console.log(ever)
