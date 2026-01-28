@@ -461,5 +461,14 @@ for (let i = 1; i <= 10; i++) {
 
 console.log(sssum);
 
+//51. Find sum of cubes
+
+let sumsu = 0;
+
+for (let i = 1; i <= 5; i++) {
+  sumsu = sumsu + (i * i * i);
+}
+console.log(sumsu);
+
 
 
