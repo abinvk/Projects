@@ -440,3 +440,13 @@ for (let i = 1; i <=5; i++){
 }
 
 console.log(product);
+
+//50. Find sum of squares
+
+let ssum = 0;
+
+for (let i = 1; i <= 10; i++) {
+  ssum = ssum + (i * i);
+}
+
+console.log(ssum);
