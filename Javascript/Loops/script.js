@@ -508,10 +508,10 @@ console.log(countee);
 let tnum = 1946;
 let tsum = 0;
 
-while (tnum > 0) {
-  let digit = tnum % 10;
-  tsum = tsum + digit;
-  tnum = Math.floor(tnum / 10);
+while (tnum > 0) {               //number 0 ആകുന്നത് വരെ
+  let digit = tnum % 10;        //% 10 → last digit എടുക്കാൻ
+  tsum = tsum + digit;          
+  tnum = Math.floor(tnum / 10);  // 10 → last digit കളയാൻ  >  num-ലുള്ള അവസാന digit (last digit) നീക്കം ചെയ്യുക
 }
 console.log(tsum);
 
