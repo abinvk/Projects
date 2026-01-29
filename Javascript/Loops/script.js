@@ -516,3 +516,11 @@ while (tnum > 0) {               //number 0 ആകുന്നത് വരെ
 console.log(tsum);
 
 //56. Find total marks from array
+
+let marks = [60, 70, 80, 90];
+let total = 0;
+
+for (let i = 0; i < marks.length; i++) {
+  total = total + marks[i];
+}
+console.log(total);
