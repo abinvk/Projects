@@ -525,7 +525,6 @@ for (let i = 0; i < marks.length; i++) {
 }
 console.log(total);
 
-
 //57. Find average marks from array
 
 let markss = [60, 70, 80, 90];
@@ -537,3 +536,16 @@ for (let i = 0; i < markss.length; i++) {
 let averagea = totals / markss.length;
 
 console.log(averagea);
+
+//58. Count subjects passed
+
+let markses = [40, 50 ,60, 80, 90];
+let passMark = 45;
+let passCount = 0;
+
+for(let i = 0; i < markses.length; i++){
+  if(markses[i]>=passMark){
+    passCount = passCount + 1
+  }
+}
+console.log(passCount);
