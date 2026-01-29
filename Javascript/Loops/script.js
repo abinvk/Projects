@@ -545,7 +545,21 @@ let passCount = 0;
 
 for(let i = 0; i < markses.length; i++){
   if(markses[i]>=passMark){
-    passCount = passCount + 1
+    passCount = passCount +1;
   }
 }
 console.log(passCount);
+
+//59. Count subjects failed
+
+let marksess = [40, 50 ,60, 80, 90];
+let passsMark = 45;
+let failCount = 0;
+
+for(let i = 0; i < marksess.length; i++){
+  if(marksess[i]<=passsMark){
+     failCount = failCount +1;
+     
+  }
+}
+console.log(failCount);
