@@ -574,3 +574,11 @@ for (let month = 1; month <= 12; month++) {
 }
 
 console.log(totalSalary);
+
+// Common Method
+
+let monthlySalaryy = 15000;
+let months = 12;
+
+let totalSalaryy = monthlySalary * months;
+console.log(totalSalary);
