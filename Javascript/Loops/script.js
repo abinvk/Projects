@@ -505,7 +505,7 @@ console.log(countee);
 
 //54. Find sum until number becomes 0
 
-let tnum = 1234;
+let tnum = 1946;
 let tsum = 0;
 
 while (tnum > 0) {
@@ -514,3 +514,5 @@ while (tnum > 0) {
   tnum = Math.floor(tnum / 10);
 }
 console.log(tsum);
+
+//56. Find total marks from array
