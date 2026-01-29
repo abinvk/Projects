@@ -575,10 +575,29 @@ for (let month = 1; month <= 12; month++) {
 
 console.log(totalSalary);
 
-// Common Method
+// Common Method this Question
 
 let monthlySalaryy = 15000;
 let months = 12;
 
 let totalSalaryy = monthlySalary * months;
 console.log(totalSalary);
+
+
+//. Conditions + Loops
+
+//61. Print even numbers using if inside loop
+
+for (let i = 1; i <= 20; i++) {
+  if (i % 2 === 0) {
+    console.log(i);
+  }
+}
+
+//62. Print odd numbers using if inside loop
+
+for (let i = 1; i <= 20; i++) {
+  if (i % 2 !== 0) {
+    console.log(i);
+  }
+}
