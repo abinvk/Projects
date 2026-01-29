@@ -601,3 +601,19 @@ for (let i = 1; i <= 20; i++) {
     console.log(i);
   }
 }
+
+//63. Print numbers divisible by both 3 and 5
+
+for (let i = 1; i <= 100; i++) {
+  if (i % 3 === 0 && i % 5 === 0) {
+    console.log(i);
+  }
+}
+
+//64. Print numbers divisible by 3 or 5
+
+for (let i = 1; i <= 50; i++) {
+  if (i % 3 === 0 || i % 5 === 0) {
+    console.log(i);
+  }
+}
