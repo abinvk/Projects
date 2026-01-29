@@ -524,3 +524,16 @@ for (let i = 0; i < marks.length; i++) {
   total = total + marks[i];
 }
 console.log(total);
+
+
+//57. Find average marks from array
+
+let markss = [60, 70, 80, 90];
+let totals = 0;
+
+for (let i = 0; i < markss.length; i++) {
+  totals = totals + markss[i];
+}
+let averagea = totals / markss.length;
+
+console.log(averagea);
