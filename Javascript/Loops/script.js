@@ -563,3 +563,14 @@ for(let i = 0; i < marksess.length; i++){
   }
 }
 console.log(failCount);
+
+//60. Calculate total salary for 12 months
+
+let monthlySalary = 20000;
+let totalSalary = 0;
+
+for (let month = 1; month <= 12; month++) {
+  totalSalary = totalSalary + monthlySalary;
+}
+
+console.log(totalSalary);
