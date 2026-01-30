@@ -4,7 +4,7 @@ function calculateTax(){
 
     if (isNaN(salary) || isNaN(tax) || salary < 0 || tax < 0){
         document.getElementById("reslut").innerText =
-        "Please enter valid numbwers"
+        "Please enter valid numbers"
         return;
     }
 
