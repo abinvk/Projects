@@ -1,9 +1,9 @@
-function calculateTax(){
+function calculateTax() {
     let salary = Number(document.getElementById("salary").value);
     let tax = Number(document.getElementById("tax").value);
 
     if (isNaN(salary) || isNaN(tax) || salary < 0 || tax < 0){
-        document.getElementById("reslut").innerText =
+        document.getElementById("result").innerText =
         "Please enter valid numbers"
         return;
     }
@@ -11,6 +11,6 @@ function calculateTax(){
     let taxAmount = (salary * tax) / 100;
     let finalSalary = salary - taxAmount;
 
-    document.getElementById("reslut").innerText=
+    document.getElementById("result").innerText=
     "Tax $" + taxAmount + " | Salary After Tax: $" + finalSalary;
 }
