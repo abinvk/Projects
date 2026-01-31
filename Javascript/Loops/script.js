@@ -781,3 +781,13 @@ for(let i =0; i < markees.length; i++){
 console.log("Highest mark:", highest);
 
 //74. Find lowest mark
+
+let markeeas = [95, 65, 40, 30, 87, 22];
+let lowest = markeeas[0];
+
+for(let i =0; i < markeeas.length; i++){
+  if (markeeas[i] < lowest){
+    lowest = markeeas[i]
+  }
+}
+console.log("Lowestmark:", lowest);
