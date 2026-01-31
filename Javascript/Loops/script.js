@@ -791,3 +791,21 @@ for(let i =0; i < markeeas.length; i++){
   }
 }
 console.log("Lowestmark:", lowest);
+
+//75. Find second highest mark
+
+let markzs = [95, 65, 40, 90, 87];
+
+let highests = -Infinity;
+let secondHighest = -Infinity;
+
+for (let i = 0; i < markzs.length; i++) {
+  if (markzs[i] > highests) {
+    secondHighest = highests;
+    highests = markzs[i];
+  } else if (markzs[i] > secondHighest && markzs[i] < highests) {
+    secondHighest = markzs[i];
+  }
+}
+
+console.log("Second Highest Mark:", secondHighest);
