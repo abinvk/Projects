@@ -879,3 +879,20 @@ for (let i = 1; i <= 20; i++){
   }
   console.log(i);
 }
+
+
+//82. Count positives in array
+
+let numbersw = [10, -5, 0, 7, -2, 3];
+
+let countw = 0;
+
+for (let i = 0; i < numbersw.length; i++) {
+  if (numbersw[i] > 0) {
+    countw++;
+  }
+}
+
+console.log("Positive numbers count:", countw);
+
+//83. Count negatives in array
