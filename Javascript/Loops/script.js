@@ -837,3 +837,18 @@ for (let i = 1; i < arra.length; i++) {
 console.log("Maximum number:", mini);
 
 //78. Print numbers until condition fails
+
+let si = 1;
+
+while (si <= 10) {
+  console.log(si);
+  si++;
+}
+// more
+
+let numa = 1;
+
+while (numa !== 7) {
+  console.log(numa);
+  numa++;
+}
