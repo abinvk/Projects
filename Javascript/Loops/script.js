@@ -710,3 +710,19 @@ for (let year = 2000; year <= 2050; year++) {
   }
 }
 
+//70. Print numbers greater than average
+
+let numbersa =[10, 20, 30, 40, 50];
+
+let sam = 0;
+for (let i = 0; i < numbersa.length; i++){
+  sam = sam + numbersa[i];
+}
+
+let averageaa = sam / numbersa.length;
+
+for (let i = 0; i < numbersa.length; i++){
+  if(numbersa[i] > averageaa){
+    console.log(numbersa[i]);
+  }
+}
