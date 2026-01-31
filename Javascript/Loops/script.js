@@ -951,3 +951,25 @@ for (let i = 0; i < numbersxg.length; i++) {
 }
 
 console.log("Sum of negative numbers:", sumxg);
+
+//87. Print age category for list of ages
+
+let ages = [5, 16, 25, 45, 62];
+
+for (let i = 0; i < ages.length; i++) {
+  let age = ages[i];
+  
+  let category;
+
+  if (age <= 12) {
+    category = "Child";
+  } else if (age <= 19) {
+    category = "Teen";
+  } else if (age <= 59) {
+    category = "Adult";
+  } else {
+    category = "Senior";
+  }
+
+  console.log(age + " → " + category);
+}
