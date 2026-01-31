@@ -809,3 +809,16 @@ for (let i = 0; i < markzs.length; i++) {
 }
 
 console.log("Second Highest Mark:", secondHighest);
+
+// 76. Find maximum number in array
+
+let arr = [12, 45, 7, 89, 23];
+
+let max = arr[0];
+
+for (let i = 1; i < arr.length; i++) {
+  if (arr[i] > max) {
+    max = arr[i];
+  }
+}
+console.log("Maximum number:", max);
