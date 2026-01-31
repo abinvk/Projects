@@ -852,3 +852,30 @@ while (numa !== 7) {
   console.log(numa);
   numa++;
 }
+
+//79. Stop loop when number = 7
+
+let ai = 1;
+
+while (ai !== 7) {
+  console.log(ai);
+  ai++;
+}
+
+//80. Skip number 5 using continue
+
+for (let i = 1; i <= 10; i++){
+  if(i === 5){
+    continue;
+  }
+  console.log(i);
+}
+
+//81. Break loop at number 10
+
+for (let i = 1; i <= 20; i++){
+  if(i === 10){
+    break;
+  }
+  console.log(i);
+}
