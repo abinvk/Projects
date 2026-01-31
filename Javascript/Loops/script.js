@@ -896,3 +896,30 @@ for (let i = 0; i < numbersw.length; i++) {
 console.log("Positive numbers count:", countw);
 
 //83. Count negatives in array
+
+
+let numbersww = [10, -5, 0, 7, -2, 3];
+
+let countww = 0;
+
+for (let i = 0; i < numbersww.length; i++) {
+  if (numbersww[i] < 0) {
+    countww++;
+  }
+}
+
+console.log("Negatives numbers count:", countww);
+
+//84. Count zeros in array
+
+let numberswww = [10, -5, 0, 7, -2, 3, 0];
+
+let countwww = 0;
+
+for (let i = 0; i < numberswww.length; i++) {
+  if (numberswww[i] === 0) {
+    countwww++;
+  }
+}
+
+console.log("Zero numbers count:", countwww);
