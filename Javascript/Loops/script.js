@@ -726,3 +726,29 @@ for (let i = 0; i < numbersa.length; i++){
     console.log(numbersa[i]);
   }
 }
+
+//71. Print grades for marks array
+
+let marksa = [95, 65, 40, 90, 87]
+
+for(let i = 0; i < marksa.length; i++){
+  let marksaa = marksa[i];
+  let grade;
+  
+  if (marksaa >= 95){
+    grade = "A";
+  }else if (marksaa >= 80){
+    grade = "B";
+  }else if(marksaa >= 70){
+    grade = "C";
+  }else if (marksaa >=60){
+    grade ="D"
+  }else if (marksaa >= 30){
+    grade = "E"
+  }else{
+    grade = "fail"
+  }
+
+   console.log(marksaa + " → Grade " + grade);
+
+}
