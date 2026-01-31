@@ -1002,3 +1002,22 @@ if (price >= 1000) {
 } else {
   console.log("No Discount");
 }
+
+//90. Print result pass/fail for each student
+
+let students = [
+  { name: "Aju", marks: 55 },
+  { name: "Meera", marks: 38 },
+  { name: "Ravi", marks: 72 },
+  { name: "Anu", marks: 40 }
+];
+
+for (let i = 0; i < students.length; i++) {
+  let student = students[i];
+
+  if (student.marks >= 40) {
+    console.log(student.name + " → Pass");
+  } else {
+    console.log(student.name + " → Fail");
+  }
+}
