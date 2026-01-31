@@ -658,5 +658,26 @@ if (isPrime) {
   console.log("Not a prime number");
 }
 
-// javahh
+// 67. Count prime numbers (1–100)
+
+let counto = 0;
+
+for (let num = 2; num <= 100; num++) {
+  let isPrime = true;
+
+  for (let i = 2; i < num; i++) {
+    if (num % i === 0) {
+      isPrime = false;
+      break;
+    }
+  }
+
+  if (isPrime) {
+    counto++;
+  }
+}
+
+console.log(counto);
+
+//68. Print non-prime numbers
 
