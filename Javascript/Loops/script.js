@@ -657,3 +657,5 @@ if (isPrime) {
 } else {
   console.log("Not a prime number");
 }
+
+// java
