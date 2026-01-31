@@ -958,7 +958,7 @@ let ages = [5, 16, 25, 45, 62];
 
 for (let i = 0; i < ages.length; i++) {
   let age = ages[i];
-  
+
   let category;
 
   if (age <= 12) {
@@ -972,4 +972,33 @@ for (let i = 0; i < ages.length; i++) {
   }
 
   console.log(age + " → " + category);
+}
+
+//88. Check eligibility for each user
+
+let users = [
+  { name: "Aju", age: 17 },
+  { name: "Ravi", age: 22 },
+  { name: "Meera", age: 18 },
+  { name: "Anu", age: 15 }
+];
+
+for (let i = 0; i < users.length; i++) {
+  let user = users[i];
+
+  if (user.age >= 18) {
+    console.log(user.name + " → Eligible");
+  } else {
+    console.log(user.name + " → Not Eligible");
+  }
+}
+
+//89. Print discount applied or not
+
+let price = 1200;
+
+if (price >= 1000) {
+  console.log("Discount Applied");
+} else {
+  console.log("No Discount");
 }
