@@ -681,3 +681,32 @@ console.log(counto);
 
 //68. Print non-prime numbers
 
+for (let num = 1; num <= 50; num++) {
+
+  if (num <= 1) {
+    console.log(num);
+    continue;
+  }
+
+  let isPrime = true;
+
+  for (let i = 2; i < num; i++) {
+    if (num % i === 0) {
+      isPrime = false;
+      break;
+    }
+  }
+
+  if (!isPrime) {
+    console.log(num);
+  }
+}
+
+//69. Print leap years between 2000–2050
+
+for (let year = 2000; year <= 2050; year++) {
+  if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
+    console.log(year);
+  }
+}
+
