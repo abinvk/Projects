@@ -767,3 +767,17 @@ for (let i = 0; i < markes.length; i++){
 }
 console.log("Pass students:", passCount);
 console.log("Fail students:", failCount);
+
+//73. Find highest mark
+
+let markees = [95, 65, 40, 30, 87, 22];
+let highest = markees[0];
+
+for(let i =0; i < markees.length; i++){
+  if (markees[i] > highest){
+    highest = markees[i]
+  }
+}
+console.log("Highest mark:", highest);
+
+//74. Find lowest mark
