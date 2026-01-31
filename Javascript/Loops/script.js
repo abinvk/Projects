@@ -748,7 +748,22 @@ for(let i = 0; i < marksa.length; i++){
   }else{
     grade = "fail"
   }
-
    console.log(marksaa + " → Grade " + grade);
-
 }
+
+//72. Count pass/fail students
+
+let markes = [95, 65, 40, 30, 87, 22];
+
+let passCounte = 0;
+let failCounte = 0;
+
+for (let i = 0; i < markes.length; i++){
+  if (markes[i] >= 40){
+    passCount = passCount +1;
+  } else {
+    failCount = failCount +1;
+  }
+}
+console.log("Pass students:", passCount);
+console.log("Fail students:", failCount);
