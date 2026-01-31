@@ -637,3 +637,23 @@ for (let num = 2; num <= 50; num++) {
 }
 
 //66. Check if a number is prime
+
+let numi = 7;
+let isPrime = true;
+
+if (numi <= 1) {
+  isPrime = false;
+} else {
+  for (let i = 2; i < numi; i++) {
+    if (numi % i === 0) {
+      isPrime = false;
+      break;
+    }
+  }
+}
+
+if (isPrime) {
+  console.log("Prime number");
+} else {
+  console.log("Not a prime number");
+}
