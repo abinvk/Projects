@@ -822,3 +822,18 @@ for (let i = 1; i < arr.length; i++) {
   }
 }
 console.log("Maximum number:", max);
+
+//77. Find minimum number in array
+
+let arra = [12, 45, 7, 89, 23];
+
+let mini = arra[0];
+
+for (let i = 1; i < arra.length; i++) {
+  if (arra[i] < mini) {
+    mini = arra[i];
+  }
+}
+console.log("Maximum number:", mini);
+
+//78. Print numbers until condition fails
