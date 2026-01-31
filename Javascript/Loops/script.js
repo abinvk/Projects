@@ -617,3 +617,23 @@ for (let i = 1; i <= 50; i++) {
     console.log(i);
   }
 }
+
+//65. Print prime numbers (1–50)
+
+for (let num = 2; num <= 50; num++) {
+
+  let isPrime = true; // prime aanu ennu assume cheyyunnu
+
+  for (let i = 2; i < num; i++) {
+    if (num % i === 0) {
+      isPrime = false; // divisible ayi → prime alla
+      break;
+    }
+  }
+
+  if (isPrime) {
+    console.log(num);
+  }
+}
+
+//66. Check if a number is prime
