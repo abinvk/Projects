@@ -923,3 +923,31 @@ for (let i = 0; i < numberswww.length; i++) {
 }
 
 console.log("Zero numbers count:", countwww);
+
+//85. Find sum of positives only
+
+let numbersx = [10, -5, 0, 7, -2, 3];
+
+let sumx = 0;
+
+for (let i = 0; i < numbersx.length; i++) {
+  if (numbersx[i] > 0) {
+    sumx = sumx + numbersx[i];
+  }
+}
+
+console.log("Sum of positive numbers:", sumx);
+
+//86. Find sum of negatives only
+
+let numbersxg = [10, -5, 0, 7, -2, 3];
+
+let sumxg = 0;
+
+for (let i = 0; i < numbersxg.length; i++) {
+  if (numbersxg[i] < 0) {
+    sumxg = sumxg + numbersxg[i];
+  }
+}
+
+console.log("Sum of negative numbers:", sumxg);
