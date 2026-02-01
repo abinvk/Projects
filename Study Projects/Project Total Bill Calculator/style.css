@@ -1,0 +1,81 @@
+/* Google Font (optional but recommended) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+/* Main Card */
+.box {
+  width: 340px;
+  padding: 25px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: #fff;
+}
+
+/* Title */
+.box h2 {
+  margin-bottom: 18px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* Inputs */
+.box input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Remove number arrows (Chrome) */
+.box input::-webkit-inner-spin-button,
+.box input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+/* Button */
+.box button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 12px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.box button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 114, 255, 0.4);
+}
+
+/* Result Text */
+#result {
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffeb3b;
+}
