@@ -5,7 +5,7 @@ function calculateTotal(){
 
     if (
 
-        NaN(item1) || NaN(item2) || NaN(item3) || 
+        isNaN(item1) || isNaN(item2) || isNaN(item3) || 
         item1 < 0 || item2 < 0 || item3 < 0
 
     ) {
