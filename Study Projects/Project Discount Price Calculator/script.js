@@ -11,6 +11,6 @@ function calculateDiscount() {
     let discountAmount = (price * discount) / 100;
     let finalPrice = price - discountAmount;
 
-    document.getElementById("reslut").innerText =
+    document.getElementById("result").innerText =
     "Discount: " + discountAmount + " | Final Price: " + finalPrice;
 }
