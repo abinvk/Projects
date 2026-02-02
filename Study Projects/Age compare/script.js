@@ -7,4 +7,14 @@ function compareAge(){
         result.innerText = "Please enter valid ages";
         return;
     }
+
+    if (age1 > age2){
+        result.innerText = "First person is older";
+    }else if (age1 < age2){
+         result.innerText = "Second person is older";
+    }else{
+        result.innerText = "Both are of same age";
+    }
+       
 }
+
