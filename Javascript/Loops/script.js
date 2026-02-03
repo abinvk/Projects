@@ -1093,3 +1093,15 @@ for (let i = 0; i < sar.length; i++){
   }
 }
 console.log(min);
+
+//98. Count even elements
+
+let drr = [8, 10, 7, 13, 14, 18, 22];
+let zo = 0;
+
+for(let i = 0; i < drr.length; i++){
+  if(drr[i] % 2 === 0){
+    zo++;
+  }
+}
+console.log(zo);
