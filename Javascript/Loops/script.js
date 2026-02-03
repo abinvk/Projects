@@ -1131,3 +1131,22 @@ for (let i = 0; i < arri.length; i++) {
   }
 }
 console.log(index);
+
+//101. Check value exists in array
+
+let arrs = [10, 25, 8, 40, 15];
+let searchs = 40;
+let found = false;
+
+for (let i = 0; i < arrs.length; i++) {
+  if (arrs[i] === searchs) {
+    found = true;
+    break;
+  }
+}
+
+if (found) {
+  console.log("Value exists");
+} else {
+  console.log("Value not found");
+}
