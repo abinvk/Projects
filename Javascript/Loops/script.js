@@ -1061,7 +1061,7 @@ for(let i = 0 ; i < asrrs.length; i++){
 console.log(sumd);
 
 //95. Find average of array
-let saa = [10, 20, 30, 40, 50, 60];  // array
+let saa = [10, 20, 30, 40, 50, 60];  // array line
 let da  = 0;
 
 for(let i = 0; i < saa.length; i++){  // loop line
@@ -1071,3 +1071,14 @@ let ava = da / saa.length;  // avarage calculate line
 console.log(ava);
 
 //96. Find largest element
+
+let arre = [10, 25, 8, 40, 15];    // array line
+let maxe = arr[0];
+
+for (let i = 1; i < arre.length; i++) {
+  if (arre[i] > maxe) {
+    maxe = arre[i];
+  }
+}
+
+console.log(maxe);
