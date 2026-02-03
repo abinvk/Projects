@@ -1056,6 +1056,16 @@ let asrrs = [10, 20, 30, 40, 50];
 let sumd = 0;
 
 for(let i = 0 ; i < asrrs.length; i++){
-  sumd = sumd + asrrs[i]
+  sumd = sumd + asrrs[i];
 }
 console.log(sumd);
+
+//95. Find average of array
+let saa = [10, 20, 30, 40, 50, 60];  // array
+let da  = 0;
+
+for(let i = 0; i < saa.length; i++){  // loop line
+  da = da + saa[i];    // sum line
+}
+let ava = da / saa.length;  // avarage calculate line
+console.log(ava);
