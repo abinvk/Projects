@@ -1080,5 +1080,16 @@ for (let i = 1; i < arre.length; i++) {
     maxe = arre[i];
   }
 }
-
 console.log(maxe);
+
+//97. Find smallest element
+
+let sar = [10,30, 40, 55, 67, 89, 900, 1];
+let min = sar[0];
+
+for (let i = 0; i < sar.length; i++){
+  if (sar[i] < min){
+    min = sar[i];
+  }
+}
+console.log(min);
