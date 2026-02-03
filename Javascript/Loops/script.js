@@ -1116,5 +1116,18 @@ for (let i = 0; i < arrv.length; i++) {
     countv++;
   }
 }
-
 console.log(countv);
+
+//100. Find index of value
+
+let arri = [10, 25, 8, 40, 15];
+let search = 40;
+let index = -1;
+
+for (let i = 0; i < arri.length; i++) {
+  if (arri[i] === search) {
+    index = i;
+    break;
+  }
+}
+console.log(index);
