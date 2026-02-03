@@ -1069,3 +1069,5 @@ for(let i = 0; i < saa.length; i++){  // loop line
 }
 let ava = da / saa.length;  // avarage calculate line
 console.log(ava);
+
+//96. Find largest element
