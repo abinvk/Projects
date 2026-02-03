@@ -1021,3 +1021,14 @@ for (let i = 0; i < students.length; i++) {
     console.log(student.name + " → Fail");
   }
 }
+
+//  !!  D. Arrays + Loops
+
+// 91. Print all array elements
+
+let arrr = [10, 20, 30, 40, 50];
+
+for (let i = 0; i < arrr.length; i++) {
+  console.log(arrr[i]);
+}
+
