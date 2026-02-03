@@ -1049,3 +1049,13 @@ for(let i = 0 ; i < asrr.length; i++){
   counts++;
 }
 console.log(counts)
+
+//94. Sum all array elements
+
+let asrrs = [10, 20, 30, 40, 50];
+let sumd = 0;
+
+for(let i = 0 ; i < asrrs.length; i++){
+  sumd = sumd + asrrs[i]
+}
+console.log(sumd);
