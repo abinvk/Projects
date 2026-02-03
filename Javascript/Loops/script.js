@@ -1105,3 +1105,16 @@ for(let i = 0; i < drr.length; i++){
   }
 }
 console.log(zo);
+
+//99. Count odd elements
+
+let arrv = [10, 25, 8, 40, 15];
+let countv = 0;
+
+for (let i = 0; i < arrv.length; i++) {
+  if (arrv[i] % 2 !== 0) {
+    countv++;
+  }
+}
+
+console.log(countv);
