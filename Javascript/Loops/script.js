@@ -1039,3 +1039,13 @@ let arrq = [10, 20, 30, 40, 50];
 for (let i = arrq.length - 1; i >= 0; i--) {
   console.log(arrq[i]);
 }
+
+//93. Find array length using loop
+
+let asrr = [10, 20, 30, 40, 50];
+let counts = 0;
+
+for(let i = 0 ; i < asrr.length; i++){
+  counts++;
+}
+console.log(counts)
