@@ -1204,3 +1204,14 @@ for(let i = 0;  i < cars.length; i++){
   german.push(cars[i]);
 }
 console.log(german);
+
+//106. Reverse array manually
+
+let arry = [1, 2, 3, 4];
+let reversedArr = [];
+
+for (let i = arry.length - 1; i >= 0; i--) {
+  reversedArr.push(arry[i]);
+}
+
+console.log(reversedArr);
