@@ -1177,3 +1177,5 @@ for (let i = 0; i < arrw.length; i++){
   }
 }
 console.log(duplicatCount);
+
+//104. Merge two arrays using loop
