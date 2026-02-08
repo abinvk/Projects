@@ -1215,3 +1215,5 @@ for (let i = arry.length - 1; i >= 0; i--) {
 }
 
 console.log(reversedArr);
+
+//107. Sort array ascending (logic)
