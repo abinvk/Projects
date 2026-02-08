@@ -1193,5 +1193,14 @@ for (let i = 0; i < arr1.length; i++) {
 for (let i = 0; i < arr2.length; i++) {
   mergedArr.push(arr2[i]);
 }
-
 console.log(mergedArr);
+
+//105. Copy array using loop
+
+let cars = ["Bmw", "Benz", "Audi"];
+let german = [];
+
+for(let i = 0;  i < cars.length; i++){
+  german.push(cars[i]);
+}
+console.log(german);
