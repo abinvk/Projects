@@ -1164,3 +1164,16 @@ for (let i = 0; i < arrd.length; i++) {
 console.log(uniqueArr);
 
 //103. Count duplicates
+
+let arrw = [1,2,3,1,3];
+let uniqueArrs = [];
+let duplicatCount = 0;
+
+for (let i = 0; i < arrw.length; i++){
+  if (uniqueArrs.includes(arrw[i])){
+     duplicatCount++;
+  } else {
+    uniqueArrs.push(arrw[i]);
+  }
+}
+console.log(duplicatCount);
