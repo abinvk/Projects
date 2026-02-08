@@ -1179,3 +1179,19 @@ for (let i = 0; i < arrw.length; i++){
 console.log(duplicatCount);
 
 //104. Merge two arrays using loop
+
+let arr1 = [1, 2, 3];
+let arr2 = [4, 5, 6];
+let mergedArr = [];
+
+// arr1 elements add cheyyunnu
+for (let i = 0; i < arr1.length; i++) {
+  mergedArr.push(arr1[i]);
+}
+
+// arr2 elements add cheyyunnu
+for (let i = 0; i < arr2.length; i++) {
+  mergedArr.push(arr2[i]);
+}
+
+console.log(mergedArr);
