@@ -1150,3 +1150,15 @@ if (found) {
 } else {
   console.log("Value not found");
 }
+
+//102. Remove duplicate elements
+
+let arrd = [1,2,2,3,3,4,4,5,6,7,8,5,9];
+let uniqueArr = [];
+
+for (let i = 0; i < arr.length; i++) {
+  if (!uniqueArr.includes(arrd[i])){
+    uniqueArr.push(arrd[i]);
+  }
+}
+console.log(uniqueArr);
