@@ -1218,15 +1218,17 @@ console.log(reversedArr);
 
 //107. Sort array ascending (logic)
 
-for (let i = 0; i < arr.length; i++) {
-  for (let j = i + 1; j < arr.length; j++) {
-    if (arr[i] > arr[j]) {
-      let temp = arr[i];
-      arr[i] = arr[j];
-      arr[j] = temp;
+let arrn = [5, 2, 8, 1];
+let temp;
+
+for (let i = 0; i < arrn.length; i++) {
+  for (let j = i + 1; j < arrn.length; j++) {
+    if (arrn[i] > arrn[j]) {
+      temp = arrn[i];
+      arrn[i] = arrn[j];
+      arrn[j] = temp;
     }
   }
 }
-console.log(arr);
 
-//
+console.log(arrn);
