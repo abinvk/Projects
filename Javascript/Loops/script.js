@@ -1247,5 +1247,16 @@ for (let i = 0; i < arrnx.length; i++) {
     }
   }
 }
-
 console.log(arrnx);
+
+//109. Count elements greater than 10
+
+let arraz = [5, 12, 8, 20, 15, 3];
+let countz = 0;
+
+for (let i = 0; i < arraz.length; i++) {
+  if (arraz[i] > 10) {
+    countz++;
+  }
+}
+console.log(countz);
