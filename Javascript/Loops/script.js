@@ -1326,7 +1326,7 @@ for (let i = 0; i < arrfp.length; i++) {
 }
 console.log(positiveNumbers);
 
-//116. Filter negative numbers
+//116. Filter negative numbers                                            !!
 
 let arrfn = [1, -2, 3, -4, 5, -6];
 let negativeNumbers = [];
@@ -1338,7 +1338,7 @@ for (let i = 0; i < arrfn.length; i++) {
 }
 console.log(negativeNumbers);
 
-//117. Sum of prices in cart
+//117. Sum of prices in cart                                               !!
 
 let cart = [
   { item: "Book", price: 10 },
@@ -1351,7 +1351,7 @@ for (let i = 0; i < cart.length; i++) {
 } 
 console.log("Total Price:", totalPrice);
 
-//118. Total quantity in cart
+//118. Total quantity in cart                                              !!
 
 let quantities = [2, 1, 3, 4];
 let totalQty = 0;
@@ -1362,3 +1362,18 @@ for (let i = 0; i < quantities.length; i++) {
 
 console.log(totalQty);
 
+//119. Find most expensive item                                           !!
+
+let products = [
+  { name: "Laptop", price: 1000 },
+  { name: "Phone", price: 500 },
+  { name: "Tablet", price: 800 }
+];
+let mostExpensive = products[0];  
+
+for (let i = 1; i < products.length; i++) {
+  if (products[i].price > mostExpensive.price) {
+    mostExpensive = products[i];
+  }
+}
+console.log("Most Expensive Item:", mostExpensive.name, "Price:", mostExpensive.price);
