@@ -1260,3 +1260,12 @@ for (let i = 0; i < arraz.length; i++) {
   }
 }
 console.log(countz);
+
+//110. Multiply each element by 2
+
+let arrm = [1, 2, 3, 4];
+
+for (let i = 0; i < arrm.length; i++) {
+  arrm[i] = arrm[i] * 2;
+}
+console.log(arrm);
