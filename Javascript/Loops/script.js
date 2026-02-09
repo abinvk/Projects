@@ -1279,3 +1279,15 @@ for (let i = 0; i < arrp.length; i++) {
   squares.push(arrp[i] * arrp[i]);
 } 
 console.log(squares);
+
+//112. Create new array of cubes
+
+let arrc = [1, 2, 3, 4];
+let cubes = [];
+
+for (let i = 0; i < arrc.length; i++) {
+  cubes.push(arrc[i] * arrc[i] * arrc[i]);
+}  
+console.log(cubes);
+
+//
