@@ -1234,3 +1234,18 @@ for (let i = 0; i < arrn.length; i++) {
 console.log(arrn);
 
 //108. Sort array descending (logic)
+
+let arrnx = [5, 2, 8, 1];
+let tempx;
+
+for (let i = 0; i < arrnx.length; i++) {
+  for (let j = i + 1; j < arrnx.length; j++) {
+    if (arrnx[i] < arrnx[j]) {
+      tempx = arrnx[i];
+      arrnx[i] = arrnx[j];
+      arrnx[j] = tempx;
+    }
+  }
+}
+
+console.log(arrnx);
