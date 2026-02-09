@@ -1232,3 +1232,5 @@ for (let i = 0; i < arrn.length; i++) {
 }
 
 console.log(arrn);
+
+//108. Sort array descending (logic)
