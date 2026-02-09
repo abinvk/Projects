@@ -1377,3 +1377,19 @@ for (let i = 1; i < products.length; i++) {
   }
 }
 console.log("Most Expensive Item:", mostExpensive.name, "Price:", mostExpensive.price);
+
+//120. Find cheapest item                                                                         !!
+
+let productss = [
+  { name: "Laptop", price: 1000 },
+  { name: "Phone", price: 500 },
+  { name: "Tablet", price: 800 }
+];
+let cheapest = productss[0];
+
+for (let i = 1; i < productss.length; i++) {
+  if (productss[i].price < cheapest.price) {
+    cheapest = productss[i];
+  } 
+}
+console.log("Cheapest Item:", cheapest.name, "Price:", cheapest.price);
