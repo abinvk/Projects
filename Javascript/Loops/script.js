@@ -1351,4 +1351,14 @@ for (let i = 0; i < cart.length; i++) {
 } 
 console.log("Total Price:", totalPrice);
 
-//
+//118. Total quantity in cart
+
+let quantities = [2, 1, 3, 4];
+let totalQty = 0;
+
+for (let i = 0; i < quantities.length; i++) {
+  totalQty = totalQty + quantities[i];
+}
+
+console.log(totalQty);
+
