@@ -1301,3 +1301,15 @@ for (let i = 0; i < arrf.length; i++) {
   } 
 }
 console.log(evenNumbers);
+
+//114. Filter odd numbers
+
+let arrfo = [1, 2, 3, 4, 5, 6];
+let oddNumbers = [];  
+
+for (let i = 0; i < arrfo.length; i++) {
+  if (arrfo[i] % 2 !== 0) {
+    oddNumbers.push(arrfo[i]);
+  }   
+}
+console.log(oddNumbers);
