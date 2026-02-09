@@ -1337,3 +1337,18 @@ for (let i = 0; i < arrfn.length; i++) {
   } 
 }
 console.log(negativeNumbers);
+
+//117. Sum of prices in cart
+
+let cart = [
+  { item: "Book", price: 10 },
+  { item: "Pen", price: 5 },
+  { item: "Notebook", price: 15 }
+];
+let totalPrice = 0;
+for (let i = 0; i < cart.length; i++) { 
+  totalPrice = totalPrice + cart[i].price;
+} 
+console.log("Total Price:", totalPrice);
+
+//
