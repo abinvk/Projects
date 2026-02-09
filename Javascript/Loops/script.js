@@ -1313,3 +1313,27 @@ for (let i = 0; i < arrfo.length; i++) {
   }   
 }
 console.log(oddNumbers);
+
+//115. Filter positive numbers
+
+let arrfp = [1, -2, 3, -4, 5, -6];
+let positiveNumbers = [];
+
+for (let i = 0; i < arrfp.length; i++) {
+  if (arrfp[i] > 0) {
+    positiveNumbers.push(arrfp[i]);
+  } 
+}
+console.log(positiveNumbers);
+
+//116. Filter negative numbers
+
+let arrfn = [1, -2, 3, -4, 5, -6];
+let negativeNumbers = [];
+
+for (let i = 0; i < arrfn.length; i++) {
+  if (arrfn[i] < 0) {
+    negativeNumbers.push(arrfn[i]);
+  } 
+}
+console.log(negativeNumbers);
