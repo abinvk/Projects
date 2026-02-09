@@ -1269,3 +1269,13 @@ for (let i = 0; i < arrm.length; i++) {
   arrm[i] = arrm[i] * 2;
 }
 console.log(arrm);
+
+//111. Create new array of squares
+
+let arrp = [1, 2, 3, 4];
+let squares = []; 
+
+for (let i = 0; i < arrp.length; i++) {
+  squares.push(arrp[i] * arrp[i]);
+} 
+console.log(squares);
