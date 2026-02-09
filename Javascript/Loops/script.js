@@ -1290,4 +1290,14 @@ for (let i = 0; i < arrc.length; i++) {
 }  
 console.log(cubes);
 
-//
+//113. Filter even numbers
+
+let arrf = [1, 2, 3, 4, 5, 6];
+let evenNumbers = []; 
+
+for (let i = 0; i < arrf.length; i++) {
+  if (arrf[i] % 2 === 0) {
+    evenNumbers.push(arrf[i]);
+  } 
+}
+console.log(evenNumbers);
