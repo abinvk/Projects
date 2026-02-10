@@ -1463,6 +1463,21 @@ for (let i = nxx; i >= 1; i--) {
 }
 console.log(patternxx);
 
+// More method  !!
+
+let sizes = 4;
+let patterns = "";
+
+for (let i = sizes; i >= 1; i--) {        // Row control
+  for (let j = 1; j <= i; j++) {         // Star count
+    patterns = patterns + "* ";
+  }
+  patterns = patterns + "\n";              // Next line
+}
+
+console.log(patterns);
+
+
 
 
 
