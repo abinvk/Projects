@@ -1477,8 +1477,20 @@ for (let i = sizes; i >= 1; i--) {        // Row control
 
 console.log(patterns);
 
+// 124. Print pyramid pattern
 
-
+let nxxx = 5;
+let patternxxx = "";
+for (let i = 1; i <= nxxx; i++) {
+  for (let j = 1; j <= nxxx - i; j++) {
+    patternxxx = patternxxx + "  "; // Space
+  }
+  for (let k = 1; k <= 2 * i - 1; k++) {
+    patternxxx = patternxxx + "* "; // Star
+  }
+  patternxxx = patternxxx + "\n"; // Next line
+}
+console.log(patternxxx);
 
 
 
