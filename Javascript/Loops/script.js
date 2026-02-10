@@ -1421,6 +1421,19 @@ for (let i = 1; i <= size; i++) {
 
 console.log(pattern);
 
+//122. Print right triangle pattern
+
+let nz = 5;
+let patternt = "";  
+
+for (let i = 1; i <= nz; i++) {
+  for (let j = 1; j <= i; j++) {
+    patternt = patternt + "* ";
+  } 
+  patternt = patternt + "\n";
+}
+console.log(patternt);
+
 
 
 
