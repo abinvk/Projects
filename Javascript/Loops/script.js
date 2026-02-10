@@ -1513,5 +1513,19 @@ for (let i = 1; i <= sizef; i++) {  // row control
 console.log(patternf);  // pattern print cheyyunnu
 
 
+//125. Print number triangle
+
+let nxxxx = 5;
+let patternxxxx = "";
+
+for (let i = 1; i <= nxxxx; i++) {
+  for (let j = 1; j <= i; j++) {
+    patternxxxx = patternxxxx + j + " "; // Number add cheyyunnu
+  }
+  patternxxxx = patternxxxx + "\n"; // Next line
+}
+console.log(patternxxxx);
+
+
 
 
