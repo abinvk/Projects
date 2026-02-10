@@ -1526,6 +1526,23 @@ for (let i = 1; i <= nxxxx; i++) {
 }
 console.log(patternxxxx);
 
+//126. Print number square
+
+let nxxxxx = 5;
+let patternxxxxx = "";
+
+for (let i = 1; i <= nxxxxx; i++) {
+  for (let j = 1; j <= nxxxxx; j++) {
+    patternxxxxx = patternxxxxx + j + " "; // Number add cheyyunnu
+  }
+  patternxxxxx = patternxxxxx + "\n"; // Next line
+} 
+console.log(patternxxxxx);
+
+
+
+
+
 
 
 
