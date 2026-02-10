@@ -1540,6 +1540,33 @@ for (let i = 1; i <= nxxxxx; i++) {
 console.log(patternxxxxx);
 
 
+//127. Print star rectangle
+
+let nxxxxxx = 5;
+let patternxxxxxx = "";
+for (let i = 1; i <= nxxxxxx; i++) {
+  for (let j = 1; j <= nxxxxxx; j++) {
+    patternxxxxxx = patternxxxxxx + "* "; // Star add cheyyunnu
+  }
+  patternxxxxxx = patternxxxxxx + "\n"; // Next line
+}
+console.log(patternxxxxxx);
+
+
+//More method  !!
+
+let rows = 3;
+let cols = 5;
+let patternz = "";
+
+for (let i = 1; i <= rows; i++) {        // rows
+  for (let j = 1; j <= cols; j++) {      // columns
+    patternz = patternz + "* ";
+  }
+  patternz = patternz + "\n";              // next line
+}
+
+console.log(patternz);
 
 
 
