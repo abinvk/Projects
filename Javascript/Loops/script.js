@@ -1435,6 +1435,23 @@ for (let i = 1; i <= nz; i++) {
 console.log(patternt);
 
 
+//  More method  !! 
+
+
+let sizex = 4;
+let patternx = "";
+
+for (let i = 1; i <= sizex; i++) {
+  for (let j = 1; j <= i; j++) {
+    patternx = patternx + "* ";
+  }
+  patternx = patternx + "\n";
+}
+
+console.log(patternx);
+
+
+
 
 
 
