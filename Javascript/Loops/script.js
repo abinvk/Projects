@@ -1450,6 +1450,18 @@ for (let i = 1; i <= sizex; i++) {
 
 console.log(patternx);
 
+// 123. Print inverted triangle pattern
+
+let nxx = 5;
+let patternxx = ""; 
+
+for (let i = nxx; i >= 1; i--) {
+  for (let j = 1; j <= i; j++) {
+    patternxx = patternxx + "* ";
+  } 
+  patternxx = patternxx + "\n";
+}
+console.log(patternxx);
 
 
 
