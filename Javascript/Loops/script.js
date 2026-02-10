@@ -1495,22 +1495,22 @@ console.log(patternxxx);
 // More method  !!
 
 let sizef = 4;   // height of the pyramid
-let patternf = "";
+let patternf = "";  // star space pattern store cheyyan variable
 
-for (let i = 1; i <= sizef; i++) {
+for (let i = 1; i <= sizef; i++) {  // row control
 
-  for (let s = 1; s <= sizef - i; s++) {
-    patternf = patternf + " ";
+  for (let s = 1; s <= sizef - i; s++) {  // space control
+    patternf = patternf + " ";             // space add cheyyunnu
   }
 
-  for (let j = 1; j <= i; j++) {
-    patternf = patternf + "* ";
+  for (let j = 1; j <= i; j++) {   // star count control
+    patternf = patternf + "* ";   // star add cheyyunnu
   }
 
-  patternf = patternf + "\n";
+  patternf = patternf + "\n";   // next line add cheyyunnu
 }
 
-console.log(patternf);
+console.log(patternf);  // pattern print cheyyunnu
 
 
 
