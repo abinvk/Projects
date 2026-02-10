@@ -1568,6 +1568,22 @@ for (let i = 1; i <= rows; i++) {        // rows
 
 console.log(patternz);
 
+// 128. Print star pyramid
+
+let nxxxxxxx = 5;
+let patternxxxxxxx = "";
+
+for (let i = 1; i <= nxxxxxxx; i++) { 
+  for (let j = 1; j <= nxxxxxxx - i; j++) {
+    patternxxxxxxx = patternxxxxxxx + "  "; // Space add cheyyunnu
+  }
+  for (let k = 1; k <= 2 * i - 1; k++) {
+    patternxxxxxxx = patternxxxxxxx + "* "; // Star add cheyyunnu
+  } 
+  patternxxxxxxx = patternxxxxxxx + "\n"; // Next line
+}
+console.log(patternxxxxxxx);
+
 
 
 
