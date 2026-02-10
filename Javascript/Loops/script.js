@@ -1397,11 +1397,30 @@ console.log("Cheapest Item:", cheapest.name, "Price:", cheapest.price);
 //121. Print square pattern
 
 let nx = 5;
+ let row = "";
 
-for (let i = 1; i <= nx; i++) {  
-  let row = "";
+for (let i = 1; i <= nx; i++) {    
   for (let j = 1; j <= nx; j++) {
     row += "* ";
-  }
+  }   
   console.log(row);
 }
+
+  // More method  !!
+ 
+let size = 4;
+let pattern = "";
+
+for (let i = 1; i <= size; i++) {
+  for (let j = 1; j <= size; j++) {
+    pattern = pattern + "* ";
+  }
+  pattern = pattern + "\n";
+}
+
+console.log(pattern);
+
+
+
+
+
