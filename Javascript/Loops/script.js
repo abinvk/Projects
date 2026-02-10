@@ -1492,5 +1492,26 @@ for (let i = 1; i <= nxxx; i++) {
 }
 console.log(patternxxx);
 
+// More method  !!
+
+let sizef = 4;   // height of the pyramid
+let patternf = "";
+
+for (let i = 1; i <= sizef; i++) {
+
+  for (let s = 1; s <= sizef - i; s++) {
+    patternf = patternf + " ";
+  }
+
+  for (let j = 1; j <= i; j++) {
+    patternf = patternf + "* ";
+  }
+
+  patternf = patternf + "\n";
+}
+
+console.log(patternf);
+
+
 
 
