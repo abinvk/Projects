@@ -1403,8 +1403,9 @@ for (let i = 1; i <= nx; i++) {
   for (let j = 1; j <= nx; j++) {
     row += "* ";
   }   
-  console.log(row);
+  row += "\n";
 }
+  console.log(row);
 
   // More method  !!
  
