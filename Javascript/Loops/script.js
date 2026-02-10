@@ -1393,3 +1393,15 @@ for (let i = 1; i < productss.length; i++) {
   } 
 }
 console.log("Cheapest Item:", cheapest.name, "Price:", cheapest.price);
+
+//121. Print square pattern
+
+let nx = 5;
+
+for (let i = 1; i <= nx; i++) {  
+  let row = "";
+  for (let j = 1; j <= nx; j++) {
+    row += "* ";
+  }
+  console.log(row);
+}
