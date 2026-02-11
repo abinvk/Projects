@@ -1786,3 +1786,19 @@ for (let i = 1; i <= lumx; i++) {
 }
 console.log(patternlumx);
 
+
+// more method  !!
+
+let sizeo = 5;
+let patterno = "";
+
+for (let i = sizeo; i >= 1; i--) {
+
+  for (let j = 1; j <= i; j++) {
+    patterno += j + " ";
+  }
+
+  patterno += "\n";
+}
+
+console.log(patterno);
