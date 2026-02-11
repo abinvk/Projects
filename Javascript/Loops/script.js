@@ -1802,3 +1802,5 @@ for (let i = sizeo; i >= 1; i--) {
 }
 
 console.log(patterno);
+
+//134. Print multiplication table (1–10)
