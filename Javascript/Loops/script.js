@@ -1738,7 +1738,7 @@ let patternm = "";
 for (let i = 1; i <= sizem; i++) {
 
   // Spaces
-  
+
   for (let s = 1; s <= sizem - i; s++) {
     patternm += " ";
   }
@@ -1757,3 +1757,17 @@ for (let i = 1; i <= sizem; i++) {
   patternm += "\n";
 }
 console.log(patternm);
+
+//132. Print increasing number pattern
+
+let lum = 5;
+let patternlumm = "";
+
+for (let i = 1; i <= lum; i++) {
+
+  for (let s = 1; s <= i; s++) {
+    patternlumm += s +  " ";
+  }
+  patternlumm += "\n";
+}
+console.log(patternlumm);
