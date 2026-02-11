@@ -1636,7 +1636,6 @@ for (let i = 1; i <= sizeh; i++) {
 }
 console.log(patternh);
 
-
 // More method  !!
 
 let sizeq = 8;
@@ -1653,10 +1652,8 @@ for (let i = 1; i <= sizeq; i++) {
     }
 
   }
-
   patternq += "\n";
 }
-
 console.log(patternq);
 
 
