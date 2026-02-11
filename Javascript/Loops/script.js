@@ -1626,7 +1626,7 @@ let patternh = "";
 
 for (let i = 1; i <= sizeh; i++) {
   for (let j = 1; j <= sizeh; j++) {
-    if (i === 1 || i === sizeh || j === 1 || j === sizeh) {
+    if (i === 1 || i === sizeh || j === 1 || j === sizeh) {   // First and last row, first and last column
       patternh = patternh + "* ";
     } else {
       patternh = patternh + "  "; // Space for hollow effect
@@ -1635,6 +1635,29 @@ for (let i = 1; i <= sizeh; i++) {
   patternh = patternh + "\n";
 }
 console.log(patternh);
+
+
+// More method  !!
+
+let sizeq = 8;
+let patternq = "";
+
+for (let i = 1; i <= sizeq; i++) {
+
+  for (let j = 1; j <= sizeq; j++) {
+
+    if (i === 1 || i === sizeq || j === 1 || j === sizeq) {
+      patternq += "* ";
+    } else {
+      patternq +=  "  " ;
+    }
+
+  }
+
+  patternq += "\n";
+}
+
+console.log(patternq);
 
 
 
