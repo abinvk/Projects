@@ -1584,6 +1584,27 @@ for (let i = 1; i <= nxxxxxxx; i++) {
 }
 console.log(patternxxxxxxx);
 
+// !! More method  !!
+
+let sizel = 4;    // size of the pyramid
+let patternl = "";
+
+for (let i = 1; i <= sizel; i++) {
+
+  for (let s = 1; s <= sizel - i; s++) {
+    patternl = patternl + " ";
+  }
+
+  for (let j = 1; j <= (2 * i - 1); j++) {
+    patternl = patternl + "* ";
+  }
+
+  patternl = patternl + "\n";
+}
+
+console.log(patternl);
+
+
 
 
 
