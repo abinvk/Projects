@@ -1729,3 +1729,29 @@ for (let i = sized - 1; i >= 1; i--) {
   patternd += "\n"; // Next line
 }
 console.log(patternd);
+
+//Hollow Pyramid Pattern
+
+let sizem = 8;
+let patternm = "";
+
+for (let i = 1; i <= sizem; i++) {
+
+  // Spaces
+  for (let s = 1; s <= sizem - i; s++) {
+    patternm += " ";
+  }
+
+  // Stars + hollow logic
+  for (let j = 1; j <= (2 * i - 1); j++) {
+
+    if (i === 1 || i === sizem || j === 1 || j === (2 * i - 1)) {
+      patternm += "* ";
+    } else {
+      patternm +=  "  ";
+    }
+
+  }
+  patternm += "\n";
+}
+console.log(patternm);
