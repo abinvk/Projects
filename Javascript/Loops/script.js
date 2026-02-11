@@ -1586,20 +1586,20 @@ console.log(patternxxxxxxx);
 
 // !! More method  !!
 
-let sizel = 4;    // size of the pyramid
-let patternl = "";
+let sizel = 4;                             // size of the pyramid
+let patternl = "";                         // variable to store the pattern
 
-for (let i = 1; i <= sizel; i++) {
+for (let i = 1; i <= sizel; i++) {         // row control
 
-  for (let s = 1; s <= sizel - i; s++) {
-    patternl = patternl + " ";
+  for (let s = 1; s <= sizel - i; s++) {  //  space control
+    patternl = patternl + " ";            // space add cheyyunnu
   }
 
-  for (let j = 1; j <= (2 * i - 1); j++) {
-    patternl = patternl + "* ";
+  for (let j = 1; j <= (2 * i - 1); j++) {     // star count control
+    patternl = patternl + "* ";               // star add cheyyunnu
   }
 
-  patternl = patternl + "\n";
+  patternl = patternl + "\n";                 // next line add cheyyunnu
 }
 
 console.log(patternl);
