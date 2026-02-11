@@ -1771,3 +1771,18 @@ for (let i = 1; i <= lum; i++) {
   patternlumm += "\n";
 }
 console.log(patternlumm);
+
+//133. Print decreasing number pattern
+
+let lumx = 5;
+let patternlumx = ""; 
+
+for (let i = 1; i <= lumx; i++) {
+
+  for (let s = 1; s <= lumx - i + 1; s++) {
+    patternlumx += s + " ";
+  }
+  patternlumx += "\n";
+}
+console.log(patternlumx);
+
