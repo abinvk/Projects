@@ -1656,5 +1656,20 @@ for (let i = 1; i <= sizeq; i++) {
 }
 console.log(patternq);
 
+//131. Print hollow triangle
 
+let sizeht = 9;
+let patternht = "";
+
+for (let i = 1; i <= sizeht; i++) {
+  for (let j = 1; j <= i; j++) {
+    if (j === 1 || j === i || i === sizeht) { // First and last column, last row
+      patternht += "* ";
+    } else {
+      patternht += "  "; // Space for hollow effect
+    }
+  }
+  patternht += "\n";
+}
+console.log(patternht);
 
