@@ -1609,23 +1609,32 @@ let sizelx = 4;
 let patternlx = "";                         
 
 for (let i = sizelx; i >= 1; i--) {         
-
   for (let s = 1; s <= sizelx - i; s++) { 
     patternlx = patternlx + " ";            
   }
-
   for (let j = 1; j <= (2 * i - 1); j++) {     
     patternlx = patternlx + "* ";             
   }
-
   patternlx = patternlx + "\n";                 
 }
 console.log(patternlx);
 
+// 130. Print hollow square
 
+let sizeh = 5;
+let patternh = "";
 
-
-
+for (let i = 1; i <= sizeh; i++) {
+  for (let j = 1; j <= sizeh; j++) {
+    if (i === 1 || i === sizeh || j === 1 || j === sizeh) {
+      patternh = patternh + "* ";
+    } else {
+      patternh = patternh + "  "; // Space for hollow effect
+    }
+  }
+  patternh = patternh + "\n";
+}
+console.log(patternh);
 
 
 
