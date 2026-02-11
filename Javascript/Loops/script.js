@@ -1605,20 +1605,20 @@ console.log(patternl);
 
 //129. Print inverted pyramid
 
-let sizelx = 4;                             // size of the pyramid
-let patternlx = "";                         // variable to store the pattern
+let sizelx = 4;                            
+let patternlx = "";                         
 
-for (let i = sizelx; i >= 1; i--) {         // row control
+for (let i = sizelx; i >= 1; i--) {         
 
-  for (let s = 1; s <= sizelx - i; s++) {  //  space control
-    patternlx = patternlx + " ";            // space add cheyyunnu
+  for (let s = 1; s <= sizelx - i; s++) { 
+    patternlx = patternlx + " ";            
   }
 
-  for (let j = 1; j <= (2 * i - 1); j++) {     // star count control
-    patternlx = patternlx + "* ";               // star add cheyyunnu
+  for (let j = 1; j <= (2 * i - 1); j++) {     
+    patternlx = patternlx + "* ";             
   }
 
-  patternlx = patternlx + "\n";                 // next line add cheyyunnu
+  patternlx = patternlx + "\n";                 
 }
 console.log(patternlx);
 
