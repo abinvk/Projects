@@ -1738,11 +1738,13 @@ let patternm = "";
 for (let i = 1; i <= sizem; i++) {
 
   // Spaces
+  
   for (let s = 1; s <= sizem - i; s++) {
     patternm += " ";
   }
 
   // Stars + hollow logic
+
   for (let j = 1; j <= (2 * i - 1); j++) {
 
     if (i === 1 || i === sizem || j === 1 || j === (2 * i - 1)) {
