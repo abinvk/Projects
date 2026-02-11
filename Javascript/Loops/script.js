@@ -1673,3 +1673,59 @@ for (let i = 1; i <= sizeht; i++) {
 }
 console.log(patternht);
 
+// more method  !!
+
+let sizeu = 6;
+let patternu = "";
+
+for (let i = 1; i <= sizeu; i++) {
+
+  for (let j = 1; j <= i; j++) {
+
+    if (i === 1 || i === sizeu || j === 1 || j === i) {
+      patternu += "* ";
+    } else {
+      patternu += "  ";
+    }
+
+  }
+  patternu += "\n";
+}
+console.log(patternu);
+
+//  Hollow Diamond Pattern
+
+let sized = 5;
+let patternd = "";
+
+for (let i = 1; i <= sized; i++) {
+  for (let j = 1; j <= sized - i; j++) {
+    patternd += "  "; // Space
+  }
+  for (let k = 1; k <= 2 * i - 1; k++) {
+
+    if (k === 1 || k === 2 * i - 1) {
+      patternd += "1 "; // Star
+    }
+    else {
+      patternd += "  "; // Space for hollow effect
+    }
+  }
+  patternd += "\n"; // Next line
+}
+for (let i = sized - 1; i >= 1; i--) {
+  for (let j = 1; j <= sized - i; j++) {
+
+    patternd += "  "; // Space
+  }
+  for (let k = 1; k <= 2 * i - 1; k++) {
+    if (k === 1 || k === 2 * i - 1) {
+      patternd += "2 "; // Star
+    } else {
+      patternd += "  "; // Space for hollow effect
+
+    }
+  }
+  patternd += "\n"; // Next line
+}
+console.log(patternd);
