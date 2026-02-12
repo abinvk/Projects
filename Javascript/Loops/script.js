@@ -1859,7 +1859,7 @@ for (let i = 0; i < sizen; i++) {
 
   for (let j = 0; j < sizen; j++) {
 
-    if (j === i || j === sizen - i - 1) {
+    if (j === i || j === sizen - i - 1) {   // Left diagonal and right diagonal    [\ and /]
       row = row + "*  ";
     } else {
       row = row + "  ";
