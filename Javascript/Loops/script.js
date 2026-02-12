@@ -1870,5 +1870,50 @@ for (let i = 0; i < sizen; i++) {
   console.log(row);
 }
 
+// Y Pattern
+
+let sizey = 5;
+
+for (let i = 0; i < sizey; i++) {
+  let row = "";
+
+  for (let j = 0; j < sizey; j++) {
+
+    if (j === i && i < Math.floor(sizey / 2)) {   // Left diagonal
+      row = row + "* ";
+    } else if (j === sizey - i - 1 && i > Math.floor(sizey / 2)) {   // Right diagonal
+      row = row + "* ";
+    } else if (i === Math.floor(sizey / 2) && j === Math.floor(sizey / 2)) {   // Middle point
+      row = row + "* ";
+    } else {
+      row = row + "  ";
+    }
+
+  }
+
+  console.log(row);
+}
+
+// more method !!
 
 
+let sizeg = 7;
+
+for (let i = 0; i < sizeg; i++) {
+  let row = "";
+
+  for (let j = 0; j < sizeg; j++) {
+
+    if (
+      (i <= Math.floor(sizeg / 2) && (j === i || j === sizeg - i - 1)) 
+      || 
+      (i > Math.floor(sizeg / 2) && j === Math.floor(sizeg / 2))
+    ) {
+      row += "* ";
+    } else {
+      row += "  ";
+    }
+
+  }
+  console.log(row);
+}
