@@ -1830,5 +1830,26 @@ for (let i = 1; i <= 5; i++) {
   console.log("------------");
 }
 
+//136. Print chessboard pattern
+
+let sizea = 8;
+
+for (let i = 0; i < sizea; i++) {
+  let row = "";
+
+  for (let j = 0; j < sizea; j++) {
+
+    if ((i + j) % 2 === 0) {
+      row = row + "#  ";
+    } else {
+      row = row + "  ";
+    }
+
+  }
+
+  console.log(row);
+}
+
+
 
 
