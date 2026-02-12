@@ -1850,5 +1850,25 @@ for (let i = 0; i < sizea; i++) {
 }
 
 
+//137. Print X pattern
+
+let sizen = 5;
+
+for (let i = 0; i < sizen; i++) {
+  let row = "";
+
+  for (let j = 0; j < sizen; j++) {
+
+    if (j === i || j === sizen - i - 1) {
+      row = row + "*  ";
+    } else {
+      row = row + "  ";
+    }
+
+  }
+
+  console.log(row);
+}
+
 
 
