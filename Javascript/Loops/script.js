@@ -1846,7 +1846,6 @@ for (let i = 0; i < sizea; i++) {
     }
 
   }
-
   console.log(row);
 }
 
