@@ -1955,3 +1955,17 @@ for (let i = size - 1; i >= 1; i--) {
   }
   console.log(row);
 }
+
+//139. Print Floyd’s triangle
+
+let floyd = 1;
+let floydPattern = "";
+
+for (let i = 1; i <= 5; i++) {
+  for (let j = 1; j <= i; j++) {
+    floydPattern += floyd + " ";
+    floyd++;
+  }
+  floydPattern += "\n";
+}
+console.log(floydPattern);
