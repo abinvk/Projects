@@ -1999,6 +1999,5 @@ for (let i = 0; i < sizewq; i++) {
 
     num = num * (i - j) / (j + 1);
   }
-
   console.log(row);
 }
