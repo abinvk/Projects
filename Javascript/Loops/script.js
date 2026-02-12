@@ -2001,3 +2001,9 @@ for (let i = 0; i < sizewq; i++) {
   }
   console.log(row);
 }
+
+//142. Print pattern A–Z
+
+for (let i = 65; i <= 90; i++) {
+  console.log(String.fromCharCode(i));
+}
