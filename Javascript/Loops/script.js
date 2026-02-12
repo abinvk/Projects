@@ -1969,3 +1969,36 @@ for (let i = 1; i <= 5; i++) {
   floydPattern += "\n";
 }
 console.log(floydPattern);
+
+//140. Print Pascal-like number pattern 
+
+let pascalPattern = "";
+
+for (let i = 1; i <= 5; i++) {
+  let num = 1;
+  for (let j = 1; j <= i; j++) {
+    pascalPattern += num + " ";
+    num = num * (i - j) / j; // Calculate next number in the row
+  }
+  pascalPattern += "\n";
+}
+console.log(pascalPattern);
+
+
+// More method  !!
+
+let sizewq = 5;
+
+for (let i = 0; i < sizewq; i++) {
+
+  let num = 1;
+  let row = "";
+
+  for (let j = 0; j <= i; j++) {
+    row += num + " ";
+
+    num = num * (i - j) / (j + 1);
+  }
+
+  console.log(row);
+}
