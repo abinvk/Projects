@@ -1917,3 +1917,41 @@ for (let i = 0; i < sizeg; i++) {
   }
   console.log(row);
 }
+
+
+//138. Print diamond pattern
+
+let sizeyy = 5;
+
+// Upper part (Pyramid)
+for (let i = 1; i <= sizeyy; i++) {
+  let row = "";
+
+  // Spaces
+  for (let s = 1; s <= sizeyy - i; s++) {
+    row += " ";
+  }
+
+  // Stars
+  for (let j = 1; j <= (2 * i - 1); j++) {
+    row += "*";
+  }
+
+  console.log(row);
+}
+
+// Lower part (Inverted Pyramid)
+for (let i = size - 1; i >= 1; i--) {
+  let row = "";
+
+  // Spaces
+  for (let s = 1; s <= size - i; s++) {
+    row += " ";
+  }
+
+  // Stars
+  for (let j = 1; j <= (2 * i - 1); j++) {
+    row += "*";
+  }
+  console.log(row);
+}
