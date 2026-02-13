@@ -2086,3 +2086,18 @@ for (let i = 1; i <= xn; i++) {
 
   console.log(row);
 }
+
+//142. Print pattern A–Z
+
+for (let i = 65; i <= 90; i++) {
+
+  let row = "";
+
+  for (let j = 65; j <= i; j++) {
+    row = row + String.fromCharCode(j) + " ";
+  }
+
+  console.log(row);
+}
+
+//143. Print repeated numbers pattern
