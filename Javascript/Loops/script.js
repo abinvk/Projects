@@ -2385,3 +2385,12 @@ for (let i = 1; i <= nxe; i++) {
 }
 
 //160. Pattern using multiplication
+
+let nxf = 5;
+for (let i = 1; i <= nxf; i++) {
+  let row = "";
+  for (let j = 1; j <= nxf; j++) {
+    row += (i * j) + " ";
+  }
+  console.log(row);
+}
