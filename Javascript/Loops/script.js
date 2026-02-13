@@ -2127,3 +2127,26 @@ for (let i = 1; i <= xk; i++) {
   }
   console.log(row);
 }
+
+//145. Print mirror pattern
+
+let nd = 5;
+
+for (let i = 1; i <= nd; i++) {
+
+  let row = "";
+
+  // spaces
+  for (let s = 1; s <= nd - i; s++) {
+    row = row + " ";
+  }
+
+  // stars
+  for (let j = 1; j <= i; j++) {
+    row = row + "* ";
+  }
+
+  console.log(row);
+}
+
+//146. Print zigzag pattern
