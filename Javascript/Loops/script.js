@@ -2150,3 +2150,42 @@ for (let i = 1; i <= nd; i++) {
 }
 
 //146. Print zigzag pattern
+
+let text = "ABCDEFGHIJK";  // pattern length
+let rowsx = 3;
+
+for (let i = 0; i < rowsx; i++) {
+
+  let line = "";
+
+  for (let j = 0; j < text.length; j++) {
+
+    if (
+      (i === 0 && j % 4 === 0) ||
+      (i === 1 && j % 2 === 1) ||
+      (i === 2 && j % 4 === 2)
+    ) {
+      line += text[j] + " ";
+    } else {
+      line += "  ";
+    }
+
+  }
+
+  console.log(line);
+}
+
+//147. Print checker pattern
+
+let sizae = 5;
+for (let i = 1; i <= sizae; i++) {
+  let row = "";
+  for (let j = 1; j <= sizae; j++) {
+    if ((i + j) % 2 === 0) {
+      row += "X ";
+    } else {
+      row += "O ";
+    }
+  }
+  console.log(row);
+}
