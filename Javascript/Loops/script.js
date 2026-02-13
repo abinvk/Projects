@@ -2298,3 +2298,40 @@ for (let i = 1; i <= nxa; i++) {
 
   console.log(row);
 }
+
+//154. Pattern with alternate rows
+
+let nxb = 5;
+for (let i = 1; i <= nxb; i++) {
+  let row = "";
+  for (let j = 1; j <= nxb; j++) {
+    if ((i + j) % 2 === 0) {
+      row += "* ";
+    } else {
+      row += "  ";
+    }
+  }
+  console.log(row);
+}
+
+//155. Pattern with alternate columns
+
+let rowsd = 5;
+let colsd = 5;
+
+for (let i = 1; i <= rowsd; i++) {
+
+  let row = "";
+
+  for (let j = 1; j <= colsd; j++) {
+
+    if (j % 2 === 1) {
+      row += "* ";
+    } else {
+      row += "  ";
+    }
+
+  }
+
+  console.log(row);
+}
