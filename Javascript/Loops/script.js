@@ -2410,3 +2410,16 @@ for (let i = 0; i < shoppingCart.length; i++) {
   totalCost += shoppingCart[i].price;
 }
 console.log("Total Cost:", totalCost);
+
+//162. Bill calculation for multiple items
+
+let billItems = [
+  { name: "Burger", price: 8, quantity: 2 },
+  { name: "Fries", price: 3, quantity: 1 },
+  { name: "Soda", price: 2, quantity: 3 }
+];
+let totalBill = 0;
+for (let i = 0; i < billItems.length; i++) {
+  totalBill += billItems[i].price * billItems[i].quantity;
+}
+console.log("Total Bill:", totalBill);
