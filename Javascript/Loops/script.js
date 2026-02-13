@@ -2423,3 +2423,17 @@ for (let i = 0; i < billItems.length; i++) {
   totalBill += billItems[i].price * billItems[i].quantity;
 }
 console.log("Total Bill:", totalBill);
+
+//163. Monthly expense total
+
+let expenses = [
+  { category: "Rent", amount: 1000 },
+  { category: "Groceries", amount: 300 },
+  { category: "Utilities", amount: 150 }
+];
+let totalExpenses = 0;
+for (let i = 0; i < expenses.length; i++) {
+  totalExpenses += expenses[i].amount;
+}
+console.log("Total Expenses:", totalExpenses);
+
