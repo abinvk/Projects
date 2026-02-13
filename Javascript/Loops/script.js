@@ -2397,3 +2397,16 @@ for (let i = 1; i <= nxf; i++) {
 
 
 //  !!   Real-World Style Loop Problems  !!  //
+
+//161. Shopping cart total calculation
+
+let shoppingCart = [
+  { item: "Book", price: 10 },
+  { item: "Pen", price: 5 },
+  { item: "Notebook", price: 15 }
+];
+let totalCost = 0;
+for (let i = 0; i < shoppingCart.length; i++) {
+  totalCost += shoppingCart[i].price;
+}
+console.log("Total Cost:", totalCost);
