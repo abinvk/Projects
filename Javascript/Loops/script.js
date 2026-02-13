@@ -2394,3 +2394,6 @@ for (let i = 1; i <= nxf; i++) {
   }
   console.log(row);
 }
+
+
+//  !!   Real-World Style Loop Problems  !!  //
