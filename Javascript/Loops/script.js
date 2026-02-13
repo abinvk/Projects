@@ -2071,3 +2071,18 @@ for (let i = 1; i <= 6; i++) {
 
   console.log(row);
 }
+
+//141. Print pattern using alphabets
+
+let xn = 5;   // Number of rows
+
+for (let i = 1; i <= xn; i++) {
+
+  let row = "";
+
+  for (let j = 1; j <= i; j++) {
+    row = row + String.fromCharCode(64 + j) + " ";
+  }
+
+  console.log(row);
+}
