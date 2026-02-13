@@ -2007,3 +2007,67 @@ for (let i = 0; i < sizewq; i++) {
 for (let i = 65; i <= 90; i++) {
   console.log(String.fromCharCode(i));
 }
+
+// funny way
+
+
+let sizec = 10;   // height of roof
+
+// 🔺 ROOF PART
+for (let i = 1; i <= sizec; i++) {
+  let row = "";
+
+  row += "/";                    // left border
+
+  for (let s = 1; s <= i; s++) {
+    row += "S";                  // left fill
+  }
+
+  row += "\\";                   // middle divider
+
+  for (let y = 1; y <= i + 5; y++) {
+    row += "Y";                  // right fill
+  }
+
+  row += "\\";                   // right border
+
+  console.log(row);
+}
+
+// 🧱 WALL PART
+for (let i = 1; i <= 5; i++) {
+  let row = "|";
+
+  for (let j = 1; j <= 20; j++) {
+    row += "#";
+  }
+
+  row += "|";
+
+  for (let j = 1; j <= 20; j++) {
+    row += "#";
+  }
+
+  row += "|";
+
+  console.log(row);
+}
+
+// 🚪 DOOR / COLUMN PART
+for (let i = 1; i <= 6; i++) {
+  let row = "|";
+
+  for (let j = 1; j <= 5; j++) {
+    row += "e";
+  }
+
+  row += "|";
+
+  for (let j = 1; j <= 10; j++) {
+    row += "e";
+  }
+
+  row += "|";
+
+  console.log(row);
+}
