@@ -2228,6 +2228,7 @@ for (let i = 1; i <= ng; i++) {
 //150. Print spiral pattern (logic)
 
 //151. Print pattern using array
+
 let patternqq = [
   [1],
   [1, 2],
@@ -2238,4 +2239,62 @@ let patternqq = [
 
 for (let row of patternqq) {
   console.log(row.join(" "));
+}
+
+//152. Pattern using condition inside nested loop
+
+let axn = 5;
+
+for (let i = 1; i <= axn; i++) {
+
+  let row = "";
+
+  for (let j = 1; j <= axn; j++) {
+
+    if (i === j || i + j === axn + 1) {
+      row += "* ";
+    } else {
+      row += "  ";
+    }
+
+  }
+
+  console.log(row);
+}
+
+//153. Pattern with spaces
+
+let axm = 5;
+
+for (let i = 1; i <= axm; i++) {
+  let row = "";
+  for (let j = 1; j <= axm; j++) {
+    if (i === 1 || i === axm || j === 1 || j === axm) {
+      row += "* ";
+    } else {
+      row += "  ";
+    }
+  }
+  console.log(row);
+}
+
+// more method  !!
+
+let nxa = 5;
+
+for (let i = 1; i <= nxa; i++) {
+
+  let row = "";
+
+  // spaces
+  for (let s = 1; s <= nxa - i; s++) {
+    row += "  ";
+  }
+
+  // stars
+  for (let j = 1; j <= i; j++) {
+    row += "* ";
+  }
+
+  console.log(row);
 }
