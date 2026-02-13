@@ -2437,3 +2437,17 @@ for (let i = 0; i < expenses.length; i++) {
 }
 console.log("Total Expenses:", totalExpenses);
 
+//164. Find highest expense month
+
+let monthlyExpenses = [
+  { month: "January", amount: 1200 },
+  { month: "February", amount: 900 },
+  { month: "March", amount: 1500 }
+];
+let highestExpense = monthlyExpenses[0];
+for (let i = 1; i < monthlyExpenses.length; i++) {
+  if (monthlyExpenses[i].amount > highestExpense.amount) {
+    highestExpense = monthlyExpenses[i];
+  }
+}
+console.log("Highest Expense Month:", highestExpense.month, "Amount:", highestExpense.amount);
