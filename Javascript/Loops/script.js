@@ -2224,3 +2224,18 @@ for (let i = 1; i <= ng; i++) {
 
   console.log(row);
 }
+
+//150. Print spiral pattern (logic)
+
+//151. Print pattern using array
+let patternqq = [
+  [1],
+  [1, 2],
+  [1, 2, 3],
+  [1, 2, 3, 4],
+  [1, 2, 3, 4, 5]
+];
+
+for (let row of patternqq) {
+  console.log(row.join(" "));
+}
