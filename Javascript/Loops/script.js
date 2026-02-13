@@ -2189,3 +2189,38 @@ for (let i = 1; i <= sizae; i++) {
   }
   console.log(row);
 }
+
+//148. Print border only pattern
+
+let nb = 5;
+
+for (let i = 1; i <= nb; i++) {
+
+  let row = "";
+
+  for (let j = 1; j <= nb; j++) {
+
+    if (i === 1 || i === nb || j === 1 || j === nb) {
+      row += "* ";
+    } else {
+      row += "  ";
+    }
+
+  }
+  console.log(row);
+}
+
+//149. Print box of numbers
+
+let ng = 5;
+
+for (let i = 1; i <= ng; i++) {
+
+  let row = "";
+
+  for (let j = 1; j <= ng; j++) {
+    row += j + " ";
+  }
+
+  console.log(row);
+}
