@@ -2361,3 +2361,27 @@ for (let i = nxc; i >= 1; i--) {
   }
   console.log(row);
 }
+
+//158. Pattern using odd numbers
+
+let nxo = 5;
+for (let i = 1; i <= nxo; i++) {
+  let row = "";
+  for (let j = 1; j <= 2 * i - 1; j++) {
+    row += "* ";
+  }
+  console.log(row);
+}
+
+//159. Pattern using even numbers
+
+let nxe = 5;
+for (let i = 1; i <= nxe; i++) {
+  let row = "";
+  for (let j = 1; j <= 2 * i; j++) {
+    row += "* ";
+  }
+  console.log(row);
+}
+
+//160. Pattern using multiplication
