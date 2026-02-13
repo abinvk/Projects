@@ -2101,3 +2101,15 @@ for (let i = 65; i <= 90; i++) {
 }
 
 //143. Print repeated numbers pattern
+
+let xm = 5;
+
+for (let i = 1; i <= xm; i++) {
+
+  let row = "";
+
+  for (let j = 1; j <= i; j++) {
+    row = row + i + " ";
+  }
+  console.log(row);
+}
