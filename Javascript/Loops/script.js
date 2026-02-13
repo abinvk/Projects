@@ -2332,6 +2332,20 @@ for (let i = 1; i <= rowsd; i++) {
     }
 
   }
-
   console.log(row);
+}
+
+//156. Pattern using user input rows
+
+//let no = Number(prompt("Enter number of rows:"));
+
+for (let i = 1; i <= n; i++) {
+
+  let row = "";
+
+  for (let j = 1; j <= i; j++) {
+    row += "* ";
+  }
+
+  //console.log(row);
 }
