@@ -2113,3 +2113,17 @@ for (let i = 1; i <= xm; i++) {
   }
   console.log(row);
 }
+
+//144. Print pattern skipping rows
+
+let xk = 5;
+for (let i = 1; i <= xk; i++) {
+  if (i % 2 === 0) {
+    continue;
+  }
+  let row = "";
+  for (let j = 1; j <= i; j++) {
+    row += j + " ";
+  }
+  console.log(row);
+}
