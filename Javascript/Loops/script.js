@@ -2533,38 +2533,55 @@ for (let i = 0; i < loginAttempts.length; i++) {
 
 //169. Password strength check (loop chars)
 
-let password = prompt("Enter Password:");
+//let password = prompt("Enter Password:");
 
-let hasUpper = false;
-let hasLower = false;
-let hasNumber = false;
-let hasSpecial = false;
+//let hasUpper = false;
+//let hasLower = false;
+//let hasNumber = false;
+//let hasSpecial = false;
 
-for (let i = 0; i < password.length; i++) {
+//for (let i = 0; i < password.length; i++) {
 
-  let ch = password[i];
+  //let ch = password[i];
 
-  if (ch >= 'A' && ch <= 'Z') {
-    hasUpper = true;
-  } 
-  else if (ch >= 'a' && ch <= 'z') {
-    hasLower = true;
-  } 
-  else if (ch >= '0' && ch <= '9') {
-    hasNumber = true;
-  } 
-  else {
-    hasSpecial = true;
-  }
-}
-if (
-  password.length >= 8 &&
-  hasUpper &&
-  hasLower &&
-  hasNumber &&
-  hasSpecial
-) {
-  console.log("Strong Password");
-} else {
-  console.log("Weak Password");
-}
+ //if (ch >= 'A' && ch <= 'Z') {
+    //hasUpper = true;
+  //} 
+ // else if (ch >= 'a' && ch <= 'z') {
+    //hasLower = true;
+  //} 
+  //else if (ch >= '0' && ch <= '9') {
+   // hasNumber = true;
+  //} 
+  //else {
+  //  hasSpecial = true;
+  //}
+//}
+//if (
+ // password.length >= 8 &&
+  //hasUpper &&
+  //hasLower &&
+  //hasNumber &&
+  //hasSpecial
+//) {
+ // console.log("Strong Password");
+//} else {
+//  console.log("Weak Password");
+//}
+
+//  170. Count vowels in string
+
+//let texta = prompt("Enter a string:");
+
+//let counta = 0;
+//let vowels = "aeiouAEIOU";
+
+//for (let i = 0; i < texta.length; i++) {
+
+  //if (vowels.includes(texta[i])) {
+   // counta++;
+  //}
+
+//}
+
+//console.log("Total vowels:", counta);
