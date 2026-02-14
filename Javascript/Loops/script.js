@@ -2607,3 +2607,12 @@ for (let i = 0; i < loginAttempts.length; i++) {
 
 
 //   172. Reverse a string
+
+let texta = prompt("Enter a string:");
+let reversed = "";
+
+for (let i = texta.length - 1; i >= 0; i--) {
+  reversed += texta[i];
+}
+
+console.log("Reversed String:", reversed);
