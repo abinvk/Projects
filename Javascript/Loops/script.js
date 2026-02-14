@@ -2653,3 +2653,24 @@ for (let i = 0; i < loginAttempts.length; i++) {
 //let resultq = textq.replace(/\s+/g, "");
 
 //console.log("Without spaces:", resultq);
+
+
+//    176. Calculate tax for multiple users
+
+let usersa = [
+  { name: "Arun", salary: 30000, taxPercent: 10 },      //     (30000 × 10) / 100 = 3000         Final Salary = 30000 − 3000 = 27000
+  { name: "Meera", salary: 40000, taxPercent: 15 },    //      (40000 × 15) / 100 = 6000          Final Salary = 40000 − 6000 = 34000
+  { name: "Rahul", salary: 25000, taxPercent: 5 }     //       (25000 × 5) / 100 = 1250            Final Salary = 25000 − 1250 = 23750
+];
+
+for (let i = 0; i < usersa.length; i++) {
+
+  let taxAmount = (usersa[i].salary * usersa[i].taxPercent) / 100;
+  let finalSalary = usersa[i].salary - taxAmount;
+
+  console.log("Name:", usersa[i].name);
+  console.log("Tax Amount:", taxAmount);
+  console.log("Final Salary:", finalSalary);
+  console.log("---------------------");
+
+}
