@@ -2868,3 +2868,79 @@ for (let i = 0; i < productsy.length; i++) {
     }
   }
 }
+
+
+// 184. Calculate total order value
+
+let orderItems = [
+  { product: "Laptop", price: 1000, quantity: 2 },
+  { product: "Phone", price: 500, quantity: 3 },
+  { product: "Headphones", price: 200, quantity: 1 }
+];
+let totalOrderValue = 0;
+
+for (let i = 0; i < orderItems.length; i++) {
+  totalOrderValue += orderItems[i].price * orderItems[i].quantity;
+}
+console.log("Total Order Value:", totalOrderValue);
+
+// 185. Find most ordered product
+
+let productQuantities = {};
+for (let i = 0; i < orderItems.length; i++) {
+  let product = orderItems[i].product;
+  let quantity = orderItems[i].quantity;
+  if (productQuantities[product]) {
+    productQuantities[product] += quantity;
+  } else {
+    productQuantities[product] = quantity;
+  }
+}
+let maxQuantity = 0;
+let mostOrderedProduct = "";
+for (let product in productQuantities) {
+  if (productQuantities[product] > maxQuantity) {
+    maxQuantity = productQuantities[product];
+    mostOrderedProduct = product;
+  }
+}
+console.log("Most Ordered Product:", mostOrderedProduct, "Quantity:", maxQuantity);
+
+// More method  !!
+
+let orders = [
+  { product: "Laptop", quantity: 2 },
+  { product: "Mouse", quantity: 5 },
+  { product: "Laptop", quantity: 3 },
+  { product: "Keyboard", quantity: 4 },
+  { product: "Mouse", quantity: 2 }
+];
+
+let productTotals = {};
+
+for (let i = 0; i < orders.length; i++) {
+
+  let productName = orders[i].product;
+  let qty = orders[i].quantity;
+
+  if (productTotals[productName]) {
+    productTotals[productName] += qty;
+  } else {
+    productTotals[productName] = qty;
+  }
+
+}
+
+let maxProduct = "";
+let maxQuantitya = 0;
+
+for (let product in productTotals) {
+
+  if (productTotals[product] > maxQuantitya) {
+    maxQuantitya = productTotals[product];
+    maxProduct = product;
+  }
+}
+
+console.log("Most Ordered Product:", maxProduct);
+console.log("Total Quantity:", maxQuantitya);
