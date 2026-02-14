@@ -2516,16 +2516,55 @@ for (let i = 0; i < loginAttempts.length; i++) {
 
   //let userOTP = prompt("Enter OTP:");
 
-  if (userOTP === correctOTP) {
-    console.log("OTP Verified Successfully");
-    break;
-  } else {
-    retryCount++;
-    console.log("Wrong OTP. Attempts left:", maxRetries - retryCount);
+  //if (userOTP === correctOTP) {
+    //console.log("OTP Verified Successfully");
+    //break;
+  //} else {
+   // retryCount++;
+   // console.log("Wrong OTP. Attempts left:", maxRetries - retryCount);
+  //}
+
+//}
+
+//if (retryCount === maxRetries) {
+  //console.log("OTP Expired / Blocked");
+//}
+
+
+//169. Password strength check (loop chars)
+
+let password = prompt("Enter Password:");
+
+let hasUpper = false;
+let hasLower = false;
+let hasNumber = false;
+let hasSpecial = false;
+
+for (let i = 0; i < password.length; i++) {
+
+  let ch = password[i];
+
+  if (ch >= 'A' && ch <= 'Z') {
+    hasUpper = true;
+  } 
+  else if (ch >= 'a' && ch <= 'z') {
+    hasLower = true;
+  } 
+  else if (ch >= '0' && ch <= '9') {
+    hasNumber = true;
+  } 
+  else {
+    hasSpecial = true;
   }
-
 }
-
-if (retryCount === maxRetries) {
-  console.log("OTP Expired / Blocked");
+if (
+  password.length >= 8 &&
+  hasUpper &&
+  hasLower &&
+  hasNumber &&
+  hasSpecial
+) {
+  console.log("Strong Password");
+} else {
+  console.log("Weak Password");
 }
