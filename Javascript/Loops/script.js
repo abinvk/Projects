@@ -2674,3 +2674,41 @@ for (let i = 0; i < usersa.length; i++) {
   console.log("---------------------");
 
 }
+
+//177. Find eligible voters from list
+
+let people = [
+  { name: "Arun", age: 22 },
+  { name: "Meera", age: 17 },
+  { name: "Rahul", age: 19 },
+  { name: "Anu", age: 15 }
+];
+
+for (let i = 0; i < people.length; i++) {
+
+  if (people[i].age >= 18) {
+    console.log(people[i].name + " is Eligible to Vote");
+  } else {
+    console.log(people[i].name + " is Not Eligible");
+  }
+
+}
+
+//178. Find failed payments count
+
+let payments = [
+  { id: 1, status: "success" },
+  { id: 2, status: "failed" },
+  { id: 3, status: "failed" },
+  { id: 4, status: "success" },
+  { id: 5, status: "failed" }
+];
+
+let failedCount = 0;
+
+for (let i = 0; i < payments.length; i++) {
+  if (payments[i].status === "failed") {
+    failedCount++;
+  }
+}
+console.log("Failed Payments Count:", failedCount);
