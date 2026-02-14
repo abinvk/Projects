@@ -2648,8 +2648,8 @@ for (let i = 0; i < loginAttempts.length; i++) {
 
 // 175. Remove spaces from string
 
-let textq = prompt("Enter a string:");
+//let textq = prompt("Enter a string:");
 
-let resultq = textq.replace(/\s+/g, "");
+//let resultq = textq.replace(/\s+/g, "");
 
-console.log("Without spaces:", resultq);
+//console.log("Without spaces:", resultq);
