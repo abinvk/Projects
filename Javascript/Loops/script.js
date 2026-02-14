@@ -2944,3 +2944,54 @@ for (let product in productTotals) {
 
 console.log("Most Ordered Product:", maxProduct);
 console.log("Total Quantity:", maxQuantitya);
+
+//186. Find least ordered product
+
+let minProduct = "";
+let minQuantity = Infinity;
+for (let product in productQuantities) {
+  if (productQuantities[product] < minQuantity) {
+    minQuantity = productQuantities[product];
+    minProduct = product;
+  }
+} 
+console.log("Least Ordered Product:", minProduct, "Quantity:", minQuantity);
+
+
+// More method  !!
+
+let ordersx = [
+  { product: "Laptop", quantity: 2 },
+  { product: "Mouse", quantity: 5 },
+  { product: "Laptop", quantity: 3 },
+  { product: "Keyboard", quantity: 4 },
+  { product: "Mouse", quantity: 2 }
+];
+
+let productTotalsx = {};
+
+// Step 1: Calculate total quantity per product
+for (let i = 0; i < ordersx.length; i++) {
+
+  let name = ordersx[i].product;
+  let qty = ordersx[i].quantity;
+
+  if (productTotalsx[name]) {
+    productTotalsx[name] += qty;
+  } else {
+    productTotalsx[name] = qty;
+  }
+}
+// Step 2: Find minimum
+let minProductx = "";
+let minQuantityx = Infinity;
+
+for (let product in productTotalsx) {
+
+  if (productTotalsx[product] < minQuantityx) {
+    minQuantityx = productTotalsx[product];
+    minProductx = product;
+  }
+}
+console.log("Least Ordered Product:", minProductx);
+console.log("Total Quantity:", minQuantityx);
