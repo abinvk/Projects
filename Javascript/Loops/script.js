@@ -2712,3 +2712,41 @@ for (let i = 0; i < payments.length; i++) {
   }
 }
 console.log("Failed Payments Count:", failedCount);
+
+// 179. Find successful transactions
+
+let transactions = [
+  { id: 1, status: "success" },
+  { id: 2, status: "failed" },
+  { id: 3, status: "success" },
+  { id: 4, status: "success" },
+  { id: 5, status: "failed" }
+];
+
+let successCount = 0;
+for (let i = 0; i < transactions.length; i++) {
+  if (transactions[i].status === "success") {
+    successCount++;
+  }
+}
+console.log("Successful Transactions Count:", successCount);
+
+
+//  More method  !!
+
+let transactionsa = [
+  { id: 1, amount: 500, status: "success" },
+  { id: 2, amount: 800, status: "failed" },
+  { id: 3, amount: 300, status: "success" },
+  { id: 4, amount: 1000, status: "pending" }
+];
+
+for (let i = 0; i < transactionsa.length; i++) {
+
+  if (transactionsa[i].status === "success") {
+    console.log("Transaction ID:", transactionsa[i].id);
+    console.log("Amount:", transactionsa[i].amount);
+    console.log("-------------------");
+  }
+
+}
