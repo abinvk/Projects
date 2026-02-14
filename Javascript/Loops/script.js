@@ -2460,3 +2460,19 @@ for (let i = 0; i < salaries.length; i++) {
   salaries[i] += (salaries[i] * incrementPercentage) / 100;
 }
 console.log("Updated Salaries:", salaries);
+
+//166. Attendance count (present/absent)
+
+let attendance = ["Present", "Absent", "Present", "Present", "Absent"];
+let presentCount = 0;
+let absentCount = 0;
+
+for (let i = 0; i < attendance.length; i++) {
+  if (attendance[i] === "Present") {
+    presentCount++;
+  } else if (attendance[i] === "Absent") {
+    absentCount++;
+  }
+}
+console.log("Present Count:", presentCount);
+console.log("Absent Count:", absentCount);
