@@ -2585,3 +2585,25 @@ for (let i = 0; i < loginAttempts.length; i++) {
 //}
 
 //console.log("Total vowels:", counta);
+
+//171. Count consonants in string
+
+//let text = prompt("Enter a string:");
+
+//let consonantCount = 0;
+//let vowels = "aeiou";
+
+//for (let i = 0; i < text.length; i++) {
+
+  //let ch = text[i].toLowerCase();
+
+  //if (ch >= 'a' && ch <= 'z' && !vowels.includes(ch)) {
+  //  consonantCount++;
+  //}
+
+//}
+
+//console.log("Total consonants:", consonantCount);
+
+
+//   172. Reverse a string
