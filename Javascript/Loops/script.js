@@ -2451,3 +2451,12 @@ for (let i = 1; i < monthlyExpenses.length; i++) {
   }
 }
 console.log("Highest Expense Month:", highestExpense.month, "Amount:", highestExpense.amount);
+
+//165. Salary increment calculation
+
+let salaries = [5000, 6000, 7000];
+let incrementPercentage = 10;
+for (let i = 0; i < salaries.length; i++) {
+  salaries[i] += (salaries[i] * incrementPercentage) / 100;
+}
+console.log("Updated Salaries:", salaries);
