@@ -2463,19 +2463,7 @@ console.log("Updated Salaries:", salaries);
 
 //166. Attendance count (present/absent)
 
-let attendance = ["Present", "Absent", "Present", "Present", "Absent"];
-let presentCount = 0;
-let absentCount = 0;
 
-for (let i = 0; i < attendance.length; i++) {
-  if (attendance[i] === "Present") {
-    presentCount++;
-  } else if (attendance[i] === "Absent") {
-    absentCount++;
-  }
-}
-console.log("Present Count:", presentCount);
-console.log("Absent Count:", absentCount);
 
 //167. Login attempts limit
 
@@ -2495,26 +2483,49 @@ for (let i = 0; i < loginAttempts.length; i++) {
     
      // More method  !! //
 
-let correctPassword = "1234";
-let attempts = 0;
-let maxAttempts = 3;
+//let correctPassword = "1234";
+//let attempts = 0;
+//let maxAttempts = 3;
 
-while (attempts < maxAttempts) {
+//while (attempts < maxAttempts) {
 
-  let userInput = prompt("Enter password:");
+  //let userInput = prompt("Enter password:");
 
-  if (userInput === correctPassword) {
-    console.log("Login Successful");
+  //if (userInput === correctPassword) {
+    //console.log("Login Successful");
+    //break;
+  //} else {
+   // attempts++;
+   // console.log("Wrong password. Attempts left:", maxAttempts - attempts);
+ // }
+
+//}
+
+//if (attempts === maxAttempts) {
+ // console.log("Account Locked");
+//}
+
+
+//168. OTP retry count
+
+//let correctOTP = "7890";
+//let retryCount = 0;
+//let maxRetries = 3;
+
+//while (retryCount < maxRetries) {
+
+  //let userOTP = prompt("Enter OTP:");
+
+  if (userOTP === correctOTP) {
+    console.log("OTP Verified Successfully");
     break;
   } else {
-    attempts++;
-    console.log("Wrong password. Attempts left:", maxAttempts - attempts);
+    retryCount++;
+    console.log("Wrong OTP. Attempts left:", maxRetries - retryCount);
   }
 
 }
 
-if (attempts === maxAttempts) {
-  console.log("Account Locked");
+if (retryCount === maxRetries) {
+  console.log("OTP Expired / Blocked");
 }
-
-
