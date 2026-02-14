@@ -2807,3 +2807,64 @@ for (let i = 0; i < productsw.length; i++) {
 
 }
 
+//182. Inventory stock count
+
+let inventory = [
+  { product: "Laptop", stock: 10 },
+  { product: "Phone", stock: 5 },
+  { product: "Headphones", stock: 20 }
+];
+
+for (let i = 0; i < inventory.length; i++) {
+  console.log("Product:", inventory[i].product, "Stock:", inventory[i].stock);
+}
+
+//183. Reduce stock after sale
+
+let sales = [
+  { product: "Laptop", quantity: 2 },
+  { product: "Phone", quantity: 1 },
+  { product: "Headphones", quantity: 5 }
+];
+let inventoryStock = {
+  "Laptop": 10,
+  "Phone": 5,
+  "Headphones": 20
+};
+for (let i = 0; i < sales.length; i++) {
+
+  let productName = sales[i].product;
+  let quantitySold = sales[i].quantity;
+  if (inventoryStock[productName] !== undefined) {
+    inventoryStock[productName] -= quantitySold;
+    console.log("Updated Stock for " + productName + ":", inventoryStock[productName]);
+  } else {
+    console.log("Product " + productName + " not found in inventory.");
+  }
+}
+
+
+// More method  !!
+
+let productsy = [
+  { name: "Laptop", price: 50000, stock: 5 },
+  { name: "Mouse", price: 500, stock: 10 }
+];
+
+let productName = "Laptop";
+let quantitySold = 2;
+
+for (let i = 0; i < productsy.length; i++) {
+
+  if (productsy[i].name === productName) {
+
+    if (productsy[i].stock >= quantitySold) {
+
+      productsy[i].stock -= quantitySold;
+      console.log("Sale successful");
+      console.log("Remaining stock:", productsy[i].stock);
+    } else {
+      console.log("Not enough stock");
+    }
+  }
+}
