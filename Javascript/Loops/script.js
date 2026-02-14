@@ -2768,3 +2768,42 @@ for (let i = 0; i < producta.length; i++) {
   console.log("-------------------");
 }
 
+// 181. Find expired products
+
+let productsx = [
+  { name: "Milk", expiryDate: "2023-08-01" },
+  { name: "Bread", expiryDate: "2023-07-15" },
+  { name: "Eggs", expiryDate: "2023-08-10" }
+];
+let currentDate = new Date("2023-08-05");
+for (let i = 0; i < productsx.length; i++) {
+  let expiry = new Date(productsx[i].expiryDate);
+  if (expiry < currentDate) {
+    console.log(productsx[i].name + " is Expired");
+  } else {
+    console.log(productsx[i].name + " is Not Expired");
+  }
+}
+
+// More method  !!
+
+let productsw = [
+  { name: "Milk", expiry: "2025-01-10" },
+  { name: "Bread", expiry: "2026-03-01" },
+  { name: "Butter", expiry: "2024-12-20" }
+];
+
+let today = new Date();
+
+for (let i = 0; i < productsw.length; i++) {
+
+  let expiryDate = new Date(productsw[i].expiry);
+
+  if (expiryDate < today) {
+    console.log(productsw[i].name + " is Expired");
+  } else {
+    console.log(products[i].name + " is Not Expired");
+  }
+
+}
+
