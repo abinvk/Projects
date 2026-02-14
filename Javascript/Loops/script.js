@@ -2637,10 +2637,19 @@ for (let i = 0; i < loginAttempts.length; i++) {
 
 ///    174. Count words in sentence
 
-let sentence = prompt("Enter a sentence:");
+//let sentence = prompt("Enter a sentence:");
 
-let words = sentence.trim().split(/\s+/);
+//let words = sentence.trim().split(/\s+/);
 
-let counta = words.length;
+//let counta = words.length;
 
-console.log("Total words:", counta);
+//console.log("Total words:", counta);
+
+
+// 175. Remove spaces from string
+
+let textq = prompt("Enter a string:");
+
+let resultq = textq.replace(/\s+/g, "");
+
+console.log("Without spaces:", resultq);
