@@ -2476,3 +2476,45 @@ for (let i = 0; i < attendance.length; i++) {
 }
 console.log("Present Count:", presentCount);
 console.log("Absent Count:", absentCount);
+
+//167. Login attempts limit
+
+let loginAttempts = ["Success", "Failure", "Failure", "Success", "Failure"];
+let failureCount = 0;
+for (let i = 0; i < loginAttempts.length; i++) {
+  if (loginAttempts[i] === "Failure") {
+    failureCount++;
+    if (failureCount >= 3) {
+      console.log("Account locked due to multiple failed login attempts.");
+      break;
+    }
+  } else {
+    failureCount = 0; // Reset on success
+  }
+}
+    
+     // More method  !! //
+
+let correctPassword = "1234";
+let attempts = 0;
+let maxAttempts = 3;
+
+while (attempts < maxAttempts) {
+
+  let userInput = prompt("Enter password:");
+
+  if (userInput === correctPassword) {
+    console.log("Login Successful");
+    break;
+  } else {
+    attempts++;
+    console.log("Wrong password. Attempts left:", maxAttempts - attempts);
+  }
+
+}
+
+if (attempts === maxAttempts) {
+  console.log("Account Locked");
+}
+
+
