@@ -2620,16 +2620,27 @@ for (let i = 0; i < loginAttempts.length; i++) {
 
 //173. Check palindrome string
 
-let texta = prompt("Enter a string:");
+//let texta = prompt("Enter a string:");
 
-let reversed = "";
+//let reversed = "";
 
-for (let i = texta.length - 1; i >= 0; i--) {
-  reversed += texta[i];
-}
+//for (let i = texta.length - 1; i >= 0; i--) {
+ // reversed += texta[i];
+//}
 
-if (texta === reversed) {
-  console.log("Palindrome");
-} else {
-  console.log("Not Palindrome");
-}
+//if (texta === reversed) {
+ // console.log("Palindrome");
+//} else {
+  //console.log("Not Palindrome");
+//}
+
+
+///    174. Count words in sentence
+
+let sentence = prompt("Enter a sentence:");
+
+let words = sentence.trim().split(/\s+/);
+
+let counta = words.length;
+
+console.log("Total words:", counta);
