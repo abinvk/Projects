@@ -2750,3 +2750,21 @@ for (let i = 0; i < transactionsa.length; i++) {
   }
 
 }
+
+//  180. Calculate discount for each product
+
+let producta = [
+  { name: "Laptop", price: 1000, discountPercent: 10 },           //   Discount = (1000 × 10) / 100 = 100      Final Price = 1000 − 100 = 900
+  { name: "Phone", price: 500, discountPercent: 20 },            //    Discount = (500 × 20) / 100 = 100       Final Price = 500 − 100 = 400
+  { name: "Headphones", price: 200, discountPercent: 15 }       //     Discount = (200 × 15) / 100 = 30        Final Price = 200 − 30 = 170
+];  
+
+for (let i = 0; i < producta.length; i++) {
+  let discountAmount = (producta[i].price * producta[i].discountPercent) / 100;
+  let finalPrice = producta[i].price - discountAmount;
+  console.log("Product:", producta[i].name);
+  console.log("Discount Amount:", discountAmount);
+  console.log("Final Price:", finalPrice);
+  console.log("-------------------");
+}
+
