@@ -3241,3 +3241,16 @@ if (performanceScore >= 90) {
   rating = "Poor";
 }
 console.log("Performance Rating:", rating);
+
+
+//200. Monthly report generation
+
+let monthlyData = [
+  { month: "January", sales: 10000 },
+  { month: "February", sales: 15000 },
+  { month: "March", sales: 12000 }
+];
+console.log("Monthly Sales Report:");
+for (let i = 0; i < monthlyData.length; i++) {
+  console.log(monthlyData[i].month + ": $" + monthlyData[i].sales);
+}
