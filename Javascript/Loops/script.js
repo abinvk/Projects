@@ -2997,6 +2997,39 @@ console.log("Least Ordered Product:", minProductx);
 console.log("Total Quantity:", minQuantityx);
 
 
-// qwowdj
+// 187. Generate invoice numbers
 
-// erkjertkgjrtekjg
+let invoiceNumbers = [];
+
+for (let i = 1; i <= 10; i++) {
+  let invoiceNumber = "INV" + String(i).padStart(4, '0');
+  invoiceNumbers.push(invoiceNumber);
+}
+console.log("Generated Invoice Numbers:", invoiceNumbers);
+
+
+// More method  !!
+
+let lastInvoiceNumber = 0;
+
+function generateInvoice() {
+
+  lastInvoiceNumber++;
+
+  let invoice = "INV" + String(lastInvoiceNumber).padStart(3, "0");
+
+  return invoice;
+}
+
+console.log(generateInvoice());
+console.log(generateInvoice());
+console.log(generateInvoice());
+
+
+// more method  !!
+
+function generateInvoice() {
+  return "INV" + Math.floor(100000 + Math.random() * 900000);
+}
+
+console.log(generateInvoice());
