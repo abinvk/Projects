@@ -3161,3 +3161,24 @@ for (let i = 0; i < players.length; i++) {
   console.log("Rank", rank + ":", players[i].name, "-", players[i].score);
 }
 
+// 193. Find winner score
+
+let winner = players[0];
+console.log("Winner:", winner.name, "with Score:", winner.score);
+
+
+
+//194. Calculate EMI schedule
+
+
+
+let principal = 100000;
+let annualInterestRate = 10; // in percentage
+let tenureYears = 5;
+let monthlyInterestRate = annualInterestRate / 12 / 100;
+let numberOfPayments = tenureYears * 12;
+let emi = (principal * monthlyInterestRate) / (1 - Math.pow(1 + monthlyInterestRate, -numberOfPayments));
+console.log("Monthly EMI:", emi.toFixed(2));
+
+
+// 195. Find overdue payments
