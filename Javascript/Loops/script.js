@@ -3182,3 +3182,17 @@ console.log("Monthly EMI:", emi.toFixed(2));
 
 
 // 195. Find overdue payments
+
+let paymentsa = [
+  { id: 1, dueDate: "2023-08-01", status: "paid" },
+  { id: 2, dueDate: "2023-08-05", status: "overdue" },
+  { id: 3, dueDate: "2023-08-10", status: "paid" },
+  { id: 4, dueDate: "2023-08-15", status: "overdue" }
+];
+let overduePayments = [];
+for (let i = 0; i < paymentsa.length; i++) {
+  if (paymentsa[i].status === "overdue") {
+    overduePayments.push(paymentsa[i]);
+  }
+}
+console.log("Overdue Payments:", overduePayments);
