@@ -3033,3 +3033,23 @@ function generateInvoice() {
 }
 
 console.log(generateInvoice());
+
+// 188. Countdown timer logic
+
+function countdown(seconds) {
+  for (let i = seconds; i >= 0; i--) {
+    console.log(i);
+  }
+}
+countdown(10);
+
+
+// More method  !!
+
+let time = 5;
+
+for (let i = time; i >= 0; i--) {
+  console.log(i);
+}
+
+console.log("Time's Up!");
