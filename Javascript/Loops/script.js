@@ -3078,3 +3078,40 @@ addScore(10);
 addScore(20);
 addScore(15);
 addScore(5);
+
+// 190. Level progression system
+
+let currentLevel = 1;
+let pointsNeededForNextLevel = 100;
+
+function checkLevelProgression(totalPoints) {
+  if (totalPoints >= pointsNeededForNextLevel) {
+    currentLevel++;
+    pointsNeededForNextLevel += 100;                                         // Increase points needed for next level
+    console.log("Congratulations! You've reached Level", currentLevel);
+  }
+}
+checkLevelProgression(totalScores);
+
+// More method  !!
+
+let score = 250;
+let level;
+
+if (score >= 300) {
+  level = 4;
+} else if (score >= 200) {
+  level = 3;
+} else if (score >= 100) {
+  level = 2;
+} else {
+  level = 1;
+}
+
+console.log("Player Level:", level);
+
+// More method  !!
+
+let playerScore = 350;
+let playerLevel = Math.floor(playerScore / 100) + 1;
+console.log("Player Level:", playerLevel);
