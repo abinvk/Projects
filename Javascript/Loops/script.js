@@ -3196,3 +3196,48 @@ for (let i = 0; i < paymentsa.length; i++) {
   }
 }
 console.log("Overdue Payments:", overduePayments);
+
+//196. Daily step count total
+
+let dailySteps = [5000, 7000, 8000, 6000, 7500];
+let totalSteps = 0;
+for (let i = 0; i < dailySteps.length; i++) {
+  totalSteps += dailySteps[i];
+}
+console.log("Total Steps:", totalSteps);
+
+
+//197. Weekly average steps
+
+let totalWeeklySteps = 0;
+for (let i = 0; i < dailySteps.length; i++) {
+  totalWeeklySteps += dailySteps[i];
+}
+let averageSteps = totalWeeklySteps / dailySteps.length;
+console.log("Average Daily Steps:", averageSteps.toFixed(2));
+
+
+// 198. Attendance percentage
+
+let totalClasses = 20;
+let attendedClasses = 18;
+
+let attendancePercentage = (attendedClasses / totalClasses) * 100;
+console.log("Attendance Percentage:", attendancePercentage.toFixed(2) + "%");
+
+
+//199. Performance rating calculation
+
+let performanceScore = 85;
+let rating;
+
+if (performanceScore >= 90) {
+  rating = "Excellent";
+} else if (performanceScore >= 75) {
+  rating = "Good";
+} else if (performanceScore >= 60) {
+  rating = "Average";
+} else {
+  rating = "Poor";
+}
+console.log("Performance Rating:", rating);
