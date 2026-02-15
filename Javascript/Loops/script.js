@@ -2995,3 +2995,6 @@ for (let product in productTotalsx) {
 }
 console.log("Least Ordered Product:", minProductx);
 console.log("Total Quantity:", minQuantityx);
+
+
+// 
