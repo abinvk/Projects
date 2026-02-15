@@ -3132,3 +3132,32 @@ loseLife();
 loseLife();
 loseLife();
 loseLife(); // This will trigger Game Over
+
+// 192. Print leaderboard ranks
+
+let players = [
+  { name: "Arun", score: 150 },
+  { name: "Meera", score: 200 },
+  { name: "Rahul", score: 120 }
+];
+
+players.sort((a, b) => b.score - a.score); // Sort players by score in descending order
+console.log("Leaderboard:");
+for (let i = 0; i < players.length; i++) {
+  console.log((i + 1) + ". " + players[i].name + " - Score: " + players[i].score);
+}
+
+
+// More method  !!
+
+let rank = 1;
+
+for (let i = 0; i < players.length; i++) {
+
+  if (i > 0 && players[i].score < players[i - 1].score) {
+    rank = i + 1;
+  }
+
+  console.log("Rank", rank + ":", players[i].name, "-", players[i].score);
+}
+
