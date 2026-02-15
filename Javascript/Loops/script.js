@@ -3053,3 +3053,28 @@ for (let i = time; i >= 0; i--) {
 }
 
 console.log("Time's Up!");
+
+
+//189. Game score accumulation
+
+let scores = [10, 20, 15, 30];
+let totalScore = 0;
+for (let i = 0; i < scores.length; i++) {
+  totalScore += scores[i];
+}
+console.log("Total Score:", totalScore);
+
+
+// more method  !!
+
+let totalScores = 0;
+
+function addScore(points) {
+  totalScores += points;
+  console.log("Current Total:", totalScores);
+}
+
+addScore(10);
+addScore(20);
+addScore(15);
+addScore(5);
