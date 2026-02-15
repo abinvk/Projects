@@ -3115,3 +3115,20 @@ console.log("Player Level:", level);
 let playerScore = 350;
 let playerLevel = Math.floor(playerScore / 100) + 1;
 console.log("Player Level:", playerLevel);
+
+//191. Life counter in game
+
+let lives = 3;
+function loseLife() {
+
+  if (lives > 0) {
+    lives--;
+    console.log("Life lost! Remaining lives:", lives);
+  } else {
+    console.log("Game Over!");
+  }
+}
+loseLife();
+loseLife();
+loseLife();
+loseLife(); // This will trigger Game Over
