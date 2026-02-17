@@ -175,4 +175,13 @@ function findLargestOfThree(a, b, c) {
 }
 findLargestOfThree(25, 20, 15); // Output: 25 is the largest
 
+// 19. Swap two numbers
 
+function swapNumbers(a, b) {
+  console.log("Before swapping: a =", a, "b =", b);
+  let temp = a;
+  a = b;
+  b = temp;
+  console.log("After swapping: a =", a, "b =", b);
+}
+swapNumbers(10, 20);
