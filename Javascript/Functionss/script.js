@@ -185,3 +185,17 @@ function swapNumbers(a, b) {
   console.log("After swapping: a =", a, "b =", b);
 }
 swapNumbers(10, 20);
+
+// More method //
+
+function swapNumbersz(a, b) {
+  let temp = a;
+  a = b;
+  b = temp;
+
+  console.log("After swap:");
+  console.log("a =", a);
+  console.log("b =", b);
+}
+
+swapNumbersz(5, 10);
