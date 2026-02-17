@@ -332,3 +332,33 @@ function sumFromOneToN(n) {
     return sum;
 }
 console.log(sumFromOneToN(5)); // Output: 15 (1 + 2 + 3 + 4 + 5 = 15)
+
+// 30. Count digits in number.
+
+function countDigits(num) {
+    let count = 0;
+    while (num !== 0) {
+        num = Math.floor(num / 10);
+        count++;
+    }
+    return count;
+}
+console.log(countDigits(12345)); // Output: 5
+
+
+// More method //
+
+function countDigits(n) {
+  let count = 0;
+
+  n = Math.abs(n); // negative case handle ചെയ്യാൻ
+
+  while (n > 0) {
+    n = Math.floor(n / 10);
+    count++;
+  }
+
+  console.log(count);
+}
+
+countDigits(12345);
