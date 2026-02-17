@@ -225,3 +225,27 @@ function chNum(num){
 }
 chNum(150); // Output: 150 is greater than 100
 chNum(50); // Output: 50 is not greater than 100
+
+// 22. Check if number divisible by 3.
+
+function checkDivisibleByThree(num) {
+    if (num % 3 === 0) {
+        console.log(num + ' is divisible by 3');
+    } else {
+        console.log(num + ' is not divisible by 3');
+    }
+}
+checkDivisibleByThree(12); // Output: 12 is divisible by 3
+checkDivisibleByThree(10); // Output: 10 is not divisible by 3
+
+//23. Check if divisible by 5.
+
+function checkDivisibleByFive(num) {
+    if (num % 5 === 0) {
+        console.log(num + ' is divisible by 5');
+    } else {
+        console.log(num + ' is not divisible by 5');
+    }
+}
+checkDivisibleByFive(25); // Output: 25 is divisible by 5
+checkDivisibleByFive(22); // Output: 22 is not divisible by 5
