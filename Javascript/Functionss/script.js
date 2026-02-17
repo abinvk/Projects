@@ -69,3 +69,17 @@ function celsiusToFahrenheit(celsius) {
     console.log((celsius * 9/5) + 32);   // Celsius to Fahrenheit formula      // 25 × 9 = 225
 }                                                                             // 225 ÷ 5 = 45
 celsiusToFahrenheit(25); // Output: 77                                        // 45 + 32 = 77
+
+//11. Convert Fahrenheit to Celsius
+
+function fahrenheitToCelsius(f) {
+  console.log((f - 32) * 5/9);        // Fahrenheit to Celsius formula      // 68 - 32 = 36
+}                                                                            // 36 × 5 = 180
+fahrenheitToCelsius(68);  // Output : 20                                     // 180 ÷ 9 = 20
+
+// 12. Convert km to meters
+
+function kmeter(km) {
+    console.log(km * 1000);    
+}
+kmeter(5); // Output: 2000
