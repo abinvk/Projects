@@ -197,5 +197,31 @@ function swapNumbersz(a, b) {
   console.log("a =", a);
   console.log("b =", b);
 }
-
 swapNumbersz(5, 10);
+
+
+// 20. Return absolute value
+
+function absoluteValue(num) {
+    if (num < 0) {
+        return -num;
+    } else {
+
+        return num;
+    }
+}
+console.log(absoluteValue(-5)); // Output: 5
+console.log(absoluteValue(12)); // Output: 10
+
+
+//21. Check if number > 100.
+
+function chNum(num){
+    if(num > 100){
+        console.log(num + ' is greater than 100');
+    } else {
+        console.log(num + ' is not greater than 100');
+    }
+}
+chNum(150); // Output: 150 is greater than 100
+chNum(50); // Output: 50 is not greater than 100
