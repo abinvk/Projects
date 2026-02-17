@@ -297,3 +297,38 @@ function printMultiplicationTablea(num) {
     }
 }
 printMultiplicationTablea(7); // Output: 7 * 0 = 0, 7 * 1 = 7, ..., 7 * 10 = 70
+
+//28. Find factorial.
+
+function factorial(n) {
+    if (n === 0 || n === 1) {
+        return 1;
+    } else {
+        return n * factorial(n - 1);
+    }
+}
+console.log(factorial(5)); // Output: 120
+
+// More method //
+
+function factoriala(n) {
+  let result = 1;
+
+  for (let i = 1; i <= n; i++) {
+    result = result * i;
+  }
+
+  console.log(result);
+}
+factoriala(5);
+
+// 29. Sum from 1 to N.
+
+function sumFromOneToN(n) {
+    let sum = 0;
+    for (let i = 1; i <= n; i++) {
+        sum += i;
+    }
+    return sum;
+}
+console.log(sumFromOneToN(5)); // Output: 15 (1 + 2 + 3 + 4 + 5 = 15)
