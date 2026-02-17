@@ -249,3 +249,24 @@ function checkDivisibleByFive(num) {
 }
 checkDivisibleByFive(25); // Output: 25 is divisible by 5
 checkDivisibleByFive(22); // Output: 22 is not divisible by 5
+
+// 24. Check divisible by both 3 and 5.
+
+function checkDivisibleByThreeAndFive(num) {
+    if (num % 3 === 0 && num % 5 === 0) {
+        console.log(num + ' is divisible by both 3 and 5');
+    } else {
+        console.log(num + ' is not divisible by both 3 and 5');
+    }
+}
+checkDivisibleByThreeAndFive(15); // Output: 15 is divisible by both 3 and 5
+checkDivisibleByThreeAndFive(12); // Output: 12 is not divisible by both 3 and 5
+
+// 25. Print numbers from 1 to N.
+
+function printNumbers(n) {
+  for (let i = 1; i <= n; i++) {
+    console.log(i);
+  }
+}
+printNumbers(5); // Output: 1, 2, 3, 4, 5
