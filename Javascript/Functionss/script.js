@@ -90,3 +90,30 @@ function rupeesToPaise(rupees) {
     console.log(rupees * 100);
 }
 rupeesToPaise(10); // Output: 1000
+
+// 14. Check even or odd.
+
+function checkEvenOdd(num) {
+    if (num % 2 === 0) {
+        console.log(num + ' is even');
+    } else {
+        console.log(num + ' is odd');
+    }
+}
+checkEvenOdd(7); // Output: 7 is odd
+checkEvenOdd(10); // Output: 10 is even
+
+// 15. Check positive or negative
+
+function checkNumber(n){
+    if(n > 0){
+        console.log(n + ' is positive');
+    } else if(n < 0){
+        console.log(n + ' is negative');
+    } else {
+        console.log(n + ' is zero');
+    }
+}
+checkNumber(-5); // Output: 5 is positive
+checkNumber(0); // Output: 0 is zero
+checkNumber(10); // Output: 10 is positive
