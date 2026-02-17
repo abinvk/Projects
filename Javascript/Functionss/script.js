@@ -117,3 +117,33 @@ function checkNumber(n){
 checkNumber(-5); // Output: 5 is positive
 checkNumber(0); // Output: 0 is zero
 checkNumber(10); // Output: 10 is positive
+
+// 16. Find largest of two numbers
+
+function findLargest(a, b) {
+    if (a > b) {
+        console.log(a + ' is larger than ' + b);
+    } else if (b > a) {
+        console.log(b + ' is larger than ' + a);
+    } else {
+        console.log(a + ' and ' + b + ' are equal');
+    }
+}
+findLargest(10, 20); // Output: 20 is larger than 10
+findLargest(15, 5); // Output: 15 is larger than 5
+findLargest(7, 7); // Output: 7 and 7 are equal
+
+
+// MORE METHOD //
+
+function findLargestQ(a, b) {
+  if (a > b) {
+    console.log(a + " is largest");
+  } else if (b > a) {
+    console.log(b + " is largest");
+  } else {
+    console.log("Both numbers are equal");
+  }
+}
+
+findLargestQ(10, 25);
