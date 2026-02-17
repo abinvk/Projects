@@ -145,5 +145,34 @@ function findLargestQ(a, b) {
     console.log("Both numbers are equal");
   }
 }
+findLargestQ(10, 25);
 
-findLargestQ(10, 25);
+// 17. Find smallest of two numbers.
+
+function findSmallest(a, b) {
+  if (a < b) {
+    console.log(a + " is smallest");
+  } else if (b < a) {
+    console.log(b + " is smallest");
+  } else {
+    console.log("Both numbers are equal");
+  }
+}
+findSmallest(10, 25);
+
+// 18. Find largest of three numbers.
+
+function findLargestOfThree(a, b, c) {
+    if (a > b && a > c) {              // A ROUND
+        console.log(a + ' is the largest');
+    } else if (b > a && b > c) {            // B ROUND
+        console.log(b + ' is the largest');
+    } else if (c > a && c > b) {            // C ROUND
+        console.log(c + ' is the largest');
+    } else {
+        console.log('There is a tie for the largest number');
+    }
+}
+findLargestOfThree(25, 20, 15); // Output: 25 is the largest
+
+
