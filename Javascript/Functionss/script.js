@@ -48,3 +48,24 @@ function findRemainder(a, b) {
   console.log(a % b);
 }
 findRemainder(17, 4);  // Output: 1
+
+//8. Square a number.
+
+function squareNumber(num) {
+    console.log(num * num);     // Square two item
+}
+squareNumber(5); // Output: 25
+
+// 9. Cube a number.
+
+function cubeNumber(num) {
+    console.log(num * num * num);    // Cube three item
+}
+cubeNumber(3); // Output: 27
+
+// 10. Convert Celsius to Fahrenheit.
+
+function celsiusToFahrenheit(celsius) {
+    console.log((celsius * 9/5) + 32);   // Celsius to Fahrenheit formula      // 25 × 9 = 225
+}                                                                             // 225 ÷ 5 = 45
+celsiusToFahrenheit(25); // Output: 77                                        // 45 + 32 = 77
