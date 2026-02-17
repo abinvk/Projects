@@ -83,3 +83,10 @@ function kmeter(km) {
     console.log(km * 1000);    
 }
 kmeter(5); // Output: 2000
+
+// 13. Convert rupees to paise.
+
+function rupeesToPaise(rupees) {
+    console.log(rupees * 100);
+}
+rupeesToPaise(10); // Output: 1000
