@@ -270,3 +270,30 @@ function printNumbers(n) {
   }
 }
 printNumbers(5); // Output: 1, 2, 3, 4, 5
+
+// 26. Print N to 1.
+
+function printNumbers(n) {
+  for (let i = n; i >= 1; i--) {
+    console.log(i);
+  }
+}
+printNumbers(5);
+
+//27. Print multiplication table of a number.
+
+function printMultiplicationTable(num) {
+  for (let i = 1; i <= 10; i++) {
+    console.log(num + ' x ' + i + ' = ' + (num * i));
+  }
+}
+printMultiplicationTable(5); // Output: 5 x 1 = 5, 5 x 2 = 10, ..., 5 x 10 = 50
+
+
+function printMultiplicationTablea(num) {
+    for(let i =0; i <=10; i++){
+        console.log(num + ' x ' + i + ' = ' + (num * i));
+
+    }
+}
+printMultiplicationTablea(7); // Output: 7 * 0 = 0, 7 * 1 = 7, ..., 7 * 10 = 70
