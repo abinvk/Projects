@@ -508,3 +508,32 @@ function calculateSimpleInterest(principal, rate, time) {
 console.log(calculateSimpleInterest(1000, 5, 2)); // Output: 100 (Simple Interest = (1000 * 5 * 2) / 100 = 100)
 
 
+
+// 38. Calculate percentage
+
+
+function calculatePercentage(obtained, total) {
+  if (total === 0) {
+    console.log("Total cannot be zero");
+    return;
+  }
+  let percentage = (obtained / total) * 100;
+  console.log("Percentage =", percentage + "%");
+}
+calculatePercentage(450, 500);
+
+//39. Convert minutes to seconds.
+
+function minutesToSeconds(minutes) {
+    let seconds = minutes * 60;
+    return seconds;
+}
+console.log(minutesToSeconds(5)); // Output: 300 (5 minutes = 5 * 60 seconds = 300 seconds)
+
+// 40. Convert hours to minutes.
+
+function hoursToMinutes(hours) {
+    let minutes = hours * 60;
+    return minutes;
+}
+console.log(hoursToMinutes(2)); // Output: 120 (2 hours = 2 * 60 minutes = 120 minutes)
