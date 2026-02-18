@@ -537,3 +537,21 @@ function hoursToMinutes(hours) {
     return minutes;
 }
 console.log(hoursToMinutes(2)); // Output: 120 (2 hours = 2 * 60 minutes = 120 minutes)
+
+
+
+
+// !!   LEVEL 2 – Functions with Loops & Arrays (41–90) !! //
+
+
+
+// 41. Sum of array.
+
+function sumOfArray(arr) {
+    let sum = 0;
+    for (let i = 0; i < arr.length; i++) {
+        sum += arr[i];
+    }
+    return sum;
+}
+console.log(sumOfArray([1, 2, 3, 4, 5])); // Output: 15 (1 + 2 + 3 + 4 + 5 = 15)
