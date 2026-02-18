@@ -499,3 +499,12 @@ function findMax(a, b, c, d) {
 
 findMax(10, 45, 32, 25);
 
+// 37. Calculate simple interest.
+
+function calculateSimpleInterest(principal, rate, time) {
+    let interest = (principal * rate * time) / 100;
+    return interest;
+}
+console.log(calculateSimpleInterest(1000, 5, 2)); // Output: 100 (Simple Interest = (1000 * 5 * 2) / 100 = 100)
+
+
