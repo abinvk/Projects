@@ -555,3 +555,16 @@ function sumOfArray(arr) {
     return sum;
 }
 console.log(sumOfArray([1, 2, 3, 4, 5])); // Output: 15 (1 + 2 + 3 + 4 + 5 = 15)
+
+
+// 42. Average of array.
+
+function averageOfArray(arr) {
+    let sum = 0;
+    for (let i = 0; i < arr.length; i++) {
+        sum += arr[i];
+    }
+    let average = sum / arr.length;
+    return average;
+}
+console.log(averageOfArray([1, 2, 3, 4, 5])); // Output: 3 (Average = (1 + 2 + 3 + 4 + 5) / 5 = 15 / 5 = 3)
