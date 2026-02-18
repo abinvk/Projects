@@ -594,3 +594,29 @@ function findSmallestInArray(arr) {
     return smallest;
 }
 console.log(findSmallestInArray([10, 5, 20, 15])); // Output: 5 (Smallest element is 5)
+
+// 45. Count even numbers in array.
+
+function countEvenNumbers(arr) {
+    let count = 0;
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] % 2 === 0) {
+            count++;
+}
+    }
+    return count;
+}   
+console.log(countEvenNumbers([1, 2, 3, 4, 5, 6])); // Output: 3 (Even numbers are 2, 4, and 6)
+
+// 46. Count odd numbers.
+
+function countOddNumbers(arr) {
+    let count = 0;
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] % 2 !== 0) {
+            count++;
+}
+    }
+    return count;
+}
+console.log(countOddNumbers([1, 2, 3, 4, 5, 6])); // Output: 3 (Odd numbers are 1, 3, and 5)
