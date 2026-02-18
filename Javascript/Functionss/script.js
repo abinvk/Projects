@@ -646,3 +646,17 @@ function negativeNumbers(arr) {
     return count;
 }
 console.log(negativeNumbers([-1, 2, -3, 4, -5, 6]));
+
+
+// 49. Count zeros in array.
+
+function countZeros(arr) {
+    let count = 0;
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] === 0) {
+            count++;
+        }
+    }
+    return count;
+}
+console.log(countZeros([0, 1, 0, 2, 0, 3])); // Output: 3 (There are three zeros in the array)
