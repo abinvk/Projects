@@ -620,3 +620,29 @@ function countOddNumbers(arr) {
     return count;
 }
 console.log(countOddNumbers([1, 2, 3, 4, 5, 6])); // Output: 3 (Odd numbers are 1, 3, and 5)
+
+//47. Count positive numbers
+
+function postiveNumbers(arr) {
+    let count = 0;
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] > 0) {
+            count++;
+        }
+    }
+    return count;
+}
+console.log(postiveNumbers([-1, 2, -3, 4, -5, 6])); // Output: 3 (Positive numbers are 2, 4, and 6)
+
+// 48. Count negative numbers.
+
+function negativeNumbers(arr) {
+    let count = 0;
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] < 0) {
+            count++;
+        }
+    }
+    return count;
+}
+console.log(negativeNumbers([-1, 2, -3, 4, -5, 6]));
