@@ -647,7 +647,6 @@ function negativeNumbers(arr) {
 }
 console.log(negativeNumbers([-1, 2, -3, 4, -5, 6]));
 
-
 // 49. Count zeros in array.
 
 function countZeros(arr) {
@@ -660,3 +659,15 @@ function countZeros(arr) {
     return count;
 }
 console.log(countZeros([0, 1, 0, 2, 0, 3])); // Output: 3 (There are three zeros in the array)
+
+// 50. Find index of value
+
+function findIndexOfValue(arr, value) {
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] === value) {
+            return i;
+        }
+    }
+    return -1; // Return -1 if value is not found
+}
+console.log(findIndexOfValue([10, 20, 30, 40], 30)); // Output: 2 (Value 30 is at index 2)
