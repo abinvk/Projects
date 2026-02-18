@@ -448,3 +448,13 @@ function isLeapYear(year) {
 }
 isLeapYear(2020); // Output: 2020 is a leap year
 isLeapYear(2021); // Output: 2021 is not a leap year
+
+
+// 35. Generate random number between 1–10.
+
+function generateRandom() {
+  let random = Math.floor(Math.random() * 10) + 1;
+  console.log(random);
+}
+
+generateRandom();
