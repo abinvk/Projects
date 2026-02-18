@@ -362,3 +362,52 @@ function countDigits(n) {
 }
 
 countDigits(12345);
+
+//31. Reverse a number
+
+function reverseNumber(num) {
+  let reversed = 0;
+  while (num !== 0) {
+    reversed = reversed * 10 + (num % 10);
+    num = Math.floor(num / 10);
+  }
+  return reversed;
+}
+console.log(reverseNumber(12345)); // Output: 54321
+
+// 32. Check palindrome number.
+
+function isPalindrome(num) {
+    let original = num;
+    let reversed = 0;
+    while (num !== 0) {
+        reversed = reversed * 10 + (num % 10);
+        num = Math.floor(num / 10);
+    }
+    return original === reversed;
+}
+console.log(isPalindrome(12321)); // Output: true
+console.log(isPalindrome(12345)); // Output: false
+
+// More method //
+
+function checkPalindromea(n) {
+  let original = n;
+  let reversed = 0;
+
+  n = Math.abs(n);
+
+  while (n > 0) {
+    let digit = n % 10;
+    reversed = reversed * 10 + digit;
+    n = Math.floor(n / 10);
+  }
+
+  if (original === reversed) {
+    console.log("Palindrome");
+  } else {
+    console.log("Not Palindrome");
+  }
+}
+
+checkPalindromea(121);
