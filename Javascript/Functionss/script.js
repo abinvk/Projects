@@ -568,3 +568,29 @@ function averageOfArray(arr) {
     return average;
 }
 console.log(averageOfArray([1, 2, 3, 4, 5])); // Output: 3 (Average = (1 + 2 + 3 + 4 + 5) / 5 = 15 / 5 = 3)
+
+// 43. Find largest element in array.
+
+function findLargestInArray(arr) {
+    let largest = arr[0];
+    for (let i = 1; i < arr.length; i++) {
+        if (arr[i] > largest) {
+            largest = arr[i];
+        }
+    }
+    return largest;
+}
+console.log(findLargestInArray([10, 5, 20, 15])); // Output: 20 (Largest element is 20)
+
+// 44. Find smallest element in array.
+
+function findSmallestInArray(arr) {
+    let smallest = arr[0];
+    for (let i = 1; i < arr.length; i++) {
+        if (arr[i] < smallest) {
+            smallest = arr[i];
+        }
+    }
+    return smallest;
+}
+console.log(findSmallestInArray([10, 5, 20, 15])); // Output: 5 (Smallest element is 5)
