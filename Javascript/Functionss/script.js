@@ -411,3 +411,40 @@ function checkPalindromea(n) {
 }
 
 checkPalindromea(121);
+
+//33. Find power (a^b).
+
+function power(a, b) {
+    let result = 1;
+    for (let i = 1; i <= b; i++) {
+        result *= a;
+    }
+    return result;
+}
+console.log(power(2, 3)); // Output: 8 (2^3 = 8)
+
+// More method //
+
+function power(a, b) {
+  let result = 1;
+
+  for (let i = 1; i <= b; i++) {
+    result = result * a;
+  }
+
+  console.log(result);
+}
+
+power(2, 3);
+
+// 34. Check leap year.
+
+function isLeapYear(year) {
+    if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
+        console.log(year + ' is a leap year');
+    } else {
+        console.log(year + ' is not a leap year');
+    }
+}
+isLeapYear(2020); // Output: 2020 is a leap year
+isLeapYear(2021); // Output: 2021 is not a leap year
