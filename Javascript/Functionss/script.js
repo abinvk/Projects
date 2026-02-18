@@ -458,3 +458,44 @@ function generateRandom() {
 }
 
 generateRandom();
+
+// 36. Find maximum of 4 numbers
+
+function findMaxOfFour(a, b, c, d) {
+    let max = a;
+
+    if (b > max) {
+        max = b;
+    }
+    if (c > max) {
+        max = c;
+    }
+    if (d > max) {
+        max = d;
+    }
+    return max;
+}
+console.log(findMaxOfFour(10, 20, 5, 15)); // Output: 20
+
+// more method //
+
+function findMax(a, b, c, d) {
+  let max = a;
+
+  if (b > max) {
+    max = b;
+  }
+
+  if (c > max) {
+    max = c;
+  }
+
+  if (d > max) {
+    max = d;
+  }
+
+  console.log("Maximum =", max);
+}
+
+findMax(10, 45, 32, 25);
+
