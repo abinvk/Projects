@@ -795,8 +795,21 @@ function findSecondSmallest(arr) {
       SecondSmallest = arr[i];
     }
   }
-
   return SecondSmallest;
 }
 console.log(findSecondSmallest([10, 40, 20, 50, 30]));
+
+// 56. Count frequency of element.
+
+function countFrequency(arr, value) {
+  let count = 0;
+
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] === value) {
+      count++;
+    }
+  }
+  return count;
+}
+console.log(countFrequency([10, 20, 10, 30, 10], 10));
 
