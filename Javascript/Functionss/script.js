@@ -850,3 +850,18 @@ function sortdescending(arr) {
   return arr;
 }
 console.log(sortdescending([5, 2, 9, 1]));
+
+// 59. Sum of only even numbers
+
+function sumOfEven(arr) {
+  let sum = 0;
+
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] % 2 === 0) {
+      sum = sum + arr[i];
+    }
+  }
+
+  return sum;
+}
+console.log(sumOfEven([1, 2, 3, 4, 5, 6]));
