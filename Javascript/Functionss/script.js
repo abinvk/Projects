@@ -776,3 +776,27 @@ function findSecondLargest(arr) {
   return secondLargest;
 }
 console.log(findSecondLargest([10, 40, 20, 50, 30]));
+
+// 55. Find second smallest.
+
+function findSecondSmallest(arr) {
+  if (arr.length < 2) {
+    return "Array too small";
+  }
+
+  let smallest = Infinity;
+  let SecondSmallest = Infinity;
+
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] < smallest) {
+      SecondSmallest = smallest;
+      smallest = arr[i];
+    } else if (arr[i] < SecondSmallest && arr[i] !== smallest) {
+      SecondSmallest = arr[i];
+    }
+  }
+
+  return SecondSmallest;
+}
+console.log(findSecondSmallest([10, 40, 20, 50, 30]));
+
