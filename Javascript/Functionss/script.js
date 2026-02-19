@@ -740,9 +740,7 @@ function removeDuplicatesWithSet(arr) {
 console.log(removeDuplicates([1, 2, 2, 3, 4, 4, 5])); // Output: [1,2,3,4,5]
 console.log(removeDuplicatesWithSet([10, 20, 10, 30, 20])); // Output: [10,20,30]
 
-
 // More method //
-
 
 function removeDuplicates(arr) {
   let unique = [];
@@ -752,8 +750,29 @@ function removeDuplicates(arr) {
       unique.push(arr[i]);
     }
   }
-
   return unique;
 }
-
 console.log(removeDuplicates([10, 20, 10, 30, 20]));
+
+// 54. Find second largest
+
+function findSecondLargest(arr) {
+  if (arr.length < 2) {
+    return "Array too small";
+  }
+
+  let largest = -Infinity;
+  let secondLargest = -Infinity;
+
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > largest) {
+      secondLargest = largest;
+      largest = arr[i];
+    } else if (arr[i] > secondLargest && arr[i] !== largest) {
+      secondLargest = arr[i];
+    }
+  }
+
+  return secondLargest;
+}
+console.log(findSecondLargest([10, 40, 20, 50, 30]));
