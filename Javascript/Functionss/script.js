@@ -671,3 +671,17 @@ function findIndexOfValue(arr, value) {
     return -1; // Return -1 if value is not found
 }
 console.log(findIndexOfValue([10, 20, 30, 40], 30)); // Output: 2 (Value 30 is at index 2)
+
+// 51. Check if value exists in array.
+
+function valueExists(arr, value) {
+    for (let i = 0; i <arr.length; i++){
+        if (arr[i] === value){
+            return true;
+        }
+    }
+
+    return false;
+}
+
+console.log(valueExists([10, 20, 40, 80, 100], 100));
