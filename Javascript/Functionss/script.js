@@ -717,3 +717,43 @@ console.log(reverseArray([1, 2, 3, 4, 5])); // Output: [5, 4, 3, 2, 1]
 const arrExample = [10, 20, 30, 40];
 console.log(reverseArrayInPlace(arrExample)); // Output: [40, 30, 20, 10]
 
+
+// 53. Remove duplicates
+
+// Return a new array with duplicates removed (preserves first occurrence order)
+
+function removeDuplicates(arr) {
+    const result = [];
+    for (let i = 0; i < arr.length; i++) {
+        if (result.indexOf(arr[i]) === -1) {
+            result.push(arr[i]);
+        }
+    }
+    return result;
+}
+
+// Fast version using Set
+function removeDuplicatesWithSet(arr) {
+    return Array.from(new Set(arr));
+}
+
+console.log(removeDuplicates([1, 2, 2, 3, 4, 4, 5])); // Output: [1,2,3,4,5]
+console.log(removeDuplicatesWithSet([10, 20, 10, 30, 20])); // Output: [10,20,30]
+
+
+// More method //
+
+
+function removeDuplicates(arr) {
+  let unique = [];
+
+  for (let i = 0; i < arr.length; i++) {
+    if (!unique.includes(arr[i])) {
+      unique.push(arr[i]);
+    }
+  }
+
+  return unique;
+}
+
+console.log(removeDuplicates([10, 20, 10, 30, 20]));
