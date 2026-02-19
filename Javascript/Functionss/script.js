@@ -685,3 +685,35 @@ function valueExists(arr, value) {
 }
 
 console.log(valueExists([10, 20, 40, 80, 100], 100));
+
+// 52. Reverse array without reverse().
+
+function reverseArray(arr) {
+    const result = [];
+    for (let i = arr.length - 1; i >= 0; i--) {
+        result.push(arr[i]);
+    }
+    return result;
+}
+
+console.log(reverseArray([10, 20, 30, 40]));
+
+// In-place version (modifies the original array)
+
+function reverseArrayInPlace(arr) {
+    let i = 0;
+    let j = arr.length - 1;
+    while (i < j) {
+        const tmp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = tmp;
+        i++;
+        j--;
+    }
+    return arr;
+}
+
+console.log(reverseArray([1, 2, 3, 4, 5])); // Output: [5, 4, 3, 2, 1]
+const arrExample = [10, 20, 30, 40];
+console.log(reverseArrayInPlace(arrExample)); // Output: [40, 30, 20, 10]
+
