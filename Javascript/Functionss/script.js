@@ -1026,3 +1026,23 @@ function findLongestWord(str) {
 }
 
 console.log(findLongestWord("JavaScript is very powerful"));
+
+//70. Find shortest word
+
+function findShortestWord(str) {
+  let words = str.trim().split(/\s+/);
+
+  if (words.length === 0) return "";
+
+  let shortest = words[0];
+
+  for (let i = 1; i < words.length; i++) {
+    if (words[i].length < shortest.length) {
+      shortest = words[i];
+    }
+  }
+
+  return shortest;
+}
+
+console.log(findShortestWord("JavaScript is very powerful"));
