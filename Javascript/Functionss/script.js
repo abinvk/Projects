@@ -1064,7 +1064,7 @@ function toUpperCaseManual(str) {
     let code = str.charCodeAt(i);
 
     // check if lowercase letter
-    
+
     if (code >= 97 && code <= 122) {
       result += String.fromCharCode(code - 32);
     } else {
@@ -1076,3 +1076,24 @@ function toUpperCaseManual(str) {
 }
 
 console.log(toUpperCaseManual("hello World"));
+
+// 73. Convert string to lowercase manually
+
+function toLowerCaseManual(str) {
+  let result = "";
+
+  for (let i = 0; i < str.length; i++) {
+    let code = str.charCodeAt(i);
+
+    // check if uppercase letter
+    if (code >= 65 && code <= 90) {
+      result += String.fromCharCode(code + 32);
+    } else {
+      result += str[i];
+    }
+  }
+
+  return result;
+}
+
+console.log(toLowerCaseManual("HELLO World 123"));
