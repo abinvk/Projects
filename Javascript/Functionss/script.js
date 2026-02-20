@@ -996,3 +996,16 @@ function removeSpaces(str) {
 }
 
 console.log(removeSpaces("Hello World"));
+
+//68. Count words.
+
+function countWords(str) {
+  str = str.trim(); // starting & ending spaces remove ചെയ്യുന്നു
+  
+  if (str === "") return 0;
+
+  let words = str.split(/\s+/); // one or more spaces split ചെയ്യുന്നു
+  return words.length;
+}
+
+console.log(countWords("Hello world from JavaScript"));
