@@ -1054,3 +1054,25 @@ function capitalizFirst(str){
     return str[0].toUpperCase() + str.slice(1);
 }
 console.log(capitalizFirst("abin"));
+
+// 72. Convert string to uppercase manually.
+
+function toUpperCaseManual(str) {
+  let result = "";
+
+  for (let i = 0; i < str.length; i++) {
+    let code = str.charCodeAt(i);
+
+    // check if lowercase letter
+    
+    if (code >= 97 && code <= 122) {
+      result += String.fromCharCode(code - 32);
+    } else {
+      result += str[i];
+    }
+  }
+
+  return result;
+}
+
+console.log(toUpperCaseManual("hello World"));
