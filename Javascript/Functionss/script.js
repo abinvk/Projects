@@ -1044,5 +1044,13 @@ function findShortestWord(str) {
 
   return shortest;
 }
-
 console.log(findShortestWord("JavaScript is very powerful"));
+
+//71. Capitalize first letter.
+
+function capitalizFirst(str){
+    if (str.length === 0) return str;
+
+    return str[0].toUpperCase() + str.slice(1);
+}
+console.log(capitalizFirst("abin"));
