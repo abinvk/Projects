@@ -888,7 +888,7 @@ function isPalindrome(arr){
 
     while (left < right){
         if (arr[left] !== arr[right]){
-            
+
             return false;
     }
 
@@ -898,3 +898,17 @@ function isPalindrome(arr){
 return true;
 }
 console.log(isPalindrome([1,2,3,2,1]));
+
+// 62. Flatten 2D array
+
+function flattenArray(arr) {
+  let flat = [];
+
+  for (let i = 0; i < arr.length; i++) {
+    for (let j = 0; j < arr[i].length; j++) {
+      flat.push(arr[i][j]);
+    }
+  }
+  return flat;
+}
+console.log(flattenArray([[1, 2], [3, 4], [5, 6]]));
