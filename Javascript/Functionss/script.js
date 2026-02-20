@@ -912,3 +912,18 @@ function flattenArray(arr) {
   return flat;
 }
 console.log(flattenArray([[1, 2], [3, 4], [5, 6]]));
+
+// 63. Count vowels in string
+
+function countVowels(str){
+    let count = 0;
+    let vowels = "aeiouAEIOU";
+
+    for(let i = 0; i < str.length; i++){
+        if(vowels.includes(str[i])){
+            count++;
+        }
+    }
+     return count;
+}
+console.log(countVowels("Hello World"));
