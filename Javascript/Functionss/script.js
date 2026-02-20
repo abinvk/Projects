@@ -927,3 +927,25 @@ function countVowels(str){
      return count;
 }
 console.log(countVowels("Hello World"));
+
+// 64. Count consonants
+
+function countConsonants(str) {
+  let count = 0;
+  str = str.toLowerCase();
+
+  for (let i = 0; i < str.length; i++) {
+    let ch = str[i];
+
+    if (
+      ch >= 'a' && ch <= 'z' &&   // letter check
+      !"aeiou".includes(ch)       // vowel അല്ലെങ്കിൽ
+    ) {
+      count++;
+    }
+  }
+
+  return count;
+}
+
+console.log(countConsonants("Hello World"));
