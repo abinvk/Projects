@@ -1112,3 +1112,20 @@ function countOccurrences(str, ch) {
 }
 console.log(countOccurrences("banana", "a"));
 console.log(countOccurrences("skwskjkwxsquxqsuxuqwhxuqwussscxcdssddcvsscdc", "s"));
+
+
+//75. Remove specific character.
+
+
+function removeCharacter(str, ch) {
+  let result = "";
+
+  for (let i = 0; i < str.length; i++) {
+    if (str[i] !== ch) {
+      result += str[i];
+    }
+  }
+
+  return result;
+}
+console.log(removeCharacter("banana", "a"));
