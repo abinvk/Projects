@@ -1095,5 +1095,20 @@ function toLowerCaseManual(str) {
 
   return result;
 }
-
 console.log(toLowerCaseManual("HELLO World 123"));
+
+// 74. Count occurrences of character.
+
+function countOccurrences(str, ch) {
+  let count = 0;
+
+  for (let i = 0; i < str.length; i++) {
+    if (str[i] === ch) {
+      count++;
+    }
+  }
+
+  return count;
+}
+console.log(countOccurrences("banana", "a"));
+console.log(countOccurrences("skwskjkwxsquxqsuxuqwhxuqwussscxcdssddcvsscdc", "s"));
