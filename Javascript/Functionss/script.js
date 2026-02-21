@@ -1579,6 +1579,7 @@ function validateOTP(userOTP) {
         console.log("Invalid OTP");
     }
 }
-
 // Example test
 validateOTP("1234");
+
+// 95. Check password strength
