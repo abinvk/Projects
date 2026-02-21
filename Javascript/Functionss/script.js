@@ -1132,22 +1132,22 @@ console.log(removeCharacter("banana", "a"));
 
 // 76. Generate Fibonacci up to N.
 
-function generateFibonacci(n) {
-    let a = 0;
-    let b = 1;
+function generateFibonacci(n) {   // Variable creation    [n limt = 10]
+    let a = 0;   //  Fibonacci rule
+    let b = 1;  //  Fibonacci rule
 
-    console.log(a);
-    console.log(b);
+    console.log(a);   // first 0 print
+    console.log(b);  // second 1 print
 
-    for (let i = 2; i <= n; i++) {
-        let next = a + b;
+    for (let i = 2; i <= n; i++) {   // loop start  
+        let next = a + b;    // main part this question   [ loop this line work]
         console.log(next);
 
         a = b;
         b = next;
     }
 }
-
-generateFibonacci(10);
+ 
+generateFibonacci(10);   // out put = 55
   
   
