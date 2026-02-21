@@ -1423,6 +1423,43 @@ function checkArmstrong(n) {
         console.log("Not Armstrong Number");
     }
 }
-
 checkArmstrong(153);
 checkArmstrong(1513);
+
+//88. Perfect number check.
+
+function checkPerfect(n) {
+
+    let sum = 0;
+
+    for (let i = 1; i <= n / 2; i++) {
+
+        if (n % i === 0) {
+            sum = sum + i;
+        }
+
+    }
+
+    if (sum === n) {
+        console.log("Perfect Number");
+    } else {
+        console.log("Not Perfect Number");
+    }
+}
+checkPerfect(6);
+
+
+//89. Find factors of number.
+
+function findFactors(n) {
+
+    for (let i = 1; i <= n; i++) {
+
+        if (n % i === 0) {
+            console.log(i);
+        }
+
+    }
+}
+
+findFactors(12);
