@@ -1545,7 +1545,6 @@ function verifyOTP(userOTP) {
         }
     }
 }
-
 // Test
 verifyOTP("1111");
 verifyOTP("2222");
@@ -1560,6 +1559,26 @@ function generateOTP() {
 
     console.log("Generated OTP:", otp);
 }
-
 generateOTP();
 
+// 94. Validate OTP.
+
+let generatedOTP = Math.floor(1000 + Math.random() * 9000);
+console.log("Generated OTP:", generatedOTP);
+
+function validateOTP(userOTP) {
+
+    if (!userOTP) {
+        console.log("OTP Required");
+        return;
+    }
+
+    if (parseInt(userOTP) === generatedOTP) {
+        console.log("OTP Verified Successfully");
+    } else {
+        console.log("Invalid OTP");
+    }
+}
+
+// Example test
+validateOTP("1234");
