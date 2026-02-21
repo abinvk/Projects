@@ -1147,7 +1147,27 @@ function generateFibonacci(n) {   // Variable creation    [n limt = 10]
         b = next;
     }
 }
- 
+
 generateFibonacci(10);   // out put = 55
   
-  
+// 77. Check prime number.
+
+function checkPrime(n) {
+
+    if (n <= 1) {
+        console.log("Not Prime");
+        return;
+    }
+
+    for (let i = 2; i < n; i++) {
+        if (n % i === 0) {
+            console.log("Not Prime");
+            return;
+        }
+    }
+
+    console.log("Prime");
+}
+
+checkPrime(7);  // prime number
+checkPrime(4);  // not prime number
