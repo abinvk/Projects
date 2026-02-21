@@ -1583,3 +1583,39 @@ function validateOTP(userOTP) {
 validateOTP("1234");
 
 // 95. Check password strength
+
+function checkPasswordStrength(password) {
+
+    let hasUpper = false;
+    let hasLower = false;
+    let hasNumber = false;
+    let hasSpecial = false;
+
+    if (password.length < 8) {
+        console.log("Weak Password (Too Short)");
+        return;
+    }
+
+    for (let i = 0; i < password.length; i++) {
+
+        let ch = password[i];
+
+        if (ch >= 'A' && ch <= 'Z') {
+            hasUpper = true;
+        } else if (ch >= 'a' && ch <= 'z') {
+            hasLower = true;
+        } else if (ch >= '0' && ch <= '9') {
+            hasNumber = true;
+        } else {
+            hasSpecial = true;
+        }
+    }
+
+    if (hasUpper && hasLower && hasNumber && hasSpecial) {
+        console.log("Strong Password");
+    } else {
+        console.log("Medium / Weak Password");
+    }
+}
+
+checkPasswordStrength("Abin@123");
