@@ -1480,5 +1480,19 @@ function countFactors(n) {
 
     console.log("Total Factors:", count);
 }
-
 countFactors(12);
+
+
+
+
+//  LEVEL 3 – Real-World Logic Functions (91–140)  
+
+
+
+
+//91. Create login attempt limit (max 3 tries).
+
+
+
+
+
