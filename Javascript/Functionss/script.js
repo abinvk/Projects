@@ -1160,7 +1160,7 @@ function checkPrime(n) {
     }
 
     for (let i = 2; i < n; i++) {
-        if (n % i === 0) {
+        if (n % i === 0) {  // Main Prime Finding Line
             console.log("Not Prime");
             return;
         }
@@ -1171,3 +1171,29 @@ function checkPrime(n) {
 
 checkPrime(7);  // prime number
 checkPrime(4);  // not prime number
+
+//78. Count primes between 1–100.
+
+function countPrimes() {
+    let count = 0;
+
+    for (let num = 2; num <= 100; num++) {
+
+        let isPrime = true;
+
+        for (let i = 2; i < num; i++) {
+            if (num % i === 0) {      // Main Prime Finding Line
+                isPrime = false;
+                break;
+            }
+        }
+
+        if (isPrime) {
+            count++;
+        }
+    }
+
+    console.log("Total Prime Numbers:", count);
+}
+
+countPrimes();
