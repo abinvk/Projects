@@ -1129,3 +1129,25 @@ function removeCharacter(str, ch) {
   return result;
 }
 console.log(removeCharacter("banana", "a"));
+
+// 76. Generate Fibonacci up to N.
+
+function generateFibonacci(n) {
+    let a = 0;
+    let b = 1;
+
+    console.log(a);
+    console.log(b);
+
+    for (let i = 2; i <= n; i++) {
+        let next = a + b;
+        console.log(next);
+
+        a = b;
+        b = next;
+    }
+}
+
+generateFibonacci(10);
+  
+  
