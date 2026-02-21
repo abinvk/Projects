@@ -1642,6 +1642,30 @@ function validateEmail(email) {
         console.log("Invalid Email");
     }
 }
-
 validateEmail("abin@gmail.com");
 validateEmail("abin@gmail");
+
+// 97. Calculate cart total
+
+function calculateTotal(cart){
+
+  let total = 0;
+
+  for(let i = 0; i < cart.length; i++){
+
+    let price = cart[i].price;
+    let quantity = cart[i].quantity;
+
+    total = total + (price*quantity);
+  }
+
+  console.log("Cart Total", total)p;
+}
+
+let cartItems = [
+                 { name: "Shirt", price: 500, quantity: 2 },
+                 { name: "Shoes", price: 1000, quantity: 1 },
+                 { name: "Watch", price: 1500, quantity: 1 }
+                ];
+
+                function calculateTotal(cartItems);
