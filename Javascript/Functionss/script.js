@@ -1337,3 +1337,92 @@ function printHollowSquare(n) {
     }
 }
 printHollowSquare(5);
+
+// 85. Print diamond pattern
+
+function printDiamond(n) {
+
+    // Upper Pyramid
+    for (let i = 1; i <= n; i++) {
+
+        let row = "";
+
+        // spaces
+        for (let s = 1; s <= n - i; s++) {
+            row += " ";
+        }
+
+        // stars
+        for (let j = 1; j <= (2 * i - 1); j++) {
+            row += "*";
+        }
+
+        console.log(row);
+    }
+
+    // Lower Inverted Pyramid
+    for (let i = n - 1; i >= 1; i--) {
+
+        let row = "";
+
+        // spaces
+        for (let s = 1; s <= n - i; s++) {
+            row += " ";
+        }
+
+        // stars
+        for (let j = 1; j <= (2 * i - 1); j++) {
+            row += "*";
+        }
+
+        console.log(row);
+    }
+}
+
+printDiamond(4);
+
+// 86. Sum of digits
+
+function sumOfDigits(n) {
+
+    let sum = 0;
+
+    while (n > 0) {
+
+        let digit = n % 10;   // last digit
+        sum = sum + digit;    // add to sum
+        n = Math.floor(n / 10); // remove last digit
+
+    }
+
+    console.log("Sum:", sum);
+}
+
+sumOfDigits(1234);
+
+// 87. Armstrong number check
+
+function checkArmstrong(n) {
+
+    let original = n;
+    let sum = 0;
+
+    let digits = n.toString().length;
+
+    while (n > 0) {
+
+        let digit = n % 10;
+        sum = sum + Math.pow(digit, digits);
+
+        n = Math.floor(n / 10);
+    }
+
+    if (sum === original) {
+        console.log("Armstrong Number");
+    } else {
+        console.log("Not Armstrong Number");
+    }
+}
+
+checkArmstrong(153);
+checkArmstrong(1513);
