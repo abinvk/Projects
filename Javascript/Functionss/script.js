@@ -1492,6 +1492,35 @@ countFactors(12);
 
 //91. Create login attempt limit (max 3 tries).
 
+let correctUser = "abin";
+let correctPass = "1234";
+
+let attempts = 0;
+let maxAttempts = 3;
+
+function login(user, pass){
+  if(attempts >= maxAttempts){
+    console.log("Blocked");
+    return;
+  }
+
+  if (user === correctUser && pass === correctPass){
+    console.log("Login Succecsful")
+  }else{
+    attempts++;
+    console.log("Wron");
+  
+    if(attempts >= maxAttempts){
+      console.log("Account Blocked")
+  }
+}
+}
+
+login("abin","1234")
+login("abin","sjsh")
+login("abin","sjsdsh")
+login("abin","sjsdsh")
+
 
 
 
