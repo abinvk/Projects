@@ -1223,3 +1223,36 @@ function generatePrimes(n) {
     }
 }
 generatePrimes(5);
+
+// 80. Find GCD of two numbers.
+
+function findGCD(a, b) {
+
+    let gcd = 1;
+
+    for (let i = 1; i <= a && i <= b; i++) {
+        if (a % i === 0 && b % i === 0) {
+            gcd = i;
+        }
+    }
+
+    console.log("GCD:", gcd);
+}
+
+findGCD(12, 18);
+
+
+// More method !!
+
+function findGCD(a, b) {
+
+    while (b !== 0) {
+        let temp = b;
+        b = a % b;
+        a = temp;
+    }
+
+    console.log("GCD:", a);
+}
+
+findGCD(12, 18);
