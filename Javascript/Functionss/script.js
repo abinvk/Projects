@@ -1619,3 +1619,29 @@ function checkPasswordStrength(password) {
 }
 
 checkPasswordStrength("Abin@123");
+
+//96. Validate email format.
+
+function validateEmail(email) {
+
+    if (!email.includes("@") || !email.includes(".")) {
+        console.log("Invalid Email");
+        return;
+    }
+
+    let atIndex = email.indexOf("@");
+    let dotIndex = email.lastIndexOf(".");
+
+    if (
+        atIndex > 0 &&
+        dotIndex > atIndex + 1 &&
+        dotIndex < email.length - 1
+    ) {
+        console.log("Valid Email");
+    } else {
+        console.log("Invalid Email");
+    }
+}
+
+validateEmail("abin@gmail.com");
+validateEmail("abin@gmail");
