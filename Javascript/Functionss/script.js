@@ -1256,3 +1256,20 @@ function findGCD(a, b) {
 }
 
 findGCD(12, 18);
+
+//81. Find LCM of two numbers
+
+function findLCM(a, b) {
+
+    let max = (a > b) ? a : b;
+
+    while (true) {
+        if (max % a === 0 && max % b === 0) {
+            console.log("LCM:", max);
+            break;
+        }
+        max++;
+    }
+}
+
+findLCM(12, 18);
