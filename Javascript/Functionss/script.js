@@ -1552,3 +1552,14 @@ verifyOTP("2222");
 verifyOTP("4567");
 
 
+//93. Generate 4-digit OTP
+
+function generateOTP() {
+
+    let otp = Math.floor(1000 + Math.random() * 9000);
+
+    console.log("Generated OTP:", otp);
+}
+
+generateOTP();
+
