@@ -1195,5 +1195,31 @@ function countPrimes() {
 
     console.log("Total Prime Numbers:", count);
 }
-
 countPrimes();
+
+//79. Generate first N primes.
+
+function generatePrimes(n) {
+
+    let count = 0;      // എത്ര prime കിട്ടിയെന്ന് count
+    let num = 2;        // prime checking start from 2
+
+    while (count < n) {
+
+        let isPrime = true;
+
+        for (let i = 2; i <= Math.sqrt(num); i++) {
+            if (num % i === 0) {
+                isPrime = false;
+                break;
+            }
+        }
+        if (isPrime) {
+            console.log(num);
+            count++;
+        }
+
+        num++;
+    }
+}
+generatePrimes(5);
