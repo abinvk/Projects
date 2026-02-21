@@ -1515,13 +1515,40 @@ function login(user, pass){
   }
 }
 }
-
 login("abin","1234")
 login("abin","sjsh")
 login("abin","sjsdsh")
 login("abin","sjsdsh")
 
 
+// 92. Create OTP retry system.
 
+let correctOTP = "4567";
+let attemptsq = 0;
+let maxAttemptsq = 3;
+
+function verifyOTP(userOTP) {
+
+    if (attemptsq >= maxAttemptsq) {
+        console.log("OTP Blocked");
+        return;
+    }
+
+    if (userOTP === correctOTP) {
+        console.log("OTP Verified Successfully");
+    } else {
+        attemptsq++;
+        console.log("Wrong OTP");
+
+        if (attemptsq >= maxAttemptsq) {
+            console.log("OTP Blocked");
+        }
+    }
+}
+
+// Test
+verifyOTP("1111");
+verifyOTP("2222");
+verifyOTP("4567");
 
 
