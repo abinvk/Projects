@@ -2168,4 +2168,25 @@ function calculateLevel(score) {
     console.log("Level: " + level);
 }
 
-calculateLevel(250);
+calculateLevel(550);
+
+//120. Timer countdown logic
+
+function startCountdown(seconds) {
+
+    let timer = seconds;
+
+    let interval = setInterval(function () {
+
+        console.log(timer);
+
+        timer--;
+
+        if (timer < 0) {
+            clearInterval(interval);
+            console.log("Time's Up!");
+        }
+
+    }, 1000);
+}
+startCountdown(5);
