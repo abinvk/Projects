@@ -1687,10 +1687,44 @@ applyDiscount(2000, 10);
 //99. Apply GST.
 
 function applyGst(total, gstA){ 
-    
+
     let gst = (total * gstA)/100
     let fainalAmount = total + gst;
 
     console.log("FinalAmount", fainalAmount);
 }
 applyGst(1000 ,18);
+
+//100. Calculate final bill
+
+function calculateFainalBill(cart, discountPercent, gstPercent){
+
+    let subtotal = 0;
+
+     // Step 1: Calculate subtotal
+
+     for(let i = 0; i < cart.length; i++){
+        subtotal += cart[i].price * cart[i].quantity;
+     }
+
+     // Step 2: Apply discount
+
+     let discountAmount = (subtotal * discountPercent) / 100;
+     let afterDiscont = subtotal + discountAmount;
+
+     //// Step 3: Apply GST
+
+     let gstAmount = (afterDiscont * gstPercent) / 100;
+     let finalAmount  = afterDiscont + gstAmount;
+
+    console.log("Subtotal:", subtotal);
+    console.log("Discount:", discountAmount);
+    console.log("After Discount:", afterDiscount);
+    console.log("GST:", gstAmount);
+    console.log("Final Bill:", finalAmount.toFixed(2));
+}
+let cartItemsa = [
+    { name: "Shirt", price: 500, quantity: 2 },
+    { name: "Shoes", price: 1000, quantity: 1 }
+];
+calculateFinalBill(cartItemsa, 10, 18);
