@@ -1758,3 +1758,18 @@ function bonus(salary, tax, bonus){
 
 }
 bonus(50000, 10, 1000);
+
+//103. EMI calculator
+
+function calculateEMI(principal, annualRate, years) {
+
+    let monthlyRate = annualRate / 12 / 100;
+    let totalMonths = years * 12;
+
+    let emi = (principal * monthlyRate * Math.pow(1 + monthlyRate, totalMonths)) 
+              / (Math.pow(1 + monthlyRate, totalMonths) - 1);
+
+    console.log("Monthly EMI: " + emi.toFixed(2));
+}
+
+calculateEMI(500000, 10, 5);
