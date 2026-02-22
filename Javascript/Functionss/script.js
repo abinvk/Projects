@@ -2074,3 +2074,30 @@ function findHighestScorer(students) {
 }
 
 findHighestScorer(students);
+
+//116. Rank students.
+
+let studentsq = [
+  { name: "Arjun", mark: 75 },
+  { name: "Meera", mark: 92 },
+  { name: "Rahul", mark: 88 },
+  { name: "Anu", mark: 95 }
+];
+
+function rankStudents(studentsq) {
+
+    // Step 1: Sort descending
+
+    studentsq.sort(function(a, b) {
+        return b.mark - a.mark;
+    });
+
+    // Step 2: Assign rank
+
+    for (let i = 0; i < studentsq.length; i++) {
+        studentsq[i].rank = i + 1;
+    }
+
+    console.log(studentsq);
+}
+rankStudents(studentsq);
