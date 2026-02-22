@@ -1903,3 +1903,22 @@ function findLeastOrdered(productsa) {
 }
 
 findLeastOrdered(productsa);
+
+
+//109. Generate invoice ID.
+
+let invoiceCounter = 1;
+
+function generateInvoiceID() {
+
+    let year = new Date().getFullYear();
+
+    let paddedNumber = invoiceCounter.toString().padStart(4, "0");
+
+    let invoiceID = "INV-" + year + "-" + paddedNumber;
+
+    invoiceCounter++;
+    return invoiceID;
+}
+console.log(generateInvoiceID());
+console.log(generateInvoiceID());
