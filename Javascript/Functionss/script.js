@@ -1747,15 +1747,14 @@ salaryAfterTax(50000, 10);
 
 function bonus(salary, tax, bonus){
 
-    let taxAfterSalary = (salary * tax) / 100;
-    let asalary = (salary - taxAfterSalary);
-    let toSa = (asalary + bonus);
+    let taxS = (salary * tax) / 100;        // tax Amount
+    let taxSalary = (salary - taxS);        // tax after salary
+    let totalSalary = (taxSalary + bonus);  // final salary 
 
 
-     console.log(taxa);
-     console.log(asalary);
-     console.log(toSa);
-
+     console.log("Tax Amount: ", taxS);
+     console.log("Tax After Salary: ", taxSalary);
+     console.log("Bouns included Salary: " ,totalSalary);
 
 }
 bonus(50000, 10, 1000);
