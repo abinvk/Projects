@@ -1717,12 +1717,12 @@ function calculateFainalBill(cart, discountPercent, gstPercent){
      let gstAmount = (afterDiscount * gstPercent) / 100;
      let finalAmount  = afterDiscount + gstAmount;
 
-    console.log("Subtotal:", subtotal);                 //
-    console.log("Discount:", discountAmount);           //
-    console.log("After Discount:", afterDiscount);      //
-    console.log("GST:", gstAmount);                     //
-    console.log("Final Bill:", finalAmount.toFixed(2)); //
-}
+    console.log("Subtotal:", subtotal);                 // Subtotal: 2000
+    console.log("Discount:", discountAmount);           // Discount: 200
+    console.log("After Discount:", afterDiscount);      // After Discount: 2200
+    console.log("GST:", gstAmount);                     // GST: 396
+    console.log("Final Bill:", finalAmount.toFixed(2)); // Final Bill: 2596.00
+} 
 let cartItemsa = [
     { name: "Shirt", price: 500, quantity: 2 },
     { name: "Shoes", price: 1000, quantity: 1 }
