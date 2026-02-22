@@ -1659,13 +1659,12 @@ function calculateTotal(cart){
     total = total + (price*quantity);
   }
 
-  console.log("Cart Total", total)p;
+  console.log("Cart Total", total);
 }
 
-let cartItems = [
-                 { name: "Shirt", price: 500, quantity: 2 },
-                 { name: "Shoes", price: 1000, quantity: 1 },
-                 { name: "Watch", price: 1500, quantity: 1 }
-                ];
-
-                function calculateTotal(cartItems);
+let cartItems =[
+{ name: "Shirt", price: 500, quantity: 2 },
+{ name: "Shoes", price: 1000, quantity: 1 },
+{ name: "Watch", price: 1500, quantity: 1 }
+];
+calculateTotal(cartItems);
