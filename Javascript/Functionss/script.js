@@ -1991,3 +1991,86 @@ function filterEligibleVoters(people) {
 }
 
 filterEligibleVoters(people);
+
+//113. Count failed payments
+
+let paymentsww = [
+  { id: 1, amount: 500, status: "Success" },
+  { id: 2, amount: 1200, status: "Failed" },
+  { id: 3, amount: 750, status: "Success" },
+  { id: 4, amount: 300, status: "Failed" }
+];
+
+function countFailedPayments(paymentsww) {
+
+    let failedCount = 0;
+
+    for (let i = 0; i < paymentsww.length; i++) {
+
+        if (paymentsww[i].status === "Failed") {
+            failedCount++;
+        }
+
+    }
+
+    console.log("Failed Payments: " + failedCount);
+}
+
+countFailedPayments(paymentsww);
+
+//114. Count successful transactions
+
+let transactions = [
+  { id: 1, amount: 1000, status: "Success" },
+  { id: 2, amount: 500, status: "Failed" },
+  { id: 3, amount: 2000, status: "Success" },
+  { id: 4, amount: 700, status: "Success" }
+];
+
+function countSuccessfulTransactions(transactions) {
+
+    let successCount = 0;
+
+    for (let i = 0; i < transactions.length; i++) {
+
+        if (transactions[i].status === "Success") {
+            successCount++;
+        }
+
+    }
+
+    console.log("Successful Transactions: " + successCount);
+}
+countSuccessfulTransactions(transactions);
+
+//115. Find highest scorer.
+
+let students = [
+  { name: "Arjun", mark: 75 },
+  { name: "Meera", mark: 92 },
+  { name: "Rahul", mark: 88 },
+  { name: "Anu", mark: 95 }
+];
+
+function findHighestScorer(students) {
+
+    if (students.length === 0) {
+        console.log("No students available");
+        return;
+    }
+
+    let highest = students[0];
+
+    for (let i = 1; i < students.length; i++) {
+
+        if (students[i].mark > highest.mark) {
+            highest = students[i];
+        }
+
+    }
+
+    console.log("Highest Scorer: " + highest.name);
+    console.log("Mark: " + highest.mark);
+}
+
+findHighestScorer(students);
