@@ -2101,3 +2101,31 @@ function rankStudents(studentsq) {
     console.log(studentsq);
 }
 rankStudents(studentsq);
+
+//117. Leaderboard system
+
+let players = [
+  { name: "Arjun", score: 150 },
+  { name: "Meera", score: 220 },
+  { name: "Rahul", score: 180 },
+  { name: "Anu", score: 220 }
+];
+
+function createLeaderboard(players) {
+
+    // Step 1: Sort by score descending
+
+    players.sort(function(a, b) {
+        return b.score - a.score;
+    });
+
+    // Step 2: Assign rank
+
+    for (let i = 0; i < players.length; i++) {
+        players[i].rank = +1 ;
+    }
+
+    console.log(players);
+}
+
+createLeaderboard(players);
