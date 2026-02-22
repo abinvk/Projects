@@ -1938,3 +1938,30 @@ function updateStock(currentStock, soldQuantity) {
 }
 
 updateStock(50, 10);
+
+//111. Check expired products
+
+let productss = [
+  { name: "Milk", expiry: "2026-02-10" },
+  { name: "Bread", expiry: "2026-01-15" },
+  { name: "Juice", expiry: "2026-03-05" }
+];
+
+function checkExpired(productss) {
+
+    let today = new Date();
+
+    for (let i = 0; i < productss.length; i++) {
+
+        let expiryDate = new Date(productss[i].expiry);
+
+        if (expiryDate < today) {
+            console.log(productss[i].name + " is Expired");
+        }
+        else {
+            console.log(productss[i].name + " is Not Expired");
+        }
+    }
+}
+
+checkExpired(productss);
