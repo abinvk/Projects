@@ -2127,5 +2127,28 @@ function createLeaderboard(players) {
 
     console.log(players);
 }
-
 createLeaderboard(players);
+
+// 118. Game life counter
+
+let lives = 3;
+
+function loseLife() {
+
+    if (lives > 0) {
+        lives--;
+        console.log("Remaining Lives: " + lives);
+    }
+
+    if (lives === 0) {
+        console.log("Game Over!");
+    }
+}
+function resetGame() {
+    lives = 3;
+    console.log("Game Reset. Lives: " + lives);
+}
+
+// Test
+loseLife();
+loseLife();
