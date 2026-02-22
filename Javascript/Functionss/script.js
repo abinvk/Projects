@@ -1773,3 +1773,24 @@ function calculateEMI(principal, annualRate, years) {
 }
 
 calculateEMI(500000, 10, 5);
+
+//104. Electricity bill calculation.
+
+function calculateBill(units) {
+
+    let bill = 0;
+
+    if (units <= 100) {
+        bill = units * 3;
+    }
+    else if (units <= 200) {
+        bill = (100 * 3) + ((units - 100) * 5);
+    }
+    else {
+        bill = (100 * 3) + (100 * 5) + ((units - 200) * 7);
+    }
+
+    console.log("Total Bill: ₹" + bill);
+}
+
+calculateBill(250);
