@@ -1922,3 +1922,19 @@ function generateInvoiceID() {
 }
 console.log(generateInvoiceID());
 console.log(generateInvoiceID());
+
+//110. Track stock after sale.
+
+function updateStock(currentStock, soldQuantity) {
+
+    if (soldQuantity > currentStock) {
+        console.log("Not enough stock available");
+        return;
+    }
+
+    let remainingStock = currentStock - soldQuantity;
+
+    console.log("Remaining Stock: " + remainingStock);
+}
+
+updateStock(50, 10);
