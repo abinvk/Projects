@@ -1794,3 +1794,19 @@ function calculateBill(units) {
 }
 
 calculateBill(250);
+
+//105. Attendance percentage
+
+function calculateAttendance(totalClasses, attendedClasses) {
+
+    if (totalClasses === 0) {
+        console.log("Total classes cannot be zero");
+        return;
+    }
+
+    let percentage = (attendedClasses / totalClasses) * 100;
+
+    console.log("Attendance Percentage: " + percentage.toFixed(2) + "%");
+}
+
+calculateAttendance(100, 85);
