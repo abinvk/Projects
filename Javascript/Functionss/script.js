@@ -1965,3 +1965,29 @@ function checkExpired(productss) {
 }
 
 checkExpired(productss);
+
+//112. Filter eligible voters
+
+let people = [
+  { name: "Rahul", age: 16 },
+  { name: "Anu", age: 21 },
+  { name: "Vivek", age: 18 },
+  { name: "Meera", age: 15 }
+];
+
+function filterEligibleVoters(people) {
+
+    let eligible = [];
+
+    for (let i = 0; i < people.length; i++) {
+
+        if (people[i].age >= 18) {
+            eligible.push(people[i]);
+        }
+
+    }
+    console.log("Eligible Voters:");
+    console.log(eligible);
+}
+
+filterEligibleVoters(people);
