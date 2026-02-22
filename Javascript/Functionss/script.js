@@ -1668,3 +1668,29 @@ let cartItems =[
 { name: "Watch", price: 1500, quantity: 1 }
 ];
 calculateTotal(cartItems);
+
+//98. Apply discount
+
+function applyDiscount(total, discountPercent) {    // [Total = 2000  /  Discount Price = 10%]
+
+    let discountAmount = (total * discountPercent) / 100;
+    let finalAmount = total - discountAmount;
+
+    console.log("Original Total:", total);
+    console.log("Discount:", discountPercent + "%");
+    console.log("Discount Amount:", discountAmount);
+    console.log("Final Amount:", finalAmount);
+}
+
+applyDiscount(2000, 10);
+
+//99. Apply GST.
+
+function applyGst(total, gstA){ 
+    
+    let gst = (total * gstA)/100
+    let fainalAmount = total + gst;
+
+    console.log("FinalAmount", fainalAmount);
+}
+applyGst(1000 ,18);
