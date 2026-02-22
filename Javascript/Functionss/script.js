@@ -1742,3 +1742,20 @@ calculateFainalBill(cartItemsa, 10, 18);
 }
 
 salaryAfterTax(50000, 10);
+
+// 102. Bonus calculation
+
+function bonus(salary, tax, bonus){
+
+    let taxAfterSalary = (salary * tax) / 100;
+    let asalary = (salary - taxAfterSalary);
+    let toSa = (asalary + bonus);
+
+
+     console.log(taxa);
+     console.log(asalary);
+     console.log(toSa);
+
+
+}
+bonus(50000, 10, 1000);
