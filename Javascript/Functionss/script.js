@@ -1871,3 +1871,35 @@ function findMostOrdered(products) {
 }
 
 findMostOrdered(products);
+
+//108. Find least ordered product.
+
+let productsa = [
+  { name: "Burger", quantity: 12 },
+  { name: "Pizza", quantity: 25 },
+  { name: "Shawarma", quantity: 18 },
+  { name: "Sandwich", quantity: 5 }
+];
+
+function findLeastOrdered(productsa) {
+
+    if (productsa.length === 0) {
+        console.log("No products available");
+        return;
+    }
+
+    let leastOrdered = productsa[0];
+
+    for (let i = 1; i < productsa.length; i++) {
+
+        if (productsa[i].quantity < leastOrdered.quantity) {
+            leastOrdered = productsa[i];
+        }
+
+    }
+
+    console.log("Least Ordered Product: " + leastOrdered.name);
+    console.log("Quantity: " + leastOrdered.quantity);
+}
+
+findLeastOrdered(productsa);
