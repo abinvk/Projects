@@ -1840,3 +1840,34 @@ function calculateGrade(mark) {
     }
 }
 calculateGrade(85);
+
+// 107. Find most ordered product
+
+let products = [
+  { name: "Burger", quantity: 12 },
+  { name: "Pizza", quantity: 25 },
+  { name: "Shawarma", quantity: 18 },
+  { name: "Sandwich", quantity: 30 }
+];
+function findMostOrdered(products) {
+
+    if (products.length === 0) {
+        console.log("No products available");
+        return;
+    }
+
+    let mostOrdered = products[0];
+
+    for (let i = 1; i < products.length; i++) {
+
+        if (products[i].quantity > mostOrdered.quantity) {
+            mostOrdered = products[i];
+        }
+
+    }
+
+    console.log("Most Ordered Product: " + mostOrdered.name);
+    console.log("Quantity: " + mostOrdered.quantity);
+}
+
+findMostOrdered(products);
