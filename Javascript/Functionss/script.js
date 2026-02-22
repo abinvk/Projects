@@ -1728,3 +1728,17 @@ let cartItemsa = [
     { name: "Shoes", price: 1000, quantity: 1 }
 ];
 calculateFainalBill(cartItemsa, 10, 18);
+
+ //101. Salary after tax.
+
+ function salaryAfterTax(grossSalary, taxPercent) {
+
+    let taxAmount = (grossSalary * taxPercent) / 100;
+    let netSalary = grossSalary - taxAmount;
+
+    console.log("Gross Salary:", grossSalary);         // 50000
+    console.log("Tax:", taxAmount);                    // 5000
+    console.log("Net Salary:", netSalary.toFixed(2));  // 45000
+}
+
+salaryAfterTax(50000, 10);
