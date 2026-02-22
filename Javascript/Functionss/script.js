@@ -2152,3 +2152,20 @@ function resetGame() {
 // Test
 loseLife();
 loseLife();
+
+//119. Level progression system
+
+function calculateLevel(score) {
+
+    if (score < 0) {
+        console.log("Invalid Score");
+        return;
+    }
+
+    let level = Math.floor(score / 100) + 1;
+
+    console.log("Score: " + score);
+    console.log("Level: " + level);
+}
+
+calculateLevel(250);
