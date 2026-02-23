@@ -2208,3 +2208,28 @@ function removeItem(itemId) {
 removeItem(2);
 
 console.log(cart);
+
+// 122.Add item to cart
+
+let carts = [
+  { id: 1, name: "Shirt", price: 800, quantity: 1 },
+  { id: 2, name: "Shoes", price: 1500, quantity: 1 }
+];
+
+function addItem(newItem) {
+
+  // Check if item already exists
+
+  let existingItem = carts.find(function(item) {
+    return item.id === newItem.id;
+  });
+
+  if (existingItem) {
+    existingItem.quantity += 1;   // Increase quantity
+  } else {
+    carts.push(newItem);           // Add new item
+  }
+}
+
+addItem({ id: 3, name: "Watch", price: 2000, quantity: 1 });
+console.log(carts);
