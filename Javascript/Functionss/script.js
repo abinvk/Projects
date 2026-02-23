@@ -2233,3 +2233,5 @@ function addItem(newItem) {
 
 addItem({ id: 3, name: "Watch", price: 2000, quantity: 1 });
 console.log(carts);
+
+// 123. Update item quantity
