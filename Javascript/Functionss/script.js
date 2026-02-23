@@ -2189,4 +2189,22 @@ function startCountdown(seconds) {
 
     }, 1000);
 }
-startCountdown(5);
+//startCountdown(5);
+
+//121. Shopping cart remove item.
+
+let cart = [
+  { id: 1, name: "Shirt", price: 800 },
+  { id: 2, name: "Shoes", price: 1500 },
+  { id: 3, name: "Watch", price: 2000 }
+];
+
+function removeItem(itemId) {
+  cart = cart.filter(function(item) {
+    return item.id !== itemId;
+  });
+}
+
+removeItem(2);
+
+console.log(cart);
