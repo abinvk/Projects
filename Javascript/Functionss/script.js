@@ -2449,3 +2449,24 @@ let arre = [1, null, 2, null, 3, 4, null];
 let cleanedArraye = arre.filter(function(value) {
   return value != null;
 });
+
+// 132. Remove undefined values
+
+let arrc = [1, undefined, 2, undefined, 3];
+
+let cleanedArrayc = arrc.filter(function(value) {
+  return value !== undefined;
+});
+
+console.log(cleanedArrayc);
+
+//133. Check if object key exists.
+
+let user = {
+  name: "Abin",
+  age: 22,
+  city: "Kochi"
+};
+
+console.log("age" in user);     // true
+console.log("salary" in user);  // false
