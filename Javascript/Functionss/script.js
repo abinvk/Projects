@@ -2275,7 +2275,7 @@ console.log(cartw);
 let productsq = [
   { id: 1, name: "Shirt", price: 800 },
   { id: 2, name: "Shoes", price: 1500 },
-  { id: 3, name: "Watch", price: 2000 }
+  { id: 3, name: "Watch", price: 2000 },
 ];
 
 function searchProduct(productName) {
@@ -2289,6 +2289,5 @@ function searchProduct(productName) {
   } else {
     console.log("Product Not Found");
   }
-
 }
 searchProduct("Shoes");
