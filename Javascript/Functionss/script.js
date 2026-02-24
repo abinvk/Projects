@@ -2470,3 +2470,51 @@ let user = {
 
 console.log("age" in user);     // true
 console.log("salary" in user);  // false
+
+// 134. Count object properties.
+
+// Method 1
+
+let userf = {
+  name: "Abin",
+  age: 22,
+  city: "Kochi"
+};
+
+let count = Object.keys(userf).length;
+
+console.log(count);
+
+// Method 2
+
+let usero = {
+  name: "Abin",
+  age: 22,
+  city: "Kochi"
+};
+
+let counto = 0;
+
+for (let key in usero) {
+  counto++;
+}
+
+console.log(counto);
+
+
+// More example
+
+let product = {
+  id: 1,
+  name: "Shoes",
+  price: 1500,
+  stock: 10,
+  brand: "Nike"
+};
+
+let countr = 0;
+
+for(let key in product){
+    countr++;
+}
+console.log(countr);
