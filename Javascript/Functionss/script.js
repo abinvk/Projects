@@ -2244,7 +2244,7 @@ let cartw = [
 function updateQuantity(itemId, newQuantity) {
 
   // Find item
-  
+
   let item = cartw.find(function(product) {
     return product.id === itemId;
   });
@@ -2267,6 +2267,7 @@ function updateQuantity(itemId, newQuantity) {
   }
 
 }
-
 updateQuantity(1, 3);
 console.log(cartw);
+
+//124. Search product by name
