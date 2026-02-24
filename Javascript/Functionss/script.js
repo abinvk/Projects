@@ -2325,3 +2325,20 @@ function calculateShipping(totalAmount) {
 
 let resulta = calculateShipping(850);
 console.log("Shipping Charge:", resulta);
+
+// 127. Check free delivery eligibility.
+
+let totalAmounta = 1200;
+
+function checkFreeDelivery(totalAmounta) {
+
+  if (totalAmounta >= 1000) {
+    return "Eligible for Free Delivery";
+  } else {
+    return "Not Eligible for Free Delivery";
+  }
+
+}
+
+let resultz = checkFreeDelivery(1200);
+console.log(resultz);
