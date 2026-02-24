@@ -2405,3 +2405,18 @@ let mergedArrayq = [...arrq1, ...arrq2];
 console.log(mergedArrayq);
 
 // Method 3
+
+let arre1 = [1, 2, 3];
+let arre2 = [4, 5, 6];
+
+let mergedArraye = [];
+
+for (let i = 0; i < arre1.length; i++) {
+  mergedArraye.push(arre1[i]);
+}
+
+for (let i = 0; i < arre2.length; i++) {
+  mergedArraye.push(arre2[i]);
+}
+
+console.log(mergedArraye);
