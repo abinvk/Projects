@@ -2235,3 +2235,38 @@ addItem({ id: 3, name: "Watch", price: 2000, quantity: 1 });
 console.log(carts);
 
 // 123. Update item quantity
+
+let cartw = [
+  { id: 1, name: "Shirt", price: 800, quantity: 1 },
+  { id: 2, name: "Shoes", price: 1500, quantity: 2 }
+];
+
+function updateQuantity(itemId, newQuantity) {
+
+  // Find item
+  
+  let item = cartw.find(function(product) {
+    return product.id === itemId;
+  });
+
+  // If item found
+
+  if (item) {
+
+    // Prevent negative quantity
+
+    if (newQuantity > 0) {
+      item.quantity = newQuantity;
+      console.log("Quantity Updated Successfully");
+    } else {
+      console.log("Invalid Quantity");
+    }
+
+  } else {
+    console.log("Item Not Found");
+  }
+
+}
+
+updateQuantity(1, 3);
+console.log(cartw);
