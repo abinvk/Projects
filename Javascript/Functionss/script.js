@@ -2420,3 +2420,14 @@ for (let i = 0; i < arre2.length; i++) {
 }
 
 console.log(mergedArraye); // Step 4 → Final merged array kittum
+
+// 130. Find intersection of arrays
+
+let arru1 = [1, 2, 3, 4];
+let arru2 = [3, 4, 5, 6];
+
+let intersection = arru1.filter(function(value) {
+  return arru2.includes(value);
+});
+
+console.log(intersection);
