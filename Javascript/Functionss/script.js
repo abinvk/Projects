@@ -2431,3 +2431,21 @@ let intersection = arru1.filter(function(value) {
 });
 
 console.log(intersection);
+
+// 131. Remove null values.
+
+let arr = [1, null, 2, null, 3, 4, null];
+
+let cleanedArray = arr.filter(function(value) {
+  return value !== null;
+});
+
+console.log(cleanedArray);
+
+// Method 2
+
+let arre = [1, null, 2, null, 3, 4, null];
+
+let cleanedArraye = arre.filter(function(value) {
+  return value != null;
+});
