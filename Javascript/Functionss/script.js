@@ -2304,5 +2304,24 @@ let productswq = [
 let result = productswq.filter(function(item) {
   return item.price < 1000;
 });
-
 console.log(result);
+
+// 126. Calculate shipping charge.
+
+let totalAmount = 850;
+
+function calculateShipping(totalAmount) {
+
+  let shippingCharge;
+
+  if (totalAmount >= 1000) {
+    shippingCharge = 0;
+  } else {
+    shippingCharge = 100;
+  }
+
+  return shippingCharge;
+}
+
+let resulta = calculateShipping(850);
+console.log("Shipping Charge:", resulta);
