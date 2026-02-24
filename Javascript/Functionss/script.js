@@ -2291,3 +2291,18 @@ function searchProduct(productName) {
   }
 }
 searchProduct("Shoes");
+
+// 125. Filter products by price.
+
+let productswq = [
+  { id: 1, name: "Shirt", price: 800 },
+  { id: 2, name: "Shoes", price: 1500 },
+  { id: 3, name: "Watch", price: 2000 },
+  { id: 4, name: "Cap", price: 400 }
+];
+
+let result = productswq.filter(function(item) {
+  return item.price < 1000;
+});
+
+console.log(result);
