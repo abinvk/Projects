@@ -2363,3 +2363,45 @@ function compareArrays(a, b) {
 }
 
 console.log(compareArrays(arr1, arr2));
+
+//  More method
+
+function compareUnordered(a, b) {
+
+  if (a.length !== b.length) {
+    return false;
+  }
+
+  let sortedA = [...a].sort();
+  let sortedB = [...b].sort();
+
+  for (let i = 0; i < sortedA.length; i++) {
+    if (sortedA[i] !== sortedB[i]) {
+      return false;
+    }
+  }
+
+  return true;
+}
+
+// 129. Merge two arrays
+
+// Method 1
+
+let arry1 = [1, 2, 3];
+let arry2 = [4, 5, 6];
+
+let mergedArray = arry1.concat(arry2);
+
+console.log(mergedArray);
+
+// Method 2
+
+let arrq1 = [1, 2, 3];
+let arrq2 = [4, 5, 6];
+
+let mergedArrayq = [...arrq1, ...arrq2];
+
+console.log(mergedArrayq);
+
+// Method 3
