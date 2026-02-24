@@ -2271,3 +2271,24 @@ updateQuantity(1, 3);
 console.log(cartw);
 
 //124. Search product by name
+
+let productsq = [
+  { id: 1, name: "Shirt", price: 800 },
+  { id: 2, name: "Shoes", price: 1500 },
+  { id: 3, name: "Watch", price: 2000 }
+];
+
+function searchProduct(productName) {
+
+  let result = productsq.find(function(item) {
+    return item.name === productName;
+  });
+
+  if (result) {
+    console.log("Product Found:", result);
+  } else {
+    console.log("Product Not Found");
+  }
+
+}
+searchProduct("Shoes");
