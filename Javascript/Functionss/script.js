@@ -2569,3 +2569,13 @@ for (let i = 0; i < studentsh.length; i++) {
 }
 
 console.log("Total Marks:", total);
+
+//139. Validate user input.
+
+//let name = document.getElementById("nameInput").value;
+
+//if (name === "") {
+ // console.log("Name cannot be empty");
+//} else {
+ // console.log("Valid name");
+//}
