@@ -2530,3 +2530,11 @@ let useri = {
 let resulti = Object.values(useri);
 
 console.log(resulti);
+
+//136. Convert array to object.
+
+let arrx = ["Abin", 22, "Calicut"];
+
+let obj = Object.assign({}, arrx);
+
+console.log(obj);
