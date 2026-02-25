@@ -2518,3 +2518,15 @@ for(let key in product){
     countr++;
 }
 console.log(countr);
+
+// 135. Convert object to array
+
+let useri = {
+  name: "Abin",
+  age: 22,
+  city: "Calicut"
+};
+
+let resulti = Object.values(useri);
+
+console.log(resulti);
