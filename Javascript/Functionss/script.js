@@ -2579,3 +2579,6 @@ console.log("Total Marks:", total);
 //} else {
  // console.log("Valid name");
 //}
+
+// 140. Create reusable calculator function.
+
