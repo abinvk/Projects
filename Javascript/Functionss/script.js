@@ -2538,3 +2538,18 @@ let arrx = ["Abin", 22, "Calicut"];
 let obj = Object.assign({}, arrx);
 
 console.log(obj);
+
+//137. Deep copy object.
+
+let user1 = {
+  name: "Abin",
+  address: {
+    city: "Calicut"
+  }
+};
+
+let user2 = user1;
+
+user2.address.city = "Kochi";
+
+console.log(user1.address.city);
