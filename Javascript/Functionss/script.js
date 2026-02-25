@@ -2553,3 +2553,19 @@ let user2 = user1;
 user2.address.city = "Kochi";
 
 console.log(user1.address.city);
+
+//138. Calculate total marks from object list.
+
+let studentsh = [
+  { name: "Abin", mark: 80 },
+  { name: "Rahul", mark: 75 },
+  { name: "Nimal", mark: 90 }
+];
+
+let total = 0;
+
+for (let i = 0; i < studentsh.length; i++) {
+  total = total + studentsh[i].mark;
+}
+
+console.log("Total Marks:", total);
