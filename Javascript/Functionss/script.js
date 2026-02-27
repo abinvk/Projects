@@ -2596,22 +2596,8 @@ console.log("Total Marks:", total);
 
 let numbers = [1, 2, 3, 4];
 
-let doubled = myMap(numbers, function(num) {
-  return num * 2;
-});
-console.log(doubled);
+let naNumbers = numbers.map((number) => number + 10);
 
+console.log(naNumbers);
 
-function myMap(arr, callback) {
-  let result = [];
-
-  for (let i = 0; i < arr.length; i++) {
-    let newValue = callback(arr[i], i, arr);
-    result.push(newValue);
-  }
-
-  return result;
-}
-
-
-
+// 142. Implement filter manually
