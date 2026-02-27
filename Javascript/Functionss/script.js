@@ -2593,6 +2593,15 @@ console.log("Total Marks:", total);
 
 // 141. Implement map manually
 
+
+let numbers = [1, 2, 3, 4];
+
+let doubled = myMap(numbers, function(num) {
+  return num * 2;
+});
+console.log(doubled);
+
+
 function myMap(arr, callback) {
   let result = [];
 
@@ -2604,11 +2613,5 @@ function myMap(arr, callback) {
   return result;
 }
 
-// Example usage
-let numbers = [1, 2, 3, 4];
 
-let doubled = myMap(numbers, function(num) {
-  return num * 2;
-});
 
-console.log(doubled);
