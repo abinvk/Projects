@@ -2667,3 +2667,25 @@ function myFilter(arr, callback) {
 
 
 // 143. Implement reduce manually.
+
+
+function myReduce(arr, callback, initialValue) {
+
+  let accumulator = initialValue;
+
+  for (let i = 0; i < arr.length; i++) {
+    accumulator = callback(accumulator, arr[i], i, arr);
+  }
+
+  return accumulator;
+}
+
+// Example
+
+let numbersy = [1, 2, 3, 4];
+
+let sum = myReduce(numbersy, function(acc, num) {
+  return acc + num;
+}, 0);
+
+console.log(sum);
