@@ -2643,4 +2643,24 @@ let reslutg = filNumber.filter((number) => number % 2 === 0);
 console.log(reslutg);
 
 
+// More method
 
+let numbersw = [1, 2, 3, 4, 5, 6];
+
+let evens = myFilter(numbersw, function(num) {
+  return num % 2 === 0;
+});
+
+console.log(evens);
+
+function myFilter(arr, callback) {
+  let result = [];
+
+  for (let i = 0; i < arr.length; i++) {
+    if (callback(arr[i], i, arr)) {
+      result.push(arr[i]);
+    }
+  }
+
+  return result;
+}
