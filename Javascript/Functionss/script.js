@@ -2673,11 +2673,10 @@ function myReduce(arr, callback, initialValue) {
 
   let accumulator = initialValue;
 
-  for (let i = 0; i < arr.length; i++) {
-    accumulator = callback(accumulator, arr[i], i, arr);
-  }
-
-  return accumulator;
+  for (let i = 0; i < arr.length; i++) {                                                 //Step 1
+    accumulator = callback(accumulator, arr[i], i, arr);                                // 0 + 1 = 1
+  }                                                                                     // step 2                                                                    
+  return accumulator;                                                                   // 1 + 2 = 3.....etc
 }
 
 // Example
