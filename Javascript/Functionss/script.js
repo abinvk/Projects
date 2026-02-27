@@ -2583,6 +2583,32 @@ console.log("Total Marks:", total);
 // 140. Create reusable calculator function.
 
 
+
+
+
 // !  LEVEL 4 – Advanced & MERN-Level Functions ! //
 
+
+
+
 // 141. Implement map manually
+
+function myMap(arr, callback) {
+  let result = [];
+
+  for (let i = 0; i < arr.length; i++) {
+    let newValue = callback(arr[i], i, arr);
+    result.push(newValue);
+  }
+
+  return result;
+}
+
+// Example usage
+let numbers = [1, 2, 3, 4];
+
+let doubled = myMap(numbers, function(num) {
+  return num * 2;
+});
+
+console.log(doubled);
