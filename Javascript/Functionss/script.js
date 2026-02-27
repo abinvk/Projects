@@ -2596,8 +2596,16 @@ console.log("Total Marks:", total);
 
 let numbers = [1, 2, 3, 4];
 
-let naNumbers = numbers.map((number) => number + 10);
+let naNumbers = numbers.map((number) => number * 3);
 
 console.log(naNumbers);
 
-// 142. Implement filter manually
+// More metod !!
+
+let aNumber = [1, 2, 3, 10, 20, 30, 40, 50];
+
+let resultf = aNumber
+                .filter((number) => number > 5)
+                .map((number) => number + 10);
+                
+console.log(resultf);
