@@ -2582,3 +2582,7 @@ console.log("Total Marks:", total);
 
 // 140. Create reusable calculator function.
 
+
+// !  LEVEL 4 – Advanced & MERN-Level Functions ! //
+
+// 141. Implement map manually
