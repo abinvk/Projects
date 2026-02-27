@@ -2636,3 +2636,11 @@ console.log(resultf);
 
 //142. Implement filter manually.
 
+let filNumber = [1, 2, 3, 4, 5, 6];
+
+let reslutg = filNumber.filter((number) => number % 2 === 0);
+
+console.log(reslutg);
+
+
+
