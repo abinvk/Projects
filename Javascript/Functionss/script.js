@@ -2594,6 +2594,29 @@ console.log("Total Marks:", total);
 // 141. Implement map manually
 
 
+let numbersa = [1, 2, 3, 4];
+
+let doubled = myMap(numbersa, function(num) {
+  return num * 2;
+});
+
+console.log(doubled);
+
+
+function myMap(arr, callback) {
+  let result = [];
+
+  for (let i = 0; i < arr.length; i++) {
+    let newValue = callback(arr[i], i, arr);
+    result.push(newValue);
+  }
+
+  return result;
+}
+
+// More  method
+
+
 let numbers = [1, 2, 3, 4];
 
 let naNumbers = numbers.map((number) => number * 3);
@@ -2609,3 +2632,7 @@ let resultf = aNumber
                 .map((number) => number + 10);
                 
 console.log(resultf);
+
+
+//142. Implement filter manually.
+
