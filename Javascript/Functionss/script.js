@@ -2664,3 +2664,6 @@ function myFilter(arr, callback) {
 
   return result;
 }
+
+
+// 143. Implement reduce manually.
