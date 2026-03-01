@@ -2688,3 +2688,5 @@ let sum = myReduce(numbersy, function(acc, num) {
 }, 0);
 
 console.log(sum);
+
+// 144. Create custom forEach.
