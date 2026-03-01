@@ -2690,3 +2690,9 @@ let sum = myReduce(numbersy, function(acc, num) {
 console.log(sum);
 
 // 144. Create custom forEach.
+
+let users = ["Abin", "Rahul", "Anu"];
+
+users.forEach(function(name) {
+  console.log("Welcome " + name);
+});
