@@ -2710,3 +2710,20 @@ function debounce(func, delay) {
     }, delay);
   };
 }
+
+// More method
+
+function callFriend(message) {
+  console.log("Friend answering:", message);
+}
+
+const debouncedCall = debounce(callFriend, 2000);
+
+// Multiple calls
+
+debouncedCall("Call 1");
+debouncedCall("Call 2");
+debouncedCall("Call 3");
+debouncedCall("Last Call");
+
+//146. Create throttle function
