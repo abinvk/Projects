@@ -2794,7 +2794,7 @@ function createCounter() {
 // 148. Create private variable using closure.
 
 function createUser() {
-  
+
   let balance = 0;   // private variable
 
   return {
@@ -2813,3 +2813,13 @@ const usere = createUser();
 console.log(usere.deposit(100));   // 100
 console.log(usere.getBalance());   // 100
 console.log(usere.balance);        // undefined ❌
+
+// 149. Memoization function
+
+function factorial(n) {
+  if (n === 0) return 1;
+  return n * factorial(n - 1);
+}
+factorial(5)
+factorial(5)
+factorial(5)
