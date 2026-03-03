@@ -2696,3 +2696,17 @@ let users = ["Abin", "Rahul", "Anu"];
 users.forEach(function(name) {
   console.log("Welcome " + name);
 });
+
+// 145. Create debounce function.
+
+function debounce(func, delay) {
+  let timer;
+
+  return function(...args) {
+    clearTimeout(timer);
+
+    timer = setTimeout(() => {
+      func.apply(this, args);
+    }, delay);
+  };
+}
