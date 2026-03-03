@@ -2727,3 +2727,32 @@ debouncedCall("Call 3");
 debouncedCall("Last Call");
 
 //146. Create throttle function
+
+function throttle(func, delay) {
+  let lastTime = 0;
+
+  return function (...args) {
+    let now = Date.now();
+
+    if (now - lastTime >= delay) {
+      lastTime = now;
+      func(...args);
+    }
+  };
+}
+
+// More method 
+
+function callFriend(message) {
+  console.log("Friend answering:", message);
+}
+
+const throttledCall = throttle(callFriend, 2000);
+
+throttledCall("Call 1");
+throttledCall("Call 2");
+throttledCall("Call 3");
+
+setTimeout(() => {
+  throttledCall("Call after 3 seconds");
+}, 10000);
