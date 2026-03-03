@@ -2744,7 +2744,7 @@ function throttle(func, delay) {
 // More method 
 
 function callFriend(message) {
-  console.log("Friend answering:", message);
+ // console.log("Friend answering:", message);
 }
 
 const throttledCall = throttle(callFriend, 2000);
@@ -2770,9 +2770,9 @@ function createCounter() {
 
 const counter = createCounter();
 
-console.log(counter()); // 1
-console.log(counter()); // 2
-console.log(counter()); // 3
+//console.log(counter()); // 1
+//console.log(counter()); // 2
+//console.log(counter()); // 3
 
 // More method
 
@@ -2790,3 +2790,26 @@ function createCounter() {
     }
   };
 }
+
+// 148. Create private variable using closure.
+
+function createUser() {
+  
+  let balance = 0;   // private variable
+
+  return {
+    deposit: function(amount) {
+      balance += amount;
+      return balance;
+    },
+    getBalance: function() {
+      return balance;
+    }
+  };
+}
+
+const usere = createUser();
+
+console.log(usere.deposit(100));   // 100
+console.log(usere.getBalance());   // 100
+console.log(usere.balance);        // undefined ❌
