@@ -2756,3 +2756,5 @@ throttledCall("Call 3");
 setTimeout(() => {
   throttledCall("Call after 3 seconds");
 }, 10000);
+
+//147. Create closure counter.
