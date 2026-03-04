@@ -123,3 +123,17 @@ for (let num of sumNumbers) {
 }
 
 console.log(sum);
+
+// 14. Find average of numbers.
+
+let avaregeNumber = [10, 20, 30, 40, 50];
+
+let sums = 0 ;
+
+for (let ava of avaregeNumber){
+    sums = sums + ava ;
+}
+
+let avarege = sums / avaregeNumber.length;
+
+console.log(avarege);
