@@ -29,3 +29,15 @@ console.log(numbers[numbers.length - 1]);
 let lengthNumber = [1,2,3,4,3];
 
 console.log(lengthNumber.length);
+
+// 5. Add element at end using push().
+
+let addArray = [10,20,30,40,50];
+
+console.log(addArray);
+
+// Add element at end
+
+addArray.push(60);
+
+console.log(addArray);
