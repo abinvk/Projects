@@ -137,3 +137,16 @@ for (let ava of avaregeNumber){
 let avarege = sums / avaregeNumber.length;
 
 console.log(avarege);
+
+// 15. Find largest number.
+
+let largestNumer = [20,44,56,7,8,89,87,54];
+
+let largest = largestNumer[0];
+
+for (let gan of largestNumer){
+    if(gan > largest){
+        largest = gan;
+    }
+}
+console.log(largest);
