@@ -9,3 +9,17 @@ console.log (arr);
 let number = [1,2,3,4,3];
 
 console.log(number[0]);
+
+// 3. Print last element
+
+let lastNumber = [1,2,3,4,3];
+
+console.log(lastNumber[4]);
+
+// More method 
+
+let numbers = [10, 20, 30, 40, 50];
+
+// Print last element
+
+console.log(numbers[numbers.length - 1]);
