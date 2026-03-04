@@ -93,3 +93,13 @@ let forArray = [10,70,80,90,50,60];
 for (let num of forArray){
     console.log(num);
 }
+
+// 11. Print elements greater than 10.
+
+let greterArray = [20,30,49,1,2,3,4,5]
+
+for (let faa of greterArray){
+    if(faa > 10){
+        console.log(faa);
+    }
+}
