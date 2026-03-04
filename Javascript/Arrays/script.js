@@ -77,3 +77,11 @@ console.log(shiftArray);
 shiftArray.shift();
 
 console.log(shiftArray);
+
+// 9. Loop through array using for loop.
+
+let loopArray = [10,20,30,40,50];
+
+for (let i = 0; i < loopArray.length; i++) {
+    console.log(loopArray[i]);
+}
