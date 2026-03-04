@@ -99,7 +99,15 @@ for (let num of forArray){
 let greterArray = [20,30,49,1,2,3,4,5]
 
 for (let faahaa of greterArray){
-    if(faa > 10){
+    if(faahaa > 10){
         console.log(faahaa);
     }
 }
+
+// 12. Count total elements.
+
+let countTotal = [10,20,30,40,50];
+
+let count = countTotal.length;
+
+console.log(count);
