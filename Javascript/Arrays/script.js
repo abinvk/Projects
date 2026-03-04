@@ -65,3 +65,15 @@ console.log(unshiftArray);
 unshiftArray.unshift(10);
 
 console.log(unshiftArray);
+
+// 8. Remove first element using shift().
+
+let shiftArray = [90,80,70,60,50,40,30]
+
+console.log(shiftArray);
+
+// shfit().
+
+shiftArray.shift();
+
+console.log(shiftArray);
