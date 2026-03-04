@@ -85,3 +85,11 @@ let loopArray = [10,20,30,40,50];
 for (let i = 0; i < loopArray.length; i++) {
     console.log(loopArray[i]);
 }
+
+// 10. Loop using for...of.
+
+let forArray = [10,70,80,90,50,60];
+
+for (let num of forArray){
+    console.log(num);
+}
