@@ -41,3 +41,15 @@ console.log(addArray);
 addArray.push(60);
 
 console.log(addArray);
+
+// 6. Remove last element using pop().
+
+let removeArray = [20,30,40,50,60];
+
+console.log(removeArray);
+
+// Remove last element
+
+removeArray.pop();
+
+console.log(removeArray);
