@@ -23,3 +23,9 @@ let numbers = [10, 20, 30, 40, 50];
 // Print last element
 
 console.log(numbers[numbers.length - 1]);
+
+//4. Find array length
+
+let lengthNumber = [1,2,3,4,3];
+
+console.log(lengthNumber.length);
