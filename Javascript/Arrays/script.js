@@ -150,3 +150,16 @@ for (let gan of largestNumer){
     }
 }
 console.log(largest);
+
+// 16. Find smallest number.
+
+let  smallestNumber = [20,44,56,7,8,89,87,54];
+
+let small = smallestNumber[0];
+
+for (let han of smallestNumber){
+    if(han < small){
+        small = han;
+    }
+}
+console.log(small);
