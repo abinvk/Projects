@@ -98,8 +98,8 @@ for (let num of forArray){
 
 let greterArray = [20,30,49,1,2,3,4,5]
 
-for (let faa of greterArray){
+for (let faahaa of greterArray){
     if(faa > 10){
-        console.log(faa);
+        console.log(faahaa);
     }
 }
