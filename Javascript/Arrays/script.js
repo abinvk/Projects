@@ -53,3 +53,15 @@ console.log(removeArray);
 removeArray.pop();
 
 console.log(removeArray);
+
+// 7. Add element at beginning using unshift().
+
+let unshiftArray = [20,40,60,80,]
+
+console.log(unshiftArray);
+
+//  add first unshift() - 
+
+unshiftArray.unshift(10);
+
+console.log(unshiftArray);
