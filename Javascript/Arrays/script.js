@@ -111,3 +111,15 @@ let countTotal = [10,20,30,40,50];
 let count = countTotal.length;
 
 console.log(count);
+
+// 13. Sum all numbers
+
+let sumNumbers = [10, 20, 30, 40, 50];
+
+let sum = 0;
+
+for (let num of sumNumbers) {
+  sum = sum + num;
+}
+
+console.log(sum);
