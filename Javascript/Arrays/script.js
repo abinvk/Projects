@@ -254,3 +254,15 @@ for(let i = 0; i < multiplyArray.length; i++){
 
 }
 console.log(multi);
+
+// 23. Convert numbers to string.
+
+let convertArray = [1,2,3,4,5];
+
+let stringArray = [];
+
+for (let i = 0; i < convertArray.length; i++){
+    stringArray.push(String(convertArray[i]));
+};
+
+console.log(stringArray);
