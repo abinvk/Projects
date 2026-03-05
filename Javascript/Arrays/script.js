@@ -180,3 +180,17 @@ for (let i = reversArray.length - 1; i >= 0; i--){
 }
 
 console.log(revesed);
+
+// 18. Copy array using loop.
+
+let normelArray = [1,2,3,4,5]
+
+console.log("NormelArray = " + normelArray);
+
+let coppyArray = [];
+
+for (let i = 0; i < normelArray.length; i++){
+    coppyArray.push(normelArray[i]);
+}
+
+console.log("CoppyArray = " + coppyArray);
