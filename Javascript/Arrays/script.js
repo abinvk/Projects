@@ -114,6 +114,7 @@ console.log(count);
 
 // 13. Sum all numbers
 
+
 let sumNumbers = [10, 20, 30, 40, 50];
 
 let sum = 0;
@@ -121,10 +122,11 @@ let sum = 0;
 for (let num of sumNumbers) {
   sum = sum + num;
 }
-
 console.log(sum);
 
+
 // 14. Find average of numbers.
+
 
 let avaregeNumber = [10, 20, 30, 40, 50];
 
@@ -137,6 +139,7 @@ for (let ava of avaregeNumber){
 let avarege = sums / avaregeNumber.length;
 
 console.log(avarege);
+
 
 // 15. Find largest number.
 
