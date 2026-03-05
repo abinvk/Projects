@@ -235,10 +235,9 @@ console.log("CheckArray = " + oddCheck);
  
 let counte = 0 ;
 
-for (let i = 0; i < oddCheck.length; i++);
-
-    if (oddCheck[i] %2 !== 0 ){
+for (let i = 0; i < oddCheck.length; i++){
+    if(oddCheck[i] %2 !== 0){
         counte++;
-    }
-
-console.log(counte);
+    };
+}; 
+console.log("OddoNumberCount = " + counte);
