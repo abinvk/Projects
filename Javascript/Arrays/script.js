@@ -276,4 +276,15 @@ let arra = [];
 for (let i = 0; i < text.length; i++){
     arra.push(text[i]);
 }
-console.log(arr);
+console.log(arra);
+
+// 25. Join array into string
+
+let letters = ["H","e","l","l","o"];
+
+let reslut = "";
+
+for (let i = 0; i <letters.length; i++){
+    reslut = reslut + letters[i];
+}
+console.log(reslut);
