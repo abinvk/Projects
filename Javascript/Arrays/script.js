@@ -209,3 +209,19 @@ for (let i = 0; i < checkArray.length; i++){
     }
 }
 console.log(found);
+
+// 20. Count even numbers
+
+let evenCheck = [1,2,3,4,5,6,7,8,9,10];
+
+console.log("CheckArray = " + evenCheck);
+
+let countt = 0;
+
+for (let i = 0; i < evenCheck.length; i++){
+
+    if ( evenCheck [i] % 2 === 0){
+        countt++;
+    }
+}
+console.log("EvenNumberCount = " + countt);
