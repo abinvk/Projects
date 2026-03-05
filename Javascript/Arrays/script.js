@@ -288,3 +288,23 @@ for (let i = 0; i <letters.length; i++){
     reslut = reslut + letters[i];
 }
 console.log(reslut);
+
+// 26. Sort numbers ascending.
+
+let sortArray = [9,1,8,2,7,3,4,6,5];
+
+console.log(sortArray);
+
+for (let i = 0; i < sortArray.length; i++){
+
+    for (let j = 0; j < sortArray.length - 1; j++){
+
+        if (sortArray[j] > sortArray[j + 1]){
+             
+            let temp = sortArray[j];
+            sortArray[j] = sortArray[j + 1];
+            sortArray[j + 1] = temp;
+        }
+    }
+}
+console.log(sortArray);
