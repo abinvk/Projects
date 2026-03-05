@@ -241,3 +241,16 @@ for (let i = 0; i < oddCheck.length; i++){
     };
 }; 
 console.log("OddoNumberCount = " + counte);
+
+// 22. Multiply all numbers
+
+let multiplyArray = [1,2,3,4,5];
+
+let multi = 1;
+
+for(let i = 0; i < multiplyArray.length; i++){
+
+    multi = multi * multiplyArray[i];
+
+}
+console.log(multi);
