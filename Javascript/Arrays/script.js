@@ -194,3 +194,18 @@ for (let i = 0; i < normelArray.length; i++){
 }
 
 console.log("CoppyArray = " + coppyArray);
+
+// 19. Check if value exists in array.
+
+let checkArray = [10, 20, 30, 40, 50];
+
+let searchValus = 40;
+
+let found = false;
+
+for (let i = 0; i < checkArray.length; i++){
+    if (checkArray[i] === searchValus){
+        found = true;
+    }
+}
+console.log(found);
