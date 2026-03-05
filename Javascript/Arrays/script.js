@@ -166,3 +166,17 @@ for (let han of smallestNumber){
     }
 }
 console.log(small);
+
+// 17. Reverse array manually (without reverse()).
+
+let reversArray = [1,2,3,4,5,7,8];
+
+console.log(reversArray);
+
+let revesed = [];
+
+for (let i = reversArray.length - 1; i >= 0; i--){
+    revesed.push(reversArray[i]);
+}
+
+console.log(revesed);
