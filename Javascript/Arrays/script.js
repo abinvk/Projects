@@ -266,3 +266,14 @@ for (let i = 0; i < convertArray.length; i++){
 };
 
 console.log(stringArray);
+
+// 24. Create array from string
+
+let text = "Hello";
+
+let arra = [];
+
+for (let i = 0; i < text.length; i++){
+    arra.push(text[i]);
+}
+console.log(arr);
