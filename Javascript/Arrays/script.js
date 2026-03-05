@@ -308,3 +308,22 @@ for (let i = 0; i < sortArray.length; i++){
     }
 }
 console.log(sortArray);
+
+//27. Sort numbers descending.
+
+let descendingArray = [9,1,8,2,7,3,6,4,5];
+
+console.log(descendingArray);
+
+for(let i = 0; i < descendingArray.length; i++){
+
+    for (let j = 0; j < descendingArray.length - 1; j++){
+        if (descendingArray[j] < descendingArray[j + 1]){
+
+            let tem = descendingArray[j];
+            descendingArray[j] = descendingArray[j + 1];
+            descendingArray[j + 1] = tem;
+        }
+    }
+}
+console.log(descendingArray);
