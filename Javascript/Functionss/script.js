@@ -2910,3 +2910,17 @@ let resultq = numbersq.map(function(num){
 });
 
 console.log(resultq);
+
+// 8 Convert numbers to "even" or "odd".
+
+let numbersc = [1,2,3,4];
+
+let resultc = numbersc.map(function(num){
+    if(num % 2 === 0){
+        return "even";
+    } else {
+        return "odd";
+    }
+});
+
+console.log(resultc);
