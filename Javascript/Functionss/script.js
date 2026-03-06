@@ -2843,13 +2843,23 @@ console.log(res);
 //  JavaScript Interview Practice – Implement map() Manually  
 
 
+
+
 //1 Convert numbers to their square: [2,3,4] ® [4,9,16]
 
 let sqare = [2,3,4];
 
 let resa = sqare.map(function(num){
   return num * num;
-})
+});
 console.log(resa);
 
+//2. Convert numbers to their cube.
 
+
+let cube = [2,3,4];
+
+let red = cube.map(function(num){
+  return num * num * num;
+});
+console.log(red);
