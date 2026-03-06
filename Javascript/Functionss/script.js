@@ -2900,3 +2900,13 @@ let resultr = temps.map(function(c){
 });
 
 console.log(resultr);
+
+// 7 Convert numbers to boolean values.
+
+let numbersq = [0,1,2,-1];
+
+let resultq = numbersq.map(function(num){
+    return Boolean(num);
+});
+
+console.log(resultq);
