@@ -2952,3 +2952,7 @@ let resultj = numbersj.map(function(num){
 });
 
 console.log(resultj);
+
+
+
+// !! 2. Index-Based Transformation Problems (11–18) !! //
