@@ -2890,3 +2890,13 @@ let rala = npricea.map(function(num){
   return  num + " %";
 });
 console.log(rala);
+
+//6 Convert temperatures from Celsius to Fahrenheit using (C × 9/5) + 32.
+
+let temps = [0,10,20];
+
+let resultr = temps.map(function(c){
+    return (c * 9/5) + 32;
+});
+
+console.log(resultr);
