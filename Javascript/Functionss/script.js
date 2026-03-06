@@ -2881,3 +2881,12 @@ let ral = nprice.map(function(num){
   return "n" + num;
 });
 console.log(ral);
+
+// 5 Convert numbers to "number%" format: [10,20] ® ["10%","20%"]
+
+let npricea = [10,20];
+
+let rala = npricea.map(function(num){
+  return  num + " %";
+});
+console.log(rala);
