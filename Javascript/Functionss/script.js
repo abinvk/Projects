@@ -2938,3 +2938,17 @@ let resulto = numberso.map(function(num){
 });
 
 console.log(resulto);
+
+//10.Convert numbers to "High" if >50 else "Low".
+
+let numbersj= [30,60,45,80];
+
+let resultj = numbersj.map(function(num){
+    if(num > 50){
+        return "High";
+    } else {
+        return "Low";
+    }
+});
+
+console.log(resultj);
