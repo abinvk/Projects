@@ -2863,3 +2863,21 @@ let red = cube.map(function(num){
   return num * num * num;
 });
 console.log(red);
+
+// 3 Convert numbers to binary strings
+
+let binary = [2,3,4];
+
+let resull = binary.map(function(num){
+  return num.toString(2);
+});
+console.log(resull);
+
+// 4 Convert numbers to "nprice" format: [100,200] ® ["n100","n200"]
+
+let nprice = [100,200];
+
+let ral = nprice.map(function(num){
+  return "n" + num;
+});
+console.log(ral);
