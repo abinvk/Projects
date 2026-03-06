@@ -2839,3 +2839,17 @@ console.log(res);
 
 
 
+
+//  JavaScript Interview Practice – Implement map() Manually  
+
+
+//1 Convert numbers to their square: [2,3,4] ® [4,9,16]
+
+let sqare = [2,3,4];
+
+let resa = sqare.map(function(num){
+  return num * num;
+})
+console.log(resa);
+
+
