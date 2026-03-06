@@ -2823,3 +2823,19 @@ function factorial(n) {
 factorial(5)
 factorial(5)
 factorial(5)
+
+// Implement map manually.
+
+let mars = [50,70,90,85,45];
+
+let res = mars.map((item) =>{
+  if (item > 75){
+    return 'Pass';
+  }else{
+    return "Fail";
+  }
+})
+console.log(res);
+
+
+
