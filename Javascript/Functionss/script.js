@@ -2924,3 +2924,17 @@ let resultc = numbersc.map(function(num){
 });
 
 console.log(resultc);
+
+// 9 Convert numbers to "Positive" or "Negative".
+
+let numberso = [-3,5,-1,7];
+
+let resulto = numberso.map(function(num){
+    if(num > 0){
+        return "Positive";
+    } else {
+        return "Negative";
+    }
+});
+
+console.log(resulto);
