@@ -412,3 +412,12 @@ for(let i = 0; i < fruits.length; i++){
 console.log(result);
 
 //33. Replace element at specific index
+
+let nArray = [1,2,3,4,5];
+
+let indexx = 3;
+let newValue = 8005;
+
+nArray[indexx] = newValue;
+
+console.log(nArray);
