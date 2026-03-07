@@ -449,3 +449,12 @@ for(let i = numbersu.length; i > indexu; i--){
 
 numbersu[indexu] = value;
 console.log(numbersu);
+
+//36. Print array in reverse order using loop.
+
+let numberst = [10,20,30,40]; 
+console.log(numberst);
+
+for(let i = numberst.length - 1; i >= 0; i--){
+    console.log(numberst[i]);
+}; 
