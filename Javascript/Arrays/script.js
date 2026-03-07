@@ -470,3 +470,20 @@ let matrix = [
 console.log(matrix);  // 39
 
 // 39. Find sum of 2D array.
+
+let matrixc = [
+  [1,2,3],
+  [4,5,6],
+  [7,8,9]
+];
+
+let sumc = 0;
+
+for(let i = 0; i < matrixc.length; i++){
+
+    for(let j = 0; j < matrixc[i].length; j++){
+
+        sumc += matrixc[i][j];
+    }
+}
+console.log(sumc);
