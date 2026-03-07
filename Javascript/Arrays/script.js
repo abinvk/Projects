@@ -327,3 +327,17 @@ for(let i = 0; i < descendingArray.length; i++){
     }
 }
 console.log(descendingArray);
+
+
+//28. Remove duplicate values.
+
+
+let duplicate = [1,2,3,2,3,4,5];
+let unique = [];
+
+for (let i = 0; i < duplicate.length; i++){
+    if(!unique.includes(duplicate[i])){
+        unique.push(duplicate[i]);
+    };
+};
+console.log(unique);
