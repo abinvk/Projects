@@ -457,4 +457,16 @@ console.log(numberst);
 
 for(let i = numberst.length - 1; i >= 0; i--){
     console.log(numberst[i]);
-}; 
+}
+
+// 37. Create 2D array.
+
+let matrix = [
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+];
+
+console.log(matrix);  // 39
+
+// 39. Find sum of 2D array.
