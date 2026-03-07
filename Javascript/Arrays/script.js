@@ -421,3 +421,17 @@ let newValue = 8005;
 nArray[indexx] = newValue;
 
 console.log(nArray);
+
+// 34. Remove element at specific index.
+
+let numbersw = [10,20,30,40,50];
+
+let indexw = 2;
+
+for(let i = indexw; i < numbersw.length - 1; i++){
+    numbersw[i] = numbersw[i + 1];
+}
+
+numbersw.length = numbersw.length - 1;
+
+console.log(numbersw);
