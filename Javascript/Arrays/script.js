@@ -365,3 +365,20 @@ for (let i = 0; i < arr2.length; i++){
 };
 
 console.log(merged);
+
+//30. Find index of element.
+
+let numbersx = [10,20,30,40,50];
+let target = 30;
+let index = -1;
+
+for(let i = 0; i < numbersx.length; i++){
+
+    if(numbersx[i] === target){
+        index = i;
+        break;
+    }
+
+}
+
+console.log(index);
