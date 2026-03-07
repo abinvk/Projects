@@ -333,6 +333,9 @@ console.log(descendingArray);
 
 
 let duplicate = [1,2,3,2,3,4,5];
+
+console.log(duplicate);
+
 let unique = [];
 
 for (let i = 0; i < duplicate.length; i++){
@@ -341,3 +344,24 @@ for (let i = 0; i < duplicate.length; i++){
     };
 };
 console.log(unique);
+
+
+//29. Merge two arrays.
+
+
+let arr1 = [1,2,3];
+let arr2 = [4,5,6];
+
+console.log(arr1,arr2);
+
+let merged = [];
+
+for (let i = 0; i < arr1.length; i++){
+    merged.push(arr1[i]);
+};
+
+for (let i = 0; i < arr2.length; i++){
+    merged.push(arr2[i]);
+};
+
+console.log(merged);
