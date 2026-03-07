@@ -435,3 +435,17 @@ for(let i = indexw; i < numbersw.length - 1; i++){
 numbersw.length = numbersw.length - 1;
 
 console.log(numbersw);
+
+//35. Insert element at specific index.
+
+let numbersu = [10,20,30,40];
+
+let indexu = 2;
+let value = 25;
+
+for(let i = numbersu.length; i > indexu; i--){
+    numbersu[i] = numbersu[i - 1];
+}
+
+numbersu[indexu] = value;
+console.log(numbersu);
