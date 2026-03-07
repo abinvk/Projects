@@ -391,3 +391,24 @@ if (eArray.length === 0){
 }else{
     console.log("Array is not empty");
 }
+
+
+// 32. Convert array to comma-separated string.
+
+
+let fruits = ["apple","banana","mango"];
+
+let result = "";
+
+for(let i = 0; i < fruits.length; i++){
+
+    result += fruits[i];
+
+    if(i < fruits.length - 1){
+        result += ",";
+    }
+
+}
+console.log(result);
+
+//33. Replace element at specific index
