@@ -381,3 +381,13 @@ for(let i = 0; i < numbersx.length; i++){
 
 }
 console.log(index);
+
+// 31. Check if array is empty.
+
+let eArray = [];
+
+if (eArray.length === 0){
+    console.log("Array is empty");
+}else{
+    console.log("Array is not empty");
+}
