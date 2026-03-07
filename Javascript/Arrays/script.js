@@ -380,5 +380,4 @@ for(let i = 0; i < numbersx.length; i++){
     }
 
 }
-
 console.log(index);
