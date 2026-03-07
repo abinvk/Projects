@@ -487,3 +487,20 @@ for(let i = 0; i < matrixc.length; i++){
     }
 }
 console.log(sumc);
+
+// 40. Flatten 2D array.
+
+let matri = [
+  [1,2],
+  [3,4],
+  [5,6]
+];
+
+let resut = [];
+
+for(let i = 0; i < matri.length; i++){
+    for(let j = 0; j < matri[i].length; j++){
+        resut.push(matri[i][j]);
+    }
+}
+console.log(resut);
