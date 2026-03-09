@@ -547,3 +547,12 @@ let nam = evv.filter(function(eva){
     return eva %2 === 0;
 });
 console.log(nam);
+
+//45. Extract odd numbers
+
+let evva = [1,2,3,4];
+
+let nama = evva.filter(function(evaa){
+    return evaa %2 === 1;
+});
+console.log(nama);
