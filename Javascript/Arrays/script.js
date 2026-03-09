@@ -517,3 +517,12 @@ let double = each.map(function(num){
 });
 
 console.log(double);
+
+// 42. Square each number.
+
+let squ = [1,2,3,4];
+
+let ex = squ.map(function(nums){
+    return nums * nums; 
+});
+console.log(ex);
