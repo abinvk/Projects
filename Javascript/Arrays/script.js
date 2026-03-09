@@ -565,3 +565,13 @@ let bers = grea.filter(function(grea){
     return grea >= 50;
 });
 console.log(bers);
+
+//47. Filter strings longer than 5 characters.
+
+let words = ["cat","elephant","dog","tiger","giraffe"];
+
+let longWords = words.filter(function(word){
+    return word.length > 5;
+});
+
+console.log(longWords);
