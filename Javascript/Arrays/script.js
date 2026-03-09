@@ -536,5 +536,14 @@ console.log(names);
 let upper = names.map(function(name){
     return name.toUpperCase();
 });
-
 console.log(upper);
+
+
+// 44. Extract even numbers using filter().
+
+let evv = [1,2,3,4];
+
+let nam = evv.filter(function(eva){
+    return eva %2 === 0;
+});
+console.log(nam);
