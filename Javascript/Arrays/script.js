@@ -504,3 +504,16 @@ for(let i = 0; i < matri.length; i++){
     }
 }
 console.log(resut);
+
+
+// LEVEL 2 – MAP / FILTER / REDUCE
+
+// 41. Double each number using map().
+
+let each = [1,2,3,4];
+
+let double = each.map(function(num){
+    return num * 2;
+});
+
+console.log(double);
