@@ -585,3 +585,13 @@ let total = numbersf.reduce(function(sum, num){
 },0);
 
 console.log(total);
+
+//49. Find product using reduce().
+
+let numberss = [2,3,4];
+
+let product = numberss.reduce(function(result, num){
+    return result * num;
+},1);
+
+console.log(product);
