@@ -526,3 +526,15 @@ let ex = squ.map(function(nums){
     return nums * nums; 
 });
 console.log(ex);
+
+// 43. Convert names to uppercase.
+
+let names = ["abin","rahul","amal"];
+
+console.log(names);
+
+let upper = names.map(function(name){
+    return name.toUpperCase();
+});
+
+console.log(upper);
