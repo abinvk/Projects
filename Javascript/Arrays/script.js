@@ -556,3 +556,12 @@ let nama = evva.filter(function(evaa){
     return evaa %2 === 1;
 });
 console.log(nama);
+
+//46. Filter numbers greater than 50.
+
+let grea = [25,35,45,55,65,75];
+
+let bers = grea.filter(function(grea){
+    return grea >= 50;
+});
+console.log(bers);
