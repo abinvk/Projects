@@ -575,3 +575,13 @@ let longWords = words.filter(function(word){
 });
 
 console.log(longWords);
+
+// 48. Find total sum using reduce().
+
+let numbersf = [10,20,30,40];
+
+let total = numbersf.reduce(function(sum, num){
+    return sum + num;
+},0);
+
+console.log(total);
