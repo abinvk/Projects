@@ -891,3 +891,14 @@ let resultpp = arrpp.filter(function(value){
 });
 
 console.log(resultpp);
+
+// 74. Find intersection of two arrays.
+
+let arr11 = [1,2,3,4];
+let arr22 = [3,4,5,6];
+
+let resultcc = arr11.filter(function(num){
+    return arr22.includes(num);
+});
+
+console.log(resultcc);
