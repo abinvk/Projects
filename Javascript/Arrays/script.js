@@ -725,5 +725,19 @@ let resultz = numbersz.reduce(function(acc, num){
     return acc;
 
 }, {even:[], odd:[]});
-
 console.log(resultz);
+
+// 59. Count words starting with letter A.
+
+let wordsh = ["Apple", "Banana", "Avocado", "Mango", "Apricot"];
+
+let counth = wordsh.reduce(function(acc, word){
+
+    if(word[0] === "A"){
+        acc++;
+    }
+
+    return acc;
+
+}, 0);
+console.log(counth);
