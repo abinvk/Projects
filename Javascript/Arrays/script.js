@@ -913,3 +913,12 @@ let resultw = arr111.filter(function(num){
 });
 
 console.log(resultw);
+
+// 76. Merge and remove duplicates.
+
+let arr1111 = [1,2,3];
+let arr2222 = [3,4,5];
+
+let mergedq = [...new Set([...arr1, ...arr2])];
+
+console.log(mergedq);
