@@ -952,3 +952,13 @@ let resultp = numbersp.find(function(num){
 });
 
 console.log(resultp);
+
+// 80. Find index of first even number.
+
+let numbersii = [3, 7, 9, 4, 6];
+
+let resultii = numbersii.findIndex(function(num){
+    return num % 2 === 0;
+});
+
+console.log(resultii);
