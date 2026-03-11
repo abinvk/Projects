@@ -796,5 +796,19 @@ let numbersvv = [5, -3, 8, -2, 10, -7];
 let resultvv = numbersvv.filter(function(num){
     return num >= 0;
 });
-
 console.log(resultvv);
+
+//65. Replace negative numbers with 0.
+
+let numbersww = [5, -3, 8, -2, 10];
+
+let resultww = numbersww.map(function(num){
+
+    if(num < 0){
+        return 0;
+    }else{
+        return num;
+    }
+
+});
+console.log(resultww);
