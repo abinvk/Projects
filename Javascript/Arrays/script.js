@@ -824,5 +824,16 @@ let resultgg = numbersgg.reduce(function(acc, num, index){
     return acc;
 
 }, {});
-
 console.log(resultgg);
+
+//67. Convert object values to array.
+
+let person = {
+ name: "Abin",
+ age: 22,
+ city: "Kochi"
+};
+
+let resulta = Object.values(person);
+
+console.log(resulta);
