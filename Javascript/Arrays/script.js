@@ -595,3 +595,20 @@ let product = numberss.reduce(function(result, num){
 },1);
 
 console.log(product);
+
+//50. Count occurrences of a value.
+
+let numberso = [1, 2, 3, 2, 4, 2, 5];
+
+let targeto = 2;
+let counto = 0;
+
+for(let i = 0; i < numberso.length; i++){
+
+    if(numberso[i] === targeto){
+        counto++;
+    }
+
+}
+
+console.log(counto);
