@@ -772,3 +772,11 @@ let shortest = wordsqq.reduce(function(acc, word){
 });
 
 console.log(shortest);
+
+// 62. Get first 3 elements.
+
+let numbersaa = [10, 20, 30, 40, 50];
+
+let resultaa = numbersaa.slice(0,3);
+
+console.log(resultaa);
