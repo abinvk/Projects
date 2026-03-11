@@ -837,3 +837,11 @@ let person = {
 let resulta = Object.values(person);
 
 console.log(resulta);
+
+// 68. Create custom map function.
+
+let numbersxx = [1,2,3];
+
+let resultxx = numbersxx.map(num => num * 2);
+
+console.log(resultxx);
