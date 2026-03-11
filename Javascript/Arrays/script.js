@@ -648,3 +648,12 @@ let uniquei = numbersi.filter(function(value, index, array){
 });
 
 console.log(uniquei);
+
+// 53. Add GST to price array.
+
+let prices = [100,200,300];
+
+let gstprice = prices.map(function(prices){
+    return prices + (prices * 18 / 100);
+});
+console.log(gstprice);
