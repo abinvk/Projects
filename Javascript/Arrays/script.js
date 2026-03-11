@@ -741,3 +741,18 @@ let counth = wordsh.reduce(function(acc, word){
 
 }, 0);
 console.log(counth);
+
+// 60. Find longest word
+
+let wordsq = ["cat", "elephant", "dog", "tiger"];
+
+let longest = wordsq.reduce(function(acc, word){
+
+    if(word.length > acc.length){
+        return word;
+    }else{
+        return acc;
+    }
+
+});
+console.log(longest);
