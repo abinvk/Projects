@@ -788,3 +788,13 @@ let numbersdd = [10, 20, 30, 40, 50];
 let resultdd = numbers.slice(-3);
 
 console.log(resultdd);
+
+// 64. Remove negative numbers.
+
+let numbersvv = [5, -3, 8, -2, 10, -7];
+
+let resultvv = numbersvv.filter(function(num){
+    return num >= 0;
+});
+
+console.log(resultvv);
