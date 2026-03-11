@@ -679,3 +679,18 @@ let newSalaries = salaries.map(function(salary){
 
 });
 console.log(newSalaries);
+
+// 56. Find max using reduce.
+
+let numberse = [10, 25, 7, 40, 15];
+
+let max = numberse.reduce(function(acc, num){
+
+    if(num > acc){
+        return num;
+    }else{
+        return acc;
+    }
+
+});
+console.log(max);
