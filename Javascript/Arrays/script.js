@@ -853,3 +853,11 @@ let numberszz = [1,2,3,4,5];
 let resultzz = numberszz.filter(num => num % 2 === 0);
 
 console.log(resultzz);
+
+//70. Create custom reduce function.
+
+let numberskk = [1,2,3,4];
+
+let sumkk = numberskk.reduce((acc,num)=> acc + num, 0);
+
+console.log(sumkk);
