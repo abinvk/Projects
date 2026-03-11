@@ -942,3 +942,13 @@ let resultbb = numbersbb.some(function(num){
 });
 
 console.log(resultbb);
+
+//79. Find first number greater than 100.
+
+let numbersp = [20, 50, 120, 80, 200];
+
+let resultp = numbersp.find(function(num){
+    return num > 100;
+});
+
+console.log(resultp);
