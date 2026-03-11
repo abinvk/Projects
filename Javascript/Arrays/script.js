@@ -612,3 +612,26 @@ for(let i = 0; i < numberso.length; i++){
 }
 
 console.log(counto);
+
+//51. Count vowels in array of words.
+
+let wordsy = ["apple", "banana", "orange"];
+
+let county = 0;
+
+for(let i = 0; i < wordsy.length; i++){
+
+    let wordy = wordsy[i];
+
+    for(let j = 0; j < wordy.length; j++){
+
+        let char = wordy[j];
+
+        if(char === "a" || char === "e" || char === "i" || char === "o" || char === "u"){
+            county++;
+        }
+
+    }
+
+}
+console.log(county);
