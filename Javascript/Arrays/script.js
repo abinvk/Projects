@@ -694,3 +694,36 @@ let max = numberse.reduce(function(acc, num){
 
 });
 console.log(max);
+
+// 57. Find min using reduce.
+
+let numbersex = [10, 25, 7, 40, 15];
+
+let maxx = numberse.reduce(function(acc, num){
+
+    if(num < acc){
+        return num;
+    }else{
+        return acc;
+    }
+
+});
+console.log(maxx);
+
+// 58. Group even and odd numbers
+
+let numbersz = [1,2,3,4,5,6];
+
+let resultz = numbersz.reduce(function(acc, num){
+
+    if(num % 2 === 0){
+        acc.even.push(num);
+    }else{
+        acc.odd.push(num);
+    }
+
+    return acc;
+
+}, {even:[], odd:[]});
+
+console.log(resultz);
