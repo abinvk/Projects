@@ -812,3 +812,17 @@ let resultww = numbersww.map(function(num){
 
 });
 console.log(resultww);
+
+// 66. Convert array of numbers to object.
+
+let numbersgg = [10, 20, 30];
+
+let resultgg = numbersgg.reduce(function(acc, num, index){
+
+    acc[index] = num;
+
+    return acc;
+
+}, {});
+
+console.log(resultgg);
