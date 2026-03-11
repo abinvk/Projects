@@ -922,3 +922,13 @@ let arr2222 = [3,4,5];
 let mergedq = [...new Set([...arr1, ...arr2])];
 
 console.log(mergedq);
+
+//77. Check if all numbers are positive.
+
+let numbersl = [2,5,8,10];
+
+let resultl = numbersl.every(function(num){
+    return num > 0;
+});
+
+console.log(resultl);
