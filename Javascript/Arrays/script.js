@@ -635,3 +635,16 @@ for(let i = 0; i < wordsy.length; i++){
 
 }
 console.log(county);
+
+
+// 52. Get unique values using filter.
+
+let numbersi = [1,2,2,3,4,4,5];
+
+let uniquei = numbersi.filter(function(value, index, array){
+
+    return array.indexOf(value) === index;
+
+});
+
+console.log(uniquei);
