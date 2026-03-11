@@ -756,3 +756,19 @@ let longest = wordsq.reduce(function(acc, word){
 
 });
 console.log(longest);
+
+// 61. Find shortest word.
+
+let wordsqq = ["cat", "elephant", "dog", "tiger"];
+
+let shortest = wordsqq.reduce(function(acc, word){
+
+    if(word.length < acc.length){
+        return word;
+    }else{
+        return acc;
+    }
+
+});
+
+console.log(shortest);
