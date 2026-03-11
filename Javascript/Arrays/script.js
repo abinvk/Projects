@@ -780,3 +780,11 @@ let numbersaa = [10, 20, 30, 40, 50];
 let resultaa = numbersaa.slice(0,3);
 
 console.log(resultaa);
+
+// 63. Get last 3 elements.
+
+let numbersdd = [10, 20, 30, 40, 50];
+
+let resultdd = numbers.slice(-3);
+
+console.log(resultdd);
