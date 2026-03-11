@@ -845,3 +845,11 @@ let numbersxx = [1,2,3];
 let resultxx = numbersxx.map(num => num * 2);
 
 console.log(resultxx);
+
+//69. Create custom filter function.
+
+let numberszz = [1,2,3,4,5];
+
+let resultzz = numberszz.filter(num => num % 2 === 0);
+
+console.log(resultzz);
