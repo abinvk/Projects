@@ -932,3 +932,13 @@ let resultl = numbersl.every(function(num){
 });
 
 console.log(resultl);
+
+//78. Check if any number is negative.
+
+let numbersbb = [5, 8, -3, 10];
+
+let resultbb = numbersbb.some(function(num){
+    return num < 0;
+});
+
+console.log(resultbb);
