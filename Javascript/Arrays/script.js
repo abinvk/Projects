@@ -657,3 +657,14 @@ let gstprice = prices.map(function(prices){
     return prices + (prices * 18 / 100);
 });
 console.log(gstprice);
+
+//54. Convert Celsius array to Fahrenheit.
+
+let celsius = [0,10,20,30];
+
+let fahrenheit = celsius.map(function(temp){
+
+    return (temp * 9/5) + 32;
+
+});
+console.log(fahrenheit);
