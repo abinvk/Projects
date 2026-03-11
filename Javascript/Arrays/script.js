@@ -881,3 +881,13 @@ let resultuu = arruu.filter(function(value){
 });
 
 console.log(resultuu);
+
+// 73. Remove falsy values.
+
+let arrpp = [0, "hello", false, 25, "", null, "JS"];
+
+let resultpp = arrpp.filter(function(value){
+    return Boolean(value);
+});
+
+console.log(resultpp);
