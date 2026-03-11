@@ -902,3 +902,14 @@ let resultcc = arr11.filter(function(num){
 });
 
 console.log(resultcc);
+
+// 75. Find difference between two arrays.
+
+let arr111 = [1,2,3,4];
+let arr222 = [3,4,5,6];
+
+let resultw = arr111.filter(function(num){
+    return !arr222.includes(num);
+});
+
+console.log(resultw);
