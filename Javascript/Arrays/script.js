@@ -668,3 +668,14 @@ let fahrenheit = celsius.map(function(temp){
 
 });
 console.log(fahrenheit);
+
+// 55. Add 10% bonus to salary array.
+
+let salaries = [20000, 30000, 40000];
+
+let newSalaries = salaries.map(function(salary){
+
+    return salary + (salary * 10 / 100);
+
+});
+console.log(newSalaries);
