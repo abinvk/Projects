@@ -861,3 +861,13 @@ let numberskk = [1,2,3,4];
 let sumkk = numberskk.reduce((acc,num)=> acc + num, 0);
 
 console.log(sumkk);
+
+//71. Remove null values
+
+let arraa = [10, null, 20, null, 30];
+
+let resultaaa = arraa.filter(function(value){
+    return value !== null;
+});
+
+console.log(resultaaa);
