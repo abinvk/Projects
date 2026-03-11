@@ -871,3 +871,13 @@ let resultaaa = arraa.filter(function(value){
 });
 
 console.log(resultaaa);
+
+// 72. Remove undefined values.
+
+let arruu = [10, undefined, 20, undefined, 30];
+
+let resultuu = arruu.filter(function(value){
+    return value !== undefined;
+});
+
+console.log(resultuu);
