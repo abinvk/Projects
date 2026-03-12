@@ -1064,3 +1064,22 @@ topper = studentsy[i];
 };
 };
 console.log(topper.name, topper.mark);
+
+// 85. Find average mark.
+
+let studentso = [
+{ name: "Arun", mark: 40 },
+{ name: "Rahul", mark: 80 },
+{ name: "Anu", mark: 60 },
+{ name: "Vishnu", mark: 20 }
+];
+
+let totalr = 0;
+
+for (let i = 0; i < studentso.length; i++) {
+  totalr = totalr + studentso[i].mark;
+}
+
+let average = totalr / students.length;
+
+console.log(average);
