@@ -1098,3 +1098,17 @@ for (let i = 0; i < studentsu.length; i++) {
   }
 }
 console.log(countw);
+
+//87. Sort students by marks.
+
+let studentsp = [
+{ name: "Arun", mark: 40 },
+{ name: "Rahul", mark: 80 },
+{ name: "Anu", mark: 60 },
+{ name: "Vishnu", mark: 20 }
+];
+studentsp.sort(function(a, b) {
+  return a.mark - b.mark;
+});
+
+console.log(studentsp);
