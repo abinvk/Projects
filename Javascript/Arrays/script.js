@@ -1034,3 +1034,33 @@ if(studentse[i].mark > 50) {
 console.log(studentse[i].name);
 };
 };
+
+//84. Find topper student.
+
+let studentsy = [
+{
+name: "Arun",
+mark: 45
+},
+{
+name: "Rahul",
+mark: 78
+},
+{
+name: "Anu",
+mark: 92
+},
+{
+name: "Vishnu",
+mark: 60
+}
+];
+let topper = studentsy[0];
+
+for(let i = 1; i < studentsy.length; i++) {
+
+if(studentsy[i].mark > topper.mark) {
+topper = studentsy[i];
+};
+};
+console.log(topper.name, topper.mark);
