@@ -1006,4 +1006,31 @@ mark: 88
 ];
 for(let i = 0; i < studentss.length; i++) {
 console.log(studentss[i].name);
+};
+
+// 83. Print students with marks greater than 50.
+
+let studentse = [
+{
+name: "Arun",
+mark: 45
+},
+{
+name: "Rahul",
+mark: 78
+},
+{
+name: "Anu",
+mark: 55
+},
+{
+name: "Vishnu",
+mark: 30
 }
+];
+for(let i = 0; i < studentse.length; i++) {
+
+if(studentse[i].mark > 50) {
+console.log(studentse[i].name);
+};
+};
