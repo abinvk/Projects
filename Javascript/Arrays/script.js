@@ -1135,3 +1135,5 @@ let studentsx = [
 ];
 studentsx.push({ name: "Vishnu", mark: 75 });
 console.log(studentsx);
+
+//90. Remove student by id.
