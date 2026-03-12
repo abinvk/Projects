@@ -984,4 +984,26 @@ mark: 88
 }
 ];
 
-console.log(students);
+//82. Print all student names.
+
+
+let studentss = [
+{
+name: "Arun",
+age: 20,
+mark: 85
+},
+{
+name: "Rahul",
+age: 21,
+mark: 90
+},
+{
+name: "Anu",
+age: 19,
+mark: 88
+}
+];
+for(let i = 0; i < studentss.length; i++) {
+console.log(studentss[i].name);
+}
