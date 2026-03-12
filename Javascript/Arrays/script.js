@@ -1065,7 +1065,7 @@ topper = studentsy[i];
 };
 console.log(topper.name, topper.mark);
 
-// 85. Find average mark.
+// 85. Find average mark.                                        // project
 
 let studentso = [
 { name: "Arun", mark: 40 },
@@ -1081,7 +1081,7 @@ for (let i = 0; i < studentso.length; i++) {
 let average = totalr / students.length;
 console.log(average);
 
-//86. Count failed students.
+//86. Count failed students.                                     // project
 
 let studentsu = [
 { name: "Arun", mark: 40 },
