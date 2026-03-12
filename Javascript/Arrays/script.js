@@ -1124,5 +1124,14 @@ let studentspp = [
 studentspp.sort(function(a, b) {
   return a.name.localeCompare(b.name);
 });
-
 console.log(studentspp);
+
+// 89. Add new student object.
+
+let studentsx = [
+{ name: "Arun", mark: 40 },
+{ name: "Rahul", mark: 80 },
+{ name: "Anu", mark: 60 }
+];
+studentsx.push({ name: "Vishnu", mark: 75 });
+console.log(studentsx);
