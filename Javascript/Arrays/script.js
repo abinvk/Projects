@@ -1075,11 +1075,26 @@ let studentso = [
 ];
 
 let totalr = 0;
-
 for (let i = 0; i < studentso.length; i++) {
-  totalr = totalr + studentso[i].mark;
+  totalr = total + studentso[i].mark;
 }
-
 let average = totalr / students.length;
-
 console.log(average);
+
+//86. Count failed students.
+
+let studentsu = [
+{ name: "Arun", mark: 40 },
+{ name: "Rahul", mark: 80 },
+{ name: "Anu", mark: 35 },
+{ name: "Vishnu", mark: 60 }
+];
+
+let countw = 0;
+
+for (let i = 0; i < studentsu.length; i++) {
+  if (studentsu[i].mark < 50) {
+    countw++;
+  }
+}
+console.log(countw);
