@@ -1112,3 +1112,17 @@ studentsp.sort(function(a, b) {
 });
 
 console.log(studentsp);
+
+//88. Sort students by name.
+
+let studentspp = [
+{ name: "Arun", mark: 40 },
+{ name: "Rahul", mark: 80 },
+{ name: "Anu", mark: 60 },
+{ name: "Vishnu", mark: 20 }
+];
+studentspp.sort(function(a, b) {
+  return a.name.localeCompare(b.name);
+});
+
+console.log(studentspp);
