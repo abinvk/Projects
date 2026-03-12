@@ -960,5 +960,28 @@ let numbersii = [3, 7, 9, 4, 6];
 let resultii = numbersii.findIndex(function(num){
     return num % 2 === 0;
 });
-
 console.log(resultii);
+
+// LEVEL 3 – ARRAY + OBJECTS
+
+// 81. Create array of student objects.
+
+let students = [
+{
+name: "Arun",
+age: 20,
+mark: 85
+},
+{
+name: "Rahul",
+age: 21,
+mark: 90
+},
+{
+name: "Anu",
+age: 19,
+mark: 88
+}
+];
+
+console.log(students);
