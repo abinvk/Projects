@@ -1151,3 +1151,20 @@ studentsc = studentsc.filter(function(studentc){
 });
 
 console.log(studentsc);
+
+//92. Find student by id.
+
+let studentsaa = [
+  { id: 1, name: "Arun", mark: 70 },
+  { id: 2, name: "Meera", mark: 85 },
+  { id: 3, name: "Rahul", mark: 40 },
+  { id: 4, name: "Anu", mark: 90 }
+];
+
+let searchId = 2;
+
+let studentaa = studentsaa.find(function(s){
+  return s.id === searchId;
+});
+
+console.log(studentaa);
