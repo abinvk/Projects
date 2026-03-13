@@ -1237,3 +1237,18 @@ employees.forEach(function(emp){
 });
 
 console.log(totalSalary);
+
+// 96. Filter employees above 30 years.
+
+let employeesx = [
+  { id: 1, name: "Arun", age: 25 },
+  { id: 2, name: "Meera", age: 32 },
+  { id: 3, name: "Rahul", age: 40 },
+  { id: 4, name: "Anu", age: 28 }
+];
+
+let resultx = employeesx.filter(function(emp){
+  return emp.age > 30;
+});
+
+console.log(resultx);
