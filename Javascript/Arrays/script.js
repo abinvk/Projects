@@ -1219,5 +1219,21 @@ studentsr.forEach(function(s){
   }
 
 });
-
 console.log(groups);
+
+// 95. Calculate total salary from employee array.
+
+let employees = [
+  { id: 1, name: "Arun", salary: 25000 },
+  { id: 2, name: "Meera", salary: 30000 },
+  { id: 3, name: "Rahul", salary: 20000 },
+  { id: 4, name: "Anu", salary: 35000 }
+];
+
+let totalSalary = 0;
+
+employees.forEach(function(emp){
+  totalSalary += emp.salary;
+});
+
+console.log(totalSalary);
