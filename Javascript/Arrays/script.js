@@ -1137,3 +1137,17 @@ studentsx.push({ name: "Vishnu", mark: 75 });
 console.log(studentsx);
 
 //90. Remove student by id.
+
+let studentsc = [
+  { id: 1, name: "Arun", mark: 70 },
+  { id: 2, name: "Meera", mark: 85 },
+  { id: 3, name: "Rahul", mark: 40 },
+  { id: 4, name: "Anu", mark: 90 }
+];
+let removeId = 3;
+
+studentsc = studentsc.filter(function(studentc){
+  return studentc.id !== removeId;
+});
+
+console.log(studentsc);
