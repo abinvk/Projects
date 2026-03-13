@@ -1252,3 +1252,20 @@ let resultx = employeesx.filter(function(emp){
 });
 
 console.log(resultx);
+
+// 97. Find employee with highest salary.
+
+let employeesw = [
+  { id: 1, name: "Arun", salary: 25000 },
+  { id: 2, name: "Meera", salary: 30000 },
+  { id: 3, name: "Rahul", salary: 20000 },
+  { id: 4, name: "Anu", salary: 35000 }
+];
+
+let highest = employeesw[0];
+employeesw.forEach(function(emp){
+  if(emp.salary > highest.salary){
+    highest = emp;
+  }
+});
+console.log(highest);
