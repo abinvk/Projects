@@ -1162,9 +1162,24 @@ let studentsaa = [
 ];
 
 let searchId = 2;
-
 let studentaa = studentsaa.find(function(s){
   return s.id === searchId;
 });
 
 console.log(studentaa);
+
+//93. Check if student exists.
+
+let studentsqq = [
+  { id: 1, name: "Arun", mark: 70 },
+  { id: 2, name: "Meera", mark: 85 },
+  { id: 3, name: "Rahul", mark: 40 },
+  { id: 4, name: "Anu", mark: 90 }
+];
+
+let searchIdq = 8;
+let exists = studentsqq.some(function(s){
+  return s.id === searchIdq;
+});
+
+console.log(exists);
