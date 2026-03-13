@@ -1183,3 +1183,41 @@ let exists = studentsqq.some(function(s){
 });
 
 console.log(exists);
+
+// 94. Group students by grade
+
+let studentsr = [
+  { id: 1, name: "Arun", mark: 70 },
+  { id: 2, name: "Meera", mark: 85 },
+  { id: 3, name: "Rahul", mark: 40 },
+  { id: 4, name: "Anu", mark: 95 }
+];
+
+let groups = {
+  A: [],
+  B: [],
+  C: [],
+  F: []
+};
+
+studentsr.forEach(function(s){
+
+  if(s.mark >= 90){
+    groups.A.push(s);
+  }
+
+  else if(s.mark >= 75){
+    groups.B.push(s);
+  }
+
+  else if(s.mark >= 50){
+    groups.C.push(s);
+  }
+
+  else{
+    groups.F.push(s);
+  }
+
+});
+
+console.log(groups);
