@@ -1284,3 +1284,26 @@ employeesy.forEach(function(emp){
 });
 
 console.log(employeesy);
+
+// 99. Count employees in each department.
+
+let employeeso = [
+ { id:1, name:"Arun", department:"IT" },
+ { id:2, name:"Meera", department:"HR" },
+ { id:3, name:"Rahul", department:"IT" },
+ { id:4, name:"Anu", department:"Sales" },
+ { id:5, name:"John", department:"HR" }
+];
+let counts = {};
+
+employeeso.forEach(function(emp){
+
+  if(counts[emp.department]){
+    counts[emp.department]++;
+  }else{
+    counts[emp.department] = 1;
+  }
+
+});
+
+console.log(counts);
