@@ -1266,6 +1266,21 @@ let highest = employeesw[0];
 employeesw.forEach(function(emp){
   if(emp.salary > highest.salary){
     highest = emp;
-  }
+  };
 });
 console.log(highest);
+
+// 98. Add bonus to all employees.
+
+let employeesy = [
+  { id: 1, name: "Arun", salary: 25000 },
+  { id: 2, name: "Meera", salary: 30000 },
+  { id: 3, name: "Rahul", salary: 20000 }
+];
+let bonus = 5000;
+
+employeesy.forEach(function(emp){
+  emp.salary = emp.salary + bonus;
+});
+
+console.log(employeesy);
