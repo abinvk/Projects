@@ -1305,5 +1305,20 @@ employeeso.forEach(function(emp){
   }
 
 });
-
 console.log(counts);
+
+//100. Convert student array to id-name object.
+
+let studentsrr = [
+  { id: 1, name: "Rahul", marks: 80 },
+  { id: 2, name: "Anu", marks: 65 },
+  { id: 3, name: "Arjun", marks: 90 }
+];
+
+let resultrr = {};
+
+studentsrr.forEach(studentsrr=> {
+  resultrr[studentsrr.id] = studentsrr.name;
+});
+
+console.log(resultrr);
