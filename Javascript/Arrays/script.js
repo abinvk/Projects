@@ -1480,7 +1480,6 @@ let transactionss = [
  {id:4, amount:200, status:"success"},
  {id:5, amount:400, status:"failed"}
 ];
-
 let countds = 0;
 
 transactionss.forEach(t => {
@@ -1490,5 +1489,4 @@ transactionss.forEach(t => {
  }
 
 });
-
 console.log(countds)
