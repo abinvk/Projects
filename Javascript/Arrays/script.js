@@ -1431,3 +1431,20 @@ let sold = 3;
 productss.stock = productss.stock - sold;
 
 console.log(productss);
+
+// 106. Filter expired products.
+
+let productsx = [
+ {name:"Milk", expiry:"2026-03-10"},
+ {name:"Bread", expiry:"2026-04-01"},
+ {name:"Butter", expiry:"2026-03-01"},
+ {name:"Cheese", expiry:"2026-05-10"}
+];
+
+let today = new Date("2026-03-14");
+
+let expired = productsx.filter(product => {
+ return new Date(product.expiry) < today;
+});
+
+console.log(expired);
