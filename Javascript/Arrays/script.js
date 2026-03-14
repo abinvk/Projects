@@ -1448,3 +1448,25 @@ let expired = productsx.filter(product => {
 });
 
 console.log(expired);
+
+//107. Count successful transactions.
+
+let transactions = [
+ {id:1, amount:500, status:"success"},
+ {id:2, amount:300, status:"failed"},
+ {id:3, amount:700, status:"success"},
+ {id:4, amount:200, status:"success"},
+ {id:5, amount:400, status:"failed"}
+];
+
+let countd = 0;
+
+transactions.forEach(t => {
+
+ if(t.status === "success"){
+     countd++;
+ }
+
+});
+
+console.log(countd);
