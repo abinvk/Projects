@@ -1470,3 +1470,25 @@ transactions.forEach(t => {
 });
 
 console.log(countd);
+
+//108. Count failed transactions
+
+let transactionss = [
+ {id:1, amount:500, status:"success"},
+ {id:2, amount:300, status:"failed"},
+ {id:3, amount:700, status:"success"},
+ {id:4, amount:200, status:"success"},
+ {id:5, amount:400, status:"failed"}
+];
+
+let countds = 0;
+
+transactionss.forEach(t => {
+
+ if(t.status === "failed"){
+     countds++;
+ }
+
+});
+
+console.log(countds)
