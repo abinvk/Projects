@@ -1322,3 +1322,27 @@ studentsrr.forEach(studentsrr=> {
 });
 
 console.log(resultrr);
+
+// 101. Find duplicate names.
+
+let studentsm = [
+ {id:1, name:"Rahul"},
+ {id:2, name:"Anu"},
+ {id:3, name:"Rahul"},
+ {id:4, name:"Arjun"},
+ {id:5, name:"Anu"}
+];
+
+let seen = {};
+let duplicates = [];
+
+studentsm.forEach(student => {
+
+ if(seen[student.name]){
+     duplicates.push(student.name);
+ }else{
+     seen[student.name] = true;
+ }
+
+});
+console.log(duplicates);
