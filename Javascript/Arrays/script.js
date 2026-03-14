@@ -1416,5 +1416,18 @@ products.forEach(product => {
  }
 
 });
-
 console.log(cheapest);
+
+// 105. Track stock after sale.
+
+let productss = {
+ name: "Laptop",
+ price: 50000,
+ stock: 10
+};
+
+let sold = 3;
+
+productss.stock = productss.stock - sold;
+
+console.log(productss);
