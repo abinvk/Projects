@@ -1377,3 +1377,23 @@ let marks = studentsq.map(s => s.marks);
 marks.sort((a,b) => b-a);
 let secondHighest = marks[1];
 console.log(secondHighest);
+
+// 103. Find most expensive product
+
+let products = [
+ {id:1, name:"Laptop", price:50000},
+ {id:2, name:"Phone", price:30000},
+ {id:3, name:"Tablet", price:20000},
+ {id:4, name:"TV", price:60000}
+];
+
+let expensive = products[0];
+
+products.forEach(product => {
+
+ if(product.price > expensive.price){
+     expensive = product;
+ }
+
+});
+console.log(expensive);
