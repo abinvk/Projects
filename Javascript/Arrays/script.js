@@ -1346,3 +1346,21 @@ studentsm.forEach(student => {
 
 });
 console.log(duplicates);
+
+// Find duplicate numbers
+
+let numberstt = [1,2,3,4,2,5,3,6,1];
+
+let seentt = {};
+let duplicatestt = [];
+
+numberstt.forEach(num => {
+
+ if(seentt[num]){
+     duplicatestt.push(num);
+ }else{
+     seentt[num] = true;
+ }
+
+});
+console.log(duplicatestt);
