@@ -1364,3 +1364,20 @@ numberstt.forEach(num => {
 
 });
 console.log(duplicatestt);
+
+// 102. Find second highest mark.
+
+let studentsq = [
+ {id:1, name:"Rahul", marks:80},
+ {id:2, name:"Anu", marks:65},
+ {id:3, name:"Arjun", marks:95},
+ {id:4, name:"Meera", marks:90}
+];
+
+let marks = studentsq.map(s => s.marks);
+
+marks.sort((a,b) => b-a);
+
+let secondHighest = marks[1];
+
+console.log(secondHighest);
