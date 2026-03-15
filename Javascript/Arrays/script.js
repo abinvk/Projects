@@ -1790,3 +1790,11 @@ ordersp.forEach(item => {
 });
 
 console.log(leastOrderedp);
+
+// 126. Count unique users.
+
+let users = ["Arun", "Rahul", "Arun", "Meera", "Rahul", "Ajay"];
+
+let uniqueUsers = new Set(users);
+
+console.log(uniqueUsers.size);
