@@ -1521,3 +1521,19 @@ cart.forEach(item => {
 
  console.log(item.name, finalPrice);
 });
+
+// 111. Apply GST on cart
+
+let cartg = [
+ {name: "Laptop", price: 50000},
+ {name: "Mouse", price: 500},
+ {name: "Keyboard", price: 1500}
+];
+
+cartg.forEach(item => {
+
+ let gst = item.price * 0.18;
+ let finalPrice = item.price + gst;
+
+ console.log(item.name, finalPrice);
+});
