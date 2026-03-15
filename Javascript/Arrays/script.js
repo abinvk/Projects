@@ -1569,3 +1569,20 @@ let cartr = [
 let updatedCart = cartr.filter(item => item.name !== "Mouse");
 
 console.log(updatedCart);
+
+// 114. Update product quantity.
+
+let cartu = [
+ {name: "Laptop", price: 50000, quantity: 1},
+ {name: "Mouse", price: 500, quantity: 2},
+ {name: "Keyboard", price: 1500, quantity: 1}
+];
+
+cartu.forEach(item => {
+
+ if(item.name === "Mouse"){
+   item.quantity = 5;
+ };
+
+});
+console.log(cartu);
