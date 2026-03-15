@@ -1491,5 +1491,18 @@ transactionss.forEach(t => {
 });
 console.log(countds)
 
-as
-sdl
+// 109. Calculate total cart value.
+
+let cart = [
+  {name: "Laptop", price: 50000, quantity: 1},
+  {name: "Mouse", price: 500, quantity: 2},
+  {name: "Keyboard", price: 1500, quantity: 1}
+];
+
+let totals = 0;
+
+cart.forEach(item => {
+  totals += item.price * item.quantity;
+});
+
+console.log(totals);
