@@ -1598,3 +1598,19 @@ let transactionsi = [
 let invoiceList = transactionsi.map(item => item.invoiceId);
 
 console.log(invoiceList);
+
+
+
+// Group transactions by status                          M
+
+// Find failed transactions                              E
+
+// Calculate total transaction amount                    R
+
+// Find highest transaction                              N
+
+
+
+
+// 116. Merge two cart arrays.
+
