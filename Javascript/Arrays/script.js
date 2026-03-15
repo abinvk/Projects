@@ -1491,7 +1491,7 @@ transactionss.forEach(t => {
 });
 console.log(countds)
 
-// 109. Calculate total cart value.
+// 109. Calculate total cart value.          !! Mern interview question
 
 let cart = [
   {name: "Laptop", price: 50000, quantity: 1},
@@ -1506,3 +1506,18 @@ cart.forEach(item => {
 });
 
 console.log(totals);
+
+// 110. Apply discount on cart.
+
+let carts = [
+ {name: "Laptop", price: 50000},
+ {name: "Mouse", price: 500},
+ {name: "Keyboard", price: 1500}
+];
+
+cart.forEach(item => {
+ let discount = item.price * 0.10;
+ let finalPrice = item.price - discount;
+
+ console.log(item.name, finalPrice);
+});
