@@ -1614,3 +1614,16 @@ console.log(invoiceList);
 
 // 116. Merge two cart arrays.
 
+let cart1 = [
+ {name: "Laptop", price: 50000},
+ {name: "Mouse", price: 500}
+];
+
+let cart2 = [
+ {name: "Keyboard", price: 1500},
+ {name: "Monitor", price: 12000}
+];
+
+let mergedCart = [...cart1, ...cart2];
+
+console.log(mergedCart);
