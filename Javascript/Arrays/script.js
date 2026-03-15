@@ -1643,7 +1643,26 @@ carth.forEach(item => {
  if(item.quantity > highesth.quantity){
    highesth = item;
  }
+});
+console.log(highesth);
+
+//118. Count products above 1000 price.
+
+let cartA = [
+ {name: "Laptop", price: 50000},
+ {name: "Mouse", price: 500},
+ {name: "Keyboard", price: 1500},
+ {name: "Pen Drive", price: 800}
+];
+
+let countA = 0;
+
+cartA.forEach(item => {
+
+ if(item.price > 1000){
+   countA++;
+ }
 
 });
 
-console.log(highesth);
+console.log(countA);
