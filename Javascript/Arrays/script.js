@@ -1747,3 +1747,24 @@ let employeesL = [
 employeesL.sort((a,b) => a.salary - b.salary);
 
 console.log(employeesL[1]);
+
+// 124. Find most ordered product
+
+let orders = [
+ {name: "Laptop", quantity: 3},
+ {name: "Mouse", quantity: 10},
+ {name: "Keyboard", quantity: 6},
+ {name: "Monitor", quantity: 4}
+];
+
+let mostOrdered = orders[0];
+
+orders.forEach(item => {
+
+ if(item.quantity > mostOrdered.quantity){
+   mostOrdered = item;
+ }
+
+});
+
+console.log(mostOrdered);
