@@ -1779,14 +1779,14 @@ let ordersp = [
  {name: "Monitor", quantity: 4}
 ];
 
-let mostOrderedp = orders[0];
+let leastOrderedp = orders[0];
 
 ordersp.forEach(item => {
 
- if(item.quantity < mostOrderedp.quantity){
-   mostOrderedp = item;
+ if(item.quantity < leastOrderedp.quantity){
+   leastOrderedp = item;
  }
 
 });
 
-console.log(mostOrderedp);
+console.log(leastOrderedp);
