@@ -1690,3 +1690,17 @@ let cartS = [
 cartS.sort((a,b) => a.price - b.price);
 
 console.log(cartS);
+
+// 120. Filter products between 500 and 1500.
+
+let cartF = [
+ {name: "Laptop", price: 50000},
+ {name: "Mouse", price: 500},
+ {name: "Keyboard", price: 1500},
+ {name: "Pen Drive", price: 800},
+ {name: "Monitor", price: 12000}
+];
+
+let filteredProducts = cartF.filter(item => item.price >= 500 && item.price <= 1500);
+
+console.log(filteredProducts);
