@@ -1704,3 +1704,18 @@ let cartF = [
 let filteredProducts = cartF.filter(item => item.price >= 500 && item.price <= 1500);
 
 console.log(filteredProducts);
+
+// 121. Create leaderboard system.
+
+let players = [
+ {name: "Arun", score: 120},
+ {name: "Rahul", score: 300},
+ {name: "Vishnu", score: 200},
+ {name: "Ajay", score: 150}
+];
+
+players.sort((a,b) => b.score - a.score);
+
+players.forEach((player,index) => {
+ console.log(index + 1, player.name, player.score);
+});
