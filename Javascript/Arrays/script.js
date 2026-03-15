@@ -1537,3 +1537,23 @@ cartg.forEach(item => {
 
  console.log(item.name, finalPrice);
 });
+
+// 112. Check free delivery eligibility.
+
+let cartd = [
+ {name: "Laptop", price: 50000},
+ {name: "Mouse", price: 500},
+ {name: "Keyboard", price: 1500}
+];
+
+let totald = 0;
+
+cartd.forEach(item => {
+ totald += item.price;
+});
+
+if(total > 5000){
+ console.log("Free Delivery Eligible");
+}else{
+ console.log("Delivery Charge Applied");
+}
