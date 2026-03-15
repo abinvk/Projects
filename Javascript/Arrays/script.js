@@ -1734,3 +1734,16 @@ studentsR.sort((a,b) => b.marks - a.marks);
 studentsR.forEach((student,index) => {
  console.log("Rank", index+1, student.name, student.marks);
 });
+
+// 123. Find second lowest salary
+
+let employeesL = [
+ {name: "Arun", salary: 50000},
+ {name: "Rahul", salary: 30000},
+ {name: "Vishnu", salary: 45000},
+ {name: "Ajay", salary: 25000}
+];
+
+employeesL.sort((a,b) => a.salary - b.salary);
+
+console.log(employeesL[1]);
