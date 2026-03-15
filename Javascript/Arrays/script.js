@@ -1627,3 +1627,23 @@ let cart2 = [
 let mergedCart = [...cart1, ...cart2];
 
 console.log(mergedCart);
+
+// 117. Find product with highest quantity
+
+let carth = [
+ {name: "Laptop", price: 50000, quantity: 1},
+ {name: "Mouse", price: 500, quantity: 5},
+ {name: "Keyboard", price: 1500, quantity: 3}
+];
+
+let highesth = carth[0];
+
+carth.forEach(item => {
+
+ if(item.quantity > highesth.quantity){
+   highesth = item;
+ }
+
+});
+
+console.log(highesth);
