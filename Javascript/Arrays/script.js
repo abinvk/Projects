@@ -1719,3 +1719,18 @@ players.sort((a,b) => b.score - a.score);
 players.forEach((player,index) => {
  console.log(index + 1, player.name, player.score);
 });
+
+// 122. Rank students.
+
+let studentsR = [
+ {name: "Anu", marks: 85},
+ {name: "Rahul", marks: 92},
+ {name: "Meera", marks: 78},
+ {name: "Arjun", marks: 88}
+];
+
+studentsR.sort((a,b) => b.marks - a.marks);
+
+studentsR.forEach((student,index) => {
+ console.log("Rank", index+1, student.name, student.marks);
+});
