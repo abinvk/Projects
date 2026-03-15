@@ -1586,3 +1586,15 @@ cartu.forEach(item => {
 
 });
 console.log(cartu);
+
+// 115. Generate invoice ID list.
+
+let transactionsi = [
+ {invoiceId: "INV101", amount: 5000},
+ {invoiceId: "INV102", amount: 3000},
+ {invoiceId: "INV103", amount: 7000}
+];
+
+let invoiceList = transactionsi.map(item => item.invoiceId);
+
+console.log(invoiceList);
