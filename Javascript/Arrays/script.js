@@ -1556,4 +1556,16 @@ if(total > 5000){
  console.log("Free Delivery Eligible");
 }else{
  console.log("Delivery Charge Applied");
-}
+};
+
+// 113. Remove product from cart.
+
+let cartr = [
+ {name: "Laptop", price: 50000},
+ {name: "Mouse", price: 500},
+ {name: "Keyboard", price: 1500}
+];
+
+let updatedCart = cartr.filter(item => item.name !== "Mouse");
+
+console.log(updatedCart);
