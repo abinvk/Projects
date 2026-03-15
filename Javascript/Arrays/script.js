@@ -1659,10 +1659,34 @@ let countA = 0;
 
 cartA.forEach(item => {
 
- if(item.price > 1000){
+ if(item.price > 1000){            
    countA++;
  }
 
 });
 
 console.log(countA);
+
+
+// Calculate total quantity of all products                  M
+
+// Sort cart by price                                        E
+
+// Find second highest price product                         R
+
+// Group products by price range                             N
+
+
+
+// 119. Sort products by price.
+
+let cartS = [
+ {name: "Laptop", price: 50000},
+ {name: "Mouse", price: 500},
+ {name: "Keyboard", price: 1500},
+ {name: "Monitor", price: 12000}
+];
+
+cartS.sort((a,b) => a.price - b.price);
+
+console.log(cartS);
