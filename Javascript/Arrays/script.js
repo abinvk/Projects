@@ -1768,3 +1768,25 @@ orders.forEach(item => {
 });
 
 console.log(mostOrdered);
+
+// 125. Find least ordered product
+
+
+let ordersp = [
+ {name: "Laptop", quantity: 3},
+ {name: "Mouse", quantity: 10},
+ {name: "Keyboard", quantity: 6},
+ {name: "Monitor", quantity: 4}
+];
+
+let mostOrderedp = orders[0];
+
+ordersp.forEach(item => {
+
+ if(item.quantity < mostOrderedp.quantity){
+   mostOrderedp = item;
+ }
+
+});
+
+console.log(mostOrderedp);
