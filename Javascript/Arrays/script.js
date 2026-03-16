@@ -1832,3 +1832,13 @@ let studentsA = [
 ];
 let jsonData = JSON.stringify(studentsA);
 console.log(jsonData);
+
+// 129. Parse JSON to array.
+
+let jsonDataA = '[{"id":1,"name":"Arun"},{"id":2,"name":"Rahul"},{"id":3,"name":"Neha"}]';
+
+let arrayData = JSON.parse(jsonDataA);
+
+console.log(arrayData);
+
+// 130. Deep copy array of objects
