@@ -1842,3 +1842,13 @@ let arrayData = JSON.parse(jsonDataA);
 console.log(arrayData);
 
 // 130. Deep copy array of objects
+
+let usersAA = [
+ {id:1, name:"Arun"},
+ {id:2, name:"Rahul"},
+ {id:3, name:"Neha"}
+];
+
+let deepCopy = JSON.parse(JSON.stringify(usersAA));
+
+console.log(deepCopy);
