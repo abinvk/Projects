@@ -1799,3 +1799,26 @@ let uniqueUsers = new Set(users);
 console.log(uniqueUsers.size);
 
 // 127. Find repeated emails
+
+let usersa = [
+  {name:"A", email:"a@gmail.com"},
+  {name:"B", email:"b@gmail.com"},
+  {name:"C", email:"a@gmail.com"},
+  {name:"D", email:"d@gmail.com"},
+  {name:"E", email:"b@gmail.com"}
+];
+let emailCount = {};
+let repeatedEmails = [];
+usersa.forEach(user => {
+  if(emailCount[user.email]){
+    emailCount[user.email]++;
+  }else{
+    emailCount[user.email] = 1;
+  }
+});
+for(let email in emailCount){
+  if(emailCount[email] > 1){
+    repeatedEmails.push(email);
+  }
+}
+console.log(repeatedEmails);
