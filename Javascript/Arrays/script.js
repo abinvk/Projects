@@ -1822,3 +1822,13 @@ for(let email in emailCount){
   }
 }
 console.log(repeatedEmails);
+
+// 128. Convert array to JSON
+
+let studentsA = [
+  {id:1, name:"Arun", mark:80},
+  {id:2, name:"Rahul", mark:60},
+  {id:3, name:"Neha", mark:90}
+];
+let jsonData = JSON.stringify(studentsA);
+console.log(jsonData);
