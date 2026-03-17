@@ -1910,12 +1910,17 @@ console.log(findPair([2,7,11,15], 9));
 
 // 135. Find all pairs with given sum.
 
-function faindPairA(arra, targeta){
+function findAllPairs(arra, targeta){
     let result = [];
 
     for (let i = 0; i < arra.length; i++){
-        if( let j = i + 1; j < arra.length; j++){
+        for ( let j = i + 1; j < arra.length; j++){
 
+            if (arra[i] + arra[j] === targeta){
+                result.push([arra[i], arra[j]]);
+            }
         }
     }
+    return result;
 }
+console.log(findAllPairs([1,2,3,4,3], 6));
