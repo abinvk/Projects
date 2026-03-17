@@ -1924,3 +1924,22 @@ function findAllPairs(arra, targeta){
     return result;
 }
 console.log(findAllPairs([1,2,3,4,3], 6));
+
+// 136. Find triplets with given sum.
+
+function findTriplets(arrq,targetq) {
+    let result = [];
+
+    for(let i = 0 ; i < arr.length; i++){
+        for(let j = i + 1; j < arrq.length; j++){
+            for(let k = j + 1; k < arrq.length; k++){
+
+                if(arrq[i] + arrq[j] + arrq[k] === targetq){
+                    result.push([arrq[i], arrq[j], arrq[k]])
+                }
+            }
+        }
+    }
+    return result;
+}
+console.log(findTriplets([1,2,3,4,5], 9));
