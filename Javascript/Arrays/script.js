@@ -1865,3 +1865,16 @@ function rotateLeft(arr) {
 
 let resultA = rotateLeft([1, 2, 3, 4, 5]);
 console.log(resultA);
+
+//132. Rotate array right.
+
+function rotateRightA(arr) {
+    let last = arr.pop();   // remove last element
+    arr.unshift(last);      // add it to beginning
+    return arr;
+}
+
+let resultAA = rotateRightA([1, 2, 3, 4, 5]);
+console.log(resultAA);
+
+//133. Check if array is palindrome.
