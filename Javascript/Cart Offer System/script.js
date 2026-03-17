@@ -5,7 +5,7 @@ let cart = [
     { name: "Bag", price: 500 } 
 ];
 function renderCart() {
-    let cartDiv = document.getElementById("reslt");
+    let cartDiv = document.getElementById("result");
     cartDiv.innerHTML = "";
 
     cart.forEach(item => {
