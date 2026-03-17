@@ -1907,3 +1907,15 @@ function findPair(arr, target){
     return null;
 }
 console.log(findPair([2,7,11,15], 9));
+
+// 135. Find all pairs with given sum.
+
+function faindPairA(arra, targeta){
+    let result = [];
+
+    for (let i = 0; i < arra.length; i++){
+        if( let j = i + 1; j < arra.length; j++){
+
+        }
+    }
+}
