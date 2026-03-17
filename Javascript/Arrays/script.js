@@ -1943,3 +1943,20 @@ function findTriplets(arrq,targetq) {
     return result;
 }
 console.log(findTriplets([1,2,3,4,5], 9));
+
+// 137. Move all zeros to end
+
+function moveZeros(arr) {
+    let result = [];
+    for (let num of arr) {
+        if (num !== 0) {
+            result.push(num);
+        }
+    }
+    let zeroCount = arr.length - result.length;
+    for (let i = 0; i < zeroCount; i++) {
+        result.push(0);
+    }
+    return result;
+}
+console.log(moveZeros([0,1,0,3,12]));
