@@ -1854,3 +1854,14 @@ let deepCopy = JSON.parse(JSON.stringify(usersAA));
 console.log(deepCopy);
 
 // LEVEL 4 – ADVANCED ARRAY LOGIC (131–180)
+
+// 131. Rotate array left.
+
+function rotateLeft(arr) {
+    let first = arr.shift(); // remove first element
+    arr.push(first);         // add it to end
+    return arr;
+}
+
+let resultA = rotateLeft([1, 2, 3, 4, 5]);
+console.log(resultA);
