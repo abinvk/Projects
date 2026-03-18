@@ -1960,3 +1960,24 @@ function moveZeros(arr) {
     return result;
 }
 console.log(moveZeros([0,1,0,3,12]));
+
+// 138. Move negatives to beginning.
+
+function moveNegatives(arrs) {
+    let result = [];
+
+    for (let i = 0; i < arrs.length; i++) {
+        if (arrs[i] < 0) {
+            result.unshift(arrs[i]);
+        } else {
+            result.push(arrs[i]);
+        }
+    }
+
+    return result;
+}
+// Example usage
+let arrs = [3, -1, 4, -2, 0, -5];
+let output = moveNegatives(arrs);
+
+console.log(output);
