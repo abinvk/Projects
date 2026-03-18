@@ -2043,3 +2043,30 @@ let arrZ = [1, 2, 2, 3, 1, 4, 2];
 let resultZ = findFrequency(arrZ);
 
 console.log(resultZ);
+
+// 142. Sort array without using sort().
+
+function sortArrayS(arrY) {
+    let n = arrY.length;
+
+    for (let i = 0; i < n; i++) {
+        for (let j = 0; j < n - i - 1; j++) {
+
+            if (arrY[j] > arrY[j + 1]) {
+                // swap
+                let temp = arrY[j];
+                arrY[j] = arrY[j + 1];
+                arrY[j + 1] = temp;
+            }
+
+        }
+    }
+
+    return arrY;
+}
+
+
+// Example
+let arrY = [5, 2, 8, 1, 3];
+
+console.log(sortArrayS(arrY));
