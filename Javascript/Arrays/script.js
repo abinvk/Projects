@@ -2019,3 +2019,27 @@ function findDuplicate(arrm) {
 let arrm = [1,2,3,2,3,4,2,3,4];
 let resultq = findDuplicate(arrm);
 console.log (resultq);
+
+// 141. Find frequency of each element.
+
+function findFrequency(arrZ) {
+    let freq = {};
+
+    for (let i = 0; i < arrZ.length; i++) {
+        if (freq[arrZ[i]]) {   // already udoo ennu check cheyunnu 
+            freq[arrZ[i]]++;   // undakkill count
+        } else {
+            freq[arrZ[i]] = 1; 
+        }
+    }
+
+    return freq;
+}
+
+
+// Example
+let arrZ = [1, 2, 2, 3, 1, 4, 2];
+
+let resultZ = findFrequency(arrZ);
+
+console.log(resultZ);
