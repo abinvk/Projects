@@ -2064,9 +2064,10 @@ function sortArrayS(arrY) {
 
     return arrY;
 }
-
-
 // Example
 let arrY = [5, 2, 8, 1, 3];
 
 console.log(sortArrayS(arrY));
+
+
+// 143. Implement binary search
