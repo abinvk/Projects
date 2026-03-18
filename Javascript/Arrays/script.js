@@ -2002,3 +2002,5 @@ function findMissing(arrq) {
 // Example
 let arrq = [1, 2, 3, 4, 6]; // assume rest present
 console.log(findMissing(arrq));
+
+// 140. Find duplicate number.
