@@ -1998,9 +1998,24 @@ function findMissing(arrq) {
     return totalSum - arrSum;
 }
 
-
 // Example
 let arrq = [1, 2, 3, 4, 6]; // assume rest present
 console.log(findMissing(arrq));
 
 // 140. Find duplicate number.
+
+function findDuplicate(arrm) {
+    let seen = new Set();
+
+    for (let i = 0; i < arrm.length; i++) {
+        if (seen.has(arrm[i])) {
+            return arrm[i];
+        }
+        seen.add(arrm[i]);
+    }
+    return "No duplicate found";
+}
+
+let arrm = [1,2,3,2,3,4,2,3,4];
+let resultq = findDuplicate(arrm);
+console.log (resultq);
