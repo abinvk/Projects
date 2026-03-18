@@ -1981,3 +1981,24 @@ let arrs = [3, -1, 4, -2, 0, -5];
 let output = moveNegatives(arrs);
 
 console.log(output);
+
+// 139. Find missing number in range 1-100.
+
+function findMissing(arrq) {
+    let n = 100;
+
+    let totalSum = (n * (n + 1)) / 2;
+
+    let arrSum = 0;
+
+    for (let i = 0; i < arrq.length; i++) {
+        arrSum += arrq[i];
+    }
+
+    return totalSum - arrSum;
+}
+
+
+// Example
+let arrq = [1, 2, 3, 4, 6]; // assume rest present
+console.log(findMissing(arrq));
