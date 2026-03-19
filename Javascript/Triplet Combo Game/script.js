@@ -6,6 +6,7 @@ function generate() {
     score = 0;
 
     // generate random numbers
+    
     for (let i = 0; i < 8; i++) {
         arr.push(Math.floor(Math.random() * 4) + 1);
     }
