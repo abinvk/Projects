@@ -2140,3 +2140,5 @@ function bubbleSort(arrD) {
     return arrD;
 }
 console.log(bubbleSort(arrD)); 
+
+// Sort array in ascending order (no sort())
