@@ -2116,3 +2116,27 @@ function linearSearch(arrK, targetK) {
     return -1;
 }
 console.log(resultK);
+
+// 145. Implement bubble sort.
+
+let arrD = [5, 1, 4, 2];
+
+function bubbleSort(arrD) {
+    let n = arrD.length;
+
+    for (let i = 0; i < n - 1; i++) {
+        for (let j = 0; j < n - 1 - i; j++) {
+
+            if (arrD[j] > arrD[j + 1]) {
+                // swap
+                let temp = arrD[j];
+                arrD[j] = arrD[j + 1];
+                arrD[j + 1] = temp;
+            }
+
+        }
+    }
+
+    return arrD;
+}
+console.log(bubbleSort(arrD)); 
