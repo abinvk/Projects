@@ -2073,6 +2073,7 @@ console.log(sortArrayS(arrY));
 
 // 143. Implement binary search
 
+
 let arrI = [1, 3, 5, 7, 9, 11];
 let targetI = 7;
 
@@ -2080,7 +2081,7 @@ let resultI = binarySearch(arrI, targetI);
 
 function binarySearch(arrI, targetI) {
     let left = 0;
-    let right = arr.length - 1;
+    let right = arrI.length - 1;
 
     while (left <= right) {
         let mid = Math.floor((left + right) / 2);
@@ -2095,8 +2096,23 @@ function binarySearch(arrI, targetI) {
             right = mid - 1;
         }
     }
-
     return -1;
 }
-
 console.log(resultI);
+
+// 144. Implement linear search.
+
+let arrK = [10, 20, 30, 40];
+let targetK = 30;
+
+let resultK = linearSearch(arrK, targetK);
+
+function linearSearch(arrK, targetK) {
+    for (let i = 0; i < arrK.length; i++) {
+        if (arrK[i] === targetK) {
+            return i;
+        }
+    }
+    return -1;
+}
+console.log(resultK);
