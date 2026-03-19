@@ -2071,3 +2071,31 @@ console.log(sortArrayS(arrY));
 
 
 // 143. Implement binary search
+
+let arrI = [1, 3, 5, 7, 9, 11];
+let targetI = 7;
+
+let resultI = binarySearch(arrI, targetI);
+
+function binarySearch(arrI, targetI) {
+    let left = 0;
+    let right = arr.length - 1;
+
+    while (left <= right) {
+        let mid = Math.floor((left + right) / 2);
+
+        if (arrI[mid] === targetI) {
+            return mid;
+        } 
+        else if (arrI[mid] < targetI) {
+            left = mid + 1;
+        } 
+        else {
+            right = mid - 1;
+        }
+    }
+
+    return -1;
+}
+
+console.log(resultI);
