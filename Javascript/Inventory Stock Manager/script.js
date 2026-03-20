@@ -39,9 +39,9 @@ function render() {
                 <td>${item.price}</td>
                 <td>${total}</td>
                 <td>
-                    <button onclick="increase(${item.id})">+</button>
-                    <button onclick="decrease(${item.id})">-</button>
-                    <button onclick="removeItem(${item.id})">Delete</button>
+                    <button id="incres" onclick="increase(${item.id})">+</button>
+                    <button id="decreas" onclick="decrease(${item.id})">-</button>
+                    <button id="remov" onclick="removeItem(${item.id})">Delete</button>
                 </td>
             </tr>
         `;

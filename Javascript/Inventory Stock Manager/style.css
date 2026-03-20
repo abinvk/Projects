@@ -1,6 +1,7 @@
 body {
     font-family: Arial;
     padding: 20px;
+    background-color:#111827;
 }
 
 input {
@@ -23,4 +24,48 @@ th, td {
     border: 1px solid #ccc;
     padding: 10px;
     text-align: center;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+h2 {
+    color: aliceblue;
+}
+
+h3 {
+    color: aliceblue;
+}
+
+th {
+    color: aliceblue;
+}
+
+td {
+    color: aliceblue;
+}
+
+#btn{
+    background-color: #28a745;
+    color: white;
+    border: none;
+}
+
+#incres{
+    background-color: #28a745;
+    border: none;
+    color: white;
+}
+
+#decreas{
+    background-color: rgba(255, 0, 0, 0.5);
+    border:  none;
+    color: white;
+}
+
+#remov{
+    background-color: #f44336;
+    border: none;
+    color: white;
 }
