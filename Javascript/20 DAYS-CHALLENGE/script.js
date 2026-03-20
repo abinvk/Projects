@@ -37,3 +37,35 @@ console.log(str);
 console.log(num);
 
 // • Create 3 examples for each type
+
+let number = 20;
+let string = "Abin";
+let boy = 10 > 5;
+
+console.log(number);
+console.log(string);
+console.log(boy);
+
+//// NUMBER (only numeric values)
+
+let num1 = 10;
+let num2 = -5;
+let num3 = 3.14;
+
+console.log(num1, num2, num3);
+
+//// STRING (must be inside quotes)
+
+let str1 = "hello";
+let str2 = 'Abin';
+let str3 = "123"; // still string, not number
+
+console.log(str1, str2, str3);
+
+//// BOOLEAN (only true / false)
+
+let bool1 = true;
+let bool2 = false;
+let bool3 = 10 > 5; // expression → true
+
+console.log(bool1, bool2, bool3);
