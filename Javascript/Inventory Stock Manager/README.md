@@ -2,14 +2,12 @@
 
  A lightweight, extensible inventory management system built with Vanilla JavaScript, designed as a foundation
  for scaling into a full-stack (MERN) application.
-
 ______________________________________________________________________________________________________________________________________________________
 
 - Overview
 
  The Inventory Stock Manager enables users to efficiently manage product inventory through a clean and interactive
  interface. It supports core inventory operations such as creation, updates, deletion, and real-time valuation.
-
 ______________________________________________________________________________________________________________________________________________________
 
 # Key Features
@@ -28,7 +26,6 @@ ________________________________________________________________________________
 
 - Responsive UI
     - Simple and clean table-based layout
-
 ______________________________________________________________________________________________________________________________________________________
 
 # Architecture
@@ -45,5 +42,40 @@ Each inventory item follows this structure:
     price: number          //  Unit price
     
     }
+
+- State Management
+
+    - In-memory array (inventory) acts as a single source of truth
+    - UI is fully derived from state using a centralized render() function
+______________________________________________________________________________________________________________________________________________________
+
+# Core Functions
+__________________________________________________________________________
+|                              |                                         |    
+|     Function	               |            Responsibility               |  
+|______________________________|_________________________________________|
+|                              |                                         |
+|  addItem()	               |         Create and store new product    |
+|                              |                                         |
+|  render()	                   |         Sync UI with current state      |
+|                              |                                         |
+|  increase()	               |         Increment product quantity      |
+|                              |                                         |
+|  decrease()	               |         Decrement product quantity      |
+|                              |                                         |
+|  removeItem()	               |         Delete product from inventory   |
+|______________________________|_________________________________________|                              
+ 
+______________________________________________________________________________________________________________________________________________________
+
+# Tech Stack
+
+- Layer	                  Technology
+
+- Frontend	              HTML5, CSS3
+
+- Logic	                  JavaScript (ES6)
+
+- Storage	              In-memory (Array)
 
 ______________________________________________________________________________________________________________________________________________________
