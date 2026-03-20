@@ -24,3 +24,16 @@ console.log(HouseNo);
 console.log(Adress);
 console.log(Age);
 console.log(Area);
+
+
+//Day 2 — Data Types
+
+let num = 10;
+let str = "hello";
+let bool = true;
+
+console.log (bool);
+console.log(str);
+console.log(num);
+
+// • Create 3 examples for each type
