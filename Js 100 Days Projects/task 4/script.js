@@ -12,5 +12,5 @@ for (let name in pass) {
     if(pass[name] >= 30) {
 
         console.log("pass:",pass[name]);
-}
+    }
 }
