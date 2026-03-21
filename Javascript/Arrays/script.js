@@ -2144,7 +2144,7 @@ console.log(bubbleSort(arrD));
 // Sort array in ascending order (no sort())
 
 
-// SWAP 
+// 1.SWAP two numbers
 
 let ab = 2000;
 let bc = 5000;
@@ -2155,3 +2155,14 @@ ab = bc;
 bc = bx ;
 
 console.log(ab, bc);
+
+// 2. Swap without using a third variable
+
+let ax = 10 ;
+let cx = 20;
+
+ax = ax + cx;
+cx = ax - cx;
+ax = ax - cx;
+
+console.log(ax, cx);
