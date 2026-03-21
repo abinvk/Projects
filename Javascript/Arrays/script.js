@@ -2142,3 +2142,16 @@ function bubbleSort(arrD) {
 console.log(bubbleSort(arrD)); 
 
 // Sort array in ascending order (no sort())
+
+
+// SWAP 
+
+let ab = 2000;
+let bc = 5000;
+
+let bx = ab;
+
+ab = bc;
+bc = bx ;
+
+console.log(ab, bc);
