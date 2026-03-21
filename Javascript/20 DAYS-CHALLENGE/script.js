@@ -69,3 +69,27 @@ let bool2 = false;
 let bool3 = 10 > 5; // expression → true
 
 console.log(bool1, bool2, bool3);
+
+//Day 3 — Operators
+
+//let a = 5;
+//let b = 2;
+//console.log(a + b);
+//console.log(a > b);
+
+//Learn: arithmetic (+ - * /), comparison (> < ==), logical (&& ||).
+
+
+let ax = 15;
+let bx = 5;
+
+console.log(ax + bx);
+console.log(ax - bx);
+console.log(ax * bx);
+console.log(ax / bx);
+console.log(ax > bx);
+console.log(ax < bx);
+console.log(ax == bx);
+console.log(ax && bx);  // && and
+console.log(ax || bx); // || OR
+
