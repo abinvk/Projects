@@ -93,3 +93,24 @@ console.log(ax == bx);
 console.log(ax && bx);  // && and
 console.log(ax || bx); // || OR
 
+// PHASE 2 — Control Flow (3–4 days)
+
+// Goal: Start thinking with conditions and loops.
+
+for ( let i = 1 ; i <= 5; i++){
+    console.log(i);
+}
+
+for (let i = 1; i <= 10; i++) {
+    if (i % 2 === 0) {
+        console.log(i);
+    }
+}
+
+let numu = 10;
+
+if (numu > 5){
+    console. log("Big");
+}else {
+    console.log("Small")
+}
