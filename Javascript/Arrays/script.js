@@ -2161,8 +2161,12 @@ console.log(ab, bc);
 let ax = 10 ;
 let cx = 20;
 
-ax = ax + cx;
-cx = ax - cx;
-ax = ax - cx;
+ax = ax + cx; // 10 + 20 = 30
+cx = ax - cx; // 30 - 20 = 10
+ax = ax - cx; // 30 - 10 = 20
 
 console.log(ax, cx);
+
+// 3. Swap first and last element
+
+[1, 2, 3, 4]
