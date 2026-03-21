@@ -97,12 +97,18 @@ console.log(ax || bx); // || OR
 
 // Goal: Start thinking with conditions and loops.
 
-for ( let i = 1 ; i <= 5; i++){
+for ( let i = 1 ; i <= 5; i++){        // Normal Loop
     console.log(i);
 }
 
+for (let i = 1; i <= 10; i++) {           
+    if (i % 2 === 1) {                //  Odd Number
+        console.log(i);
+    }
+}
+
 for (let i = 1; i <= 10; i++) {
-    if (i % 2 === 0) {
+    if (i % 2 === 2) {                //  Even Number
         console.log(i);
     }
 }
@@ -114,3 +120,4 @@ if (numu > 5){
 }else {
     console.log("Small")
 }
+
