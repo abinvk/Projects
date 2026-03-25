@@ -2247,4 +2247,4 @@ function maxSubArray(nums) {
 
     return maxSum;
 }
-console.log("Maximum Subarray Sum:", maxSubArray(arr));
+console.log("Maximum Subarray Sum:", maxSubArray(arry));
