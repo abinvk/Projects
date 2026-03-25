@@ -2192,5 +2192,40 @@ function majorityElement(nums) {
     return candidate;
 }
 
-//
+// Find majority element.
 
+
+let arrss = [2, 2, 1, 1, 2, 2, 2];
+
+let resultss = majorityElement(arrss);
+
+function majorityElement(nums) {
+    let candidate = null;
+    let count = 0;
+
+    for (let num of nums) {
+        if (count === 0) {
+            candidate = num;
+        }
+
+        if (num === candidate) {
+            count++;
+        } else {
+            count--;
+        }
+    }
+
+    let freq = 0;
+    for (let num of nums) {
+        if (num === candidate) {
+            freq++;
+        }
+    }
+
+    if (freq > nums.length / 2) {
+        return candidate;
+    } else {
+        return -1; 
+    }
+}
+console.log("Majority Element:", resultss);
