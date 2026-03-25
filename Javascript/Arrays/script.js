@@ -2194,7 +2194,6 @@ function majorityElement(nums) {
 
 // Find majority element.
 
-
 let arrss = [2, 2, 1, 1, 2, 2, 2];
 
 let resultss = majorityElement(arrss);
