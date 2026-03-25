@@ -2228,3 +2228,23 @@ function majorityElement(nums) {
     }
 }
 console.log("Majority Element:", resultss);
+
+// 149. Kadane’s algorithm (maximum subarray sum).
+
+let arry = [-2,1,-3,4,-1,2,1,-5,4];
+
+function maxSubArray(nums) {
+    let currentSum = nums[0];
+    let maxSum = nums[0];
+
+    for (let i = 1; i < nums.length; i++) {
+        let num = nums[i];
+
+        currentSum = Math.max(num, currentSum + num);
+
+        maxSum = Math.max(maxSum, currentSum);
+    }
+
+    return maxSum;
+}
+console.log("Maximum Subarray Sum:", maxSubArray(arr));
