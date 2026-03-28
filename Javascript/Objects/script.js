@@ -19,7 +19,7 @@ let persons = {
 };
 
 console.log(persons.name);
-console.log(persons.age);
+console.log(persons.age );
 
 // 3. Access using bracket notation
 
@@ -30,3 +30,16 @@ let personss = {
 
 console.log(personss["name"]);
 console.log(personss["age"]);
+
+// 4. Add a new property to an object
+
+let prson = {
+    name: "Abin",
+    age: 21
+};
+
+// add new property
+
+prson.city = "Alleppey";
+
+console.log(prson);
