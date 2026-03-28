@@ -67,3 +67,15 @@ let personw = {
 
 console.log("name" in personw);
 console.log("city" in personw);
+
+// 7. Get all keys using Object.keys()
+
+let abb = {
+    name : "Abin",
+    agem : 21,
+    city : "Alleppey"
+};
+
+let keys = Object.keys(abb);
+
+console.log(keys);
