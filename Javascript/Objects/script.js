@@ -12,3 +12,11 @@ console.log(person.name); // Abin
 console.log(person.age);  // 21
 
 // 2. Access object properties using dot notation
+
+let persons = {
+    name: "Abin",
+    age: 21
+};
+
+console.log(persons.name);
+console.log(persons.age);
