@@ -43,3 +43,17 @@ let prson = {
 prson.city = "Alleppey";
 
 console.log(prson);
+
+// 5. Delete a property
+
+let delt = {
+    name: "Abin",
+    age: 21,
+    city: "Alleppey"
+};
+
+// delete property
+
+delete delt.age;
+
+console.log(delt);
