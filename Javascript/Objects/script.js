@@ -20,3 +20,13 @@ let persons = {
 
 console.log(persons.name);
 console.log(persons.age);
+
+// 3. Access using bracket notation
+
+let personss = {
+    name: "Abin",
+    age: 21
+};
+
+console.log(personss["name"]);
+console.log(personss["age"]);
