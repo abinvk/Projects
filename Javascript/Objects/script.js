@@ -103,3 +103,5 @@ let abbcc = {
 let entries = Object.entries(abbcc);
 
 console.log(entries);
+
+// 10. Count number of properties
