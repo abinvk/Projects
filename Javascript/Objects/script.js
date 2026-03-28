@@ -8,3 +8,7 @@ let person = {
     name: "Abin",
     age: 21
 };
+console.log(person.name); // Abin
+console.log(person.age);  // 21
+
+// 2. Access object properties using dot notation
