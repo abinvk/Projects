@@ -91,3 +91,15 @@ let abbc = {
 let values = Object.values(abbc);
 
 console.log(values);
+
+// 9. Get key-value pairs using Object.entries()
+
+let abbcc = {
+    name : "Abin",
+    agem : 21,
+    city : "Alleppey"
+};
+
+let entries = Object.entries(abbcc);
+
+console.log(entries);
