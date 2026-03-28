@@ -57,3 +57,13 @@ let delt = {
 delete delt.age;
 
 console.log(delt);
+
+// 6. Check if a property exists (in operator)
+
+let personw = {
+    name: "Abin",
+    age: 21
+};
+
+console.log("name" in personw);
+console.log("city" in personw);
