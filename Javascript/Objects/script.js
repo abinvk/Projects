@@ -79,3 +79,15 @@ let abb = {
 let keys = Object.keys(abb);
 
 console.log(keys);
+
+// 8. Get all values using Object.values()
+
+let abbc = {
+    name : "Abin",
+    agem : 21,
+    city : "Alleppey"
+};
+
+let values = Object.values(abbc);
+
+console.log(values);
