@@ -128,3 +128,5 @@ let abbbccc = {
 for (let key in abbbccc) {
     console.log(key, abbbccc[key]);
 }
+
+// 12. Create nested object.
