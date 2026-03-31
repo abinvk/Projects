@@ -105,3 +105,12 @@ let entries = Object.entries(abbcc);
 console.log(entries);
 
 // 10. Count number of properties
+
+let abbbcc = {
+    name : "Abin",
+    agem : 21,
+    city : "Alleppey"
+};
+let count = Object.keys(abbbcc).length;
+
+console.log(count); 
