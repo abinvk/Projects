@@ -109,8 +109,22 @@ console.log(entries);
 let abbbcc = {
     name : "Abin",
     agem : 21,
-    city : "Alleppey"
+    city : "Alleppey",
+    local: "malmuri"
 };
 let count = Object.keys(abbbcc).length;
 
 console.log(count); 
+
+// 11. Loop through object using for...in
+
+let abbbccc = {
+    name : "Abin",
+    agem : 21,
+    city : "Alleppey",
+    local: "malmuri"
+};
+
+for (let key in abbbccc) {
+    console.log(key, abbbccc[key]);
+}
