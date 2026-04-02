@@ -167,3 +167,16 @@ let person3 = {
 person3.address.city = "Kochi";
 
 console.log(person3.address.city);
+
+// 15. Add object inside object
+
+let person4 = {
+    name: "Abin",
+    age: 21,
+    address: {
+        city: "Alleppey",
+        state: "Kerala"
+    }
+};
+person4.address.zip = "688001";
+console.log(person4.address);
