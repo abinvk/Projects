@@ -140,3 +140,16 @@ let person1 = {
     }
 };
 console.log(person1);
+
+// 13. Access nested object value
+
+let person2 = {
+    name: "Abin",
+    age: 21,
+    address: {
+        city: "Alleppey",
+        state: "Kerala"
+    }
+};
+console.log(person2.address.city);
+console.log(person2.address.state);
