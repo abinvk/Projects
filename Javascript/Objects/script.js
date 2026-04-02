@@ -180,3 +180,16 @@ let person4 = {
 };
 person4.address.zip = "688001";
 console.log(person4.address);
+
+// 16. Copy object using spread operator
+
+let student = {
+    name: "Abin",
+    age: 21
+};
+
+// Copy object using spread operator
+
+let newStudent = { ...student };
+
+console.log(newStudent);
