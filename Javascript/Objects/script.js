@@ -208,3 +208,16 @@ let newStudenta = { ...studenta };
 newStudenta.address.city = "Kozhikode";
 
 console.log(studenta.address.city);
+
+// 17. Copy object using Object.assign()
+
+let studentb = {
+    name: "Abin",
+    age: 21
+};
+
+// Copy object using Object.assign()
+
+let newStudentb = Object.assign({}, studentb);
+
+console.log(newStudentb);
