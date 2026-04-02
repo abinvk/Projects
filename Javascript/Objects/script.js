@@ -193,3 +193,18 @@ let student = {
 let newStudent = { ...student };
 
 console.log(newStudent);
+
+// More Method
+
+let studenta = {
+    name: "Abin",
+    address: {
+        city: "Malappuram"
+    }
+};
+
+let newStudenta = { ...studenta };
+
+newStudenta.address.city = "Kozhikode";
+
+console.log(studenta.address.city);
