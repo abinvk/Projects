@@ -130,3 +130,13 @@ for (let key in abbbccc) {
 }
 
 // 12. Create nested object.
+
+let person1 = {
+    name: "Abin",
+    age: 21,
+    address: {
+        city: "Alleppey",
+        state: "Kerala"
+    }
+};
+console.log(person1);
