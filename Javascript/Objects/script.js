@@ -153,3 +153,17 @@ let person2 = {
 };
 console.log(person2.address.city);
 console.log(person2.address.state);
+
+// 14. Update nested value.
+
+let person3 = {
+    name: "Abin",
+    age: 21,
+    address: {
+        city: "Alleppey",
+        state: "Kerala"
+    }
+};
+person3.address.city = "Kochi";
+
+console.log(person3.address.city);
