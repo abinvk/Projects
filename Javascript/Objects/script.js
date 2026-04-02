@@ -221,3 +221,18 @@ let studentb = {
 let newStudentb = Object.assign({}, studentb);
 
 console.log(newStudentb);
+
+// 18. Compare two objects (basic)
+
+let obj1 = {
+    name: "Abin",
+    age: 21
+};
+
+let obj2 = {
+    name: "Abin",
+    age: 21
+};
+
+let areEqual = JSON.stringify(obj1) === JSON.stringify(obj2);
+console.log(areEqual);
