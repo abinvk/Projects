@@ -272,3 +272,13 @@ let person7 = {
 Object.freeze(person7);
 
 console.log(Object.isFrozen(person7));
+
+// 22. Convert object to JSON
+
+let person8 = {
+    name: "Abin",
+    age: 21
+};
+let jsonString = JSON.stringify(person8);
+
+console.log(jsonString);
