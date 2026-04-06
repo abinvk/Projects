@@ -261,3 +261,14 @@ Object.seal(person6);
 person6.age = 22;
 
 console.log(person6.age);
+
+// 21. Check if object is frozen
+
+
+let person7 = {
+    name: "Abin",
+    age: 21
+};
+Object.freeze(person7);
+
+console.log(Object.isFrozen(person7));
