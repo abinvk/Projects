@@ -235,4 +235,18 @@ let obj2 = {
 };
 
 let areEqual = JSON.stringify(obj1) === JSON.stringify(obj2);
+
 console.log(areEqual);
+
+// 19. Freeze an object
+
+let person5 = {
+    name: "Abin",
+    age: 21
+};
+Object.freeze(person5);
+
+person5.age = 22; 
+
+console.log(person5.age); 
+
