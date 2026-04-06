@@ -250,3 +250,14 @@ person5.age = 22;
 
 console.log(person5.age); 
 
+// 20. Seal an object
+
+let person6 = {
+    name: "Abin",
+    age: 21
+};
+
+Object.seal(person6);
+person6.age = 22;
+
+console.log(person6.age);
