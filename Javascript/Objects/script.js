@@ -424,3 +424,16 @@ let objToSort = {
 };
 let sortedKeys = Object.keys(objToSort).sort();
 console.log(sortedKeys);
+
+// 35. Convert object to array
+
+let objToArray = {
+    name: "Abin",
+    age: 22,
+    city: "Alleppey"
+};
+let arrayFromObject = Object.entries(objToArray);
+
+console.log(arrayFromObject);
+
+
