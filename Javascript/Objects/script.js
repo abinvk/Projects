@@ -352,3 +352,15 @@ let person14 = {
     }
 };
 person14.greet();
+
+// 29. Use dynamic property name
+
+let propName = "age";
+
+let person15 = {
+    name: "Abin",
+    [propName]: 22
+};
+console.log(person15.age);
+
+
