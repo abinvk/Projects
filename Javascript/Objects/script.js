@@ -414,3 +414,13 @@ let obj = {
 let propertyWithValue = Object.keys(obj).find(key => obj[key] === "Alleppey");
 
 console.log(propertyWithValue);
+
+// 34. Sort object keys
+
+let objToSort = {
+    name: "Abin",
+    age: 22,
+    city: "Alleppey"
+};
+let sortedKeys = Object.keys(objToSort).sort();
+console.log(sortedKeys);
