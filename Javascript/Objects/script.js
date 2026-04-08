@@ -363,4 +363,14 @@ let person15 = {
 };
 console.log(person15.age);
 
+//30. Rename a key
+
+let person16 = {
+    name: "Abin",
+    age: 22
+};
+person16.fullName = person16.name;
+
+delete person16.name;
+console.log(person16);
 
