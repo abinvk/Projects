@@ -387,5 +387,19 @@ for (let key in person17) {
 }
 console.log(person17);
 
+// 32. Merge two objects
+
+let objA = {
+    name: "Abin",
+    age: 22
+};
+
+let objB = {
+    city: "Alleppey",
+    country: "India"
+};
+
+let mergedObj = { ...objA, ...objB };
+console.log(mergedObj);
 
 
