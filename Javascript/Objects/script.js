@@ -458,3 +458,13 @@ let original = {
 };
 let clone = JSON.parse(JSON.stringify(original));
 console.log(clone);
+
+// 38. Prevent extension
+
+let person18 = {
+    name: "Abin",
+    age: 22
+};
+Object.preventExtensions(person18);
+person18.city = "Alleppey";
+console.log(person18.city); // undefined
