@@ -341,3 +341,14 @@ person13.greet = function() {
 };
 
 person13.greet();
+
+// 28. Call object method
+
+let person14 = {
+    name: "Abin",
+    age: 22,
+    greet: function() {
+        console.log("Hello, my name is " + this.name);
+    }
+};
+person14.greet();
