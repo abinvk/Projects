@@ -372,5 +372,20 @@ let person16 = {
 person16.fullName = person16.name;
 
 delete person16.name;
+
 console.log(person16);
+
+// 31. Remove all properties
+
+let person17 = {
+    name: "Abin",
+    age: 22,
+    city: "Alleppey"
+};
+for (let key in person17) {
+    delete person17[key];
+}
+console.log(person17);
+
+
 
