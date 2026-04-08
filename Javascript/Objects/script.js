@@ -468,3 +468,7 @@ let person18 = {
 Object.preventExtensions(person18);
 person18.city = "Alleppey";
 console.log(person18.city); // undefined
+
+// 39. Check extensible
+
+console.log(Object.isExtensible(person18)); // false
