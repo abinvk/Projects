@@ -314,3 +314,16 @@ class PersonClass {
 let person11 = new PersonClass("Abin", 21 , "Alleppey");
 
 console.log(person11);
+
+// 26. Use this keyword
+
+let person12 = {
+    name: "Abin",
+    age: 22,
+    
+    greet: function() {
+        console.log("Hello, my name is " + this.name);
+    }
+};
+
+person12.greet();
