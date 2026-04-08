@@ -282,3 +282,11 @@ let person8 = {
 let jsonString = JSON.stringify(person8);
 
 console.log(jsonString);
+
+// 23. Convert JSON to object
+
+let jsonString2 = '{"name":"Abin","age":21}';
+
+let person9 = JSON.parse(jsonString2);
+console.log(person9);
+
