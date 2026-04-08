@@ -445,3 +445,16 @@ let arrayToObject = [
 ];
 let objFromArray = Object.fromEntries(arrayToObject);
 console.log(objFromArray);
+
+// 37. Clone deeply (simple case)
+
+let original = {
+    name: "Abin",
+    age: 22,
+    address: {
+        city: "Alleppey",
+        state: "Kerala"
+    }
+};
+let clone = JSON.parse(JSON.stringify(original));
+console.log(clone);
