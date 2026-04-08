@@ -481,3 +481,4 @@ let person19 = {
 };
 let descriptor = Object.getOwnPropertyDescriptor(person19, "name");
 console.log(descriptor);
+
