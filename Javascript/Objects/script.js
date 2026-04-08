@@ -290,3 +290,12 @@ let jsonString2 = '{"name":"Abin","age":21}';
 let person9 = JSON.parse(jsonString2);
 console.log(person9);
 
+// 24. Create object using constructor function
+
+function Person(name, age) {
+    this.name = name;
+    this.age = age;
+    this.city = "Alleppey";
+}
+let person10 = new Person("Abin", 21 , "Alleppey");
+console.log(person10);
