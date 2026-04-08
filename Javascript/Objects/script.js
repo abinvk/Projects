@@ -400,6 +400,17 @@ let objB = {
 };
 
 let mergedObj = { ...objA, ...objB };
+
 console.log(mergedObj);
 
+// 33. Find property with specific value
 
+let obj = {
+    name: "Abin",
+    age: 22,
+    city: "Alleppey"
+};
+
+let propertyWithValue = Object.keys(obj).find(key => obj[key] === "Alleppey");
+
+console.log(propertyWithValue);
