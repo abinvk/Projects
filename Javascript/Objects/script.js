@@ -472,3 +472,12 @@ console.log(person18.city); // undefined
 // 39. Check extensible
 
 console.log(Object.isExtensible(person18)); // false
+
+// 40. Get property descriptor
+
+let person19 = {
+    name: "Abin",
+    age: 22
+};
+let descriptor = Object.getOwnPropertyDescriptor(person19, "name");
+console.log(descriptor);
