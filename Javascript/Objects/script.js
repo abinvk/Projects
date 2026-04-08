@@ -327,3 +327,17 @@ let person12 = {
 };
 
 person12.greet();
+
+// 27. Add method inside object
+
+let person13 = {
+    name: "Abin",
+    age: 22,
+    city: "Alleppey"
+};
+
+person13.greet = function() {
+    console.log("Hello, my name is " + this.name);
+};
+
+person13.greet();
