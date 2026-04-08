@@ -436,4 +436,12 @@ let arrayFromObject = Object.entries(objToArray);
 
 console.log(arrayFromObject);
 
+// 36. Convert array to object
 
+let arrayToObject = [
+    ["name", "Abin"],
+    ["age", 22],
+    ["city", "Alleppey"]
+];
+let objFromArray = Object.fromEntries(arrayToObject);
+console.log(objFromArray);
