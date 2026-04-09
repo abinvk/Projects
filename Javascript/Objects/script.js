@@ -509,3 +509,20 @@ for (let item of arr2) {
 let duplicateValues = Object.values(duplicates).filter(group => group.length > 1).map(group => group[0]);
 
 console.log(duplicateValues);
+
+// 43. Group array of objects by property
+
+let people = [
+    { name: "Abin", city: "Alleppey" },
+    { name: "Amit", city: "Kochi" },
+    { name: "Abin", city: "Kozhikode" }
+];
+let groupedByName = people.reduce((acc, person) => {
+    if (!acc[person.name]) {
+        acc[person.name] = [];
+    }
+    acc[person.name].push(person);
+    return acc;
+}, {});
+
+console.log(groupedByName);
