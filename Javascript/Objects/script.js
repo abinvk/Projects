@@ -526,3 +526,14 @@ let groupedByName = people.reduce((acc, person) => {
 }, {});
 
 console.log(groupedByName);
+
+// 44. Sum values of object
+
+let objToSum = {
+    a: 10,
+    b: 20,
+    c: 30
+};
+
+let sum = Object.values(objToSum).reduce((acc, val) => acc + val, 0);
+console.log(sum);
