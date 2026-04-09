@@ -482,6 +482,14 @@ let person19 = {
 let descriptor = Object.getOwnPropertyDescriptor(person19, "name");
 console.log(descriptor);
 
-//    LEVEL 2: INTERMEDIATE (41–80)   //
+//    LEVEL 2: INTERMEDIATE   //
 
-// 
+// 41. Count frequency of elements using object
+
+let arr = ["apple", "banana", "apple", "orange", "banana", "apple"];
+
+let frequency = {};
+for (let item of arr) {
+    frequency[item] = (frequency[item] || 0) + 1;
+}
+console.log(frequency);
