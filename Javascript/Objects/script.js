@@ -553,3 +553,15 @@ function sumObjectValues(obj) {
 // Example
 let data = { a: 10, b: 20, c: 30 };
 console.log(sumObjectValues(data));
+
+//45. Filter object properties
+
+let objToFilter = {
+    name: "Abin",
+    age: 22,
+    city: "Alleppey"
+};
+let filteredObj = Object.fromEntries(
+    Object.entries(objToFilter).filter(([key, value]) => typeof value === "string")
+);
+console.log(filteredObj);
