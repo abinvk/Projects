@@ -537,3 +537,19 @@ let objToSum = {
 
 let sum = Object.values(objToSum).reduce((acc, val) => acc + val, 0);
 console.log(sum);
+
+// More Method
+
+function sumObjectValues(obj) {
+    let sum = 0;
+
+    for (let key in obj) {
+        sum += obj[key];
+    }
+
+    return sum;
+}
+
+// Example
+let data = { a: 10, b: 20, c: 30 };
+console.log(sumObjectValues(data));
