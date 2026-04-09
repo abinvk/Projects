@@ -493,3 +493,19 @@ for (let item of arr) {
     frequency[item] = (frequency[item] || 0) + 1;
 }
 console.log(frequency);
+
+// 42. Find duplicate values
+
+let arr2 = ["apple", "banana", "apple", "orange", "banana", "grape"];
+let duplicates = {};
+ 
+for (let item of arr2) {
+    if (duplicates[item]) {
+        duplicates[item].push(item);
+    } else {
+        duplicates[item] = [item];
+    }
+}
+let duplicateValues = Object.values(duplicates).filter(group => group.length > 1).map(group => group[0]);
+
+console.log(duplicateValues);
