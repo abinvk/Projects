@@ -624,3 +624,23 @@ let minValue = Math.min(...Object.values(objToFindMin));
 console.log(minValue);
 
 // 50. Convert object to query string
+
+let objToQueryString = {
+    name: "Abin",
+    age: 22,
+    city: "Alleppey"
+};
+let queryString = Object.entries(objToQueryString)
+    .map(([key, value]) => `${encodeURIComponent(key)}=${encodeURIComponent(value)}`)
+    .join("&");
+console.log(queryString);
+
+// more method
+
+const params = {
+  name: "abin",
+  age: 22
+};
+
+const queryStrings = new URLSearchParams(params).toString();
+console.log(queryStrings);
