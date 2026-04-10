@@ -657,3 +657,27 @@ const query = "name=abin&age=22";
 const obja = Object.fromEntries(new URLSearchParams(query));
 
 console.log(obja);
+
+// 52. Flatten nested object
+
+let nestedObj = {
+    name: "Abin",
+    age: 22,
+    address: {
+        city: "Alleppey",
+        state: "Kerala"
+    }
+};
+function flattenObject(obj, parentKey = "", result = {}) {
+    for (let key in obj) {
+        let newKey = parentKey ? `${parentKey}.${key}` : key;
+        if (typeof obj[key] === "object" && obj[key] !== null) {
+            flattenObject(obj[key], newKey, result);
+        } else {
+            result[newKey] = obj[key];
+        }
+    }
+    return result;
+}
+let flattenedObj = flattenObject(nestedObj);
+console.log(flattenedObj);
