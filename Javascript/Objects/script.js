@@ -574,7 +574,7 @@ let objToMap = {
     c: 3
 };
 let mappedObj = Object.fromEntries(
-    Object.entries(objToMap).map(([key, value]) => [key, value * 2])
+    Object.entries(objToMap).map(([key, value]) => [key, value + 2])
 );
 console.log(mappedObj);
 
