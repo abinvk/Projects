@@ -578,3 +578,28 @@ let mappedObj = Object.fromEntries(
 );
 console.log(mappedObj);
 
+// 47. Invert keys and values 
+
+let objToInvert = {
+    name: "Abin",
+    age: 22,
+    city: "Alleppey"
+};
+let invertedObj = Object.fromEntries(
+    Object.entries(objToInvert).map(([key, value]) => [value, key])
+);
+console.log(invertedObj);
+
+// more model
+
+const datas = {
+  abin: "JS",
+  rahul: "Python",
+  arjun: "Java"
+};
+
+const result = Object.fromEntries(
+  Object.entries(datas).map(([key, value]) => [value, key])
+);
+
+console.log(result);
