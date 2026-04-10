@@ -778,3 +778,9 @@ let objB2 = {
 };
 let commonKeys = Object.keys(objA2).filter(key => key in objB2);
 console.log(commonKeys);
+
+// 58. Find missing keys
+
+let missingKeys = Object.keys(objA2).filter(key => !(key in objB2));
+console.log(missingKeys);
+
