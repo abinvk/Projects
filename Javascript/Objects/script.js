@@ -763,3 +763,18 @@ const sorted = Object.fromEntries(
   Object.entries(datass).sort((a, b) => a[1] - b[1])
 );
 console.log(sorted);
+
+// 57. Find common keys between objects
+
+let objA2 = {
+    name: "Abin",
+    age: 22,
+    city: "Alleppey"
+};
+let objB2 = {
+    name: "Amit",
+    age: 22,
+    country: "India"
+};
+let commonKeys = Object.keys(objA2).filter(key => key in objB2);
+console.log(commonKeys);
