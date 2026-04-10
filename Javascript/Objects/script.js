@@ -751,7 +751,6 @@ let sortedByValues = Object.fromEntries(
 );
 console.log(sortedByValues);
 
-
 // more method
 
 const datass = {
@@ -763,5 +762,4 @@ const datass = {
 const sorted = Object.fromEntries(
   Object.entries(datass).sort((a, b) => a[1] - b[1])
 );
-
 console.log(sorted);
