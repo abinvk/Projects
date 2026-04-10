@@ -612,3 +612,15 @@ let objToFindMax = {
 };
 let maxValue = Math.max(...Object.values(objToFindMax));
 console.log(maxValue);
+
+// 49. Find min value in object
+
+let objToFindMin = {
+    a: 10,
+    b: 20,
+    c: 30
+};
+let minValue = Math.min(...Object.values(objToFindMin));
+console.log(minValue);
+
+// 50. Convert object to query string
