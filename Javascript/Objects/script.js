@@ -725,3 +725,16 @@ let cleanedObj = Object.fromEntries(
     Object.entries(objWithUndefined).filter(([key, value]) => value !== undefined)
 );
 console.log(cleanedObj);
+
+
+// 55. Remove null values
+
+let objWithNull = {
+    name: "Abin",
+    age: null,
+    city: "Alleppey"
+};
+let cleanedObjNull = Object.fromEntries(
+    Object.entries(objWithNull).filter(([key, value]) => value !== null)
+);
+console.log(cleanedObjNull);
