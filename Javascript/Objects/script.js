@@ -601,5 +601,14 @@ const datas = {
 const result = Object.fromEntries(
   Object.entries(datas).map(([key, value]) => [value, key])
 );
-
 console.log(result);
+
+// 48. Find max value in object
+
+let objToFindMax = {
+    a: 10,
+    b: 20,
+    c: 30
+};
+let maxValue = Math.max(...Object.values(objToFindMax));
+console.log(maxValue);
