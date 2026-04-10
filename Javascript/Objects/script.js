@@ -681,3 +681,35 @@ function flattenObject(obj, parentKey = "", result = {}) {
 }
 let flattenedObj = flattenObject(nestedObj);
 console.log(flattenedObj);
+
+
+// 53. Deep merge objects
+
+function deepMerge(target, source) {
+    for (let key in source) {
+        if (source[key] && typeof source[key] === "object") {
+            if (!target[key] || typeof target[key] !== "object") {
+                target[key] = {};
+            }
+            deepMerge(target[key], source[key]);
+        } else {
+            target[key] = source[key];
+        }
+    }
+    return target;
+}
+let objToMerge1 = {
+    name: "Abin",
+    address: {
+        city: "Alleppey"
+    }
+};
+let objToMerge2 = {
+    age: 22,
+    address: {
+        state: "Kerala"
+    }
+};
+
+let deepMergedObj = deepMerge(objToMerge1, objToMerge2);
+console.log(deepMergedObj);
