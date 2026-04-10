@@ -565,3 +565,16 @@ let filteredObj = Object.fromEntries(
     Object.entries(objToFilter).filter(([key, value]) => typeof value === "string")
 );
 console.log(filteredObj);
+
+// 46. Map object values
+
+let objToMap = {
+    a: 1,
+    b: 2,
+    c: 3
+};
+let mappedObj = Object.fromEntries(
+    Object.entries(objToMap).map(([key, value]) => [key, value * 2])
+);
+console.log(mappedObj);
+
