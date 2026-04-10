@@ -644,3 +644,16 @@ const params = {
 
 const queryStrings = new URLSearchParams(params).toString();
 console.log(queryStrings);
+
+// 51. Parse query string to object
+
+const queryStringToParse = "name=Abin&age=22&city=Alleppey";
+const parsedObj = Object.fromEntries(new URLSearchParams(queryStringToParse));
+console.log(parsedObj);
+
+// more method
+
+const query = "name=abin&age=22";
+const obja = Object.fromEntries(new URLSearchParams(query));
+
+console.log(obja);
