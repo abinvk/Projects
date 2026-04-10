@@ -713,3 +713,15 @@ let objToMerge2 = {
 
 let deepMergedObj = deepMerge(objToMerge1, objToMerge2);
 console.log(deepMergedObj);
+
+// 54. Remove undefined values
+
+let objWithUndefined = {
+    name: "Abin",
+    age: undefined,
+    city: "Alleppey"
+};
+let cleanedObj = Object.fromEntries(
+    Object.entries(objWithUndefined).filter(([key, value]) => value !== undefined)
+);
+console.log(cleanedObj);
