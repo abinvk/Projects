@@ -738,3 +738,15 @@ let cleanedObjNull = Object.fromEntries(
     Object.entries(objWithNull).filter(([key, value]) => value !== null)
 );
 console.log(cleanedObjNull);
+
+// 56. Sort object by values
+
+let objToSortByValues = {
+    a: 30,
+    b: 10,
+    c: 20
+};
+let sortedByValues = Object.fromEntries(
+    Object.entries(objToSortByValues).sort(([, valueA], [, valueB]) => valueA - valueB)
+);
+console.log(sortedByValues);
