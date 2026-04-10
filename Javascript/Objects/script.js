@@ -750,3 +750,18 @@ let sortedByValues = Object.fromEntries(
     Object.entries(objToSortByValues).sort(([, valueA], [, valueB]) => valueA - valueB)
 );
 console.log(sortedByValues);
+
+
+// more method
+
+const datass = {
+  abin: 45,
+  rahul: 67,
+  arjun: 80
+};
+
+const sorted = Object.fromEntries(
+  Object.entries(datass).sort((a, b) => a[1] - b[1])
+);
+
+console.log(sorted);
