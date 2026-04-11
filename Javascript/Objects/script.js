@@ -970,3 +970,21 @@ function swapKeysAndValues(obj) {
 let objToSwap = { name: "Abin", age: 22, city: "Alleppey" };
 
 console.log(swapKeysAndValues(objToSwap)); // { Abin: "name", 22: "age", Alleppey: "city" }
+
+// 66. Create lookup table
+
+function createLookupTable(arr, keyField) {
+    let lookup = {};
+    for (let item of arr) {
+        lookup[item[keyField]] = item;
+    }
+    return lookup;
+}
+
+// Test
+
+let users = [
+    { id: 1, name: "Abin" },
+    { id: 2, name: "Arun" }
+];
+console.log(createLookupTable(users, "id")); // { 1: { id: 1, name: "Abin" }, 2: { id: 2, name: "Arun" } }
