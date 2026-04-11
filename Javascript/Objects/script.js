@@ -896,3 +896,13 @@ function createObject(keys) {
 }
 // Test
 console.log(createObject(["name", "age"]));
+
+// 62. Convert array of objects to single object
+
+let arrOfObjects = [
+    { key: "name", value: "Abin" },
+    { key: "age", value: 22 },
+    { key: "city", value: "Alleppey"}
+];
+let singleObj = Object.fromEntries(arrOfObjects.map(item => [item.key, item.value]));
+console.log(singleObj);
