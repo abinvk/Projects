@@ -882,3 +882,18 @@ let arrToObject = [
 ];
 let objFromArr = Object.fromEntries(arrToObject);
 console.log(objFromArr);
+
+// more method
+
+function createObject(keys) {
+    let obj = {};
+
+    for (let key of keys) {
+        obj[key] = null;
+    }
+
+    return obj;
+}
+
+// Test
+console.log(createObject(["name", "age"]));
