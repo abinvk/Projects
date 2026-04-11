@@ -988,3 +988,17 @@ let users = [
     { id: 2, name: "Arun" }
 ];
 console.log(createLookupTable(users, "id")); // { 1: { id: 1, name: "Abin" }, 2: { id: 2, name: "Arun" } }
+
+// 67. Count occurrences of characters
+
+function countCharacterOccurrences(str) {
+    let count = {};
+    for (let char of str) {
+        count[char] = (count[char] || 0) + 1;
+    }
+    return count;
+}
+
+// Test
+
+console.log(countCharacterOccurrences("hello")); // { h: 1, e: 1, l: 2, o: 1 }
