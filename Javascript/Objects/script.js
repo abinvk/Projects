@@ -871,3 +871,14 @@ let user2 = { name: "Abin", age: "22", isActive: true };
 
 console.log(validateUser(user1)); // true
 console.log(validateUser(user2)); // false
+
+
+// 61. Create object from array
+
+let arrToObject = [
+    ["name", "Abin"],
+    ["age", 22],
+    ["city", "Alleppey"]
+];
+let objFromArr = Object.fromEntries(arrToObject);
+console.log(objFromArr);
