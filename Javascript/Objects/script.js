@@ -894,6 +894,5 @@ function createObject(keys) {
 
     return obj;
 }
-
 // Test
 console.log(createObject(["name", "age"]));
