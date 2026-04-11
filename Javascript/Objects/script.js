@@ -1002,3 +1002,19 @@ function countCharacterOccurrences(str) {
 // Test
 
 console.log(countCharacterOccurrences("hello")); // { h: 1, e: 1, l: 2, o: 1 }
+
+// 68. Build histogram
+
+function buildHistogram(arr) {
+    let histogram = {};
+    for (let item of arr) {
+        histogram[item] = (histogram[item] || 0) + 1;
+    }
+    return histogram;
+}
+
+// Test
+
+
+
+console.log(buildHistogram([1, 2, 2, 3, 3, 3])); // { 1: 1, 2: 2, 3: 3 }
