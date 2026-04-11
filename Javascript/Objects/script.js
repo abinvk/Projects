@@ -1031,3 +1031,22 @@ function chunkObject(obj, size) {
 // Test
 let objToChunk = { a: 1, b: 2, c: 3, d: 4 };
 console.log(chunkObject(objToChunk, 2)); // [ { a: 1, b: 2 }, { c: 3, d: 4 } ]
+
+// more method
+
+function chunkObject(obj, size) {
+    let entries = Object.entries(obj);
+    let result = [];
+
+    for (let i = 0; i < entries.length; i += size) {
+        let chunk = entries.slice(i, i + size);
+        result.push(Object.fromEntries(chunk));
+    }
+
+    return result;
+}
+
+// Test
+let objaa = { a: 1, b: 2, c: 3, d: 4 };
+
+console.log(chunkObject(objaa, 2));
