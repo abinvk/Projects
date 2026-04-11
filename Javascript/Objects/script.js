@@ -1015,6 +1015,19 @@ function buildHistogram(arr) {
 
 // Test
 
-
-
 console.log(buildHistogram([1, 2, 2, 3, 3, 3])); // { 1: 1, 2: 2, 3: 3 }
+
+// 69. Chunk object properties
+
+function chunkObject(obj, size) {
+    let entries = Object.entries(obj);
+    let chunks = [];
+    for (let i = 0; i < entries.length; i += size) {
+        let chunk = Object.fromEntries(entries.slice(i, i + size));
+        chunks.push(chunk);
+    }
+    return chunks;
+}
+// Test
+let objToChunk = { a: 1, b: 2, c: 3, d: 4 };
+console.log(chunkObject(objToChunk, 2)); // [ { a: 1, b: 2 }, { c: 3, d: 4 } ]
