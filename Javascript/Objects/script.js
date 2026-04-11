@@ -821,3 +821,24 @@ let objD = {
 };
 console.log(deepEqual(objC, objD)); // true
 
+//60. Validate object structure
+
+function validateObjectStructure(obj, structure) {
+    for (let key in structure) {
+        if (!(key in obj) || typeof obj[key] !== structure[key]) {
+            return false;
+        }
+    }
+    return true;
+}
+let objToValidate = {
+    name: "Abin",
+    age: 22,
+    city: "Alleppey"
+};
+let structure = {
+    name: "string",
+    age: "number",
+    city: "string"
+};
+console.log(validateObjectStructure(objToValidate, structure)); // true
