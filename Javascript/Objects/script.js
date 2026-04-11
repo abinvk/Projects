@@ -909,7 +909,7 @@ console.log(singleObj);
 
 // more method
 
-function arrayToObject(arr) {
+function arrayToObjectt(arr) {
     let result = {};
 
     for (let item of arr) {
@@ -925,7 +925,7 @@ let dataw = [
     { id: 2, name: "Arun" }
 ];
 
-console.log(arrayToObject(dataw));
+console.log(arrayToObjectt(dataw));
 
 // 63. Check if object is empty
 
@@ -954,3 +954,19 @@ function getLastProperty(obj) {
 let testObj = { name: "Abin", age: 22, city: "Alleppey" };
 
 console.log(getLastProperty(testObj)); // { city: "Alleppey" }
+
+// 65. Swap keys and values
+
+function swapKeysAndValues(obj) {
+    let swapped = {};
+    for (let key in obj) {
+        swapped[obj[key]] = key;
+    }
+    return swapped;
+}
+
+// Test
+
+let objToSwap = { name: "Abin", age: 22, city: "Alleppey" };
+
+console.log(swapKeysAndValues(objToSwap)); // { Abin: "name", 22: "age", Alleppey: "city" }
