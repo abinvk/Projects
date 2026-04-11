@@ -926,3 +926,15 @@ let dataw = [
 ];
 
 console.log(arrayToObject(dataw));
+
+// 63. Check if object is empty
+
+function isEmptyObject(obj) {
+    return Object.keys(obj).length === 0;
+}   
+
+// Test
+
+let emptyObj = {};
+let nonEmptyObj = { name: "Abin" };
+console.log(isEmptyObject(emptyObj)); // true
