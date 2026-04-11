@@ -938,3 +938,16 @@ function isEmptyObject(obj) {
 let emptyObj = {};
 let nonEmptyObj = { name: "Abin" };
 console.log(isEmptyObject(emptyObj)); // true
+
+// 64. Get last property
+
+function getLastProperty(obj) {
+    let keys = Object.keys(obj);
+    let lastKey = keys[keys.length - 1];
+    return { [lastKey]: obj[lastKey] };
+}
+
+// Test
+
+let testObj = { name: "Abin", age: 22, city: "Alleppey" };
+console.log(getLastProperty(testObj)); // { city: "Alleppey" }
