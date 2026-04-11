@@ -906,3 +906,23 @@ let arrOfObjects = [
 ];
 let singleObj = Object.fromEntries(arrOfObjects.map(item => [item.key, item.value]));
 console.log(singleObj);
+
+// more method
+
+function arrayToObject(arr) {
+    let result = {};
+
+    for (let item of arr) {
+        result[item.id] = item;
+    }
+
+    return result;
+}
+
+// Test
+let dataw = [
+    { id: 1, name: "Abin" },
+    { id: 2, name: "Arun" }
+];
+
+console.log(arrayToObject(dataw));
