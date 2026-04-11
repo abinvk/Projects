@@ -842,3 +842,32 @@ let structure = {
     city: "string"
 };
 console.log(validateObjectStructure(objToValidate, structure)); // true
+
+// more method
+
+function validateUser(user) {
+    if (typeof user !== "object" || user === null) {
+        return false;
+    }
+
+    if (typeof user.name !== "string") {
+        return false;
+    }
+
+    if (typeof user.age !== "number") {
+        return false;
+    }
+
+    if (typeof user.isActive !== "boolean") {
+        return false;
+    }
+
+    return true;
+}
+
+// Test
+let user1 = { name: "Abin", age: 22, isActive: true };
+let user2 = { name: "Abin", age: "22", isActive: true };
+
+console.log(validateUser(user1)); // true
+console.log(validateUser(user2)); // false
